@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:04:32.2867071Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [],\n      \"representative_family_ids\": [],\n      \"confidence\": \"insufficient\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中所有文档均仅包含标题信息，且标题均为“Electronic camera”，未提供任何具体技术细节或功能描述，因此无法识别出具体的技术主题。\",\n  \"needs_split\": false,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"由于所有文档都只提供了标题信息，缺乏abstract或其他技术内容，无法提取有效证据支持任何技术主题的判断。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5274380700,
+  "load_duration": 101342900,
+  "prompt_eval_count": 2869,
+  "prompt_eval_duration": 2150692000,
+  "eval_count": 157,
+  "eval_duration": 2914522000
+}

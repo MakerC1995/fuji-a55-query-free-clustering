@@ -1,0 +1,13 @@
+{
+  "file": "CLUSTER_ASSIGNMENTS.parquet",
+  "bytes": 118949766,
+  "sha256": "4f1804e0e800de5c3953e6ce78609c9845786eea9879724d55db94aa7d94690b",
+  "parts": [
+    {
+      "path": "data/cluster_assignments/CLUSTER_ASSIGNMENTS.parquet.xz",
+      "bytes": 23256684,
+      "sha256": "ef822d405e3bcf3333918ede7f5940d7b6b10a23f3cef84e07b1c44c85cb4a9e"
+    }
+  ],
+  "compression": "xz"
+}

@@ -1,0 +1,145 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c76",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 76,
+  "cluster_size": 92,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "电荷传输路径优化",
+        "object": "固体图像传感器中的电荷传输路径",
+        "problem": "降低驱动电压，提高操作频率；改善灵敏度和电荷转移效率；减少转移效率劣化",
+        "means": "通过调整电荷转移电极的结构、厚度分布及宽度设计来优化电荷传输",
+        "effect": "减小驱动电压，提升操作频率；提高灵敏度与电荷转移效率；抑制中心部分转移效率下降",
+        "evidence": [
+          {
+            "family_id": "google:38204569",
+            "quote": "Charge transferring electrodes which constitute the horizontal charge transfer path are arrayed through an insulating film between electrodes, while the insulating films between electrodes are arrayed and formed so that the thickness thereof becomes thinner alternately between neighboring charge transfer electrodes.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40661307",
+            "quote": "The charge transfer portion 12 has a plurality of first transfer electrodes for transferring the signal charges and a plurality of second transfer electrodes provided among the first transfer electrodes. An anti-reflective film is extended over a region of the semiconductor substrate where the photoelectric conversion elements 10 is formed and at least a part of a region of the semiconductor substrate below the second transfer electrode of a semiconductor substrate.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42708161",
+            "quote": "A charge transfer path 102b formed in a center of a surface part of a charge transfer path is formed wider when compared with a charge transfer path 102a formed in an end side which is in a direction perpendicular to a transfer direction of a charge transfer path.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:38204569",
+          "google:40661307",
+          "google:42708161"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:38204569",
+            "quote": "Charge transferring electrodes which constitute the horizontal charge transfer path are arrayed through an insulating film between electrodes, while the insulating films between electrodes are arrayed and formed so that the thickness thereof becomes thinner alternately between neighboring charge transfer electrodes.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40661307",
+            "quote": "The charge transfer portion 12 has a plurality of first transfer electrodes for transferring the signal charges and a plurality of second transfer electrodes provided among the first transfer electrodes. An anti-reflective film is extended over a region of the semiconductor substrate where the photoelectric conversion elements 10 is formed and at least a part of a region of the semiconductor substrate below the second transfer electrode of a semiconductor substrate.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42708161",
+            "quote": "A charge transfer path 102b formed in a center of a surface part of a charge transfer path is formed wider when compared with a charge transfer path 102a formed in an end side which is in a direction perpendicular to a transfer direction of a charge transfer path.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "固体图像传感器的驱动方式",
+        "problem": "减少模式切换时的时间延迟；降低功耗；正确读取信号",
+        "means": "采用多通道并行扫描、控制信号同步以及电压差控制等技术手段",
+        "effect": "缩短模式切换时间；降低功耗；确保信号正确读出",
+        "evidence": [
+          {
+            "family_id": "google:14954721",
+            "quote": "a control means which supplies electric charge accumulated in a prescribed capacitive element to the coupling capacitor of a photoelectric transducer when at least two or more vertical scanning lines are scanned simultaneously.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:36733918",
+            "quote": "a drive section that outputs two voltages with a first difference when transferring the signal electric charges read from the electric charge storage regions to the vertical transfer channels",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:39503992",
+            "quote": "drives the solid-state imaging element 5 in a first driving mode for using the two vertical charge transfer paths located at the side of the photoelectric conversion element 51 to transfer charge occurring in the photoelectric conversion element 51 and in a second driving mode for using a vertical charge transfer path 52 adjacent to the photoelectric conversion element 51 between the two vertical charge transfer paths",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:14954721",
+          "google:36733918",
+          "google:39503992"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:14954721",
+            "quote": "a control means which supplies electric charge accumulated in a prescribed capacitive element to the coupling capacitor of a photoelectric transducer when at least two or more vertical scanning lines are scanned simultaneously.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "图像传感器驱动方法改进"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多个技术主题，包括电荷传输路径优化、图像传感器驱动方法改进等，表明其具有较高的异质性。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利文本仅提供标题和摘要，缺乏详细的技术实现细节；部分文献为未解析的出版物，可能影响证据完整性。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 1,
+      "evidence": {
+        "family_id": "google:36733918",
+        "quote": "a drive section that outputs two voltages with a first difference when transferring the signal electric charges read from the electric charge storage regions to the vertical transfer channels",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    },
+    {
+      "theme": 1,
+      "evidence": {
+        "family_id": "google:39503992",
+        "quote": "drives the solid-state imaging element 5 in a first driving mode for using the two vertical charge transfer paths located at the side of the photoelectric conversion element 51 to transfer charge occurring in the photoelectric conversion element 51 and in a second driving mode for using a vertical charge transfer path 52 adjacent to the photoelectric conversion element 51 between the two vertical charge transfer paths",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "02e74103187cbe60f47d8686f878ce78de518db711bc51513123e9d7b7dec377",
+  "wall_s": 25.272139072418213
+}

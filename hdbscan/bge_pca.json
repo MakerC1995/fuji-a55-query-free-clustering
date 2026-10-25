@@ -1,0 +1,9 @@
+{
+  "method": "IncrementalPCA",
+  "components": 50,
+  "batch_size": 4096,
+  "whiten": false,
+  "retained_variance_30": 0.4088925910643175,
+  "retained_variance_50": 0.5039613578578839,
+  "wall_s": 30.34913682937622
+}

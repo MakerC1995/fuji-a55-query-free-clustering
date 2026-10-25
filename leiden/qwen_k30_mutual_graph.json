@@ -1,0 +1,21 @@
+{
+  "k": 30,
+  "rule": "mutual",
+  "edges": 1609317,
+  "components": 5056,
+  "largest_component": 231962,
+  "isolated": 4575,
+  "degree_p99": 30.0,
+  "degree_max": 30,
+  "density": 5.6564941742045216e-05,
+  "weight_transform": "max(original_cosine_similarity,0); zero-weight edges omitted",
+  "weight_quantiles": [
+    0.4166845679283142,
+    0.6361397981643677,
+    0.7757031321525574,
+    0.9326633930206298,
+    1.0000004768371582
+  ],
+  "self_loops": 0,
+  "multiple_edges": 0
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k300_s42__c181",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 181,
+  "cluster_size": 373,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:61131575",
+            "quote": "Printing method and apparatus",
+            "field": "title"
+          },
+          {
+            "family_id": "google:47630735",
+            "quote": "Method of printing",
+            "field": "title"
+          },
+          {
+            "family_id": "google:12572867",
+            "quote": "Film given writing property",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:61131575",
+          "google:47630735",
+          "google:12572867"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:61131575",
+            "quote": "Printing method and apparatus",
+            "field": "title"
+          },
+          {
+            "family_id": "google:47630735",
+            "quote": "Method of printing",
+            "field": "title"
+          },
+          {
+            "family_id": "google:12572867",
+            "quote": "Film given writing property",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多个不同技术领域的标题，如打印方法、图像传输、薄膜书写特性等，缺乏具体技术细节支持统一主题。",
+    "needs_split": true,
+    "evidence_strength": "insufficient",
+    "limitations": "所有文档仅提供标题信息，无摘要或正文内容，无法准确识别共现技术特征。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "2c1c54b2b0899bcc71f857a629f77de9528c756e701be58497f12476c2c6943c",
+  "wall_s": 8.049506187438965
+}

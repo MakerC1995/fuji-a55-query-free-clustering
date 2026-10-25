@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:19:56.9372551Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"该技术候选仅包含标题信息，且内容高度重复（如'複写機'），缺乏具体技术细节或工艺描述，无法提取有效技术特征。\",\n      \"uncertainties\": \"由于仅有标题信息，未提供任何摘要或正文内容，因此无法识别具体的技术手段、结构或功能差异。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2174231000,
+  "load_duration": 105518300,
+  "prompt_eval_count": 289,
+  "prompt_eval_duration": 293450000,
+  "eval_count": 103,
+  "eval_duration": 1687408000
+}

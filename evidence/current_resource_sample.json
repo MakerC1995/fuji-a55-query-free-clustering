@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-25T15:58:05+0800",
+  "available_gib": 4.6840667724609375,
+  "workers": [
+    {
+      "pid": 71221,
+      "args": [
+        "/Volumes/Fuji_SSD_Work/workspaces/a55_d1_query_free_clustering/scripts/experiment.py",
+        "hdb",
+        "bge",
+        "238541",
+        "30",
+        "30",
+        "15"
+      ],
+      "rss_gib": 0.2207489013671875,
+      "cpu_s": 502.48007270399995
+    }
+  ]
+}

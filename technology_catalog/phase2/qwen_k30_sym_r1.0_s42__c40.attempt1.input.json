@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:43385403\", \"quote\": \"Newness and distinctiveness resides in the features of shape and/or configuration of the toner cartridge indicated in grey scale in the accompanying representations.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44907374\", \"quote\": \"Newness and Distinctiveness resides in the features of shape and/or configuration of the TONER CARTRIDGE shown in the accompanying representations.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44652881\", \"quote\": \"Newness and distinctiveness resides in the features of shape and/or configuration of the waste toner bottle as shown in the accompanying representations.\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:43385403\", \"google:44907374\", \"google:44652881\"], \"confidence\": \"high\", \"llm_reported_confidence\": \"high\", \"verified_evidence\": [{\"family_id\": \"google:43385403\", \"quote\": \"Newness and distinctiveness resides in the features of shape and/or configuration of the toner cartridge indicated in grey scale in the accompanying representations.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44907374\", \"quote\": \"Newness and Distinctiveness resides in the features of shape and/or configuration of the TONER CARTRIDGE shown in the accompanying representations.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44652881\", \"quote\": \"Newness and distinctiveness resides in the features of shape and/or configuration of the waste toner bottle as shown in the accompanying representations.\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类中的专利主要涉及打印机耗材的形状和配置特征，但具体技术内容未明确披露。部分文献提及的是废粉瓶而非墨盒，且所有文献均未提供实质性的结构或功能细节。\", \"needs_split\": false, \"evidence_strength\": \"high\", \"limitations\": \"由于缺乏对具体技术手段、材料或工艺的描述，无法确认是否存在实际的技术创新点。仅凭形状和配置特征难以判断是否构成独立技术方案。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

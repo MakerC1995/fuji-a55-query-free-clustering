@@ -1,0 +1,6 @@
+{
+  "phase1": 70,
+  "phase2": 70,
+  "model": "qwen3-coder:30b",
+  "digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

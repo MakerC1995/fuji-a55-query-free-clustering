@@ -1,0 +1,125 @@
+{
+  "panel_id": "bge_k300_s42__c34",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 34,
+  "cluster_size": 808,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "激光光束强度控制",
+        "object": "激光光束",
+        "problem": "需要精确控制激光光束的输出强度以确保图像质量或处理效果。",
+        "means": "通过光电检测元件检测激光光束总量，并基于检测信号调整激光输出功率；使用光量设定电路和放大器来实现光量控制。",
+        "effect": "获得稳定的光量输出，提高图像清晰度和一致性。",
+        "evidence": [
+          {
+            "family_id": "google:16522792",
+            "quote": "To control the irradiation of a laser beam with the accurate quantity of light during fixing by providing a photodetecting element which detects the quantity of light to the overall scanning amplitude of the laser beam under a form conveyance path, and controlling the output of the laser beam on the basis of its detection signal.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:17231423",
+            "quote": "To obtain a satisfactory image by changing the light quantity of a laser beam, which is outgoing from a semiconductor laser, so that the light quantity can correspond to an electric signal to be sent from a control means with a light stabilization driving part.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:18159550",
+            "quote": "In a laser beam optical path of an image forming optical system 8, a light transmittivity control means 21 for leading the light quantity corresponding to a wavelength fluctuation of a laser beam in the prescribed direction is provided.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:16522792",
+          "google:17231423",
+          "google:18159550"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:16522792",
+            "quote": "To control the irradiation of a laser beam with the accurate quantity of light during fixing by providing a photodetecting element which detects the quantity of light to the overall scanning amplitude of the laser beam under a form conveyance path, and controlling the output of the laser beam on the basis of its detection signal.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:17231423",
+            "quote": "To obtain a satisfactory image by changing the light quantity of a laser beam, which is outgoing from a semiconductor laser, so that the light quantity can correspond to an electric signal to be sent from a control means with a light stabilization driving part.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:18159550",
+            "quote": "In a laser beam optical path of an image forming optical system 8, a light transmittivity control means 21 for leading the light quantity corresponding to a wavelength fluctuation of a laser beam in the prescribed direction is provided.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "半导体激光器",
+        "problem": "需要在早期发现半导体激光器的退化情况，避免因温度变化或制造批次差异导致的问题。",
+        "means": "通过比较初始差分效率和实时差分效率来判断激光器是否发生退化；利用CPU计算并显示退化状态。",
+        "effect": "提前识别激光器性能下降，防止图像质量恶化。",
+        "evidence": [
+          {
+            "family_id": "google:18438645",
+            "quote": "To find out a degradation of a semiconductor laser in an earlier stage without being influenced by a change in a differential efficiency due to temperature and an irregular differential efficiency caused by a difference of a manufacturing lot of a semiconductor laser by providing a degradation judging means for judging the degradation of a semiconductor laser based on an initial differential efficiency and a differential efficiency at any time.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37205456",
+            "quote": "To restrain variation in light quantity when a semiconductor laser which projects a plurality of beams is used.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:18438645",
+          "google:37205456"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:18438645",
+            "quote": "To find out a degradation of a semiconductor laser in an earlier stage without being influenced by a change in a differential efficiency due to temperature and an irregular differential efficiency caused by a difference of a manufacturing lot of a semiconductor laser by providing a degradation judging means for judging the degradation of a semiconductor laser based on an initial differential efficiency and a differential efficiency at any time.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37205456",
+            "quote": "To restrain variation in light quantity when a semiconductor laser which projects a plurality of beams is used.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "激光器性能监测与故障诊断"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术主题，包括激光光束强度控制、激光器性能监测与故障诊断等。不同技术之间存在明显差异。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题信息，缺乏详细技术细节；部分证据来自不同领域，可能不完全相关。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "beb3a8d70af100bb674f07f2c699085409519a6678359e1953b8980c017cd586",
+  "wall_s": 22.545161962509155
+}

@@ -1,0 +1,14 @@
+{
+  "panel_id": "qwen_k300_s42__c11",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "提供的技术候选与喷头芯片结构、材料、制造或应用无关，未提及任何与喷头芯片相关的内容。",
+        "uncertainties": "未发现与喷头芯片相关的明确技术特征或应用场景。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

@@ -1,0 +1,35 @@
+{
+  "panel_id": "bge_k300_s42__c189",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 189,
+  "cluster_size": 112,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同类型的磁带盒相关技术，包括视频磁带盒、音频磁带盒、磁带卷轴等，但所有文档仅提供标题信息，缺乏具体的技术细节描述。",
+    "needs_split": true,
+    "evidence_strength": "low",
+    "limitations": "由于所有输入文本均为标题且无摘要内容，无法提取有效技术特征进行准确分类。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "9533f4b3c35ddb9f84bb62ae56664e8c3c36f417f3349170750e1c58eabc61a4",
+  "wall_s": 5.611794948577881
+}

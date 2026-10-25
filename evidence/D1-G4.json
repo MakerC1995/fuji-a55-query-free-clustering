@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-25T18:17:54+0800",
+  "query_free_named_panels": 70,
+  "supplemental_posthoc_blind_panels": 8,
+  "first_pass_theme_attempts": 112,
+  "first_pass_named_candidates_after_literal_rule": 15,
+  "first_pass_pending_records": 97,
+  "semantic_scope_and_mixed_mechanisms_explicit": true,
+  "historical_check_complete": true,
+  "not_final_technology_tree": true
+}

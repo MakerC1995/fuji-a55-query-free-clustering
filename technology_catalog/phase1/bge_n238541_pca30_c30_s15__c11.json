@@ -1,0 +1,35 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c11",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 11,
+  "cluster_size": 51,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类中所有文档仅包含标题信息，且内容高度重复（如'複写機'），缺乏具体技术细节或工艺描述，无法提取有效技术特征。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "由于仅有标题信息，未提供任何摘要或正文内容，因此无法识别具体的技术手段、结构或功能差异。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "0e04f0ccc6837f7415a568ae33a17ae268a290fbdb9062323c926a60da592e62",
+  "wall_s": 5.6050660610198975
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "qwen_k30_sym_r1.0_s42__c0",
+  "run_id": "qwen_k30_sym_r1.0_s42",
+  "cluster_id": 0,
+  "cluster_size": 22621,
+  "algorithm": "leiden",
+  "embedding_model": "qwen",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:59787323",
+            "quote": "情報処理装置の受付手段は、印刷対象となる文書の格納場所を示す第１の情報を受け付け",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37646651",
+            "quote": "表示入力デバイス上に載置された紙媒体の位置を検出し、検出した表示入力デバイス上の紙媒体の位置に対応する表示情報を均一色の表示データとする制御を実行する",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:36406591",
+            "quote": "IC 12 is integrally mounted with a miniaturized antenna 40, a radiation shielding material 22 covers an IC (IC chip) alone",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:59787323",
+          "google:37646651",
+          "google:36406591"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:59787323",
+            "quote": "情報処理装置の受付手段は、印刷対象となる文書の格納場所を示す第１の情報を受け付け",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37646651",
+            "quote": "表示入力デバイス上に載置された紙媒体の位置を検出し、検出した表示入力デバイス上の紙媒体の位置に対応する表示情報を均一色の表示データとする制御を実行する",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:36406591",
+            "quote": "IC 12 is integrally mounted with a miniaturized antenna 40, a radiation shielding material 22 covers an IC (IC chip) alone",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，包括信息处理装置、无线IC标签、无线功率传输及CPU总线仲裁系统等，技术主题差异较大。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中专利文本数量庞大且技术领域分散，难以从中提取统一的技术特征。部分专利仅提供标题和摘要，缺乏详细实施细节，影响了技术主题的准确识别。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "8119efec767c832193f8184e5e003e17896b1fdea3271d96647e640ce520a250",
+  "wall_s": 13.278999090194702
+}

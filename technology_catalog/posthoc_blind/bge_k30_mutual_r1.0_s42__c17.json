@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c17",
+  "run_id": "bge_k30_mutual_r1.0_s42",
+  "cluster_id": 17,
+  "cluster_size": 4255,
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:19034548",
+            "quote": "PROBLEM TO BE SOLVED: To provide a high image quality, high productivity ink jet recorder having a high drying speed in which blur is suppressed, reproducibility of gradation is improved and ejecting direction is stabilized.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:33407592",
+            "quote": "PROBLEM TO BE SOLVED: To provide an ink jet head capable of forming an image with a high image quality by cutting ink well at the time of ink ejection thereby ejecting an ink drop having predetermined size stably in a specified direction, and to provide a recorder and a recording method employing it.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11672051",
+            "quote": "PURPOSE:To obtain an ink jet recorder having no possibility of error ink dis charge by providing a specific flow path resistance generation part in an ink flow path which supplies an ink to an ink discharge part made of a slit-form space.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:19034548",
+          "google:33407592",
+          "google:11672051"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:19034548",
+            "quote": "PROBLEM TO BE SOLVED: To provide a high image quality, high productivity ink jet recorder having a high drying speed in which blur is suppressed, reproducibility of gradation is improved and ejecting direction is stabilized.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:33407592",
+            "quote": "PROBLEM TO BE SOLVED: To provide an ink jet head capable of forming an image with a high image quality by cutting ink well at the time of ink ejection thereby ejecting an ink drop having predetermined size stably in a specified direction, and to provide a recorder and a recording method employing it.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11672051",
+            "quote": "PURPOSE:To obtain an ink jet recorder having no possibility of error ink dis charge by providing a specific flow path resistance generation part in an ink flow path which supplies an ink to an ink discharge part made of a slit-form space.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术领域，包括喷墨记录方法、压电元件、声学转换器等，技术手段差异较大。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中存在多个不同技术领域的专利，且部分专利仅提供标题或摘要信息，难以准确识别统一的技术主题。"
+  },
+  "invalid_evidence": [],
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "selection_is_posthoc": true,
+  "model_received_historical_names": false,
+  "input_sha256": "a09bcbd0439c2e69e7a5b8824db4fc024a7d0d4abb214f02f9fa0fec1740c245",
+  "wall_s": 13.542233943939209
+}

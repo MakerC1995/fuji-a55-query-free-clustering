@@ -1,0 +1,30 @@
+{
+  "status": "ASSIGNMENTS_CHECKED_POSTHOC",
+  "historical_source_root": "/Volumes/Fuji_SSD_Work/patent/embedding_benchmark/e4_historical_family_regression",
+  "source_hashes": {
+    "FAMILY_ID_MAPPING.csv": "3bafd53759e0c1aedf66c3af53336d9736ab717542d013624edcf0d15910bf6c",
+    "HISTORICAL_NODES.csv": "fa8907eca39dd9ed43bfe7c15fb1dd82cc78808de37e77c3b69ab44cb904a01c",
+    "inputs/historical_sputter_tree_recipe_equipment.md": "2ae5afc2529ccbb6174f66b0342010a329f3ad8544f0cb887a65b43e364c6be5"
+  },
+  "first_naming_freeze_sha256": "ba3c61fb6a417ee64b4b74c31e087cef121a24828d6e5578ef27004ad759c541",
+  "first_historical_read_after_naming_freeze": true,
+  "known_observed_unique_families": 45,
+  "recipe_unique_families": 27,
+  "equipment_unique_families": 18,
+  "nodes_with_observed_family": 62,
+  "all_nodes": 64,
+  "unresolved_nodes": [
+    "H04",
+    "H16"
+  ],
+  "candidate_member_only_representative_link_unresolved": [
+    "H06",
+    "H12"
+  ],
+  "all_45_present_in_baseline": true,
+  "no_new_family_mapping_inferred": true,
+  "supplemental_blind_panels": 6,
+  "supplemental_selection_uses_history": true,
+  "supplemental_prompt_has_no_historical_names": true,
+  "labels_unchanged": true
+}

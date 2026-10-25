@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c10",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 10,
+  "cluster_size": 73,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:11538756",
+            "quote": "Printer",
+            "field": "title"
+          },
+          {
+            "family_id": "google:11854723",
+            "quote": "Printer",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30480843",
+            "quote": "ノ−ト用プリンタ",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:11538756",
+          "google:11854723",
+          "google:30480843"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [
+          {
+            "family_id": "google:11538756",
+            "quote": "Printer",
+            "field": "title"
+          },
+          {
+            "family_id": "google:11854723",
+            "quote": "Printer",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30480843",
+            "quote": "ノ−ト用プリンタ",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中包含多种语言（英文、日文）及不同年代的专利，但所有文档仅提供标题信息，缺乏具体技术细节。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "由于所有输入文本均为标题且无摘要内容，无法提取有效技术特征进行分析。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "2fcc038afcc0e7fcf7325e9cd71aef4d3d1af6ec3f048246118d6f3c2f6172ac",
+  "wall_s": 8.239359140396118
+}

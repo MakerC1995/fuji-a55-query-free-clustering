@@ -1,0 +1,66 @@
+[
+  {
+    "file": "CLUSTER_STATISTICS.xlsx",
+    "sheet": "Experiments",
+    "rows": 56,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Experiments\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"实验\",\"样本族数\",\"非空群数\",\"Noise比例\",\"中位群大小\",\"最大群\"],[\"bge_k100_s137\",238541,100,0,2175.5,6600],[\"bge_k100_s42\",238541,100,0,2344.5,5679],[\"bge_k300_s137\",238541,300,0,790,3066],[\"bge_k300_s42\",238541,300,0,786,2487],[\"bge_k800_s137\",238541,796,0,239.5,1365]]}"
+  },
+  {
+    "file": "CLUSTER_STATISTICS.xlsx",
+    "sheet": "Stability",
+    "rows": 181,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Stability\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"实验A\",\"实验B\",\"比较类型\",\"共同族数\",\"ARI 含Noise\",\"NMI 含Noise\"],[\"bge_k100_s137\",\"bge_k100_s42\",\"seed\",238541,0.4441621957699946,0.7157421764344173],[\"bge_k100_s137\",\"qwen_k100_s137\",\"model\",238541,0.3614816392843073,0.6351657913595306],[\"bge_k100_s42\",\"qwen_k100_s42\",\"model\",238541,0.3658346252466128,0.6411400479498197],[\"bge_k100_s42\",\"bge_n238541_pca30_c30_s15\",\"algorithm\",238541,0.002272684197136604,0.187654315425587],[\"bge_k100_s42\",\"bge_n50000_pca30_c10_s5\",\"algorithm\",50000,0.0029847572520545194,0.240188263117199]]}"
+  },
+  {
+    "file": "CLUSTER_STATISTICS.xlsx",
+    "sheet": "Graphs",
+    "rows": 8,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Graphs\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"模型\",\"k\",\"图规则\",\"无向边数\",\"连通分量\",\"孤立节点\"],[\"bge\",15,\"mutual\",736360,18198,15945],[\"bge\",30,\"mutual\",1481028,7019,6438],[\"bge\",30,\"sym\",5675202,1,0],[\"bge\",50,\"mutual\",2484509,3363,3145],[\"qwen\",15,\"mutual\",799796,13931,12087]]}"
+  },
+  {
+    "file": "CLUSTER_STATISTICS.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "sheet": "Clusters",
+    "rows": 14163,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Clusters\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"实验\",\"群ID\",\"族数\",\"实验覆盖族数\",\"中心平均余弦\",\"原始HDBSCAN持久性\"],[\"bge_k100_s42\",0,3,238541,0.9539673328399658,null],[\"bge_k100_s42\",1,1424,238541,0.8344560265541077,null],[\"bge_k100_s42\",2,3178,238541,0.7506863474845886,null],[\"bge_k100_s42\",3,3097,238541,0.808946430683136,null],[\"bge_k100_s42\",4,833,238541,0.8262711763381958,null]]}"
+  },
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "sheet": "Evidence panels",
+    "rows": 533,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Evidence panels\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"证据组\",\"群族数\",\"抽样角色\",\"Family ID\",\"标题原文\",\"摘要前360字；全文见CSV/底座\"],[\"bge_k300_s42__c257\",13,\"near_center\",\"google:30368193\",\"開閉式画像形成装置\",\"\"],[\"bge_k300_s42__c257\",13,\"near_center\",\"google:30368197\",\"開閉式画像形成装置\",\"\"],[\"bge_k300_s42__c257\",13,\"edge\",\"google:30671483\",\"丁合機付き開閉式画像形成機\",\"\"],[\"bge_k300_s42__c257\",13,\"edge\",\"google:31383908\",\"画像形成装置の用紙搬送路開閉装置\",\"\"],[\"bge_k300_s42__c257\",13,\"random\",\"google:30377172\",\"開閉式画像形成装置\",\"\"]]}"
+  },
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "file": "TECHNOLOGY_CATALOG.xlsx",
+    "sheet": "Candidates",
+    "rows": 112,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Candidates\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"候选ID\",\"保守技术候选名\",\"LLM原始名称\",\"证据支持层级\",\"共同手段核查说明\",\"技术对象\"],[\"TC-db71dc32410f\",\"电荷传输路径优化\",\"电荷传输路径优化\",\"器件/部件层\",\"转移电极间绝缘厚度、覆盖区域抗反射膜和中心通道加宽分别指向不同设计；可支持电荷转移器件领域，不支持一条共同优化配方。\",\"固体图像传感器中的电荷传输路径\"],[\"TC-29a4f7bc7cb7\",\"セルロースアシレートフィルムを用いた光学補償フィルム\",\"セルロースアシレートフィルムを用いた光学補償フィルム\",\"材料体系\",\"三份证据涉及纤维素酰化物光学膜；环状聚烯烃组合、聚苯乙烯添加与芳香酰基取代是不同材料/结构方案。\",\"光学補償フィルム\"],[\"TC-234a009efd8d\",\"打印系统与控制\",\"打印系统与控制\",\"应用/功能混合\",\"三份证据分别是网络打印目的地、打印数据处理时间和扫描表单参数复用。它们支持打印控制领域，不支持把三套手段拼成同一技术机制。\",\"打印系统、打印控制设备和程序\"],[\"TC-394bb311cfa7\",\"感光化射線性或感放射線性樹脂組成物\",\"感光化射線性或感放射線性樹脂組成物\",\"材料体系\",\"三份证据都支持感射线树脂体系；化合物D、树脂A/B和树脂P/产酸化合物不是同一个可共用配方。\",\"感光化射線性或感放射線性樹脂組成物\"],[\"TC-b1bc4a3b04fe\",\"嵌段共聚物圖案形成方法\",\"嵌段共聚物圖案形成方法\",\"部分证据支持，需纠正\",\"google:53273275和google:50388300支持嵌段共聚物自组织；google:52468210的完整摘要为电子束/EUV曝光与有机溶剂显影，未披露嵌段共聚物。不能以三族共同支持该具体方法。\",\"嵌段共聚物圖案形成方法\"]]}"
+  },
+  {
+    "file": "TECHNOLOGY_CATALOG.xlsx",
+    "sheet": "Patent evidence",
+    "rows": 273,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Patent evidence\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"候选ID\",\"Family ID\",\"原文字段\",\"已通过逐字匹配的原文引文\",\"来源实验\",\"群ID\"],[\"TC-cd77f12d307e\",\"google:28969765\",\"title\",\"ソ−タ\",\"bge_k300_s42\",112],[\"TC-cd77f12d307e\",\"google:30371400\",\"title\",\"ソ−タ\",\"bge_k300_s42\",112],[\"TC-cd77f12d307e\",\"google:30389845\",\"title\",\"カラ−ｆｏｔ\",\"bge_k300_s42\",112],[\"TC-82b433913c2e\",\"google:11715719\",\"title\",\"Jikishiitonoseizohoho\",\"bge_k300_s42\",114],[\"TC-82b433913c2e\",\"google:13477651\",\"title\",\"Jikikirokutainoseiho\",\"bge_k300_s42\",114]]}"
+  },
+  {
+    "file": "TECHNOLOGY_CATALOG.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "file": "RARE_TECHNOLOGY_CANDIDATES.xlsx",
+    "sheet": "Review queue",
+    "rows": 2329,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Review queue\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"候选区域类型\",\"Family ID\",\"标题原文\",\"摘要前300字；全文见CSV/底座\",\"双模型近邻重合\",\"实验覆盖族数\"],[\"model_disagreement\",\"google:100942504\",\"抗体修飾物複合体の製造方法、及び医薬の製造方法\",\"下記工程（ａ）及び（ｂ）を含む、抗体修飾物複合体の製造方法、及び医薬の製造方法。 工程（ａ）：抗体と還元剤とをＧａイオンの存在下で反応させ、上記抗体内の鎖間ジスルフィド結合を還元してチオール基を生成する工程。 工程（ｂ）：反応性基を有する修飾物と、上記工程（ａ）で生成した上記チオール基とを反応させて、抗体修飾物複合体を得る工程。\",0,238541],[\"model_disagreement\",\"google:101024438\",\"組成物の検査方法、組成物の検査装置、及び組成物の製造方法\",\"非接触で組成物を検査でき、かつインラインで、しかも短時間での組成物の検査に適した組成物の検査方法、組成物の検査装置、及び組成物の製造方法を提供する。組成物の検査方法は、組成物をノズルのノズル口から連続して送液する工程と、ノズル口から連続して送液される組成物の動画又は画像を取得する工程とを有し、さらに、組成物の形状、組成物の流速、及び組成物の光学特性のうち、少なくとも１つを算出する工程Ａ、及び組成物の動画又は画像を入力データとする学習済の機械学習モデルを用いて組成物を検査する工程Ｂのうち、少なくとも１つの工程とを有する。\",0,238541],[\"model_disagreement\",\"google:10986551\",\"Készítmény és eljárás rák kezelésére Az átmeneti oltalom az 1-26. igénypontokra vonatkozik.\",\"\",0,238541],[\"model_disagreement\",\"google:11474012\",\"Rear projection screens\",\"1529838 Rear projection screen FUJI PHOTO FILM CO Ltd 23 Dec 1975 [26 Dec 1974] 52730/75 Heading G2X [Also in Division C5] A rear projection screen comprises a lightdiffusing layer of wax mixed with 0À1-80 wt. per cent (based on the wt. of wax) of a polymer which increases the mechanical strength of\",0,238541],[\"model_disagreement\",\"google:11480365\",\"Bikoseishiito\",\"\",0,238541]]}"
+  },
+  {
+    "file": "RARE_TECHNOLOGY_CANDIDATES.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

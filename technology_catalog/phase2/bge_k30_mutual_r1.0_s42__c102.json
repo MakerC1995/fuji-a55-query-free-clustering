@@ -1,0 +1,14 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c102",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "该聚类中所有文档均仅包含标题信息，且标题均为“Electronic camera”，未提供任何具体技术细节或功能描述，因此无法识别出具体的技术主题。",
+        "uncertainties": "由于所有文档都只提供了标题信息，缺乏abstract或其他技术内容，无法提取有效证据支持任何技术主题的判断。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:20:27.226178Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"提供的引文内容主要涉及药物组合物、脂质体制剂及酵母转化技术，未提及与喷头芯片结构、材料、制造或应用相关的任何具体技术细节。\",\n      \"uncertainties\": \"由于缺乏直接关联喷头芯片的技术描述，无法判断是否存在潜在联系。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2395926100,
+  "load_duration": 104673600,
+  "prompt_eval_count": 710,
+  "prompt_eval_duration": 616188000,
+  "eval_count": 99,
+  "eval_duration": 1631754000
+}

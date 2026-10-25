@@ -1,0 +1,80 @@
+{
+  "panel_id": "bge_k300_s42__c243",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 243,
+  "cluster_size": 1004,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:16523831",
+            "quote": "コンタクト層と電極の合わせ精度の高い埋め込み型半導体レーザ製造方法を提供すること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:18259082",
+            "quote": "コンタクト層とｐ側電極の合わせ精度が高く、かつ格子不整に伴う転位や欠陥のない埋め込み型半導体レーザ装置及びその製造方法を提供すること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:31606284",
+            "quote": "基板のエッジにおける端子構造",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:16523831",
+          "google:18259082",
+          "google:31606284"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:31606284",
+            "quote": "基板のエッジにおける端子構造",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，包括半导体激光器制造、薄膜晶体管、检测元件等，缺乏统一的技术主题。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于部分文档仅含标题或摘要缺失，影响了对技术细节的准确判断；且聚类中存在多个不同技术领域的专利，难以提取一致的技术特征。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:16523831",
+        "quote": "コンタクト層と電極の合わせ精度の高い埋め込み型半導体レーザ製造方法を提供すること。",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    },
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:18259082",
+        "quote": "コンタクト層とｐ側電極の合わせ精度が高く、かつ格子不整に伴う転位や欠陥のない埋め込み型半導体レーザ装置及びその製造方法を提供すること。",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "3ea36b9e5c6ad69266678735a4626bcaced0d0a7edde7c4d8f0b3b468384b065",
+  "wall_s": 11.388909816741943
+}

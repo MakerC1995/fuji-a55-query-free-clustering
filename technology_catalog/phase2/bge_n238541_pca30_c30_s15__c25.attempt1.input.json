@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:40213395\", \"quote\": \"撮像レンズおよび撮像装置\", \"field\": \"title\"}, {\"family_id\": \"google:40664874\", \"quote\": \"撮像レンズおよび撮像装置\", \"field\": \"title\"}, {\"family_id\": \"google:31692396\", \"quote\": \"パノラマ撮影装置付きカメラ\", \"field\": \"title\"}], \"representative_family_ids\": [\"google:40213395\", \"google:40664874\", \"google:31692396\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:40213395\", \"quote\": \"撮像レンズおよび撮像装置\", \"field\": \"title\"}, {\"family_id\": \"google:40664874\", \"quote\": \"撮像レンズおよび撮像装置\", \"field\": \"title\"}, {\"family_id\": \"google:31692396\", \"quote\": \"パノラマ撮影装置付きカメラ\", \"field\": \"title\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类中包含不同技术主题的文献，如摄像镜头、全景拍摄装置及内视镜等，缺乏统一的技术特征。\", \"needs_split\": true, \"evidence_strength\": \"insufficient\", \"limitations\": \"所有文档仅提供标题信息，无摘要内容，无法准确识别具体技术手段与效果。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

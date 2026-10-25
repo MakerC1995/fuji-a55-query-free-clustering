@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:16:08.8359328Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:59787323\",\n          \"quote\": \"情報処理装置の受付手段は、印刷対象となる文書の格納場所を示す第１の情報を受け付け\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:37646651\",\n          \"quote\": \"表示入力デバイス上に載置された紙媒体の位置を検出し、検出した表示入力デバイス上の紙媒体の位置に対応する表示情報を均一色の表示データとする制御を実行する\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:36406591\",\n          \"quote\": \"IC 12 is integrally mounted with a miniaturized antenna 40, a radiation shielding material 22 covers an IC (IC chip) alone\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:59787323\",\n        \"google:37646651\",\n        \"google:36406591\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种不同技术领域，包括信息处理装置、无线IC标签、无线功率传输及CPU总线仲裁系统等，技术主题差异较大。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"由于聚类中专利文本数量庞大且技术领域分散，难以从中提取统一的技术特征。部分专利仅提供标题和摘要，缺乏详细实施细节，影响了技术主题的准确识别。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13247794800,
+  "load_duration": 105101000,
+  "prompt_eval_count": 5181,
+  "prompt_eval_duration": 4404066000,
+  "eval_count": 430,
+  "eval_duration": 8661433000
+}

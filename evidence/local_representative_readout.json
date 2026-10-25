@@ -1,0 +1,6 @@
+{
+  "rows": 155,
+  "child_clusters": 31,
+  "labels_unchanged": true,
+  "method": "2 centroid representatives, 1 edge and seeded random representatives"
+}

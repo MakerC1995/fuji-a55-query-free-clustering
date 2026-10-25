@@ -1,0 +1,76 @@
+{
+  "panel_id": "bge_k300_s42__c256",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 256,
+  "cluster_size": 615,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "锂离子电池",
+        "problem": "提高电池性能和安全性",
+        "means": "添加特定化合物或材料",
+        "effect": "改善循环特性、容量、安全",
+        "evidence": [
+          {
+            "family_id": "google:26456257",
+            "quote": "a negative electrode sheet formed by metal foil containing lithium as a main ingredient affixed in advance through an auxiliary layer and a nonaquesous electrolyte containing an aromatic compound as an additive are used",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16020424",
+            "quote": "a negative electrode material mainly consisting of chalcogen compounds and/or oxides containing one or more elements selected from Sn, Al, B, P Si, and Ge",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16222072",
+            "quote": "specific thiuram disulfide compound is added to the organic electrolyte solution",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:26456257",
+          "google:16020424",
+          "google:16222072"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:26456257",
+            "quote": "a negative electrode sheet formed by metal foil containing lithium as a main ingredient affixed in advance through an auxiliary layer and a nonaquesous electrolyte containing an aromatic compound as an additive are used",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16020424",
+            "quote": "a negative electrode material mainly consisting of chalcogen compounds and/or oxides containing one or more elements selected from Sn, Al, B, P Si, and Ge",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术手段，如正极材料、负极材料、电解质添加剂及电池结构设计等，表明其技术异质性较高。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分文献仅提供标题或摘要信息不足，无法全面评估技术细节；部分专利未明确说明具体实施方式。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:16222072",
+        "quote": "specific thiuram disulfide compound is added to the organic electrolyte solution",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "273ef7b6e824d79451061663c0a84a3589a05774fdc03fc26b0c39bdc03468be",
+  "wall_s": 12.43496322631836
+}

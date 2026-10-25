@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:16:56.0198767Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"提供的证据仅涉及光敏组合物的开发与应用问题，未提及喷头芯片结构、材料、制造或应用相关技术。\",\n      \"uncertainties\": \"未提供与喷头芯片直接相关的技术细节或应用场景信息。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2344262100,
+  "load_duration": 108265200,
+  "prompt_eval_count": 837,
+  "prompt_eval_duration": 755284000,
+  "eval_count": 87,
+  "eval_duration": 1424452000
+}

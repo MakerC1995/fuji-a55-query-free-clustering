@@ -1,0 +1,185 @@
+{
+  "panel_id": "bge_k300_s42__c32",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 32,
+  "cluster_size": 1039,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "現像剤層",
+        "problem": "トナーの帯電量の変化が抑制されない",
+        "means": "規制部材、離間部材、仕切部材",
+        "effect": "現像剤層を一定厚さに規制し、帯電量変化を抑制",
+        "evidence": [
+          {
+            "family_id": "google:44231037",
+            "quote": "前記規制部材が、断面形状が前記搬送部材の回転方向上流側から下流側に向かって狭まる凹状の曲線となる曲面状の離間部材を有し",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:44231037",
+            "quote": "前記規制部材近傍から前記撹拌部材に至るように設置され、前記現像剤層と前記余剰の現像剤とを隔離する仕切部材と、を有することを特徴とする現像装置。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:53195425",
+            "quote": "層規制回転体６と、現像動作時には現像回転体３及び層規制回転体６を回転駆動すると共に、現像剤保持体２上で規制すべき現像剤Ｇ層の増減に伴って層規制回転体６の周速ｖ ｒ を増減させるように、層規制回転体６の周速ｖ ｒ を可変調整する現像駆動装置１０と、を備え",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:44231037",
+          "google:53195425",
+          "google:42566059"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:44231037",
+            "quote": "前記規制部材が、断面形状が前記搬送部材の回転方向上流側から下流側に向かって狭まる凹状の曲線となる曲面状の離間部材を有し",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:44231037",
+            "quote": "前記規制部材近傍から前記撹拌部材に至るように設置され、前記現像剤層と前記余剰の現像剤とを隔離する仕切部材と、を有することを特徴とする現像装置。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:53195425",
+            "quote": "層規制回転体６と、現像動作時には現像回転体３及び層規制回転体６を回転駆動すると共に、現像剤保持体２上で規制すべき現像剤Ｇ層の増減に伴って層規制回転体６の周速ｖ ｒ を増減させるように、層規制回転体６の周速ｖ ｒ を可変調整する現像駆動装置１０と、を備え",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "現像剤層厚さ調整機構"
+      },
+      {
+        "name": "无法确定",
+        "object": "現像剤",
+        "problem": "トナーの帯電性能の劣化",
+        "means": "攪拌部材、収容部、搬送体",
+        "effect": "現像剤を攪拌し、均一に搬送",
+        "evidence": [
+          {
+            "family_id": "google:42566059",
+            "quote": "現像ロールに隣接し該現像ロールの回転軸に沿って延びた、収容した現像剤を攪拌しつつ該回転軸に沿った第１方向に搬送する第１収容部と",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42566059",
+            "quote": "内部に前記現像剤を収容しトナーが供給されて該現像剤と該トナーを攪拌して混合しつつ前記第１方向とは逆の第２方向に搬送する第２収容部と",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:44231037",
+            "quote": "前記現像剤収容部に設置された、前記現像剤を撹拌する撹拌部材と",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:42566059",
+          "google:44231037",
+          "google:51931304"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:42566059",
+            "quote": "現像ロールに隣接し該現像ロールの回転軸に沿って延びた、収容した現像剤を攪拌しつつ該回転軸に沿った第１方向に搬送する第１収容部と",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42566059",
+            "quote": "内部に前記現像剤を収容しトナーが供給されて該現像剤と該トナーを攪拌して混合しつつ前記第１方向とは逆の第２方向に搬送する第２収容部と",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:44231037",
+            "quote": "前記現像剤収容部に設置された、前記現像剤を撹拌する撹拌部材と",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "現像剤攪拌と搬送機構"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:31448534",
+            "quote": "",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42209484",
+            "quote": "",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:19102101",
+            "quote": "廃現像剤処理装置２から排出される廃現像剤３を回収する廃現像剤回収装置に",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:31448534",
+          "google:42209484",
+          "google:19102101"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "各技术主题分别涉及现像装置中的层厚调节、搅拌与输送机制，以及废显影剂回收系统，技术内容差异较大。",
+    "needs_split": false,
+    "evidence_strength": "medium",
+    "limitations": "部分文档仅含标题，缺乏具体技术细节；部分专利族证据不足，难以形成完整技术方案。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 2,
+      "evidence": {
+        "family_id": "google:31448534",
+        "quote": "",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    },
+    {
+      "theme": 2,
+      "evidence": {
+        "family_id": "google:42209484",
+        "quote": "",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    },
+    {
+      "theme": 2,
+      "evidence": {
+        "family_id": "google:19102101",
+        "quote": "廃現像剤処理装置２から排出される廃現像剤３を回収する廃現像剤回収装置に",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "4ade7476227e66ed0d02c1d9343e1039bd4d30ff3fce2718f39a4e85eeca541a",
+  "wall_s": 28.94856095314026
+}

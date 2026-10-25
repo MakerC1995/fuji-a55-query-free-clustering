@@ -1,0 +1,14 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c142",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "所有提供的证据仅包含专利标题，未涉及喷头芯片结构、材料、制造或应用的具体内容。无法确认该技术主题是否与喷头芯片相关。",
+        "uncertainties": "由于缺乏摘要或正文内容，无法判断是否存在与喷头芯片相关的具体技术细节。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

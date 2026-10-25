@@ -1,0 +1,70 @@
+{
+  "panel_id": "qwen_k300_s42__c126",
+  "run_id": "qwen_k300_s42",
+  "cluster_id": 126,
+  "cluster_size": 760,
+  "algorithm": "kmeans",
+  "embedding_model": "qwen",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "thermal head",
+        "problem": "未明确技术问题",
+        "means": "加热电阻并联结构",
+        "effect": "实现高速打印时点对齐",
+        "evidence": [
+          {
+            "family_id": "google:16200066",
+            "quote": "Two heating resistors 11, 12 are provided in parallel to each other",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16211180",
+            "quote": "individual electrodes with slits for adjusting their resistances",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16792051",
+            "quote": "supplying a printing signal to a thermal head",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:16200066",
+          "google:16211180",
+          "google:16792051"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:16200066",
+            "quote": "Two heating resistors 11, 12 are provided in parallel to each other",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16211180",
+            "quote": "individual electrodes with slits for adjusting their resistances",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16792051",
+            "quote": "supplying a printing signal to a thermal head",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，如热头结构、加热元件、通信电缆散热、温度传感器等，缺乏统一技术主题。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题或摘要片段，无法全面反映技术细节；存在多个技术概念混杂的情况。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "11ecf4575e44d2b0d7f5da300015fa715e3350e78c2afed2c9eda280c0ac2c6b",
+  "wall_s": 11.682486057281494
+}

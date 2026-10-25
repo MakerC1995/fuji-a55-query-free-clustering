@@ -1,0 +1,96 @@
+{
+  "baseline_id": "fuji-family-vectors-v1",
+  "created_at": "2026-10-25T15:20:19.588935+08:00",
+  "families": 238541,
+  "original_families": 238601,
+  "dimension": 1024,
+  "dtype": "float32",
+  "row_mapping": "corpus.sqlite:docs.row_idx -> family_id",
+  "representative_scope": "one observed member/language per family; title+abstract, title-only or abstract-only as recorded",
+  "bm25_version": "family-fulltext-v1; NFKC/casefold/Latin words+CJK bigrams; FTS5 default BM25",
+  "apfs_uuid": "534D9B75-27C9-49B5-89A0-4DF7E631107C",
+  "files": {
+    "ANOMALIES.csv": {
+      "bytes": 9783501,
+      "sha256": "4cbda4321cdbb8eebc8e5dc13eee3a720d47d7fdfe1aeb4753de299e22fd3327"
+    },
+    "CORPUS_MANIFEST.csv": {
+      "bytes": 114225151,
+      "sha256": "cc5517340db4e6655208b149c4c6e658efcac810076c6ceb4aa92c24405e7528"
+    },
+    "INDEX_AUDIT.md": {
+      "bytes": 6250,
+      "sha256": "988fe7f6a26e74655b2d75ce4be514a01f00b95cfa3c589be750e05231bf7114"
+    },
+    "bge_completion.npy": {
+      "bytes": 238669,
+      "sha256": "f95864ee7067f66f182aa6558051a5bc1e7a3178ee986c8f8f0493d40b965c3c"
+    },
+    "bge_index.f32.npy": {
+      "bytes": 977064064,
+      "sha256": "ce9e44af8e33cfbbd9e49b1af8fb5f9f2f87a69ac08a9dca5f286bdd1444af58"
+    },
+    "corpus.sqlite": {
+      "bytes": 1475993600,
+      "sha256": "fb68514f0786e13cd8680b3e76d7fde9f1617d0068735a8165ccc302038ab126"
+    },
+    "models.json": {
+      "bytes": 732,
+      "sha256": "8e2f44fc9e53e9f7ba7a35ba83c84e5852eca95c21a52825e23b27b7471a523b"
+    },
+    "provenance/G1.json": {
+      "bytes": 2740,
+      "sha256": "779097acdfb302823db3776bcfc622cf229db25072994376bbdb8b60b17f7202"
+    },
+    "provenance/bm25_tokenizer_probes.json": {
+      "bytes": 897,
+      "sha256": "049bb13c1b68a6a45eb936c11007e3cbb7311ec60c7f554c6fd2246424004e3b"
+    },
+    "provenance/model_lock.json": {
+      "bytes": 1430,
+      "sha256": "9900749032189374e79705026cf419c9a4ece4a85c73722dbed47eda533500ed"
+    },
+    "provenance/source_lock.json": {
+      "bytes": 8099,
+      "sha256": "aee2c5ba158acd6621b50f395721f55b6fd9b8685fa54bbe15eeecab1863254f"
+    },
+    "qwen_completion.npy": {
+      "bytes": 238669,
+      "sha256": "f95864ee7067f66f182aa6558051a5bc1e7a3178ee986c8f8f0493d40b965c3c"
+    },
+    "qwen_index.f32.npy": {
+      "bytes": 977064064,
+      "sha256": "45522d6ef28a4ef926aa46af7f4cff039b7d8ded069a7d256b1d39e95c3094e7"
+    },
+    "tokenizers/bge_tokenizer.json": {
+      "bytes": 17098108,
+      "sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08"
+    },
+    "tokenizers/qwen_tokenizer.json": {
+      "bytes": 11423705,
+      "sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a"
+    }
+  },
+  "models": {
+    "BGE": {
+      "name": "bge-m3:latest",
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "dimension": 1024,
+      "dtype": "float32",
+      "normalization": "L2",
+      "quantization": "F16",
+      "query_format": "{raw_query}"
+    },
+    "Qwen": {
+      "name": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "dimension": 1024,
+      "dtype": "float32",
+      "normalization": "L2",
+      "quantization": "Q8_0",
+      "query_instruction": "Given a technical query about inkjet printheads, retrieve patent passages describing the relevant technical object, problem and solution.",
+      "query_format": "Instruct: {instruction}\nQuery:{raw_query}"
+    }
+  },
+  "not_a_relevance_gold_dataset": true
+}

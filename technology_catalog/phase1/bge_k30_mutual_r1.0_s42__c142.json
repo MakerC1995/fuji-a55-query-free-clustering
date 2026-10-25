@@ -1,0 +1,81 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c142",
+  "run_id": "bge_k30_mutual_r1.0_s42",
+  "cluster_id": 142,
+  "cluster_size": 4,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:33301815",
+            "quote": "光硬化性着色樹脂組成物及びそれを用いたカラーフィルター",
+            "field": "title"
+          },
+          {
+            "family_id": "google:34402316",
+            "quote": "光硬化性着色樹脂組成物、並びに、カラーフィルターおよびその製造方法",
+            "field": "title"
+          },
+          {
+            "family_id": "google:19109898",
+            "quote": "光硬化性組成物およびそれを用いたカラーフィルター",
+            "field": "title"
+          },
+          {
+            "family_id": "google:29699009",
+            "quote": "光硬化性組成物、光硬化性着色組成物、及びカラーフィルター",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:33301815",
+          "google:34402316",
+          "google:19109898",
+          "google:29699009"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [
+          {
+            "family_id": "google:33301815",
+            "quote": "光硬化性着色樹脂組成物及びそれを用いたカラーフィルター",
+            "field": "title"
+          },
+          {
+            "family_id": "google:34402316",
+            "quote": "光硬化性着色樹脂組成物、並びに、カラーフィルターおよびその製造方法",
+            "field": "title"
+          },
+          {
+            "family_id": "google:19109898",
+            "quote": "光硬化性組成物およびそれを用いたカラーフィルター",
+            "field": "title"
+          },
+          {
+            "family_id": "google:29699009",
+            "quote": "光硬化性組成物、光硬化性着色組成物、及びカラーフィルター",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 4,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中的四份专利文本均仅包含标题，未提供摘要或正文内容，无法判断其技术手段、材料组成及工艺差异。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "由于所有文档均为标题-only，缺乏具体技术细节，无法提取有效证据支持任何技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "0d6198b50a89b2cb07f0d8723577be76c9560937d4d07880b74985f8a759d338",
+  "wall_s": 9.188197135925293
+}

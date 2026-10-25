@@ -1,0 +1,5 @@
+model,pca_dimensions,queries,neighbor_k,mean_original_neighbor_overlap
+bge,30,64,20,0.36250000000000004
+bge,50,64,20,0.4828125
+qwen,30,64,20,0.39531249999999996
+qwen,50,64,20,0.5

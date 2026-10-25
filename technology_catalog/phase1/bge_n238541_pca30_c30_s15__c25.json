@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c25",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 25,
+  "cluster_size": 59,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:40213395",
+            "quote": "撮像レンズおよび撮像装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:40664874",
+            "quote": "撮像レンズおよび撮像装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:31692396",
+            "quote": "パノラマ撮影装置付きカメラ",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:40213395",
+          "google:40664874",
+          "google:31692396"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:40213395",
+            "quote": "撮像レンズおよび撮像装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:40664874",
+            "quote": "撮像レンズおよび撮像装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:31692396",
+            "quote": "パノラマ撮影装置付きカメラ",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中包含不同技术主题的文献，如摄像镜头、全景拍摄装置及内视镜等，缺乏统一的技术特征。",
+    "needs_split": true,
+    "evidence_strength": "insufficient",
+    "limitations": "所有文档仅提供标题信息，无摘要内容，无法准确识别具体技术手段与效果。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "aca8e962c9fa651d64f1038f07196e23645decc94c3a992abaa5b42660414de6",
+  "wall_s": 8.473769903182983
+}

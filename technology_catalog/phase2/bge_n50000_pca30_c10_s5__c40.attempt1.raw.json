@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:18:54.2890292Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"提供的技术名称和引文内容未明确涉及喷头芯片结构、材料、制造或应用相关技术。所有引文均围绕输送装置、滚轮机构、门结构等，与喷头芯片无关。\",\n      \"uncertainties\": \"由于缺乏直接关联喷头芯片的技术特征描述，无法判断是否存在潜在关联。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2658122800,
+  "load_duration": 100713500,
+  "prompt_eval_count": 1068,
+  "prompt_eval_duration": 763732000,
+  "eval_count": 106,
+  "eval_duration": 1750345000
+}

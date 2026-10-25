@@ -1,0 +1,110 @@
+{
+  "version": "A55-D1-v1",
+  "baseline": "/Volumes/Fuji_SSD_Work/patent/embedding_benchmark/vector_corpus/v1",
+  "work_root": "/Volumes/Fuji_SSD_Work/workspaces/a55_d1_query_free_clustering",
+  "query_free": true,
+  "clustering_features": "embedding_only",
+  "models": [
+    "bge",
+    "qwen"
+  ],
+  "random_seeds": [
+    42,
+    137
+  ],
+  "kmeans": {
+    "k": [
+      100,
+      300,
+      800
+    ],
+    "batch_size": 2048,
+    "n_init": 3,
+    "max_iter": 100,
+    "max_no_improvement": 20,
+    "init": "k-means++"
+  },
+  "pca": {
+    "method": "IncrementalPCA",
+    "fit_n_components": 50,
+    "test_dimensions": [
+      30,
+      50
+    ],
+    "whiten": false,
+    "batch_size": 4096
+  },
+  "hdbscan": {
+    "implementation": "hdbscan",
+    "algorithm": "boruvka_kdtree",
+    "metric": "euclidean",
+    "scales": [
+      20000,
+      50000,
+      238541
+    ],
+    "parameter_pairs": [
+      [
+        10,
+        5
+      ],
+      [
+        30,
+        15
+      ],
+      [
+        100,
+        50
+      ]
+    ],
+    "approx_min_span_tree": true,
+    "noise_retained": true
+  },
+  "graph": {
+    "index": "FAISS HNSW",
+    "M": 24,
+    "efConstruction": 120,
+    "efSearch_initial": 160,
+    "efSearch_if_recall_below_0_9": 320,
+    "k": [
+      15,
+      30,
+      50
+    ],
+    "rules": [
+      "mutual",
+      "sym"
+    ],
+    "weights": "max(original_cosine,0)",
+    "objective": "RBConfigurationVertexPartition",
+    "resolutions": [
+      0.5,
+      1,
+      2
+    ],
+    "iterations": 4
+  },
+  "resources": {
+    "host_total_GiB": 16,
+    "serial": false,
+    "blas_threads": 2,
+    "hnsw_construction_threads": 1,
+    "max_worker_rss_GiB": 3.4,
+    "available_ram_floor_MiB": 400,
+    "minimum_ssd_reserve_GiB": 25,
+    "serial_resource_heavy_jobs": true,
+    "max_concurrent_workers": 2,
+    "lightweight_qwen_precomputation_overlap": true
+  },
+  "naming": {
+    "model": "qwen3-coder:30b",
+    "server": "http://192.168.0.21:11434",
+    "after_assignments_frozen": true,
+    "concurrency": 1,
+    "phases": [
+      "query_free_technical_names",
+      "independent_printhead_relation"
+    ],
+    "quotes_exact_match_required": true
+  }
+}

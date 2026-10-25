@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-25T18:17:54+0800",
+  "all_ten_report_questions": true,
+  "markdown_local_links_checked": 21,
+  "frozen_label_files": 58,
+  "labels_and_original_inputs_unchanged": true,
+  "parquet_all_rows_verified": 11044345,
+  "workbooks": 4,
+  "sheets": 8,
+  "naming_panels": 70,
+  "posthoc_blind_panels": 8,
+  "inference_responses": 148,
+  "manifest_sha256": "735a3ce60a8301b403ab95826eb6529b0621903535d9e86ffa60b79053826f6e",
+  "ssd_free_gib": 144.13701629638672
+}

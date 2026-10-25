@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:04:06.9685481Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:33301815\",\n          \"quote\": \"光硬化性着色樹脂組成物及びそれを用いたカラーフィルター\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:34402316\",\n          \"quote\": \"光硬化性着色樹脂組成物、並びに、カラーフィルターおよびその製造方法\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:19109898\",\n          \"quote\": \"光硬化性組成物およびそれを用いたカラーフィルター\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:29699009\",\n          \"quote\": \"光硬化性組成物、光硬化性着色組成物、及びカラーフィルター\",\n          \"field\": \"title\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:33301815\",\n        \"google:34402316\",\n        \"google:19109898\",\n        \"google:29699009\"\n      ],\n      \"confidence\": \"insufficient\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中的四份专利文本均仅包含标题，未提供摘要或正文内容，无法判断其技术手段、材料组成及工艺差异。\",\n  \"needs_split\": false,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"由于所有文档均为标题-only，缺乏具体技术细节，无法提取有效证据支持任何技术主题。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 9161650900,
+  "load_duration": 112919100,
+  "prompt_eval_count": 1676,
+  "prompt_eval_duration": 1257733000,
+  "eval_count": 424,
+  "eval_duration": 7734145000
+}

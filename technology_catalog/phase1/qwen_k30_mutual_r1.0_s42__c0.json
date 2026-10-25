@@ -1,0 +1,70 @@
+{
+  "panel_id": "qwen_k30_mutual_r1.0_s42__c0",
+  "run_id": "qwen_k30_mutual_r1.0_s42",
+  "cluster_id": 0,
+  "cluster_size": 13073,
+  "algorithm": "leiden",
+  "embedding_model": "qwen",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:29231263",
+            "quote": "PROBLEM TO BE SOLVED: To reflect intention of finish of a user on a print output in applying image processing to image data and printing out the data.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40665242",
+            "quote": "PROBLEM TO BE SOLVED: To support selection of a content by a user such that processing expected by the user and actually performed processing accord as thoroughly as possible.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:33470554",
+            "quote": "PROBLEM TO BE SOLVED: To provide a machine translation system for using a meaning analysis result on the basis of LFG to preferably convert input sentences of translation original language into translation objective language by using the meaning analysis result for the input sentences of the translation objective language to preferably obtain a translated result.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:29231263",
+          "google:40665242",
+          "google:33470554"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:29231263",
+            "quote": "PROBLEM TO BE SOLVED: To reflect intention of finish of a user on a print output in applying image processing to image data and printing out the data.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40665242",
+            "quote": "PROBLEM TO BE SOLVED: To support selection of a content by a user such that processing expected by the user and actually performed processing accord as thoroughly as possible.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:33470554",
+            "quote": "PROBLEM TO BE SOLVED: To provide a machine translation system for using a meaning analysis result on the basis of LFG to preferably convert input sentences of translation original language into translation objective language by using the meaning analysis result for the input sentences of the translation objective language to preferably obtain a translated result.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，如图像处理、机器翻译、化妆品及打印设备等，缺乏统一的技术主题。",
+    "needs_split": true,
+    "evidence_strength": "low",
+    "limitations": "由于聚类中技术内容分散且无明确共性，无法提取一致的技术方案或手段。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "81b1ff9d178047074a8e0217ae9f18b6906339f3bfed3c606ae013e1b4d001f4",
+  "wall_s": 12.928593873977661
+}

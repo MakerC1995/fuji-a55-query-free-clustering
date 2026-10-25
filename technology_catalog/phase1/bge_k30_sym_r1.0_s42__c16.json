@@ -1,0 +1,169 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c16",
+  "run_id": "bge_k30_sym_r1.0_s42",
+  "cluster_id": 16,
+  "cluster_size": 5294,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "图像读取与显示装置",
+        "object": "图像读取装置和图像形成装置；图像显示装置",
+        "problem": "图像读取和显示过程中需要精确控制光路和图像配置位置",
+        "means": "光源部件、导光部件、支撑部件、保持部件、突起形接触部、读取部件；处理器执行获取处理、显示处理及演示过程",
+        "effect": "实现图像的准确读取与展示，支持画面转换时图像配置位置的掌握",
+        "evidence": [
+          {
+            "family_id": "google:49234654",
+            "quote": "该图像读取装置包括：光源部件，其具有多个光源部分，光源部分发射光并且沿预定的主扫描方向布置；导光部件，其具有输入部和输出部，输入部布置为面向光源部分，从光源部分发射的光输入输入部并且所输入的光从输出部输出",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:90097853",
+            "quote": "本发明的一个实施方式所涉及的图像显示装置，其具备处理器，其中，处理器执行如下处理：获取处理，获取第1图像；第1显示处理，显示第1画面；第2显示处理，显示第2画面；以及第3显示处理，显示配置有包含第1图像的图像组的第3画面",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:57113010",
+            "quote": "一种信息处理设备包括：传送单元，其传送信息；第一显示控制单元，当指定要传送信息的多个接收方时，其控制显示单元显示包括多个接收方的第一列表；以及第二显示控制单元，在第一列表不能容纳于显示单元的单个画面内的情况下，其控制显示单元显示与包括在第一列表中的接收方相关的接收方相关信息",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:49234654",
+          "google:90097853",
+          "google:57113010"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:49234654",
+            "quote": "该图像读取装置包括：光源部件，其具有多个光源部分，光源部分发射光并且沿预定的主扫描方向布置；导光部件，其具有输入部和输出部，输入部布置为面向光源部分，从光源部分发射的光输入输入部并且所输入的光从输出部输出",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:90097853",
+            "quote": "本发明的一个实施方式所涉及的图像显示装置，其具备处理器，其中，处理器执行如下处理：获取处理，获取第1图像；第1显示处理，显示第1画面；第2显示处理，显示第2画面；以及第3显示处理，显示配置有包含第1图像的图像组的第3画面",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:57113010",
+            "quote": "一种信息处理设备包括：传送单元，其传送信息；第一显示控制单元，当指定要传送信息的多个接收方时，其控制显示单元显示包括多个接收方的第一列表；以及第二显示控制单元，在第一列表不能容纳于显示单元的单个画面内的情况下，其控制显示单元显示与包括在第一列表中的接收方相关的接收方相关信息",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "成像镜头和成像设备",
+        "problem": "需要加宽视场角并减小尺寸同时保持高光学性能",
+        "means": "具有负屈光力的第一透镜组和具有正屈光力的第二透镜组；第一组第一透镜、孔径光阑、第二组第一透镜、第二组第二透镜、第二组第三透镜；粘合透镜结构",
+        "effect": "实现加宽视场角、减小尺寸且保持高光学性能",
+        "evidence": [
+          {
+            "family_id": "google:47628867",
+            "quote": "[要解决的技术问题]为了能够加宽视场角并且减小成像镜头的尺寸，同时能够具有高光学性能。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:47628867",
+            "quote": "具有负屈光力的第一透镜组(G1)和具有正屈光力的第二透镜组(G2)从物体侧顺序地设置；第一透镜组(G1)由作为具有负屈光力并形成双凹形状的单透镜的第一组第一透镜(L11)形成，而第二透镜组(G2)由从物体侧顺序地设置的具有正屈光力的第二组第一透镜(L21)、孔径光阑(St)、具有正屈光力的第二组第二透镜(L22)、和具有负屈光力的第二组第三透镜(L23)构成",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:47628867",
+            "quote": "第二组第二透镜(L22)和第二组第三透镜(L23)被粘合在一起以形成粘合透镜；以及满足条件表达式(1)：31＜vd2＜55，其中vd2是第二组第一透镜关于d线的阿贝数",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:47628867"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:47628867",
+            "quote": "[要解决的技术问题]为了能够加宽视场角并且减小成像镜头的尺寸，同时能够具有高光学性能。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:47628867",
+            "quote": "具有负屈光力的第一透镜组(G1)和具有正屈光力的第二透镜组(G2)从物体侧顺序地设置；第一透镜组(G1)由作为具有负屈光力并形成双凹形状的单透镜的第一组第一透镜(L11)形成，而第二透镜组(G2)由从物体侧顺序地设置的具有正屈光力的第二组第一透镜(L21)、孔径光阑(St)、具有正屈光力的第二组第二透镜(L22)、和具有负屈光力的第二组第三透镜(L23)构成",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:47628867",
+            "quote": "第二组第二透镜(L22)和第二组第三透镜(L23)被粘合在一起以形成粘合透镜；以及满足条件表达式(1)：31＜vd2＜55，其中vd2是第二组第一透镜关于d线的阿贝数",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "成像镜头与光学系统"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:19077748",
+            "quote": "超音波プローブ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:19082087",
+            "quote": "超音波プローブ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:50198150",
+            "quote": "内視鏡の操作部",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:19077748",
+          "google:19082087",
+          "google:50198150"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:19077748",
+            "quote": "超音波プローブ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:19082087",
+            "quote": "超音波プローブ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:50198150",
+            "quote": "内視鏡の操作部",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含图像读取与显示装置、成像镜头系统以及超声波探头等不同技术领域，存在显著异质性。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题信息，缺乏具体技术细节；部分技术主题证据不足，无法形成完整技术方案。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "64df2737f730c20e4cdf802588a41e5e0a64b8f2b10167da3c4e01dd3079acb1",
+  "wall_s": 30.376574277877808
+}

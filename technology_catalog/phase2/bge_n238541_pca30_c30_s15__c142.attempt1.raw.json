@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:19:34.4648408Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"可能\",\n      \"reason\": \"技术候选涉及在电光化学平版印刷原版的感光层中加入特定树脂和非水溶剂型分散树脂颗粒，以改善静电特性和打印抗性。相关专利（如google:14122530, google:13257316, google:17365200）均提到在感光层中引入特定树脂或共聚物颗粒，表明其可能与喷头芯片结构、材料、制造或应用有关。\",\n      \"uncertainties\": \"未明确披露具体树脂类型、分子量范围及合成方法；部分技术方案虽有共现词汇但无明确技术关联。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3838837300,
+  "load_duration": 98929700,
+  "prompt_eval_count": 775,
+  "prompt_eval_duration": 700088000,
+  "eval_count": 179,
+  "eval_duration": 2997990000
+}

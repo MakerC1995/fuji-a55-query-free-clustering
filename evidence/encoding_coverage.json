@@ -1,0 +1,81 @@
+{
+  "columns": [
+    "bge_cap",
+    "qwen_cap",
+    "families",
+    "bge_truncated",
+    "qwen_truncated"
+  ],
+  "rows": [
+    [
+      512,
+      512,
+      237706,
+      0,
+      0
+    ],
+    [
+      512,
+      1024,
+      45,
+      0,
+      0
+    ],
+    [
+      1024,
+      512,
+      303,
+      0,
+      0
+    ],
+    [
+      1024,
+      1024,
+      452,
+      0,
+      0
+    ],
+    [
+      1024,
+      8192,
+      3,
+      0,
+      0
+    ],
+    [
+      8192,
+      1024,
+      8,
+      0,
+      0
+    ],
+    [
+      8192,
+      8192,
+      24,
+      0,
+      0
+    ]
+  ],
+  "models": {
+    "BGE": {
+      "name": "bge-m3:latest",
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "dimension": 1024,
+      "dtype": "float32",
+      "normalization": "L2",
+      "quantization": "F16",
+      "query_format": "{raw_query}"
+    },
+    "Qwen": {
+      "name": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "dimension": 1024,
+      "dtype": "float32",
+      "normalization": "L2",
+      "quantization": "Q8_0",
+      "query_instruction": "Given a technical query about inkjet printheads, retrieve patent passages describing the relevant technical object, problem and solution.",
+      "query_format": "Instruct: {instruction}\nQuery:{raw_query}"
+    }
+  }
+}

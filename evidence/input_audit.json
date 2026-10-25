@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "families": 238541,
+  "dimensions": 1024,
+  "vectors": {
+    "bge": {
+      "shape": [
+        238541,
+        1024
+      ],
+      "dtype": "float32",
+      "nonfinite": 0,
+      "zero": 0,
+      "max_norm_error": 1.1920928955078125e-07,
+      "sha256": "ce9e44af8e33cfbbd9e49b1af8fb5f9f2f87a69ac08a9dca5f286bdd1444af58"
+    },
+    "qwen": {
+      "shape": [
+        238541,
+        1024
+      ],
+      "dtype": "float32",
+      "nonfinite": 0,
+      "zero": 0,
+      "max_norm_error": 1.1920928955078125e-07,
+      "sha256": "45522d6ef28a4ef926aa46af7f4cff039b7d8ded069a7d256b1d39e95c3094e7"
+    }
+  },
+  "family_unique": true,
+  "same_model_row_mapping": true,
+  "all_text_hashes_and_manifest_rows_verified": true,
+  "mapping_sha256": "a512716824346a0c0f145268ecb622dde8a2438ca2146176e380caebfb5a0732",
+  "text_quality": {
+    "title_abstract": 229994,
+    "title_only": 8537,
+    "abstract_only": 10
+  },
+  "languages": {
+    "ja": 85731,
+    "en": 145017,
+    "zh": 7297,
+    "hu": 1,
+    "it": 2,
+    "de": 212,
+    "fr": 264,
+    "da": 3,
+    "sv": 2,
+    "es": 5,
+    "nl": 1,
+    "sl": 1,
+    "pt": 5
+  },
+  "duplicate_raw_groups": 1146,
+  "duplicate_abstract_groups": 370,
+  "duplicates_retained": true,
+  "baseline_id": "fuji-family-vectors-v1"
+}

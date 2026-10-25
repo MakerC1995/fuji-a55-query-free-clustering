@@ -1,0 +1,14 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c8",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "提供的证据仅涉及光敏组合物的开发与应用问题，未提及喷头芯片结构、材料、制造或应用相关技术。",
+        "uncertainties": "未提供与喷头芯片直接相关的技术细节或应用场景信息。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

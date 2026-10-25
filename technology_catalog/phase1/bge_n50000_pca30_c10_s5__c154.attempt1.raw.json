@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:12:16.7287816Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"银卤化物感光材料\",\n      \"problem\": \"未明确指出具体技术问题\",\n      \"means\": \"使用特定化合物和调节水含量\",\n      \"effect\": \"提高处理速度，增强存储稳定性\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:15458036\",\n          \"quote\": \"incorporating a specified compound having a >=95mol% silver chloride content in a silver halide emulsion and regulating the water content of the photosensitive material in the range of 3 - 10wt.%\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:14693084\",\n          \"quote\": \"making it contain a specified compound\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:26376365\",\n          \"quote\": \"A yellow color forming photographic coupler represented by the following general formula (I)\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:15458036\",\n        \"google:14693084\",\n        \"google:26376365\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种银卤化物感光材料相关技术，包括不同类型的耦合剂、感光层结构及处理性能改进方法。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"部分专利仅提供标题和摘要信息，缺乏详细实施例；部分技术手段共现但未明确说明其关联性。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 12739763200,
+  "load_duration": 113026800,
+  "prompt_eval_count": 5465,
+  "prompt_eval_duration": 4654847000,
+  "eval_count": 393,
+  "eval_duration": 7857005000
+}

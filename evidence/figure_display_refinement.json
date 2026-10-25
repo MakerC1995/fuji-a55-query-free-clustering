@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "actual_cluster_ids_on_largest20_axis": true,
+  "all_figures_from_frozen_labels": true,
+  "labels_modified": false,
+  "largest20_rows": 200
+}

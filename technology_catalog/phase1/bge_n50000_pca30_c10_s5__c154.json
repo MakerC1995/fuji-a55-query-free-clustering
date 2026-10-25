@@ -1,0 +1,76 @@
+{
+  "panel_id": "bge_n50000_pca30_c10_s5__c154",
+  "run_id": "bge_n50000_pca30_c10_s5",
+  "cluster_id": 154,
+  "cluster_size": 1084,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "银卤化物感光材料",
+        "problem": "未明确指出具体技术问题",
+        "means": "使用特定化合物和调节水含量",
+        "effect": "提高处理速度，增强存储稳定性",
+        "evidence": [
+          {
+            "family_id": "google:15458036",
+            "quote": "incorporating a specified compound having a >=95mol% silver chloride content in a silver halide emulsion and regulating the water content of the photosensitive material in the range of 3 - 10wt.%",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14693084",
+            "quote": "making it contain a specified compound",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:26376365",
+            "quote": "A yellow color forming photographic coupler represented by the following general formula (I)",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:15458036",
+          "google:14693084",
+          "google:26376365"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:14693084",
+            "quote": "making it contain a specified compound",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:26376365",
+            "quote": "A yellow color forming photographic coupler represented by the following general formula (I)",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种银卤化物感光材料相关技术，包括不同类型的耦合剂、感光层结构及处理性能改进方法。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题和摘要信息，缺乏详细实施例；部分技术手段共现但未明确说明其关联性。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:15458036",
+        "quote": "incorporating a specified compound having a >=95mol% silver chloride content in a silver halide emulsion and regulating the water content of the photosensitive material in the range of 3 - 10wt.%",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "e5f27044680df156ad3295afc96c431fb7d2fc2b9fd2b44161ff4c17ca7d54ee",
+  "wall_s": 12.92075490951538
+}

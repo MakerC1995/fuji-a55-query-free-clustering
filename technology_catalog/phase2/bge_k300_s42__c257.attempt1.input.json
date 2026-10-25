@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:30368193\", \"quote\": \"開閉式画像形成装置\", \"field\": \"title\"}, {\"family_id\": \"google:30368197\", \"quote\": \"開閉式画像形成装置\", \"field\": \"title\"}, {\"family_id\": \"google:30671483\", \"quote\": \"丁合機付き開閉式画像形成機\", \"field\": \"title\"}], \"representative_family_ids\": [\"google:30368193\", \"google:30368197\", \"google:30671483\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:30368193\", \"quote\": \"開閉式画像形成装置\", \"field\": \"title\"}, {\"family_id\": \"google:30368197\", \"quote\": \"開閉式画像形成装置\", \"field\": \"title\"}, {\"family_id\": \"google:30671483\", \"quote\": \"丁合機付き開閉式画像形成機\", \"field\": \"title\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类中所有文档仅包含标题信息，且内容高度相似，均涉及“開閉式画像形成装置”相关技术，但缺乏具体技术细节或工艺描述，无法判断是否存在实质性的技术差异。\", \"needs_split\": false, \"evidence_strength\": \"insufficient\", \"limitations\": \"由于所有文档均为标题-only，无摘要或正文内容，无法提取有效技术特征进行分析。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

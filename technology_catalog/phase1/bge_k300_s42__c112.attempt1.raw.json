@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:02:46.8778553Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:28969765\",\n          \"quote\": \"ソ−タ\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:30371400\",\n          \"quote\": \"ソ−タ\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:30389845\",\n          \"quote\": \"カラ−ｆｏｔ\",\n          \"field\": \"title\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:28969765\",\n        \"google:30371400\",\n        \"google:30389845\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中包含多个不同技术领域的标题，如“ソ−タ”（Soter）、“カラ−ｆｏｔ”（Kara-fot）等，但均无摘要信息可供分析。由于仅依据标题无法判断具体技术内容，且缺乏统一的技术特征描述，因此存在较高异质性。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"所有文档均为标题-only，无摘要或正文内容；无法通过现有信息识别出明确的技术手段、问题或效果；仅凭标题难以判断是否属于同一技术领域。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 9316747300,
+  "load_duration": 99729600,
+  "prompt_eval_count": 2927,
+  "prompt_eval_duration": 2407576000,
+  "eval_count": 354,
+  "eval_duration": 6707564000
+}

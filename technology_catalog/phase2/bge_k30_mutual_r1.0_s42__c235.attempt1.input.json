@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"插件\", \"problem\": \"插件在图像处理装置中的使用和传输需要条件控制\", \"means\": \"使用设定数据定义使用次数和传输许可\", \"effect\": \"控制插件的使用和传输\", \"evidence\": [{\"family_id\": \"google:51192722\", \"quote\": \"所述插件包含使用设定数据，所述使用设定数据定义了与所述插件相关的使用次数和与所述插件相关的传输许可中的至少一者\", \"field\": \"abstract\"}, {\"family_id\": \"google:51192722\", \"quote\": \"所述图像处理装置利用所述使用设定数据控制对所述插件的使用和对所述插件的传输中的至少一者\", \"field\": \"abstract\"}, {\"family_id\": \"google:51222620\", \"quote\": \"分发服务器根据针对每个插件和每个分发目的地设置的功能设置信息为请求的插件设置功能，并将该插件分发到图像处理设备\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:51192722\", \"google:51222620\"], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"high\", \"verified_evidence\": [{\"family_id\": \"google:51192722\", \"quote\": \"所述插件包含使用设定数据，所述使用设定数据定义了与所述插件相关的使用次数和与所述插件相关的传输许可中的至少一者\", \"field\": \"abstract\"}, {\"family_id\": \"google:51192722\", \"quote\": \"所述图像处理装置利用所述使用设定数据控制对所述插件的使用和对所述插件的传输中的至少一者\", \"field\": \"abstract\"}, {\"family_id\": \"google:51222620\", \"quote\": \"分发服务器根据针对每个插件和每个分发目的地设置的功能设置信息为请求的插件设置功能，并将该插件分发到图像处理设备\", \"field\": \"abstract\"}], \"verified_family_count\": 2, \"evidence_validation\": \"REVIEW_REQUIRED\", \"unverified_name\": \"插件分发与使用控制\"}, {\"name\": \"无法确定\", \"object\": \"图像数据\", \"problem\": \"多个图像数据需要根据特征量进行分类和重新排列\", \"means\": \"计算图像特征量并基于距离重新排列图像组\", \"effect\": \"将图像数据按显示页面页数对应的方式分类\", \"evidence\": [{\"family_id\": \"google:52740250\", \"quote\": \"计算与多个图像对应的多个图像数据各自的图像特征量，基于图像特征量将多个图像数据分类为数量与显示用页面的页数对应的图像组\", \"field\": \"abstract\"}, {\"family_id\": \"google:52740250\", \"quote\": \"根据基于图像特征量的图像组之间的距离，重新排列图像组的排列顺序\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:52740250\"], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"high\", \"verified_evidence\": [{\"family_id\": \"google:52740250\", \"quote\": \"计算与多个图像对应的多个图像数据各自的图像特征量，基于图像特征量将多个图像数据分类为数量与显示用页面的页数对应的图像组\", \"field\": \"abstract\"}, {\"family_id\": \"google:52740250\", \"quote\": \"根据基于图像特征量的图像组之间的距离，重新排列图像组的排列顺序\", \"field\": \"abstract\"}], \"verified_family_count\": 1, \"evidence_validation\": \"REVIEW_REQUIRED\", \"unverified_name\": \"图像数据分类与排列\"}, {\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [], \"representative_family_ids\": [], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"insufficient\", \"verified_evidence\": [], \"verified_family_count\": 0, \"evidence_validation\": \"REVIEW_REQUIRED\", \"unverified_name\": \"无法确定\"}], \"heterogeneity\": \"三个技术群组分别涉及插件分发控制和图像数据处理，属于不同技术领域。\", \"needs_split\": false, \"evidence_strength\": \"medium\", \"limitations\": \"部分专利文本仅提供标题与摘要，未详述具体实现方式；部分技术主题证据不足，无法形成完整技术方案。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

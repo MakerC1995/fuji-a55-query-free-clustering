@@ -1,0 +1,28 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "memory": {
+    "total": 17179869184,
+    "available": 5111955456,
+    "percent": 70.2,
+    "used": 7015038976,
+    "free": 65142784,
+    "active": 5062377472,
+    "inactive": 4740153344,
+    "wired": 1952661504
+  },
+  "cpu_percent": 32.3,
+  "threads": 2,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "hdbscan": "0.8.44",
+    "faiss-cpu": "1.15.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "pyarrow": "26.0.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k300_s42__c112",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 112,
+  "cluster_size": 75,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:28969765",
+            "quote": "ソ−タ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30371400",
+            "quote": "ソ−タ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30389845",
+            "quote": "カラ−ｆｏｔ",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:28969765",
+          "google:30371400",
+          "google:30389845"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:28969765",
+            "quote": "ソ−タ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30371400",
+            "quote": "ソ−タ",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30389845",
+            "quote": "カラ−ｆｏｔ",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中包含多个不同技术领域的标题，如“ソ−タ”（Soter）、“カラ−ｆｏｔ”（Kara-fot）等，但均无摘要信息可供分析。由于仅依据标题无法判断具体技术内容，且缺乏统一的技术特征描述，因此存在较高异质性。",
+    "needs_split": true,
+    "evidence_strength": "insufficient",
+    "limitations": "所有文档均为标题-only，无摘要或正文内容；无法通过现有信息识别出明确的技术手段、问题或效果；仅凭标题难以判断是否属于同一技术领域。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "cceba3ec8af3c18c6cd30003729568c471a8fb798fd90c23772337b2c3941f7c",
+  "wall_s": 9.33722996711731
+}

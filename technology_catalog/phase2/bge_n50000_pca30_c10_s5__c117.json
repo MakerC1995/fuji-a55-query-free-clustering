@@ -1,0 +1,14 @@
+{
+  "panel_id": "bge_n50000_pca30_c10_s5__c117",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "提供的技术候选与喷头芯片结构、材料、制造或应用无直接关联，未见明确提及喷头芯片相关技术内容。",
+        "uncertainties": "由于缺乏关于喷头芯片的具体描述或引用，无法判断是否存在潜在关联。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c24",
+  "run_id": "bge_k30_sym_r1.0_s42",
+  "cluster_id": 24,
+  "cluster_size": 3017,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:18801711",
+            "quote": "電子的に画像処理した画像情報を記録した平 版印刷版用感光材料を用いて、現像作業が簡易で、かつ 廃液の排出量も少なく、しかも印刷適性と安定性にも優 れた現像特性を具現する平版印刷版の製版方法を提供す ること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:19067197",
+            "quote": "支持体の表面に感光層を設けた光重合 系感光性平版印刷版を、製造後長期間、高温高湿条件下 で保存しても、その後画像露光及び現像を行い印刷した 時に、地汚れの発生のない、経時安定性の高い光重合系 平版印刷版の製版方法を提供すること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:32472609",
+            "quote": "燃料の補給時期を高精度に把握し得る。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:18801711",
+          "google:19067197",
+          "google:32472609"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:18801711",
+            "quote": "電子的に画像処理した画像情報を記録した平 版印刷版用感光材料を用いて、現像作業が簡易で、かつ 廃液の排出量も少なく、しかも印刷適性と安定性にも優 れた現像特性を具現する平版印刷版の製版方法を提供す ること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:19067197",
+            "quote": "支持体の表面に感光層を設けた光重合 系感光性平版印刷版を、製造後長期間、高温高湿条件下 で保存しても、その後画像露光及び現像を行い印刷した 時に、地汚れの発生のない、経時安定性の高い光重合系 平版印刷版の製版方法を提供すること。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:32472609",
+            "quote": "燃料の補給時期を高精度に把握し得る。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含不同技术领域，如平版印刷版制造、燃料供应装置和干燥机等，表明存在显著异质性。",
+    "needs_split": true,
+    "evidence_strength": "low",
+    "limitations": "由于聚类中包含多个不同技术领域的专利，且仅依据标题与摘要进行分析，无法准确识别统一技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "be405c0c7a88bdfcba53d5835971d540952e9d98f42969aef2712a6b9c70a108",
+  "wall_s": 14.533927917480469
+}

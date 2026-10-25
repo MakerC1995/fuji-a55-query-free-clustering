@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:08:11.9590521Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"电光化学平版印刷原版\",\n      \"problem\": \"需要提高印刷图像质量、静电特性及耐印性\",\n      \"means\": \"在感光层中加入特定树脂和非水溶剂型分散树脂颗粒\",\n      \"effect\": \"改善静电特性，增强打印抗性\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:14122530\",\n          \"quote\": \"incorporating respectively at least one kind of a specific resin and a specific nonaq. solvent type dispersion resin particles into this original plate\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:13257316\",\n          \"quote\": \"contains at least one kind of the nonaq. solvent type dispersing resin particles consisting of the copolymer resin particles obtd. by bringing a monofunctional monomer A contg. at least one kind of functional groups which form at least one carboxyl group by decomposition and a monofunctional monomer B which contains a substituent having at least two silicon atoms and/or fluorine atoms\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:17365200\",\n          \"quote\": \"incorporating a specific copolymer into a photoconductive layer\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:14122530\",\n        \"google:13257316\",\n        \"google:17365200\"\n      ],\n      \"confidence\": \"medium\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多个不同技术方案，涉及多种树脂类型和合成方法，但均围绕电光化学平版印刷原版的感光层改进。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"部分专利文本未完整披露具体实施细节，如聚合物结构、分子量范围等；且多个技术方案存在共现词汇但无明确技术关联。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 14288432300,
+  "load_duration": 114149100,
+  "prompt_eval_count": 5405,
+  "prompt_eval_duration": 4420705000,
+  "eval_count": 478,
+  "eval_duration": 9640350000
+}

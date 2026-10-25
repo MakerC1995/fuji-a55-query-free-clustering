@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:16:53.6413922Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"感光化射線性或感放射線性樹脂組成物\",\n      \"relation\": \"明确\",\n      \"reason\": \"技术候选直接涉及感光化射线性或感放射线性树脂组成物，包含特定化合物（D）、树脂（A）及化合物（B），与喷头芯片结构、材料、制造或应用相关。\",\n      \"uncertainties\": \"未披露具体通式结构与反应机制\"\n    },\n    {\n      \"theme_name\": \"嵌段共聚物圖案形成方法\",\n      \"relation\": \"明确\",\n      \"reason\": \"技术候选涉及使用嵌段共聚物层进行自我组织化微影术，与喷头芯片制造中的图案形成工艺直接相关。\",\n      \"uncertainties\": \"未披露具体通式结构及组织化机制\"\n    },\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"该技术候选未明确说明其与喷头芯片结构、材料、制造或应用的关系，仅提及鎓盐、酸分解性树脂、处理液等成分，缺乏直接关联性。\",\n      \"uncertainties\": \"技术内容未完全披露，无法判断是否涉及喷头芯片相关领域\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6675021600,
+  "load_duration": 101538300,
+  "prompt_eval_count": 1977,
+  "prompt_eval_duration": 1570263000,
+  "eval_count": 283,
+  "eval_duration": 4968178000
+}

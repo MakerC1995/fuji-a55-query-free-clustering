@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [], \"representative_family_ids\": [], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"insufficient\", \"verified_evidence\": [], \"verified_family_count\": 0, \"evidence_validation\": \"REVIEW_REQUIRED\", \"unverified_name\": \"无法确定\"}], \"heterogeneity\": \"该聚类中所有文档仅包含标题信息，且内容高度重复（如'複写機'），缺乏具体技术细节或工艺描述，无法提取有效技术特征。\", \"needs_split\": false, \"evidence_strength\": \"insufficient\", \"limitations\": \"由于仅有标题信息，未提供任何摘要或正文内容，因此无法识别具体的技术手段、结构或功能差异。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

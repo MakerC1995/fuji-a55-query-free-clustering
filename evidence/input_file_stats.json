@@ -1,0 +1,22 @@
+{
+  "bge_index.f32.npy": {
+    "bytes": 977064064,
+    "mtime_ns": 1792876048702510331
+  },
+  "qwen_index.f32.npy": {
+    "bytes": 977064064,
+    "mtime_ns": 1792882958026552437
+  },
+  "corpus.sqlite": {
+    "bytes": 1475993600,
+    "mtime_ns": 1792860616382173849
+  },
+  "CORPUS_MANIFEST.csv": {
+    "bytes": 114225151,
+    "mtime_ns": 1792860633471980491
+  },
+  "baseline.json": {
+    "bytes": 3533,
+    "mtime_ns": 1792912819589924369
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "preflight_panels": 80,
+  "preflight_unique": 75,
+  "final_panels": 70,
+  "final_unique": 70,
+  "naming_requests_before_correction": 0,
+  "labels_changed": false,
+  "reason": "Pre-inference validation caught repeated append-list entries; corrected evidence-only budget to the intended 70 distinct panels.",
+  "design": [
+    [
+      "bge_k300_s42",
+      30
+    ],
+    [
+      "bge_k30_mutual_r1.0_s42",
+      10
+    ],
+    [
+      "bge_k30_sym_r1.0_s42",
+      5
+    ],
+    [
+      "bge_n238541_pca30_c30_s15",
+      10
+    ],
+    [
+      "bge_n50000_pca30_c10_s5",
+      5
+    ],
+    [
+      "qwen_k300_s42",
+      5
+    ],
+    [
+      "qwen_k30_mutual_r1.0_s42",
+      3
+    ],
+    [
+      "qwen_k30_sym_r1.0_s42",
+      2
+    ]
+  ]
+}

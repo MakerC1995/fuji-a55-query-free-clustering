@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:11538756\", \"quote\": \"Printer\", \"field\": \"title\"}, {\"family_id\": \"google:11854723\", \"quote\": \"Printer\", \"field\": \"title\"}, {\"family_id\": \"google:30480843\", \"quote\": \"ノ−ト用プリンタ\", \"field\": \"title\"}], \"representative_family_ids\": [\"google:11538756\", \"google:11854723\", \"google:30480843\"], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"insufficient\", \"verified_evidence\": [{\"family_id\": \"google:11538756\", \"quote\": \"Printer\", \"field\": \"title\"}, {\"family_id\": \"google:11854723\", \"quote\": \"Printer\", \"field\": \"title\"}, {\"family_id\": \"google:30480843\", \"quote\": \"ノ−ト用プリンタ\", \"field\": \"title\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类中包含多种语言（英文、日文）及不同年代的专利，但所有文档仅提供标题信息，缺乏具体技术细节。\", \"needs_split\": false, \"evidence_strength\": \"insufficient\", \"limitations\": \"由于所有输入文本均为标题且无摘要内容，无法提取有效技术特征进行分析。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

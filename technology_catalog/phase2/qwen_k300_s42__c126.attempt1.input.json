@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"thermal head\", \"problem\": \"未明确技术问题\", \"means\": \"加热电阻并联结构\", \"effect\": \"实现高速打印时点对齐\", \"evidence\": [{\"family_id\": \"google:16200066\", \"quote\": \"Two heating resistors 11, 12 are provided in parallel to each other\", \"field\": \"abstract\"}, {\"family_id\": \"google:16211180\", \"quote\": \"individual electrodes with slits for adjusting their resistances\", \"field\": \"abstract\"}, {\"family_id\": \"google:16792051\", \"quote\": \"supplying a printing signal to a thermal head\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:16200066\", \"google:16211180\", \"google:16792051\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:16200066\", \"quote\": \"Two heating resistors 11, 12 are provided in parallel to each other\", \"field\": \"abstract\"}, {\"family_id\": \"google:16211180\", \"quote\": \"individual electrodes with slits for adjusting their resistances\", \"field\": \"abstract\"}, {\"family_id\": \"google:16792051\", \"quote\": \"supplying a printing signal to a thermal head\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种不同技术领域，如热头结构、加热元件、通信电缆散热、温度传感器等，缺乏统一技术主题。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"部分专利仅提供标题或摘要片段，无法全面反映技术细节；存在多个技术概念混杂的情况。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

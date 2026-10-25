@@ -1,0 +1,76 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c140",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 140,
+  "cluster_size": 5593,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:15152137",
+            "quote": "at least one layer of specific silver halide emulsion layers on a base",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14626874",
+            "quote": "at least one kind of methine compound represented by formula I and at least one kind of yellow dye-forming coupler represented by formula II or III in at least one spectrally sensitized silver halide emulsion layer",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:13922818",
+            "quote": "Tetrazolylthiohydroquinones",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:15152137",
+          "google:14626874",
+          "google:13922818"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:15152137",
+            "quote": "at least one layer of specific silver halide emulsion layers on a base",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14626874",
+            "quote": "at least one kind of methine compound represented by formula I and at least one kind of yellow dye-forming coupler represented by formula II or III in at least one spectrally sensitized silver halide emulsion layer",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种银卤化物感光材料相关技术，包括感光层结构、染料类型及制备方法等，存在较大异质性。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中专利数量较多（5593），且部分文献仅提供标题或摘要，难以准确识别具体技术特征。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:13922818",
+        "quote": "Tetrazolylthiohydroquinones",
+        "field": "title"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "5a743f2075f31616c88e421f5c7c5a7a3b373c8f0d3f5868de34053814c979aa",
+  "wall_s": 12.917359113693237
+}

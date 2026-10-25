@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:09:21.8707151Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:11538756\",\n          \"quote\": \"Printer\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:11854723\",\n          \"quote\": \"Printer\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:30480843\",\n          \"quote\": \"ノ−ト用プリンタ\",\n          \"field\": \"title\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:11538756\",\n        \"google:11854723\",\n        \"google:30480843\"\n      ],\n      \"confidence\": \"insufficient\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中包含多种语言（英文、日文）及不同年代的专利，但所有文档仅提供标题信息，缺乏具体技术细节。\",\n  \"needs_split\": false,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"由于所有输入文本均为标题且无摘要内容，无法提取有效技术特征进行分析。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8220260400,
+  "load_duration": 109963300,
+  "prompt_eval_count": 2923,
+  "prompt_eval_duration": 2411585000,
+  "eval_count": 298,
+  "eval_duration": 5623293000
+}

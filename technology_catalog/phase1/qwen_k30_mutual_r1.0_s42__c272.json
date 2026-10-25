@@ -1,0 +1,35 @@
+{
+  "panel_id": "qwen_k30_mutual_r1.0_s42__c272",
+  "run_id": "qwen_k30_mutual_r1.0_s42",
+  "cluster_id": 272,
+  "cluster_size": 3,
+  "algorithm": "leiden",
+  "embedding_model": "qwen",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含三个专利族，均仅提供标题信息，无具体技术内容或摘要，无法判断其技术特征是否一致。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "所有文档仅包含标题，缺乏具体的技术细节、实施方式或功能描述，无法提取有效证据支持任何技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "3c20e5668098029c67d78438738de51c64775760bdc6044c2ddb19360e48d63a",
+  "wall_s": 3.773171901702881
+}

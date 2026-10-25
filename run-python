@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+ENTRY="/Volumes/Fuji_SSD_Work/patent/embedding_benchmark/run-python"
+case "$ROOT" in /Volumes/Fuji_SSD_Work/*) ;; *) echo "Use the designated SSD; no local fallback." >&2; exit 1;; esac
+test -x "$ENTRY" || { echo "SSD runner unavailable; stop." >&2; exit 1; }
+cd "$ROOT"
+exec "$ENTRY" "$@"

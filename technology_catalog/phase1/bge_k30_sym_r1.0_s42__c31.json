@@ -1,0 +1,172 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c31",
+  "run_id": "bge_k30_sym_r1.0_s42",
+  "cluster_id": 31,
+  "cluster_size": 132,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "防音结构体及开口结构体",
+        "problem": "抑制由共振振动引起的吸音特性的下降",
+        "means": "微穿孔板、第1框体、多个贯穿孔、孔部、开口直径、开口率",
+        "effect": "与第1框体相接的微穿孔板的共振频率大于可听范围",
+        "evidence": [
+          {
+            "family_id": "google:61244891",
+            "quote": "本发明的防音结构体具备：微穿孔板，具有在厚度方向上贯穿的多个贯穿孔；及第1框体，与微穿孔板的一面相接而配置，且具有多个孔部，第1框体的孔部的开口直径大于微穿孔板的贯穿孔的开口直径",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:61244891",
+            "quote": "第1框体的孔部的开口率大于微穿孔板的贯穿孔的开口率，与第1框体相接的微穿孔板的共振频率大于可听范围。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:61244891",
+            "quote": "本发明的课题在于提供一种能够抑制由共振振动引起的吸音特性的下降的防音结构体及开口结构体。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:61244891",
+          "google:66107366",
+          "google:69619836"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:61244891",
+            "quote": "本发明的防音结构体具备：微穿孔板，具有在厚度方向上贯穿的多个贯穿孔；及第1框体，与微穿孔板的一面相接而配置，且具有多个孔部，第1框体的孔部的开口直径大于微穿孔板的贯穿孔的开口直径",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:61244891",
+            "quote": "第1框体的孔部的开口率大于微穿孔板的贯穿孔的开口率，与第1框体相接的微穿孔板的共振频率大于可听范围。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:61244891",
+            "quote": "本发明的课题在于提供一种能够抑制由共振振动引起的吸音特性的下降的防音结构体及开口结构体。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "防音结构体及开口结构体"
+      },
+      {
+        "name": "无法确定",
+        "object": "消音装置及送气系统",
+        "problem": "在宽带对从壳体内的声源产生的噪音中的低频侧的声音进行消音",
+        "means": "共振消音器、声源所在的空间、共振波长、远离声源的距离",
+        "effect": "共振消音器的共振频率为根据壳体的尺寸而确定的声音上限频率以下",
+        "evidence": [
+          {
+            "family_id": "google:77491396",
+            "quote": "本发明提供一种能够在宽带对从送气系统所具有的壳体内的声源产生的噪音中的低频侧的声音进行消音的消音装置及送气系统。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:77491396",
+            "quote": "在送气系统内与声源所在的空间连接的位置具备共振消音器，将共振消音器单独的共振波长设为λ的情况下，共振消音器远离声源的距离小于λ/2。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:77491396",
+            "quote": "共振消音器的基本共振频率为根据壳体的尺寸而确定的声音上限频率以下。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:77491396",
+          "google:65895323",
+          "google:66820901"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:77491396",
+            "quote": "本发明提供一种能够在宽带对从送气系统所具有的壳体内的声源产生的噪音中的低频侧的声音进行消音的消音装置及送气系统。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:77491396",
+            "quote": "在送气系统内与声源所在的空间连接的位置具备共振消音器，将共振消音器单独的共振波长设为λ的情况下，共振消音器远离声源的距离小于λ/2。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:77491396",
+            "quote": "共振消音器的基本共振频率为根据壳体的尺寸而确定的声音上限频率以下。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "消音装置及送气系统"
+      },
+      {
+        "name": "无法确定",
+        "object": "无法确定",
+        "problem": "无法确定",
+        "means": "无法确定",
+        "effect": "无法确定",
+        "evidence": [
+          {
+            "family_id": "google:90477037",
+            "quote": "提供一种通风型消音器，其能够抑制背侧空间中的结露的产生，并且减轻流路空间中的风噪声及压力损失的产生。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:96549706",
+            "quote": "To provide an air duct with a silencer which can effectively silence sound of a specified frequency resonating within the air duct whose cross sectional area changes.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:66107366",
+            "quote": "【課題】高い通気性と防音性能を両立することができ、小型化できる消音システムを提供する。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:90477037",
+          "google:96549706",
+          "google:66107366"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:90477037",
+            "quote": "提供一种通风型消音器，其能够抑制背侧空间中的结露的产生，并且减轻流路空间中的风噪声及压力损失的产生。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:96549706",
+            "quote": "To provide an air duct with a silencer which can effectively silence sound of a specified frequency resonating within the air duct whose cross sectional area changes.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:66107366",
+            "quote": "【課題】高い通気性と防音性能を両立することができ、小型化できる消音システムを提供する。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "各技术主题在防音结构、消音装置及送气系统方面存在不同实现方式，但均围绕提高通气性和防音性能展开。",
+    "needs_split": false,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题或摘要信息不足，无法完全确定技术细节；部分技术主题证据数量较少，难以形成完整技术方案。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "ea4994b7e18447dc9b3548252cece036edee7c3c8d504c679d2823dadb9d641c",
+  "wall_s": 28.226528882980347
+}

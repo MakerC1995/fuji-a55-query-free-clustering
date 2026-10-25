@@ -1,0 +1,170 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c0",
+  "run_id": "bge_k30_sym_r1.0_s42",
+  "cluster_id": 0,
+  "cluster_size": 27556,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "图像处理中的特征匹配与调整",
+        "object": "图像处理设备和系统",
+        "problem": "需要提供一种用户能够提前掌握图像处理结果的装置，并且操作设计区域处理和样本图像应更易于直观地进行",
+        "means": "包括颜色转换单元、特征量提取单元、图像调整单元和图像显示单元，用于获取图像信息并匹配样本图像特征",
+        "effect": "在预定义区域内临时显示匹配后的图像结果",
+        "evidence": [
+          {
+            "family_id": "google:56925326",
+            "quote": "An image processing device 1 comprises: a color conversion unit 12 which acquires image information of an image to be processed where an image processing matching impression of the image with a sample image is performed and a sample image; a feature quantity extraction unit 13 which extracts feature quantity of the images with respect to the image to be processed and the sample image; an image adjustment unit 14 which adjusts the feature quantity of the image to be processed to be matched with the feature quantity of the sample image; and an image display unit 15 which temporarily displays an image where the feature quantity of the image to be processed is matched with the feature quantity of the sample image on the image to be processed in a predefined region in response to a first operation p",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:48187021",
+            "quote": "A first transmission/reception part 25 transmits address data to a terminal device 4 via a first communication path 5, the address data being used by the terminal device 4 for connecting with an image formation device 2 via a second communication path 6. A second transmission/reception part 26 receives a request from the terminal device 4 that is transmitted via the second communication path 6 by using the address data, and transmits a user interface corresponding to the request to the terminal device 4 via the second communication path 6.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:56925326",
+          "google:62022823",
+          "google:48187021"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:56925326",
+            "quote": "An image processing device 1 comprises: a color conversion unit 12 which acquires image information of an image to be processed where an image processing matching impression of the image with a sample image is performed and a sample image; a feature quantity extraction unit 13 which extracts feature quantity of the images with respect to the image to be processed and the sample image; an image adjustment unit 14 which adjusts the feature quantity of the image to be processed to be matched with the feature quantity of the sample image; and an image display unit 15 which temporarily displays an image where the feature quantity of the image to be processed is matched with the feature quantity of the sample image on the image to be processed in a predefined region in response to a first operation p",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:48187021",
+            "quote": "A first transmission/reception part 25 transmits address data to a terminal device 4 via a first communication path 5, the address data being used by the terminal device 4 for connecting with an image formation device 2 via a second communication path 6. A second transmission/reception part 26 receives a request from the terminal device 4 that is transmitted via the second communication path 6 by using the address data, and transmits a user interface corresponding to the request to the terminal device 4 via the second communication path 6.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "图像处理中的颜色校正与输出对象差异展示",
+        "object": "图像处理装置和系统",
+        "problem": "需要提供一种能够向用户展示因输出对象不同而导致的图像外观差异及色彩校正效果的装置",
+        "means": "获取针对多个输出对象的颜色校正转换关系，并根据选择信息传输图像数据",
+        "effect": "使用户可以轻松理解不同输出对象带来的视觉差异",
+        "evidence": [
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16889113",
+            "quote": "Steuervorrichtung eines A/D-Wandlers",
+            "field": "title"
+          },
+          {
+            "family_id": "google:13078184",
+            "quote": "Phase locked loop circuit",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:62022823",
+          "google:16889113",
+          "google:13078184"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16889113",
+            "quote": "Steuervorrichtung eines A/D-Wandlers",
+            "field": "title"
+          },
+          {
+            "family_id": "google:13078184",
+            "quote": "Phase locked loop circuit",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:56925326",
+            "quote": "An image processing device 1 comprises: a color conversion unit 12 which acquires image information of an image to be processed where an image processing matching impression of the image with a sample image is performed and a sample image; a feature quantity extraction unit 13 which extracts feature quantity of the images with respect to the image to be processed and the sample image; an image adjustment unit 14 which adjusts the feature quantity of the image to be processed to be matched with the feature quantity of the sample image; and an image display unit 15 which temporarily displays an image where the feature quantity of the image to be processed is matched with the feature quantity of the sample image on the image to be processed in a predefined region in response to a first operation p",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:48187021",
+            "quote": "A first transmission/reception part 25 transmits address data to a terminal device 4 via a first communication path 5, the address data being used by the terminal device 4 for connecting with an image formation device 2 via a second communication path 6. A second transmission/reception part 26 receives a request from the terminal device 4 that is transmitted via the second communication path 6 by using the address data, and transmits a user interface corresponding to the request to the terminal device 4 via the second communication path 6.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:56925326",
+          "google:62022823",
+          "google:48187021"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:56925326",
+            "quote": "An image processing device 1 comprises: a color conversion unit 12 which acquires image information of an image to be processed where an image processing matching impression of the image with a sample image is performed and a sample image; a feature quantity extraction unit 13 which extracts feature quantity of the images with respect to the image to be processed and the sample image; an image adjustment unit 14 which adjusts the feature quantity of the image to be processed to be matched with the feature quantity of the sample image; and an image display unit 15 which temporarily displays an image where the feature quantity of the image to be processed is matched with the feature quantity of the sample image on the image to be processed in a predefined region in response to a first operation p",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:62022823",
+            "quote": "An image processing apparatus comprises: a conversion relationship acquisition part 110 which acquires a conversion relationship (profile) for performing color correction corresponding to an output object with respect to each of multiple output objects to which an image is output; a selection information acquisition part 120 which acquires selection information of whether to perform the color correction using the conversion relationship (profile) with respect to each of the multiple output objects; and an image data transmission part 140 which transmits image data representing the image before or after the color correction is performed to a display device on the basis of the selection information that is acquired from the selection information acquisition part 120.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:48187021",
+            "quote": "A first transmission/reception part 25 transmits address data to a terminal device 4 via a first communication path 5, the address data being used by the terminal device 4 for connecting with an image formation device 2 via a second communication path 6. A second transmission/reception part 26 receives a request from the terminal device 4 that is transmitted via the second communication path 6 by using the address data, and transmits a user interface corresponding to the request to the terminal device 4 via the second communication path 6.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术领域，包括图像处理、颜色校正、通信接口和硬件控制等，表明其异质性较高。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分文档仅提供标题信息，缺乏具体的技术细节；部分专利文本未完整披露所有技术手段。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "628db798a708b3c7bce92568f0561390c6b932f90b6ae7a5607315807075c061",
+  "wall_s": 40.4350368976593
+}

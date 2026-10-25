@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "time": "2026-10-25T15:44:26+0800",
+  "resource_budget": {
+    "serial": true,
+    "threads": 2,
+    "max_worker_rss_gib": 3.4,
+    "min_available_ram_mib": 400,
+    "source": "16GiB Mac actual environment",
+    "hdbscan_wall_cap_s": 1800
+  }
+}

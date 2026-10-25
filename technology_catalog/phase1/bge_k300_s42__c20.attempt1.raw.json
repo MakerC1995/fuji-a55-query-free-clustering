@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T08:59:43.3519369Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:18989735\",\n          \"quote\": \"高い吸光係数を有する新規なキノン化合物を 提供する。\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:18450595\",\n          \"quote\": \"生分解性と金属隠蔽能に優れた各種金属のキ レート剤を提供する。\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:41348583\",\n          \"quote\": \"強誘電性能に優れた新規組成のペロブスカイト型酸化物を提供する。\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:18989735\",\n        \"google:18450595\",\n        \"google:41348583\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种不同类型的化合物，如キノン化合物、キレート剤、ペロブスカイト型酸化物等，技术领域差异较大。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"low\",\n  \"limitations\": \"由于缺乏明确的技术手段共现，无法准确识别统一的技术主题。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11976751000,
+  "load_duration": 115522400,
+  "prompt_eval_count": 5454,
+  "prompt_eval_duration": 4489260000,
+  "eval_count": 359,
+  "eval_duration": 7227513000
+}

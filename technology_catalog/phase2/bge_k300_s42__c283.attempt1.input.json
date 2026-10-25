@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:17572046\", \"quote\": \"PURPOSE:To promote bleaching action and to shorten processing time by processing a photosensitive material with a processing solution having bleaching power in the presence of at least one of specified compounds and at least one of other specified compounds.\", \"field\": \"abstract\"}, {\"family_id\": \"google:13953802\", \"quote\": \"PURPOSE:To eliminate fogging and to make improvement in desilvering property by incorporating the ferric complex salt of a specific compd. into the bleaching soln.\", \"field\": \"abstract\"}, {\"family_id\": \"google:15876520\", \"quote\": \"PURPOSE:To enable rapid desilvering as well as to maintain the activity of a processing soln. and to ensure uniform finish by incorporating a specified compd. into a color photographic sensitive material and specifying the amt. of a tank soln. circulated per 1min in a processing bath having bleaching capacity.\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:17572046\", \"google:13953802\", \"google:15876520\"], \"confidence\": \"medium\", \"llm_reported_confidence\": \"medium\", \"verified_evidence\": [{\"family_id\": \"google:17572046\", \"quote\": \"PURPOSE:To promote bleaching action and to shorten processing time by processing a photosensitive material with a processing solution having bleaching power in the presence of at least one of specified compounds and at least one of other specified compounds.\", \"field\": \"abstract\"}, {\"family_id\": \"google:13953802\", \"quote\": \"PURPOSE:To eliminate fogging and to make improvement in desilvering property by incorporating the ferric complex salt of a specific compd. into the bleaching soln.\", \"field\": \"abstract\"}, {\"family_id\": \"google:15876520\", \"quote\": \"PURPOSE:To enable rapid desilvering as well as to maintain the activity of a processing soln. and to ensure uniform finish by incorporating a specified compd. into a color photographic sensitive material and specifying the amt. of a tank soln. circulated per 1min in a processing bath having bleaching capacity.\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种与银卤化物感光材料处理相关的技术，包括漂白剂、络合盐、添加剂及循环系统等，但缺乏统一的技术手段或核心问题描述。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"部分文献仅提供标题信息，无法确定具体技术细节；多个专利涉及不同处理阶段和成分组合，难以归入单一主题。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

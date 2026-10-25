@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c53",
+  "run_id": "bge_k30_mutual_r1.0_s42",
+  "cluster_id": 53,
+  "cluster_size": 899,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "树脂片材制造方法",
+        "problem": "解决树脂片材在厚度分布方面的问题",
+        "means": "通过模具滚轮和压辊控制形状转移",
+        "effect": "获得所需横截面形状",
+        "evidence": [
+          {
+            "family_id": "google:37095794",
+            "quote": "To provide a manufacturing method of a resin sheet capable of obtaining a desired cross-sectional shape when the resin sheet large in the thickness distribution in its width direction at the time of molding is manufactured",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37095793",
+            "quote": "To provide a manufacturing method of a resin sheet capable of obtaining a desired cross-sectional shape when the resin sheet large in the thickness distribution in its width direction at the time of molding is manufactured",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:85412705",
+            "quote": "チキソトロピー性を示す塗工液をストライプ塗工する方法に用いるエクストルージョン型ダイ",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:37095794",
+          "google:37095793",
+          "google:85412705"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:37095794",
+            "quote": "To provide a manufacturing method of a resin sheet capable of obtaining a desired cross-sectional shape when the resin sheet large in the thickness distribution in its width direction at the time of molding is manufactured",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37095793",
+            "quote": "To provide a manufacturing method of a resin sheet capable of obtaining a desired cross-sectional shape when the resin sheet large in the thickness distribution in its width direction at the time of molding is manufactured",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:85412705",
+            "quote": "チキソトロピー性を示す塗工液をストライプ塗工する方法に用いるエクストルージョン型ダイ",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术领域，包括树脂片材制造、涂布液分配装置及方法、以及光学元件等。尽管部分文献涉及相同主题如树脂片材制造，但具体工艺和应用领域存在显著差异。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中包含多个不同技术领域的专利，且部分文献仅提供标题或摘要信息不足，难以准确识别统一的技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "2295f3c57d98541cfcdce59add65d1edeb1138036ae874dda3b583da871dea04",
+  "wall_s": 13.815942764282227
+}

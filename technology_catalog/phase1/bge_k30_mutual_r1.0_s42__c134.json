@@ -1,0 +1,124 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c134",
+  "run_id": "bge_k30_mutual_r1.0_s42",
+  "cluster_id": 134,
+  "cluster_size": 5,
+  "algorithm": "leiden",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "基于断层图像的荷电粒子飞迹提取技术",
+        "object": "原子核干板",
+        "problem": "从原子核干板中提取荷电粒子飞迹处理时间长",
+        "means": "通过改变焦点位置拍摄多张断层图像，并基于对比度或黑点数量识别飞迹记录层中心和端部",
+        "effect": "缩短处理时间，提高飞迹提取精度",
+        "evidence": [
+          {
+            "family_id": "google:72642920",
+            "quote": "複数の断層画像のうち、コントラスト値が最大である断層画像の層を飛跡記録層の厚み方向に沿った中心と特定し",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:72643036",
+            "quote": "複数の断層画像の各々における黒点の数に基づいて、飛跡記録層の厚み方向の端部の位置を導出する導出部５６と、",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:75157643",
+            "quote": "複数の断層画像の中から、潜像に基づく複数の黒点をそれぞれ含む２枚の断層画像を選択し、",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:72642920",
+          "google:72643036",
+          "google:75157643"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:72642920",
+            "quote": "複数の断層画像のうち、コントラスト値が最大である断層画像の層を飛跡記録層の厚み方向に沿った中心と特定し",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:72643036",
+            "quote": "複数の断層画像の各々における黒点の数に基づいて、飛跡記録層の厚み方向の端部の位置を導出する導出部５６と、",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:75157643",
+            "quote": "複数の断層画像の中から、潜像に基づく複数の黒点をそれぞれ含む２枚の断層画像を選択し、",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "多个叠加的原子核干板",
+        "problem": "难以准确提取穿透多层干板的荷电粒子飞迹",
+        "means": "通过相对位置移动和角度调整，对两个干板进行飞迹比对处理，找出一致飞迹群",
+        "effect": "提高飞迹提取精度，实现三维重构",
+        "evidence": [
+          {
+            "family_id": "google:72937636",
+            "quote": "第１の方向と、第２の方向と、厚み方向とに沿って一定の範囲内の異なる移動量各々で２つの原子核乾板の相対位置を移動させ、かつ第１の方向と第２の方向と厚み方向とをそれぞれ軸として一定の範囲内の異なる角度で２つの原子核乾板の相対的な角度をずらしながら、",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:72937636",
+            "quote": "照合処理の結果、一致した飛跡の数が最大となった場合の一致した飛跡群を２つの原子核乾板を貫通する飛跡として抽出する抽出部と、",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:72937636"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:72937636",
+            "quote": "第１の方向と、第２の方向と、厚み方向とに沿って一定の範囲内の異なる移動量各々で２つの原子核乾板の相対位置を移動させ、かつ第１の方向と第２の方向と厚み方向とをそれぞれ軸として一定の範囲内の異なる角度で２つの原子核乾板の相対的な角度をずらしながら、",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:72937636",
+            "quote": "照合処理の結果、一致した飛跡の数が最大となった場合の一致した飛跡群を２つの原子核乾板を貫通する飛跡として抽出する抽出部と、",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "多干板飞迹匹配与三维重构技术"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [],
+        "representative_family_ids": [],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [],
+        "verified_family_count": 0,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术手段，包括基于断层图像的飞迹识别、多干板匹配与三维重构等，技术异质性较高。",
+    "needs_split": true,
+    "evidence_strength": "high",
+    "limitations": "部分技术细节未明确说明，如具体算法实现方式及参数设定。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "da166c07fafe0ab0aa278b7f9f4199d0f247d91b408662afc6aee00483031a92",
+  "wall_s": 19.9776668548584
+}

@@ -1,0 +1,6 @@
+*.npy binary
+*.npz binary
+*.parquet.part* binary
+*.xlsx binary
+*.png binary
+*.sqlite binary

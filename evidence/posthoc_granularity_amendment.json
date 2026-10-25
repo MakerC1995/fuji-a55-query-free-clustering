@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-25T17:46:43+0800",
+  "initial_panels": 6,
+  "total_panels": 8,
+  "total_naming_clusters_including_first_pass": 78,
+  "additional_run": "bge_k800_s42",
+  "selected_clusters": [
+    223,
+    475
+  ],
+  "criterion": "Two K800 clusters containing most historical Recipe observed families; finer already-completed partition compared with broad modal communities.",
+  "algorithm_parameters_or_labels_changed": false,
+  "history_names_not_in_prompt": true,
+  "not_first_pass_discovery": true
+}

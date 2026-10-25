@@ -1,0 +1,8 @@
+{
+  "panels": 6,
+  "sha256": "10e5e45c15b63d0f90b023dff63b5c87199edc4157b5281f70fd383cd833086a",
+  "selection_uses_historical_membership": true,
+  "prompt_has_no_historical_labels": true,
+  "representatives_not_seeded_with_core_families": true,
+  "not_first_pass_discovery": true
+}

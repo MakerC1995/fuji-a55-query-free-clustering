@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:29231263\", \"quote\": \"PROBLEM TO BE SOLVED: To reflect intention of finish of a user on a print output in applying image processing to image data and printing out the data.\", \"field\": \"abstract\"}, {\"family_id\": \"google:40665242\", \"quote\": \"PROBLEM TO BE SOLVED: To support selection of a content by a user such that processing expected by the user and actually performed processing accord as thoroughly as possible.\", \"field\": \"abstract\"}, {\"family_id\": \"google:33470554\", \"quote\": \"PROBLEM TO BE SOLVED: To provide a machine translation system for using a meaning analysis result on the basis of LFG to preferably convert input sentences of translation original language into translation objective language by using the meaning analysis result for the input sentences of the translation objective language to preferably obtain a translated result.\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:29231263\", \"google:40665242\", \"google:33470554\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:29231263\", \"quote\": \"PROBLEM TO BE SOLVED: To reflect intention of finish of a user on a print output in applying image processing to image data and printing out the data.\", \"field\": \"abstract\"}, {\"family_id\": \"google:40665242\", \"quote\": \"PROBLEM TO BE SOLVED: To support selection of a content by a user such that processing expected by the user and actually performed processing accord as thoroughly as possible.\", \"field\": \"abstract\"}, {\"family_id\": \"google:33470554\", \"quote\": \"PROBLEM TO BE SOLVED: To provide a machine translation system for using a meaning analysis result on the basis of LFG to preferably convert input sentences of translation original language into translation objective language by using the meaning analysis result for the input sentences of the translation objective language to preferably obtain a translated result.\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种不同技术领域，如图像处理、机器翻译、化妆品及打印设备等，缺乏统一的技术主题。\", \"needs_split\": true, \"evidence_strength\": \"low\", \"limitations\": \"由于聚类中技术内容分散且无明确共性，无法提取一致的技术方案或手段。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

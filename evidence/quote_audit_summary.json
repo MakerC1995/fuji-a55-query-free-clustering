@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "panels": 70,
+  "themes": 112,
+  "quotes": 296,
+  "quote_status_counts": {
+    "exact_declared_field": 273,
+    "no_verbatim_match": 18,
+    "exact_other_field": 2,
+    "empty_quote": 2,
+    "full_source_outside_sent_excerpt": 1
+  },
+  "panels_with_invalid_quotes": 16,
+  "model_original_named_records": 48,
+  "model_original_abstentions": 64,
+  "names_below_three_family_rule": 33,
+  "named_theme_records": 15,
+  "unknown_theme_records": 97,
+  "named_theme_records_with_3_valid_families": 15,
+  "named_theme_records_with_fewer_than_3_independent_texts": 0,
+  "per_theme_status_corrections": 2,
+  "no_first_pass_files_modified": true,
+  "note": "Independent audit fixes only overly conservative cross-theme propagation of panel errors; it never promotes fewer than 3 valid families or changes any model name/cluster. Exact-source matching is not semantic entailment or expert validation."
+}

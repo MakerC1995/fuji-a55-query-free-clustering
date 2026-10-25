@@ -1,0 +1,15 @@
+{
+  "k": 30,
+  "n": 238541,
+  "mean_overlap": 0.45131948590278625,
+  "quantiles": [
+    0.0,
+    0.1666666716337204,
+    0.3333333432674408,
+    0.4333333373069763,
+    0.5666666626930237,
+    0.7666666507720947,
+    1.0
+  ],
+  "note": "Both models use validated approximate HNSW; differences include residual ANN error."
+}

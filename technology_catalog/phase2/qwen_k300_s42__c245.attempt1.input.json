@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"无法确定\", \"problem\": \"无法确定具体技术手段\", \"means\": \"无法确定\", \"effect\": \"无法确定\", \"evidence\": [{\"family_id\": \"google:13691222\", \"quote\": \"PURPOSE:To adopt a simple mechanism of a center resist system for feeding copying paper and to make the setting of an original easy, by providing a means for detecting original sizes and a means for moving the original up to the center of platen glass in accordance with the information on the original size.\", \"field\": \"abstract\"}, {\"family_id\": \"google:16540459\", \"quote\": \"PURPOSE:To detect exactly an existence of an original by setting a photodetecting signal which has received directly light of a face-shaped light emitting body provided on a platen cover, as a reference value, and comparing this value with a photodetecting signal received through the original on a platen.\", \"field\": \"abstract\"}, {\"family_id\": \"google:13618232\", \"quote\": \"PURPOSE:To move the picture of optional part of a transparent original placed on a stage, to the center of the stage by forming a roughly U-shaped bent part projecting to the outside from a machine body, on the lower part of a support, and forming the upper face of the lower wall of this bent part to the almost same plane as the upper face of the machine body.\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:13691222\", \"google:16540459\", \"google:13618232\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:13691222\", \"quote\": \"PURPOSE:To adopt a simple mechanism of a center resist system for feeding copying paper and to make the setting of an original easy, by providing a means for detecting original sizes and a means for moving the original up to the center of platen glass in accordance with the information on the original size.\", \"field\": \"abstract\"}, {\"family_id\": \"google:16540459\", \"quote\": \"PURPOSE:To detect exactly an existence of an original by setting a photodetecting signal which has received directly light of a face-shaped light emitting body provided on a platen cover, as a reference value, and comparing this value with a photodetecting signal received through the original on a platen.\", \"field\": \"abstract\"}, {\"family_id\": \"google:13618232\", \"quote\": \"PURPOSE:To move the picture of optional part of a transparent original placed on a stage, to the center of the stage by forming a roughly U-shaped bent part projecting to the outside from a machine body, on the lower part of a support, and forming the upper face of the lower wall of this bent part to the almost same plane as the upper face of the machine body.\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种不同技术领域，如复印机原稿定位、图像投影仪、原稿尺寸检测等，技术手段差异较大。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"由于缺乏明确的技术特征描述，无法准确归类为单一技术主题。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

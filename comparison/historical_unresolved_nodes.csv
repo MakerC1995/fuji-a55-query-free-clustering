@@ -1,0 +1,3 @@
+historical_node_id,collection,tree,branch,representative,candidate_publications,description,historical_note,evidence,owner_history
+H04,Equipment H,Equipment,反电极折叠面积（关联Evatec/Oerlikon）,US10224188B2,"[""US10224188B2"", ""WO2010058366A1"", ""EP2368258B1"", ""CN102224561B""]",Oerlikon/Evatec关联技术：折叠/堆叠接地环来扩大反电极面积，不应默认为Fuji自有专利。,关联OEM，不默认Fuji自有,inputs/historical_sputter_tree_recipe_equipment.md:L124,OEM Oerlikon/Evatec reference; current ownership unverified
+H16,Equipment H,Equipment,绝缘夹持,US20110209989A1,"[""US20110209989A1""]",导电夹具与基板之间引入绝缘部件，降低局部放电。,历史设备树成员，需逐一核验,inputs/historical_sputter_tree_recipe_equipment.md:L136,Historical Fuji-associated; current ownership unverified

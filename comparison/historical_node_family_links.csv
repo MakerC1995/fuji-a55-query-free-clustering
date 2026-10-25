@@ -1,0 +1,113 @@
+historical_node_id,collection,tree,technology_branch,historical_representative,family_id,relationship_to_representative
+P1,Recipe P,Recipe,高donor Nb-PZT与plasma窗口,US8100513B2,google:39774253,Representative exact; local Simple Family verified
+P1,Recipe P,Recipe,高donor Nb-PZT与plasma窗口,US8100513B2,google:39774253,Verified same Simple Family as historical representative
+P2,Recipe P,Recipe,Nb含量与压电性能DOE,US8390178B2,google:45351863,Representative exact; local Simple Family verified
+P2,Recipe P,Recipe,Nb含量与压电性能DOE,US8390178B2,google:45351863,Verified same Simple Family as historical representative
+P3,Recipe P,Recipe,10–13% Nb、XRD与热漏电,JP6426310B2,google:59500807,Representative exact; local Simple Family verified
+P3,Recipe P,Recipe,10–13% Nb、XRD与热漏电,JP6426310B2,google:59500807,Verified same Simple Family as historical representative
+P4,Recipe P,Recipe,两段温度/速率、Pb与可靠性,WO2018021197A1,google:61016143,Representative exact; local Simple Family verified
+P4,Recipe P,Recipe,两段温度/速率、Pb与可靠性,WO2018021197A1,google:61016143,Verified same Simple Family as historical representative
+P5,Recipe P,Recipe,Pb/Nb与XRD/漏电可靠性,WO2018180276A1,google:63675421,Representative exact; local Simple Family verified
+P5,Recipe P,Recipe,Pb/Nb与XRD/漏电可靠性,WO2018180276A1,google:63675421,Verified same Simple Family as historical representative
+P6,Recipe P,Recipe,初期正偏→后期负偏,EP4318619B1,google:83395703,Representative exact; local Simple Family verified
+P7,Recipe P,Recipe,氧分压深度轮廓,EP4178333B1,google:84329938,Representative exact; local Simple Family verified
+P8,Recipe P,Recipe,陶瓷靶材碳杂质控制,JP5943870B2,google:51658296,Representative exact; local Simple Family verified
+P8,Recipe P,Recipe,陶瓷靶材碳杂质控制,JP5943870B2,google:51658296,Verified same Simple Family as historical representative
+P9,Recipe P,Recipe,R/T晶相与靶功率密度,WO2016031134A1,google:55399055,Representative exact; local Simple Family verified
+P9,Recipe P,Recipe,R/T晶相与靶功率密度,WO2016031134A1,google:55399055,Verified same Simple Family as historical representative
+P10,Recipe P,Recipe,Nb/Ni共掺与低压响应,US10217929B2,google:58719182,Representative exact; local Simple Family verified
+P10,Recipe P,Recipe,Nb/Ni共掺与低压响应,US10217929B2,google:58719182,Verified same Simple Family as historical representative
+P11,Recipe P,Recipe,超薄growth control氧化物界面,US11985899B2,google:73781808,Representative exact; local Simple Family verified
+P11,Recipe P,Recipe,超薄growth control氧化物界面,US11985899B2,google:73781808,Verified same Simple Family as historical representative
+P12,Recipe P,Recipe,晶柱倾斜/取向与寿命,JP2011181828A,google:43903909,Representative exact; local Simple Family verified
+P13,Recipe P,Recipe,Mg/Nb共掺,US8672457B2,google:45564537,Representative exact; local Simple Family verified
+P13,Recipe P,Recipe,Mg/Nb共掺,US8672457B2,google:45564537,Verified same Simple Family as historical representative
+P14,Recipe P,Recipe,微量Si成分调节,JP6284875B2,google:56073954,Representative exact; local Simple Family verified
+P14,Recipe P,Recipe,微量Si成分调节,JP6284875B2,google:56073954,Verified same Simple Family as historical representative
+P15,Recipe P,Recipe,2025 Pt/SrRuO3 seed与预处理,US20250098540A1,google:94776710,Representative exact; local Simple Family verified
+P15,Recipe P,Recipe,2025 Pt/SrRuO3 seed与预处理,US20250098540A1,google:94776710,Verified same Simple Family as historical representative
+R01,Recipe R,Recipe,早期 Ts×靶基距成膜窗口,JP2008081802A,google:38754718,Representative exact; local Simple Family verified
+R01,Recipe R,Recipe,早期 Ts×靶基距成膜窗口,JP2008081802A,google:38754718,Verified same Simple Family as historical representative
+R02,Recipe R,Recipe,B-site high-donor组成,JP2008270704A,google:40046641,Representative exact; local Simple Family verified
+R02,Recipe R,Recipe,B-site high-donor组成,JP2008270704A,google:40046641,Verified same Simple Family as historical representative
+R03,Recipe R,Recipe,B-site Ts×靶基距,JP2008266770A,google:40046641,Representative exact; local Simple Family verified
+R04,Recipe R,Recipe,B-site Ts×plasma potential,JP2008266771A,google:40046641,Representative exact; local Simple Family verified
+R05,Recipe R,Recipe,B-site Shield×Vs−Vf,JP2008266772A,google:40046641,Representative exact; local Simple Family verified
+R05,Recipe R,Recipe,B-site Shield×Vs−Vf,JP2008266772A,google:40046641,Verified same Simple Family as historical representative
+R06,Recipe R,Recipe,A-site donor组成,JP2009062207A,google:39810154,Representative exact; local Simple Family verified
+R06,Recipe R,Recipe,A-site donor组成,JP2009062207A,google:39810154,Verified same Simple Family as historical representative
+R07,Recipe R,Recipe,A-site Ts×靶基距,JP2009062564A,google:40130515,Representative exact; local Simple Family verified
+R07,Recipe R,Recipe,A-site Ts×靶基距,JP2009062564A,google:40130515,Verified same Simple Family as historical representative
+R08,Recipe R,Recipe,A-site Ts×Vs,JP2009064859A,google:40110980,Representative exact; local Simple Family verified
+R08,Recipe R,Recipe,A-site Ts×Vs,JP2009064859A,google:40110980,Verified same Simple Family as historical representative
+R09,Recipe R,Recipe,A-site Shield×Vs−Vf,JP2009062208A,google:40130510,Representative exact; local Simple Family verified
+R09,Recipe R,Recipe,A-site Shield×Vs−Vf,JP2009062208A,google:40130510,Verified same Simple Family as historical representative
+R10,Recipe R,Recipe,Bi/Nb共掺与极性响应,JP2009117592A,google:40587181,Representative exact; local Simple Family verified
+R10,Recipe R,Recipe,Bi/Nb共掺与极性响应,JP2009117592A,google:40587181,Verified same Simple Family as historical representative
+R11,Recipe R,Recipe,Bi的低Pb耐久性应用,JP5555072B2,google:45352133,Representative exact; local Simple Family verified
+R11,Recipe R,Recipe,Bi的低Pb耐久性应用,JP5555072B2,google:45352133,Verified same Simple Family as historical representative
+R12,Recipe R,Recipe,初期/主体温度分段,JP2010080813A,google:41346026,Representative exact; local Simple Family verified
+R12,Recipe R,Recipe,初期/主体温度分段,JP2010080813A,google:41346026,Verified same Simple Family as historical representative
+R13,Recipe R,Recipe,初期Pb富集成核,JP2010084160A,google:42248412,Representative exact; local Simple Family verified
+R14,Recipe R,Recipe,倾斜晶柱、取向与寿命,JP2011181828A,google:43903909,Representative exact; local Simple Family verified
+R15,Recipe R,Recipe,高Nb浓度扫描与最大响应,JP5601899B2,google:45351863,Representative exact; local Simple Family verified
+R15,Recipe R,Recipe,高Nb浓度扫描与最大响应,JP5601899B2,google:45351863,Verified same Simple Family as historical representative
+R16,Recipe R,Recipe,Nb与Mg共掺,JP5592192B2,google:45564537,Representative exact; local Simple Family verified
+R16,Recipe R,Recipe,Nb与Mg共掺,JP5592192B2,google:45564537,Verified same Simple Family as historical representative
+R17,Recipe R,Recipe,靶材碳杂质,JP5943870B2,google:51658296,Representative exact; local Simple Family verified
+R17,Recipe R,Recipe,靶材碳杂质,JP5943870B2,google:51658296,Verified same Simple Family as historical representative
+R18,Recipe R,Recipe,R/T晶相与RF功率密度,JP6392360B2,google:55399055,Representative exact; local Simple Family verified
+R18,Recipe R,Recipe,R/T晶相与RF功率密度,JP6392360B2,google:55399055,Verified same Simple Family as historical representative
+R19,Recipe R,Recipe,微量Si调节,JP2016103567A,google:56073954,Representative exact; local Simple Family verified
+R19,Recipe R,Recipe,微量Si调节,JP2016103567A,google:56073954,Verified same Simple Family as historical representative
+R20,Recipe R,Recipe,Nb与Ni共掺,JP6392469B2,google:58719182,Representative exact; local Simple Family verified
+R20,Recipe R,Recipe,Nb与Ni共掺,JP6392469B2,google:58719182,Verified same Simple Family as historical representative
+R21,Recipe R,Recipe,Nb与Sc共掺,JP6499810B2,google:61300486,Representative exact; local Simple Family verified
+R21,Recipe R,Recipe,Nb与Sc共掺,JP6499810B2,google:61300486,Verified same Simple Family as historical representative
+R22,Recipe R,Recipe,10–13%Nb热漏电可靠性,JP6426310B2,google:59500807,Representative exact; local Simple Family verified
+R22,Recipe R,Recipe,10–13%Nb热漏电可靠性,JP6426310B2,google:59500807,Verified same Simple Family as historical representative
+R23,Recipe R,Recipe,初期温度速率/Pb控制,WO2018021197A1,google:61016143,Representative exact; local Simple Family verified
+R23,Recipe R,Recipe,初期温度速率/Pb控制,WO2018021197A1,google:61016143,Verified same Simple Family as historical representative
+R24,Recipe R,Recipe,Pb/Nb与晶相及高温漏电,WO2018180276A1,google:63675421,Representative exact; local Simple Family verified
+R24,Recipe R,Recipe,Pb/Nb与晶相及高温漏电,WO2018180276A1,google:63675421,Verified same Simple Family as historical representative
+R25,Recipe R,Recipe,Growth-control layer界面,WO2020250632A1,google:73781808,Representative exact; local Simple Family verified
+R25,Recipe R,Recipe,Growth-control layer界面,WO2020250632A1,google:73781808,Verified same Simple Family as historical representative
+R26,Recipe R,Recipe,分段基板偏压,EP4318619B1,google:83395703,Representative exact; local Simple Family verified
+R27,Recipe R,Recipe,分段氧气/深度剖面,EP4178333B1,google:84329938,Representative exact; local Simple Family verified
+R28,Recipe R,Recipe,氧同位素控制,EP4231807A1,google:85172750,Representative exact; local Simple Family verified
+R29,Recipe R,Recipe,2025 Pt/SRO底层与预处理,US20250098540A1,google:94776710,Representative exact; local Simple Family verified
+R29,Recipe R,Recipe,2025 Pt/SRO底层与预处理,US20250098540A1,google:94776710,Verified same Simple Family as historical representative
+H01,Equipment H,Equipment,靶周电位边界/shield,JP4142706B2,google:38962040,Representative exact; local Simple Family verified
+H01,Equipment H,Equipment,靶周电位边界/shield,JP4142706B2,google:38962040,Verified same Simple Family as historical representative
+H02,Equipment H,Equipment,腔体RF屏蔽,US8043487B2,google:42239225,Representative exact; local Simple Family verified
+H02,Equipment H,Equipment,腔体RF屏蔽,US8043487B2,google:42239225,Verified same Simple Family as historical representative
+H03,Equipment H,Equipment,成形阳极RF回流,US8066857B2,google:42239224,Representative exact; local Simple Family verified
+H03,Equipment H,Equipment,成形阳极RF回流,US8066857B2,google:42239224,Verified same Simple Family as historical representative
+H05,Equipment H,Equipment,多孔板阳极,JP2010031343A,google:41736165,Representative exact; local Simple Family verified
+H05,Equipment H,Equipment,多孔板阳极,JP2010031343A,google:41736165,Verified same Simple Family as historical representative
+H06,Equipment H,Equipment,环形捕获阳极,US20100090154A1,google:42010421,Candidate member exact; representative relationship unresolved
+H07,Equipment H,Equipment,多级侧壁阳极,US8047636B2,google:41681057,Representative exact; local Simple Family verified
+H07,Equipment H,Equipment,多级侧壁阳极,US8047636B2,google:41681057,Verified same Simple Family as historical representative
+H08,Equipment H,Equipment,主动电位调节网格,US20100206713A1,google:42558970,Representative exact; local Simple Family verified
+H08,Equipment H,Equipment,主动电位调节网格,US20100206713A1,google:42558970,Verified same Simple Family as historical representative
+H09,Equipment H,Equipment,基片阻抗控制电位,EP2031084B1,google:40085670,Representative exact; local Simple Family verified
+H09,Equipment H,Equipment,基片阻抗控制电位,EP2031084B1,google:40085670,Verified same Simple Family as historical representative
+H10,Equipment H,Equipment,匹配网络自偏压,US8540851B2,google:42558973,Representative exact; local Simple Family verified
+H10,Equipment H,Equipment,匹配网络自偏压,US8540851B2,google:42558973,Verified same Simple Family as historical representative
+H11,Equipment H,Equipment,双RF相位控制,US8557088B2,google:42558971,Representative exact; local Simple Family verified
+H11,Equipment H,Equipment,双RF相位控制,US8557088B2,google:42558971,Verified same Simple Family as historical representative
+H12,Equipment H,Equipment,简化RF调谐,US20130284589A1,google:48190140,Candidate member exact; representative relationship unresolved
+H13,Equipment H,Equipment,大尺寸边缘等电位,US8172372B2,google:42171431,Representative exact; local Simple Family verified
+H13,Equipment H,Equipment,大尺寸边缘等电位,US8172372B2,google:42171431,Verified same Simple Family as historical representative
+H14,Equipment H,Equipment,周边多电位管理,WO2018207577A1,google:64105719,Representative exact; local Simple Family verified
+H14,Equipment H,Equipment,周边多电位管理,WO2018207577A1,google:64105719,Verified same Simple Family as historical representative
+H15,Equipment H,Equipment,多点导电夹持,US8133362B2,google:44504717,Representative exact; local Simple Family verified
+H15,Equipment H,Equipment,多点导电夹持,US8133362B2,google:44504717,Verified same Simple Family as historical representative
+H17,Equipment H,Equipment,石墨热扩散/背气,US9181619B2,google:44504718,Representative exact; local Simple Family verified
+H17,Equipment H,Equipment,石墨热扩散/背气,US9181619B2,google:44504718,Verified same Simple Family as historical representative
+H18,Equipment H,Equipment,靶材背板热机械,JP5344864B2,google:41610523,Representative exact; local Simple Family verified
+H18,Equipment H,Equipment,靶材背板热机械,JP5344864B2,google:41610523,Verified same Simple Family as historical representative
+H19,Equipment H,Equipment,面内气压均匀,WO2010032459A1,google:42039307,Representative exact; local Simple Family verified
+H19,Equipment H,Equipment,面内气压均匀,WO2010032459A1,google:42039307,Verified same Simple Family as historical representative
+H20,Equipment H,Equipment,腔壁成分再释放,US8563091B2,google:42021021,Representative exact; local Simple Family verified
+H20,Equipment H,Equipment,腔壁成分再释放,US8563091B2,google:42021021,Verified same Simple Family as historical representative

@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:02:37.5276916Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:30202856\",\n          \"quote\": \"Coating device\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:30215068\",\n          \"quote\": \"Coating device\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:30177986\",\n          \"quote\": \"丁合機\",\n          \"field\": \"title\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:30202856\",\n        \"google:30215068\",\n        \"google:30177986\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中包含多种不同技术领域的标题，如涂层设备、静止机构、滑轨止动装置等，缺乏具体技术内容支持统一主题。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"所有文档仅提供标题信息，无摘要或正文内容，无法判断具体技术手段与效果。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8271301600,
+  "load_duration": 108886600,
+  "prompt_eval_count": 2932,
+  "prompt_eval_duration": 2413761000,
+  "eval_count": 302,
+  "eval_duration": 5648417000
+}

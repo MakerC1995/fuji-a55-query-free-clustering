@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:02:29.1823023Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:11715719\",\n          \"quote\": \"Jikishiitonoseizohoho\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:13477651\",\n          \"quote\": \"Jikikirokutainoseiho\",\n          \"field\": \"title\"\n        },\n        {\n          \"family_id\": \"google:11839868\",\n          \"quote\": \"クリツプ\",\n          \"field\": \"title\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:11715719\",\n        \"google:13477651\",\n        \"google:11839868\"\n      ],\n      \"confidence\": \"insufficient\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类中专利文本仅包含标题，无摘要信息，无法判断技术内容是否一致或存在差异。\",\n  \"needs_split\": false,\n  \"evidence_strength\": \"insufficient\",\n  \"limitations\": \"所有文档均为标题_only，缺乏具体技术细节，无法提取有效证据支持任何明确的技术主题。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8363960500,
+  "load_duration": 100332300,
+  "prompt_eval_count": 2932,
+  "prompt_eval_duration": 2413083000,
+  "eval_count": 304,
+  "eval_duration": 5758553000
+}

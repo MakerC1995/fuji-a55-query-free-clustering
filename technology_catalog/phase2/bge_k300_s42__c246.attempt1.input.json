@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:41090957\", \"quote\": \"本発明の目的は、難水溶性の薬剤を溶解させることができ、人体への毒性が少なく、薬剤との結合親和性が高いことを特徴とする薬剤含有組成物を提供することである。\", \"field\": \"abstract\"}, {\"family_id\": \"google:58662534\", \"quote\": \"invention refers to pharmaceutics, namely to a method for preparing a liposomal composition in which gemcitabine or its hydrochloride is contained in a liposome.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44735411\", \"quote\": \"A recombinant yeast of the genus  Komagataella  which has been transformed with a galactose promoter is provided.\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:41090957\", \"google:58662534\", \"google:44735411\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:41090957\", \"quote\": \"本発明の目的は、難水溶性の薬剤を溶解させることができ、人体への毒性が少なく、薬剤との結合親和性が高いことを特徴とする薬剤含有組成物を提供することである。\", \"field\": \"abstract\"}, {\"family_id\": \"google:58662534\", \"quote\": \"invention refers to pharmaceutics, namely to a method for preparing a liposomal composition in which gemcitabine or its hydrochloride is contained in a liposome.\", \"field\": \"abstract\"}, {\"family_id\": \"google:44735411\", \"quote\": \"A recombinant yeast of the genus  Komagataella  which has been transformed with a galactose promoter is provided.\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种不同技术领域，包括药物组合物、酵母转化、抗体检测及抗动脉硬化剂等，技术手段差异较大。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"由于部分文档仅提供标题或摘要不完整，无法准确识别具体技术特征；且存在多个不同领域技术共现的情况，难以归入单一主题。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

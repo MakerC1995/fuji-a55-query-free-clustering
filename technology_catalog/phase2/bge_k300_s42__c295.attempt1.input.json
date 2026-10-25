@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:18311486\", \"quote\": \"画像制御装置10は、メモリ制御部16によ り少なくとも画像メモリ14、バス調停部18、表示シーケ ンサ20およびタイミング調節部12を制御し\", \"field\": \"abstract\"}, {\"family_id\": \"google:91962940\", \"quote\": \"制御装置は、プロセッサを備え、前記プロセッサは、読取部に配置された原稿の画像が前記読取部にて読み取られ且つ当該画像に基づき画像が形成された記録媒体が排出部へ排出される場合に、前記読取部に配置された原稿を前記読取部から取ることをユーザに促す通知を予め定められた通知タイミングで開始させる第一制御を通知部に対して行い\", \"field\": \"abstract\"}, {\"family_id\": \"google:36161086\", \"quote\": \"ロボットハンド２１のハンド位置設定点Ｈを任意の補正基準位置ｍ 1 に移動し、指標５ｂのツール位置座標と基準オフセット量とを算出する。\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:18311486\", \"google:91962940\", \"google:36161086\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:18311486\", \"quote\": \"画像制御装置10は、メモリ制御部16によ り少なくとも画像メモリ14、バス調停部18、表示シーケ ンサ20およびタイミング調節部12を制御し\", \"field\": \"abstract\"}, {\"family_id\": \"google:91962940\", \"quote\": \"制御装置は、プロセッサを備え、前記プロセッサは、読取部に配置された原稿の画像が前記読取部にて読み取られ且つ当該画像に基づき画像が形成された記録媒体が排出部へ排出される場合に、前記読取部に配置された原稿を前記読取部から取ることをユーザに促す通知を予め定められた通知タイミングで開始させる第一制御を通知部に対して行い\", \"field\": \"abstract\"}, {\"family_id\": \"google:36161086\", \"quote\": \"ロボットハンド２１のハンド位置設定点Ｈを任意の補正基準位置ｍ 1 に移動し、指標５ｂのツール位置座標と基準オフセット量とを算出する。\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种技术领域，如图像处理、机器人控制、图像形成装置及触控系统等，技术手段差异较大。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"由于缺乏明确共现关键词和统一技术特征，无法准确识别具体技术主题。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

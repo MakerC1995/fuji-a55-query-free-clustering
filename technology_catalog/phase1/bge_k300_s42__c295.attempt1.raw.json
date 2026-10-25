@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T08:59:08.7734622Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:18311486\",\n          \"quote\": \"画像制御装置10は、メモリ制御部16によ り少なくとも画像メモリ14、バス調停部18、表示シーケ ンサ20およびタイミング調節部12を制御し\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:91962940\",\n          \"quote\": \"制御装置は、プロセッサを備え、前記プロセッサは、読取部に配置された原稿の画像が前記読取部にて読み取られ且つ当該画像に基づき画像が形成された記録媒体が排出部へ排出される場合に、前記読取部に配置された原稿を前記読取部から取ることをユーザに促す通知を予め定められた通知タイミングで開始させる第一制御を通知部に対して行い\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:36161086\",\n          \"quote\": \"ロボットハンド２１のハンド位置設定点Ｈを任意の補正基準位置ｍ 1 に移動し、指標５ｂのツール位置座標と基準オフセット量とを算出する。\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:18311486\",\n        \"google:91962940\",\n        \"google:36161086\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种技术领域，如图像处理、机器人控制、图像形成装置及触控系统等，技术手段差异较大。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"由于缺乏明确共现关键词和统一技术特征，无法准确识别具体技术主题。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 15072748200,
+  "load_duration": 111586300,
+  "prompt_eval_count": 5573,
+  "prompt_eval_duration": 4735018000,
+  "eval_count": 502,
+  "eval_duration": 10110197000
+}

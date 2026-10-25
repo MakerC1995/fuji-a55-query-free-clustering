@@ -1,0 +1,160 @@
+{
+  "panel_id": "bge_k300_s42__c18",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 18,
+  "cluster_size": 212,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "感光化射線性或感放射線性樹脂組成物",
+        "object": "感光化射線性或感放射線性樹脂組成物",
+        "problem": "圖案形成中需要高品質且高效率的感光材料",
+        "means": "含有特定化合物（D）或樹脂（A）及化合物（B）",
+        "effect": "可實現高微細化圖案形成，提升產量與品質",
+        "evidence": [
+          {
+            "family_id": "google:96990465",
+            "quote": "感光化射線性或感放射線性樹脂組成物含有由說明書中所記載之通式（1）表示的化合物（D）",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:97217126",
+            "quote": "感光化射線性或感放射線性樹脂組成物含有：樹脂（A），其包含說明書中所記載之源自由通式（1-1）或通式（1-2）表示的化合物的重複單元、和說明書中所記載之源自由通式（2）表示的化合物的重複單元",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:55439651",
+            "quote": "感光化射線性或感放射線性樹脂組成物為含有樹脂P及藉由光化射線或放射線的照射而產生酸的化合物的感光化射線性或感放射線性樹脂組成物",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:96990465",
+          "google:97217126",
+          "google:55439651"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:96990465",
+            "quote": "感光化射線性或感放射線性樹脂組成物含有由說明書中所記載之通式（1）表示的化合物（D）",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:97217126",
+            "quote": "感光化射線性或感放射線性樹脂組成物含有：樹脂（A），其包含說明書中所記載之源自由通式（1-1）或通式（1-2）表示的化合物的重複單元、和說明書中所記載之源自由通式（2）表示的化合物的重複單元",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:55439651",
+            "quote": "感光化射線性或感放射線性樹脂組成物為含有樹脂P及藉由光化射線或放射線的照射而產生酸的化合物的感光化射線性或感放射線性樹脂組成物",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "嵌段共聚物圖案形成方法",
+        "object": "嵌段共聚物圖案形成方法",
+        "problem": "圖案形成中需要高品質且高效率的微細化技術",
+        "means": "使用嵌段共聚物層進行自我組織化微影術",
+        "effect": "可實現高品質、高效率的圖案形成，縮短退火時間",
+        "evidence": [
+          {
+            "family_id": "google:53273275",
+            "quote": "藉由含有：(i)在形成有導向圖案之基板上，形成嵌段共聚物層之步驟，該嵌段共聚物層含有：具有通式(I)所示之重複單元的嵌段與通式(II)所示之重複單元的嵌段之第1嵌段共聚物",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:50388300",
+            "quote": "一種圖案形成用自我組織化組成物，包括嵌段共聚物以及有機溶劑，此嵌段共聚物含有具有下述通式(1)所表示的重複單位的嵌段",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:52468210",
+            "quote": "使用含有(A)具有通式(I)所示的重複單元之樹脂、及通式(II)所示的化合物之感活性光線性或感放射線性樹脂組成物，形成膜之步驟(1)",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:53273275",
+          "google:50388300",
+          "google:52468210"
+        ],
+        "confidence": "high",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:53273275",
+            "quote": "藉由含有：(i)在形成有導向圖案之基板上，形成嵌段共聚物層之步驟，該嵌段共聚物層含有：具有通式(I)所示之重複單元的嵌段與通式(II)所示之重複單元的嵌段之第1嵌段共聚物",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:50388300",
+            "quote": "一種圖案形成用自我組織化組成物，包括嵌段共聚物以及有機溶劑，此嵌段共聚物含有具有下述通式(1)所表示的重複單位的嵌段",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:52468210",
+            "quote": "使用含有(A)具有通式(I)所示的重複單元之樹脂、及通式(II)所示的化合物之感活性光線性或感放射線性樹脂組成物，形成膜之步驟(1)",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "無法確定",
+        "problem": "無明確技術問題",
+        "means": "無明確技術手段",
+        "effect": "無明確技術效果",
+        "evidence": [
+          {
+            "family_id": "google:92674930",
+            "quote": "感光化射線性或感放射線性樹脂組成物包含由式（1）表示的鎓鹽、酸分解性樹脂、及溶劑",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:59225007",
+            "quote": "處理液包含：（1）具有矽原子和與極性基形成相互作用之基團之化合物；及（2）溶劑",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:92674930",
+          "google:59225007"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:92674930",
+            "quote": "感光化射線性或感放射線性樹脂組成物包含由式（1）表示的鎓鹽、酸分解性樹脂、及溶劑",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:59225007",
+            "quote": "處理液包含：（1）具有矽原子和與極性基形成相互作用之基團之化合物；及（2）溶劑",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "無法確定"
+      }
+    ],
+    "heterogeneity": "本群包含感光化射線性或感放射線性樹脂組成物、嵌段共聚物圖案形成方法及處理液等多種技術領域，技術異質性高。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分技術內容未完全披露，如通式具體結構與反應機制；僅根據標題與摘要無法完整判斷技術細節。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "2fd69649a60f06ec6e69a57d73d9975da8058de55b3f90733e18c2c1ac371173",
+  "wall_s": 30.083000898361206
+}

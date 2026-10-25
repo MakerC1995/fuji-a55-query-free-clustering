@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:11:39.3569065Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:47995061\",\n          \"quote\": \"放射線遮蔽部３１ｂと、放射線を検出して電荷を蓄積する複数の画素４０が行列状に配列されてなる受像部４１と、受像部４１を支持する支持体３１ａとを、備え\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:45416788\",\n          \"quote\": \"シンチレータ８、当該シンチレータ８で発生した光を受光することにより電荷が発生する有機光電変換材料を含んで構成されたセンサ部\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:47325883\",\n          \"quote\": \"画素領域が六角形状の複数の画素２０のうち、各々が３画素からなる複数の画素群について、放射線検出器４２内で３画素分の電荷をまとめて読み取り\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:47995061\",\n        \"google:45416788\",\n        \"google:47325883\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种放射线图像检测器相关技术，如周期性强度分布、有机光电转换材料、六角形像素群及相位对比成像等，技术手段差异较大。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"由于缺乏明确的技术特征共现，无法准确识别统一主题；部分文献仅提及基础结构而未展开具体实现方式。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13974336000,
+  "load_duration": 113471100,
+  "prompt_eval_count": 5140,
+  "prompt_eval_duration": 4304886000,
+  "eval_count": 470,
+  "eval_duration": 9430241000
+}

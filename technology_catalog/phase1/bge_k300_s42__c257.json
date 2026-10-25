@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k300_s42__c257",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 257,
+  "cluster_size": 13,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:30368193",
+            "quote": "開閉式画像形成装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30368197",
+            "quote": "開閉式画像形成装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30671483",
+            "quote": "丁合機付き開閉式画像形成機",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:30368193",
+          "google:30368197",
+          "google:30671483"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:30368193",
+            "quote": "開閉式画像形成装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30368197",
+            "quote": "開閉式画像形成装置",
+            "field": "title"
+          },
+          {
+            "family_id": "google:30671483",
+            "quote": "丁合機付き開閉式画像形成機",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中所有文档仅包含标题信息，且内容高度相似，均涉及“開閉式画像形成装置”相关技术，但缺乏具体技术细节或工艺描述，无法判断是否存在实质性的技术差异。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "由于所有文档均为标题-only，无摘要或正文内容，无法提取有效技术特征进行分析。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "cdadaeb6ad0dfdb8601cfcec6a23957360a223d4f187ef370db8f653ce14e87c",
+  "wall_s": 22.312947273254395
+}

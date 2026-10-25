@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"\", \"problem\": \"\", \"means\": \"\", \"effect\": \"\", \"evidence\": [{\"family_id\": \"google:59787323\", \"quote\": \"情報処理装置の受付手段は、印刷対象となる文書の格納場所を示す第１の情報を受け付け\", \"field\": \"abstract\"}, {\"family_id\": \"google:37646651\", \"quote\": \"表示入力デバイス上に載置された紙媒体の位置を検出し、検出した表示入力デバイス上の紙媒体の位置に対応する表示情報を均一色の表示データとする制御を実行する\", \"field\": \"abstract\"}, {\"family_id\": \"google:36406591\", \"quote\": \"IC 12 is integrally mounted with a miniaturized antenna 40, a radiation shielding material 22 covers an IC (IC chip) alone\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:59787323\", \"google:37646651\", \"google:36406591\"], \"confidence\": \"low\", \"llm_reported_confidence\": \"low\", \"verified_evidence\": [{\"family_id\": \"google:59787323\", \"quote\": \"情報処理装置の受付手段は、印刷対象となる文書の格納場所を示す第１の情報を受け付け\", \"field\": \"abstract\"}, {\"family_id\": \"google:37646651\", \"quote\": \"表示入力デバイス上に載置された紙媒体の位置を検出し、検出した表示入力デバイス上の紙媒体の位置に対応する表示情報を均一色の表示データとする制御を実行する\", \"field\": \"abstract\"}, {\"family_id\": \"google:36406591\", \"quote\": \"IC 12 is integrally mounted with a miniaturized antenna 40, a radiation shielding material 22 covers an IC (IC chip) alone\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多种不同技术领域，包括信息处理装置、无线IC标签、无线功率传输及CPU总线仲裁系统等，技术主题差异较大。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"由于聚类中专利文本数量庞大且技术领域分散，难以从中提取统一的技术特征。部分专利仅提供标题和摘要，缺乏详细实施细节，影响了技术主题的准确识别。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

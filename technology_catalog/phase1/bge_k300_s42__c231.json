@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k300_s42__c231",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 231,
+  "cluster_size": 1214,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:46673488",
+            "quote": "振動を検出する振動検出部６１により検出される振動がポジショニングが終了したとみなすことができる所定状態に収まった場合に撮影準備が完了したと判断し、放射線の検出を開始し、放射線が検出された場合に放射線画像の撮影を行う。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42559081",
+            "quote": "通知用の放射線Ｘ１が検出された場合に電子カセッテ３２において当該検出後に照射される撮影用の放射線Ｘ２による放射線画像を撮影するように放射線検出器６０を制御する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40497955",
+            "quote": "カセッテ送受信機４８ａ〜４８ｅの搬送周波数を異なる周波数としているので、コンソール２８のコンソール送受信機９６ａ〜９６ｅの搬送周波数を所望のカセッテ２４ｅの搬送周波数に選択することにより、複数のカセッテ２４ａ〜２４ｅ中、所望のカセッテ２４のみと無線通信を行うことができる。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:46673488",
+          "google:42559081",
+          "google:40497955"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:46673488",
+            "quote": "振動を検出する振動検出部６１により検出される振動がポジショニングが終了したとみなすことができる所定状態に収まった場合に撮影準備が完了したと判断し、放射線の検出を開始し、放射線が検出された場合に放射線画像の撮影を行う。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:42559081",
+            "quote": "通知用の放射線Ｘ１が検出された場合に電子カセッテ３２において当該検出後に照射される撮影用の放射線Ｘ２による放射線画像を撮影するように放射線検出器６０を制御する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40497955",
+            "quote": "カセッテ送受信機４８ａ〜４８ｅの搬送周波数を異なる周波数としているので、コンソール２８のコンソール送受信機９６ａ〜９６ｅの搬送周波数を所望のカセッテ２４ｅの搬送周波数に選択することにより、複数のカセッテ２４ａ〜２４ｅ中、所望のカセッテ２４のみと無線通信を行うことができる。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术主题，如放射线图像拍摄装置、检测控制单元、温度控制等，缺乏统一的技术特征。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中包含多个不相关的子技术领域，且部分专利仅提供标题或摘要信息不足，难以提取一致的技术方案。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "b184110dd07b137525459b7c5b2407aea2fc09e286f57b2b169ef5a000608248",
+  "wall_s": 15.556829929351807
+}

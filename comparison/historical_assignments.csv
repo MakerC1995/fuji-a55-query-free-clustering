@@ -1,0 +1,451 @@
+run_id,scope_n,family_id,row_idx,historical_nodes,trees,branches,in_experiment_scope,cluster_id,noise,cluster_size,first_pass_cluster_named,first_pass_candidate_names,representative_link_unresolved,pub_id,title
+bge_k100_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,53.0,False,2690.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_k100_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,27.0,False,3362.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_k100_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,53.0,False,2690.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_k100_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,40.0,False,2433.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_k100_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,40.0,False,2433.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_k100_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,53.0,False,2690.0,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_k100_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,27.0,False,3362.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k100_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,11.0,False,3106.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_k100_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,27.0,False,3362.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k100_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,80.0,False,1517.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_k100_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,53.0,False,2690.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_k100_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,53.0,False,2690.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_k100_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,53.0,False,2690.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_k100_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,53.0,False,2690.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_k100_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,53.0,False,2690.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_k100_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,27.0,False,3362.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_k100_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,27.0,False,3362.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_k100_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,27.0,False,3362.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_k100_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,27.0,False,3362.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_k100_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,45.0,False,2699.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_k100_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,53.0,False,2690.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_k100_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,63.0,False,2067.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_k100_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,27.0,False,3362.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_k100_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,72.0,False,1108.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_k100_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,27.0,False,3362.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_k100_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,78.0,False,1746.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_k100_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,78.0,False,1746.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_k100_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,53.0,False,2690.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_k100_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,40.0,False,2433.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_k100_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,53.0,False,2690.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_k100_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,27.0,False,3362.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_k100_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,27.0,False,3362.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_k100_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,40.0,False,2433.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_k100_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,40.0,False,2433.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_k100_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,80.0,False,1517.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_k100_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,47.0,False,1952.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_k100_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,53.0,False,2690.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_k100_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,80.0,False,1517.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_k100_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,53.0,False,2690.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_k100_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,27.0,False,3362.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_k100_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,40.0,False,2433.0,False,,False,WO2020250632A1,圧電素子
+bge_k100_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,53.0,False,2690.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_k100_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,80.0,False,1517.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_k100_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,40.0,False,2433.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_k100_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,80.0,False,1517.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_k300_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,164.0,False,1030.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_k300_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,272.0,False,897.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_k300_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,229.0,False,800.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_k300_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,278.0,False,786.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_k300_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,67.0,False,1128.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_k300_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,229.0,False,800.0,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_k300_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,272.0,False,897.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k300_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,47.0,False,957.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_k300_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,272.0,False,897.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k300_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,47.0,False,957.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_k300_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,43.0,False,925.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_k300_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,26.0,False,253.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_k300_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,164.0,False,1030.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_k300_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,26.0,False,253.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_k300_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,164.0,False,1030.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_k300_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,272.0,False,897.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_k300_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,272.0,False,897.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_k300_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,272.0,False,897.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_k300_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,71.0,False,970.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_k300_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,48.0,False,1009.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_k300_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,164.0,False,1030.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_k300_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,26.0,False,253.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_k300_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,239.0,False,1119.0,True,无法确定,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_k300_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,71.0,False,970.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_k300_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,272.0,False,897.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_k300_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,136.0,False,1167.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_k300_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,136.0,False,1167.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_k300_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,229.0,False,800.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_k300_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,135.0,False,415.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_k300_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,229.0,False,800.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_k300_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,71.0,False,970.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_k300_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,272.0,False,897.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_k300_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,135.0,False,415.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_k300_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,67.0,False,1128.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_k300_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,118.0,False,283.0,True,无法确定,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_k300_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,243.0,False,1004.0,True,无法确定,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_k300_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,229.0,False,800.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_k300_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,229.0,False,800.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_k300_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,229.0,False,800.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_k300_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,272.0,False,897.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_k300_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,67.0,False,1128.0,False,,False,WO2020250632A1,圧電素子
+bge_k300_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,229.0,False,800.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_k300_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,229.0,False,800.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_k300_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,67.0,False,1128.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_k300_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,253.0,False,1151.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_k800_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,223.0,False,190.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_k800_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,794.0,False,525.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_k800_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,223.0,False,190.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_k800_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,487.0,False,398.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_k800_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,475.0,False,57.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_k800_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,576.0,False,38.0,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_k800_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,487.0,False,398.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k800_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,223.0,False,190.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_k800_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,487.0,False,398.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k800_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,223.0,False,190.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_k800_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,223.0,False,190.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_k800_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,691.0,False,181.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_k800_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,66.0,False,666.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_k800_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,691.0,False,181.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_k800_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,66.0,False,666.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_k800_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,794.0,False,525.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_k800_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,337.0,False,272.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_k800_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,794.0,False,525.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_k800_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,232.0,False,701.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_k800_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,691.0,False,181.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_k800_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,223.0,False,190.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_k800_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,691.0,False,181.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_k800_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,54.0,False,908.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_k800_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,477.0,False,647.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_k800_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,337.0,False,272.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_k800_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,691.0,False,181.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_k800_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,691.0,False,181.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_k800_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,223.0,False,190.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_k800_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,475.0,False,57.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_k800_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,223.0,False,190.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_k800_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,394.0,False,550.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_k800_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,475.0,False,57.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_k800_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,475.0,False,57.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_k800_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,475.0,False,57.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_k800_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,223.0,False,190.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_k800_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,475.0,False,57.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_k800_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,223.0,False,190.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_k800_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,223.0,False,190.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_k800_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,223.0,False,190.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_k800_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,337.0,False,272.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_k800_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,475.0,False,57.0,False,,False,WO2020250632A1,圧電素子
+bge_k800_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,223.0,False,190.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_k800_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,223.0,False,190.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_k800_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,475.0,False,57.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_k800_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,223.0,False,190.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+qwen_k300_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,139.0,False,384.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+qwen_k300_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,289.0,False,636.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+qwen_k300_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,139.0,False,384.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+qwen_k300_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,139.0,False,384.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+qwen_k300_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,139.0,False,384.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+qwen_k300_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,166.0,False,583.0,False,,False,JP2009057599A,Sputtering method and apparatus
+qwen_k300_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,109.0,False,1052.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k300_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,139.0,False,384.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+qwen_k300_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,109.0,False,1052.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k300_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,139.0,False,384.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+qwen_k300_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,139.0,False,384.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+qwen_k300_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,166.0,False,583.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+qwen_k300_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,166.0,False,583.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+qwen_k300_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,166.0,False,583.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+qwen_k300_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,166.0,False,583.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+qwen_k300_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,31.0,False,990.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+qwen_k300_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,289.0,False,636.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+qwen_k300_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,139.0,False,384.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+qwen_k300_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,176.0,False,1015.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+qwen_k300_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,176.0,False,1015.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+qwen_k300_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,139.0,False,384.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+qwen_k300_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,166.0,False,583.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+qwen_k300_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,31.0,False,990.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+qwen_k300_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,176.0,False,1015.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+qwen_k300_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,139.0,False,384.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+qwen_k300_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,176.0,False,1015.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+qwen_k300_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,294.0,False,524.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+qwen_k300_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,139.0,False,384.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+qwen_k300_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,139.0,False,384.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+qwen_k300_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,139.0,False,384.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+qwen_k300_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,109.0,False,1052.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+qwen_k300_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,139.0,False,384.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+qwen_k300_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,139.0,False,384.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+qwen_k300_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,139.0,False,384.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+qwen_k300_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,139.0,False,384.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+qwen_k300_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,139.0,False,384.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+qwen_k300_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,139.0,False,384.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+qwen_k300_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,139.0,False,384.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+qwen_k300_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,139.0,False,384.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+qwen_k300_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,31.0,False,990.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+qwen_k300_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,139.0,False,384.0,False,,False,WO2020250632A1,圧電素子
+qwen_k300_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,139.0,False,384.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+qwen_k300_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,139.0,False,384.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+qwen_k300_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,139.0,False,384.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+qwen_k300_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,139.0,False,384.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_n238541_pca30_c30_s15,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,-1.0,True,,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_n238541_pca30_c30_s15,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,-1.0,True,,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,-1.0,True,,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_n238541_pca30_c30_s15,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,-1.0,True,,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_n238541_pca30_c30_s15,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,-1.0,True,,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,-1.0,True,,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_n238541_pca30_c30_s15,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,-1.0,True,,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_n238541_pca30_c30_s15,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,-1.0,True,,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_n238541_pca30_c30_s15,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,-1.0,True,,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_n238541_pca30_c30_s15,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,-1.0,True,,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_n238541_pca30_c30_s15,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,-1.0,True,,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_n238541_pca30_c30_s15,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,-1.0,True,,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_n238541_pca30_c30_s15,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,-1.0,True,,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_n238541_pca30_c30_s15,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,-1.0,True,,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_n238541_pca30_c30_s15,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,-1.0,True,,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_n238541_pca30_c30_s15,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,-1.0,True,,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,-1.0,True,,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_n238541_pca30_c30_s15,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,-1.0,True,,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_n238541_pca30_c30_s15,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,-1.0,True,,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_n238541_pca30_c30_s15,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,-1.0,True,,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_n238541_pca30_c30_s15,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,-1.0,True,,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_n238541_pca30_c30_s15,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,-1.0,True,,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_n238541_pca30_c30_s15,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,-1.0,True,,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_n238541_pca30_c30_s15,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,-1.0,True,,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_n238541_pca30_c30_s15,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,-1.0,True,,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_n238541_pca30_c30_s15,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,-1.0,True,,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_n238541_pca30_c30_s15,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,-1.0,True,,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_n238541_pca30_c30_s15,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,-1.0,True,,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_n238541_pca30_c30_s15,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,-1.0,True,,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,-1.0,True,,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_n238541_pca30_c30_s15,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,-1.0,True,,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_n238541_pca30_c30_s15,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,-1.0,True,,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_n238541_pca30_c30_s15,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,-1.0,True,,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,-1.0,True,,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_n238541_pca30_c30_s15,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,-1.0,True,,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_n238541_pca30_c30_s15,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,-1.0,True,,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_n238541_pca30_c30_s15,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,-1.0,True,,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_n238541_pca30_c30_s15,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,-1.0,True,,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_n238541_pca30_c30_s15,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,-1.0,True,,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_n238541_pca30_c30_s15,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,-1.0,True,,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_n238541_pca30_c30_s15,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,-1.0,True,,False,,False,WO2020250632A1,圧電素子
+bge_n238541_pca30_c30_s15,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,-1.0,True,,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_n238541_pca30_c30_s15,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,-1.0,True,,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_n238541_pca30_c30_s15,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,-1.0,True,,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_n238541_pca30_c30_s15,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,-1.0,True,,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_n50000_pca30_c10_s5,50000,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,False,,,,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_n50000_pca30_c10_s5,50000,google:38962040,163243,H01,Equipment,靶周电位边界/shield,False,,,,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,False,,,,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_n50000_pca30_c10_s5,50000,google:39810154,169042,R06,Recipe,A-site donor组成,False,,,,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_n50000_pca30_c10_s5,50000,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,False,,,,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:40085670,170624,H09,Equipment,基片阻抗控制电位,False,,,,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_n50000_pca30_c10_s5,50000,google:40110980,170699,R08,Recipe,A-site Ts×Vs,False,,,,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_n50000_pca30_c10_s5,50000,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,False,,,,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_n50000_pca30_c10_s5,50000,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,False,,,,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_n50000_pca30_c10_s5,50000,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,False,,,,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_n50000_pca30_c10_s5,50000,google:41346026,178388,R12,Recipe,初期/主体温度分段,False,,,,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_n50000_pca30_c10_s5,50000,google:41610523,179518,H18,Equipment,靶材背板热机械,False,,,,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_n50000_pca30_c10_s5,50000,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,-1.0,True,,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_n50000_pca30_c10_s5,50000,google:41736165,179890,H05,Equipment,多孔板阳极,False,,,,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_n50000_pca30_c10_s5,50000,google:42010421,180051,H06,Equipment,环形捕获阳极,True,-1.0,True,,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_n50000_pca30_c10_s5,50000,google:42021021,180164,H20,Equipment,腔壁成分再释放,False,,,,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:42039307,180244,H19,Equipment,面内气压均匀,False,,,,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_n50000_pca30_c10_s5,50000,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,-1.0,True,,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_n50000_pca30_c10_s5,50000,google:42239224,181624,H03,Equipment,成形阳极RF回流,False,,,,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_n50000_pca30_c10_s5,50000,google:42239225,181625,H02,Equipment,腔体RF屏蔽,False,,,,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_n50000_pca30_c10_s5,50000,google:42248412,181756,R13,Recipe,初期Pb富集成核,False,,,,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_n50000_pca30_c10_s5,50000,google:42558970,182815,H08,Equipment,主动电位调节网格,False,,,,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_n50000_pca30_c10_s5,50000,google:42558971,182816,H11,Equipment,双RF相位控制,True,-1.0,True,,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_n50000_pca30_c10_s5,50000,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,-1.0,True,,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_n50000_pca30_c10_s5,50000,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,False,,,,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_n50000_pca30_c10_s5,50000,google:44504717,189252,H15,Equipment,多点导电夹持,False,,,,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_n50000_pca30_c10_s5,50000,google:44504718,189253,H17,Equipment,石墨热扩散/背气,False,,,,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_n50000_pca30_c10_s5,50000,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,False,,,,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_n50000_pca30_c10_s5,50000,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,False,,,,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,False,,,,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_n50000_pca30_c10_s5,50000,google:48190140,198392,H12,Equipment,简化RF调谐,False,,,,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_n50000_pca30_c10_s5,50000,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,-1.0,True,,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_n50000_pca30_c10_s5,50000,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,False,,,,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,-1.0,True,,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_n50000_pca30_c10_s5,50000,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,-1.0,True,,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_n50000_pca30_c10_s5,50000,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,False,,,,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_n50000_pca30_c10_s5,50000,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,False,,,,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_n50000_pca30_c10_s5,50000,google:61300486,216053,R21,Recipe,Nb与Sc共掺,False,,,,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_n50000_pca30_c10_s5,50000,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,False,,,,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_n50000_pca30_c10_s5,50000,google:64105719,218523,H14,Equipment,周边多电位管理,False,,,,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_n50000_pca30_c10_s5,50000,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,False,,,,False,,False,WO2020250632A1,圧電素子
+bge_n50000_pca30_c10_s5,50000,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,-1.0,True,,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_n50000_pca30_c10_s5,50000,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,False,,,,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_n50000_pca30_c10_s5,50000,google:85172750,231447,R28,Recipe,氧同位素控制,False,,,,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_n50000_pca30_c10_s5,50000,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,False,,,,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_k30_mutual_r1.0_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,17.0,False,4255.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_k30_mutual_r1.0_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,30.0,False,2694.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,17.0,False,4255.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_k30_mutual_r1.0_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,17.0,False,4255.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_k30_mutual_r1.0_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,17.0,False,4255.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,24.0,False,3623.0,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_k30_mutual_r1.0_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,17.0,False,4255.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k30_mutual_r1.0_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,17.0,False,4255.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_k30_mutual_r1.0_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,17.0,False,4255.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k30_mutual_r1.0_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,17.0,False,4255.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_k30_mutual_r1.0_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,17.0,False,4255.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_k30_mutual_r1.0_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,24.0,False,3623.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_k30_mutual_r1.0_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,24.0,False,3623.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_k30_mutual_r1.0_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,24.0,False,3623.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_k30_mutual_r1.0_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,24.0,False,3623.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_k30_mutual_r1.0_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,30.0,False,2694.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,30.0,False,2694.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_k30_mutual_r1.0_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,30.0,False,2694.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_k30_mutual_r1.0_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,30.0,False,2694.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_k30_mutual_r1.0_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,24.0,False,3623.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_k30_mutual_r1.0_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,17.0,False,4255.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_k30_mutual_r1.0_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,24.0,False,3623.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_k30_mutual_r1.0_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,5307.0,False,1.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_k30_mutual_r1.0_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,30.0,False,2694.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_k30_mutual_r1.0_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,17.0,False,4255.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_k30_mutual_r1.0_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,24.0,False,3623.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_k30_mutual_r1.0_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,24.0,False,3623.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_k30_mutual_r1.0_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,17.0,False,4255.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_k30_mutual_r1.0_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,17.0,False,4255.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,17.0,False,4255.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_k30_mutual_r1.0_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,30.0,False,2694.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_k30_mutual_r1.0_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,17.0,False,4255.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_k30_mutual_r1.0_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,17.0,False,4255.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,17.0,False,4255.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_k30_mutual_r1.0_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,17.0,False,4255.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_k30_mutual_r1.0_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,17.0,False,4255.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_k30_mutual_r1.0_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,17.0,False,4255.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_k30_mutual_r1.0_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,17.0,False,4255.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_k30_mutual_r1.0_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,17.0,False,4255.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_k30_mutual_r1.0_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,30.0,False,2694.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_k30_mutual_r1.0_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,17.0,False,4255.0,False,,False,WO2020250632A1,圧電素子
+bge_k30_mutual_r1.0_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,17.0,False,4255.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_k30_mutual_r1.0_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,17.0,False,4255.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_k30_mutual_r1.0_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,17.0,False,4255.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_k30_mutual_r1.0_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,17.0,False,4255.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+bge_k30_sym_r1.0_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,13.0,False,6055.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+bge_k30_sym_r1.0_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,26.0,False,2696.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,13.0,False,6055.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+bge_k30_sym_r1.0_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,4.0,False,13843.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+bge_k30_sym_r1.0_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,19.0,False,4699.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,9.0,False,8670.0,False,,False,JP2009057599A,Sputtering method and apparatus
+bge_k30_sym_r1.0_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,4.0,False,13843.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k30_sym_r1.0_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,13.0,False,6055.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+bge_k30_sym_r1.0_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,4.0,False,13843.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+bge_k30_sym_r1.0_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,13.0,False,6055.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+bge_k30_sym_r1.0_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,13.0,False,6055.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+bge_k30_sym_r1.0_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,9.0,False,8670.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+bge_k30_sym_r1.0_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,9.0,False,8670.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+bge_k30_sym_r1.0_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,9.0,False,8670.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+bge_k30_sym_r1.0_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,9.0,False,8670.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+bge_k30_sym_r1.0_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,26.0,False,2696.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,4.0,False,13843.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+bge_k30_sym_r1.0_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,26.0,False,2696.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+bge_k30_sym_r1.0_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,26.0,False,2696.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+bge_k30_sym_r1.0_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,9.0,False,8670.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+bge_k30_sym_r1.0_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,13.0,False,6055.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+bge_k30_sym_r1.0_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,9.0,False,8670.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+bge_k30_sym_r1.0_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,26.0,False,2696.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+bge_k30_sym_r1.0_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,26.0,False,2696.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+bge_k30_sym_r1.0_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,4.0,False,13843.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+bge_k30_sym_r1.0_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,9.0,False,8670.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+bge_k30_sym_r1.0_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,9.0,False,8670.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+bge_k30_sym_r1.0_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,13.0,False,6055.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+bge_k30_sym_r1.0_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,19.0,False,4699.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,13.0,False,6055.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+bge_k30_sym_r1.0_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,26.0,False,2696.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+bge_k30_sym_r1.0_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,19.0,False,4699.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+bge_k30_sym_r1.0_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,19.0,False,4699.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,19.0,False,4699.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+bge_k30_sym_r1.0_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,13.0,False,6055.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+bge_k30_sym_r1.0_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,19.0,False,4699.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+bge_k30_sym_r1.0_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,13.0,False,6055.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+bge_k30_sym_r1.0_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,13.0,False,6055.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+bge_k30_sym_r1.0_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,13.0,False,6055.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+bge_k30_sym_r1.0_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,26.0,False,2696.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+bge_k30_sym_r1.0_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,19.0,False,4699.0,False,,False,WO2020250632A1,圧電素子
+bge_k30_sym_r1.0_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,13.0,False,6055.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+bge_k30_sym_r1.0_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,13.0,False,6055.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+bge_k30_sym_r1.0_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,19.0,False,4699.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+bge_k30_sym_r1.0_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,13.0,False,6055.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+qwen_k30_mutual_r1.0_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,17.0,False,4078.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+qwen_k30_mutual_r1.0_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,47.0,False,1501.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,22.0,False,3508.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+qwen_k30_mutual_r1.0_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,22.0,False,3508.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+qwen_k30_mutual_r1.0_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,41.0,False,1822.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,17.0,False,4078.0,False,,False,JP2009057599A,Sputtering method and apparatus
+qwen_k30_mutual_r1.0_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,22.0,False,3508.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k30_mutual_r1.0_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,22.0,False,3508.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+qwen_k30_mutual_r1.0_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,22.0,False,3508.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k30_mutual_r1.0_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,22.0,False,3508.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+qwen_k30_mutual_r1.0_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,22.0,False,3508.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+qwen_k30_mutual_r1.0_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,17.0,False,4078.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+qwen_k30_mutual_r1.0_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,17.0,False,4078.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+qwen_k30_mutual_r1.0_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,17.0,False,4078.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+qwen_k30_mutual_r1.0_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,17.0,False,4078.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+qwen_k30_mutual_r1.0_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,47.0,False,1501.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,47.0,False,1501.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+qwen_k30_mutual_r1.0_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,47.0,False,1501.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+qwen_k30_mutual_r1.0_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,39.0,False,1939.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+qwen_k30_mutual_r1.0_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,17.0,False,4078.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+qwen_k30_mutual_r1.0_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,22.0,False,3508.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+qwen_k30_mutual_r1.0_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,17.0,False,4078.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+qwen_k30_mutual_r1.0_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,39.0,False,1939.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+qwen_k30_mutual_r1.0_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,39.0,False,1939.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+qwen_k30_mutual_r1.0_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,47.0,False,1501.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+qwen_k30_mutual_r1.0_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,17.0,False,4078.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+qwen_k30_mutual_r1.0_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,17.0,False,4078.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+qwen_k30_mutual_r1.0_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,22.0,False,3508.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+qwen_k30_mutual_r1.0_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,47.0,False,1501.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,22.0,False,3508.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+qwen_k30_mutual_r1.0_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,39.0,False,1939.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+qwen_k30_mutual_r1.0_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,47.0,False,1501.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+qwen_k30_mutual_r1.0_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,47.0,False,1501.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,47.0,False,1501.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+qwen_k30_mutual_r1.0_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,22.0,False,3508.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+qwen_k30_mutual_r1.0_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,47.0,False,1501.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+qwen_k30_mutual_r1.0_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,22.0,False,3508.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+qwen_k30_mutual_r1.0_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,22.0,False,3508.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+qwen_k30_mutual_r1.0_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,22.0,False,3508.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+qwen_k30_mutual_r1.0_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,47.0,False,1501.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+qwen_k30_mutual_r1.0_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,47.0,False,1501.0,False,,False,WO2020250632A1,圧電素子
+qwen_k30_mutual_r1.0_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,22.0,False,3508.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+qwen_k30_mutual_r1.0_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,22.0,False,3508.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+qwen_k30_mutual_r1.0_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,47.0,False,1501.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+qwen_k30_mutual_r1.0_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,22.0,False,3508.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element
+qwen_k30_sym_r1.0_s42,238541,google:38754718,161596,R01,Recipe,早期 Ts×靶基距成膜窗口,True,9.0,False,9899.0,False,,False,JP2008081802A,"Piezoelectric film, process of manufacturing the same and piezoelectric element"
+qwen_k30_sym_r1.0_s42,238541,google:38962040,163243,H01,Equipment,靶周电位边界/shield,True,5.0,False,13039.0,False,,False,JP2008081803A,成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:39774253,168647,P1,Recipe,高donor Nb-PZT与plasma窗口,True,9.0,False,9899.0,False,,False,EP1973177A2,"Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device"
+qwen_k30_sym_r1.0_s42,238541,google:39810154,169042,R06,Recipe,A-site donor组成,True,9.0,False,9899.0,False,,False,CN101381101A,钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置
+qwen_k30_sym_r1.0_s42,238541,google:40046641,170389,R02;R03;R04;R05,Recipe,B-site Shield×Vs−Vf;B-site Ts×plasma potential;B-site Ts×靶基距;B-site high-donor组成,True,9.0,False,9899.0,False,,False,JP2008270704A,強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:40085670,170624,H09,Equipment,基片阻抗控制电位,True,8.0,False,10130.0,False,,False,JP2009057599A,Sputtering method and apparatus
+qwen_k30_sym_r1.0_s42,238541,google:40110980,170699,R08,Recipe,A-site Ts×Vs,True,13.0,False,6310.0,False,,False,CN101381858A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k30_sym_r1.0_s42,238541,google:40130510,170723,R09,Recipe,A-site Shield×Vs−Vf,True,9.0,False,9899.0,False,,False,JP2009062208A,"Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus"
+qwen_k30_sym_r1.0_s42,238541,google:40130515,170724,R07,Recipe,A-site Ts×靶基距,True,13.0,False,6310.0,False,,False,CN101665908A,形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置
+qwen_k30_sym_r1.0_s42,238541,google:40587181,173106,R10,Recipe,Bi/Nb共掺与极性响应,True,9.0,False,9899.0,False,,False,JP2009117592A,"Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device"
+qwen_k30_sym_r1.0_s42,238541,google:41346026,178388,R12,Recipe,初期/主体温度分段,True,9.0,False,9899.0,False,,False,JP2010080813A,"Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus"
+qwen_k30_sym_r1.0_s42,238541,google:41610523,179518,H18,Equipment,靶材背板热机械,True,8.0,False,10130.0,False,,False,JP2010037565A,Film-depositing apparatus and film-forming method
+qwen_k30_sym_r1.0_s42,238541,google:41681057,179562,H07,Equipment,多级侧壁阳极,True,8.0,False,10130.0,False,,False,JP2010043330A,"Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device"
+qwen_k30_sym_r1.0_s42,238541,google:41736165,179890,H05,Equipment,多孔板阳极,True,8.0,False,10130.0,False,,False,JP2010031343A,"Film deposition apparatus, film deposition method, and liquid discharger"
+qwen_k30_sym_r1.0_s42,238541,google:42010421,180051,H06,Equipment,环形捕获阳极,True,8.0,False,10130.0,False,,True,JP2010037566A,"Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device"
+qwen_k30_sym_r1.0_s42,238541,google:42021021,180164,H20,Equipment,腔壁成分再释放,True,5.0,False,13039.0,False,,False,JP2010189703A,成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:42039307,180244,H19,Equipment,面内气压均匀,True,5.0,False,13039.0,False,,False,CN102159748A,成膜方法、成膜装置、压电膜、压电器件和液体排出装置
+qwen_k30_sym_r1.0_s42,238541,google:42171431,180762,H13,Equipment,大尺寸边缘等电位,True,5.0,False,13039.0,False,,False,JP2010138485A,成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子
+qwen_k30_sym_r1.0_s42,238541,google:42239224,181624,H03,Equipment,成形阳极RF回流,True,8.0,False,10130.0,False,,False,JP2012512325A,真空物理的蒸着のための成形アノードとアノード−シールド接続
+qwen_k30_sym_r1.0_s42,238541,google:42239225,181625,H02,Equipment,腔体RF屏蔽,True,8.0,False,10130.0,False,,False,CN102246270A,Chamber shield for vacuum physical vapor deposition
+qwen_k30_sym_r1.0_s42,238541,google:42248412,181756,R13,Recipe,初期Pb富集成核,True,9.0,False,9899.0,False,,False,JP2010084160A,"Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device"
+qwen_k30_sym_r1.0_s42,238541,google:42558970,182815,H08,Equipment,主动电位调节网格,True,8.0,False,10130.0,False,,False,JP2010242213A,Sputtering method and film deposition apparatus
+qwen_k30_sym_r1.0_s42,238541,google:42558971,182816,H11,Equipment,双RF相位控制,True,5.0,False,13039.0,False,,False,JP2010242212A,位相シフトによる物理的気相成長方法
+qwen_k30_sym_r1.0_s42,238541,google:42558973,182817,H10,Equipment,匹配网络自偏压,True,8.0,False,10130.0,False,,False,JP2012518722A,インピーダンス整合回路網による物理的蒸着
+qwen_k30_sym_r1.0_s42,238541,google:43903909,187293,P12;R14,Recipe,倾斜晶柱、取向与寿命;晶柱倾斜/取向与寿命,True,9.0,False,9899.0,False,,False,CN102194670A,压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法
+qwen_k30_sym_r1.0_s42,238541,google:44504717,189252,H15,Equipment,多点导电夹持,True,8.0,False,10130.0,False,,False,JP2011179120A,Apparatus and method of physical vapor deposition with multi-point clamp
+qwen_k30_sym_r1.0_s42,238541,google:44504718,189253,H17,Equipment,石墨热扩散/背气,True,8.0,False,10130.0,False,,False,JP2011179119A,Apparatus and method of physical vapor deposition with heat diffuser
+qwen_k30_sym_r1.0_s42,238541,google:45351863,191409,P2;R15,Recipe,Nb含量与压电性能DOE;高Nb浓度扫描与最大响应,True,9.0,False,9899.0,False,,False,CN102329132A,Piezoelectric film and piezoelectric device
+qwen_k30_sym_r1.0_s42,238541,google:45352133,191415,R11,Recipe,Bi的低Pb耐久性应用,True,9.0,False,9899.0,False,,False,JP2012009678A,圧電体膜、圧電素子および液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:45564537,192008,P13;R16,Recipe,Mg/Nb共掺;Nb与Mg共掺,True,9.0,False,9899.0,False,,False,JP2012039037A,"Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus"
+qwen_k30_sym_r1.0_s42,238541,google:48190140,198392,H12,Equipment,简化RF调谐,True,8.0,False,10130.0,False,,True,JP2013231233A,高周波同調基板バイアス物理的蒸着装置及びその駆動方法
+qwen_k30_sym_r1.0_s42,238541,google:51658296,204105,P8;R17,Recipe,陶瓷靶材碳杂质控制;靶材碳杂质,True,9.0,False,9899.0,False,,False,JP2014203840A,圧電体膜および圧電体膜の製造方法
+qwen_k30_sym_r1.0_s42,238541,google:55399055,208651,P9;R18,Recipe,R/T晶相与RF功率密度;R/T晶相与靶功率密度,True,9.0,False,9899.0,False,,False,unresolved:0515880886521fda78413624,圧電体膜とその製造方法、圧電素子、及び液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:56073954,209951,P14;R19,Recipe,微量Si成分调节;微量Si调节,True,9.0,False,9899.0,False,,False,JP2016103567A,圧電体膜及びそれを備えた圧電素子、及び液体吐出装置
+qwen_k30_sym_r1.0_s42,238541,google:58719182,213491,P10;R20,Recipe,Nb/Ni共掺与低压响应;Nb与Ni共掺,True,9.0,False,9899.0,False,,False,WO2017085924A1,"Piezoelectric film, piezoelectric element, and liquid delivery head"
+qwen_k30_sym_r1.0_s42,238541,google:59500807,214040,P3;R22,Recipe,10–13% Nb、XRD与热漏电;10–13%Nb热漏电可靠性,True,9.0,False,9899.0,False,,False,unresolved:60ee523fb8b3560336000eb9,圧電素子
+qwen_k30_sym_r1.0_s42,238541,google:61016143,215686,P4;R23,Recipe,两段温度/速率、Pb与可靠性;初期温度速率/Pb控制,True,9.0,False,9899.0,False,,False,US2019097121A1,"Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film"
+qwen_k30_sym_r1.0_s42,238541,google:61300486,216053,R21,Recipe,Nb与Sc共掺,True,9.0,False,9899.0,False,,False,WO2018042946A1,Piezoelectric film and piezoelectric element provided with same
+qwen_k30_sym_r1.0_s42,238541,google:63675421,218163,P5;R24,Recipe,Pb/Nb与XRD/漏电可靠性;Pb/Nb与晶相及高温漏电,True,9.0,False,9899.0,False,,False,EP3605625A1,"Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method"
+qwen_k30_sym_r1.0_s42,238541,google:64105719,218523,H14,Equipment,周边多电位管理,True,5.0,False,13039.0,False,,False,unresolved:96d8712feeed664bfa409446,成膜装置および圧電膜の成膜方法
+qwen_k30_sym_r1.0_s42,238541,google:73781808,225604,P11;R25,Recipe,Growth-control layer界面;超薄growth control氧化物界面,True,9.0,False,9899.0,False,,False,WO2020250632A1,圧電素子
+qwen_k30_sym_r1.0_s42,238541,google:83395703,230563,P6;R26,Recipe,分段基板偏压;初期正偏→后期负偏,True,9.0,False,9899.0,False,,False,EP4318619A1,"Piezoelectric film, piezoelectric element and method for producing piezoelectric film"
+qwen_k30_sym_r1.0_s42,238541,google:84329938,231060,P7;R27,Recipe,分段氧气/深度剖面;氧分压深度轮廓,True,9.0,False,9899.0,False,,False,EP4178333A1,"Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate"
+qwen_k30_sym_r1.0_s42,238541,google:85172750,231447,R28,Recipe,氧同位素控制,True,9.0,False,9899.0,False,,False,JP2023122266A,圧電積層体、圧電素子及び圧電積層体の製造方法
+qwen_k30_sym_r1.0_s42,238541,google:94776710,236346,P15;R29,Recipe,2025 Pt/SRO底层与预处理;2025 Pt/SrRuO3 seed与预处理,True,9.0,False,9899.0,False,,False,CN119630263A,Piezoelectric laminate and piezoelectric element

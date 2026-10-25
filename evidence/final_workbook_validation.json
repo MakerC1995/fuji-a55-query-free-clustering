@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "workbooks": 4,
+  "sheets": 8,
+  "checks": [
+    {
+      "file": "CLUSTER_STATISTICS.xlsx",
+      "sheet": "Experiments",
+      "rows": 56,
+      "sampled_values_checked": 46,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 48.0,
+      "formulas": 0
+    },
+    {
+      "file": "CLUSTER_STATISTICS.xlsx",
+      "sheet": "Stability",
+      "rows": 181,
+      "sampled_values_checked": 24,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 34.0,
+      "formulas": 0
+    },
+    {
+      "file": "CLUSTER_STATISTICS.xlsx",
+      "sheet": "Graphs",
+      "rows": 8,
+      "sampled_values_checked": 33,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 34.0,
+      "formulas": 0
+    },
+    {
+      "file": "CLUSTER_CATALOG.xlsx",
+      "sheet": "Clusters",
+      "rows": 14163,
+      "sampled_values_checked": 27,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 84.0,
+      "formulas": 0
+    },
+    {
+      "file": "CLUSTER_CATALOG.xlsx",
+      "sheet": "Evidence panels",
+      "rows": 533,
+      "sampled_values_checked": 32,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 120.0,
+      "formulas": 0
+    },
+    {
+      "file": "TECHNOLOGY_CATALOG.xlsx",
+      "sheet": "Candidates",
+      "rows": 112,
+      "sampled_values_checked": 61,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 84.0,
+      "formulas": 0
+    },
+    {
+      "file": "TECHNOLOGY_CATALOG.xlsx",
+      "sheet": "Patent evidence",
+      "rows": 273,
+      "sampled_values_checked": 18,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 84.0,
+      "formulas": 0
+    },
+    {
+      "file": "RARE_TECHNOLOGY_CANDIDATES.xlsx",
+      "sheet": "Review queue",
+      "rows": 2329,
+      "sampled_values_checked": 35,
+      "headers_exact": true,
+      "filter_table_present": true,
+      "max_row_height_pt": 96.0,
+      "formulas": 0
+    }
+  ],
+  "visual_review": "All 8 sheets rendered and viewed. Static data snapshots, no native application recalculation claim.",
+  "no_data_truncated_for_fit": true
+}

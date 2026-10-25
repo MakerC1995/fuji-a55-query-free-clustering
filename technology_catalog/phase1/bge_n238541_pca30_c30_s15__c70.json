@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c70",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 70,
+  "cluster_size": 35,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "バリア性積層体およびガスバリアフィルム",
+        "problem": "高いバリア性を有するバリア性積層体およびガスバリアフィルムの提供。",
+        "means": "少なくとも１層の有機層と、少なくとも１層の無機層とを有するバリア性積層体。",
+        "effect": "高いバリア性を有するガスバリアフィルムを提供する。",
+        "evidence": [
+          {
+            "family_id": "google:51491112",
+            "quote": "少なくとも１層の有機層と、少なくとも１層の無機層とを有するバリア性積層体であって、前記有機層が縮合多環炭化水素構造を含む重合性化合物を含む重合性組成物から形成された層であるバリア性積層体",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40935581",
+            "quote": "少なくとも１層の有機層と、少なくとも１層の無機層を有し、前記有機層は、環状炭素骨格を有する３官能以上の（メタ）アクリレートを含む重合性組成物を硬化させてなることを特徴とする、バリア性積層体",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:41226409",
+            "quote": "有機層と、該有機層の表面に設けられた無機層を有し、前記有機層は、トリフェニレン骨格と重合性基を有する化合物を含む重合性組成物を硬化させてなる、バリア性積層体",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:51491112",
+          "google:40935581",
+          "google:41226409"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:51491112",
+            "quote": "少なくとも１層の有機層と、少なくとも１層の無機層とを有するバリア性積層体であって、前記有機層が縮合多環炭化水素構造を含む重合性化合物を含む重合性組成物から形成された層であるバリア性積層体",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:40935581",
+            "quote": "少なくとも１層の有機層と、少なくとも１層の無機層を有し、前記有機層は、環状炭素骨格を有する３官能以上の（メタ）アクリレートを含む重合性組成物を硬化させてなることを特徴とする、バリア性積層体",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:41226409",
+            "quote": "有機層と、該有機層の表面に設けられた無機層を有し、前記有機層は、トリフェニレン骨格と重合性基を有する化合物を含む重合性組成物を硬化させてなる、バリア性積層体",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中的专利主要围绕具有有机层和无机层的多层结构，但具体材料组成、合成方法及应用领域存在差异。",
+    "needs_split": false,
+    "evidence_strength": "medium",
+    "limitations": "部分文本仅提供标题或摘要，未明确说明具体技术手段与效果；部分专利虽涉及相同主题但技术细节不同。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "c6f83b2dedb44ee50cbadc0d8e4ae2435ad09f8437da072b9bd0fdbe0bd4d41d",
+  "wall_s": 16.58167815208435
+}

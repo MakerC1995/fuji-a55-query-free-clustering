@@ -1,0 +1,162 @@
+{
+  "panel_id": "bge_n238541_pca30_c30_s15__c64",
+  "run_id": "bge_n238541_pca30_c30_s15",
+  "cluster_id": 64,
+  "cluster_size": 43,
+  "algorithm": "hdbscan",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "光走査装置",
+        "problem": "高速・高解像なビーム走査ができる小型の光走査装置を得る。",
+        "means": "反射ミラーと回転多面鏡との間のfθレンズ、副走査方向に屈折力を有するシリンドリカルミラーを用いる。",
+        "effect": "高速・高解像なビーム走査が可能で装置が小型化される。",
+        "evidence": [
+          {
+            "family_id": "google:11727877",
+            "quote": "光ビームＬが水平面に対して傾きを有し つつ、回転多面鏡２８の走査範囲内から回転多面鏡２８ に入射されるような位置に、反射ミラー２０は配置され る。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11727877",
+            "quote": "第１レントルズ２４及び第２レンズ２６により構成されるｆθレ ンズ２２が配置される。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11727877",
+            "quote": "副走査方向に屈折力を有するシリンドリカルミラー３６が配置される。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:11727877",
+          "google:11671791",
+          "google:37933440"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:11727877",
+            "quote": "光ビームＬが水平面に対して傾きを有し つつ、回転多面鏡２８の走査範囲内から回転多面鏡２８ に入射されるような位置に、反射ミラー２０は配置され る。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "光走査装置の小型化と高速走査技術"
+      },
+      {
+        "name": "无法确定",
+        "object": "内視鏡装置",
+        "problem": "計測補助光によって測定対象の視認性を妨げることがない。",
+        "means": "照明光を連続発光し、計測補助光をパルス発光する。第２撮像画像から得られる計測用マーカを第１撮像画像に対して表示する。",
+        "effect": "計測補助光による視認性の妨害を回避し、画像表示が可能になる。",
+        "evidence": [
+          {
+            "family_id": "google:66239831",
+            "quote": "照明光を連続発光し、計測補助光を特定フレーム間隔にてパルス発光する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:66239831",
+            "quote": "第２撮像画像から得られる計測用マーカを、第１撮像画像に対して表示した特定画像を表示部に表示させる。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:66239831",
+          "google:52831141",
+          "google:51415963"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:66239831",
+            "quote": "照明光を連続発光し、計測補助光を特定フレーム間隔にてパルス発光する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:66239831",
+            "quote": "第２撮像画像から得られる計測用マーカを、第１撮像画像に対して表示した特定画像を表示部に表示させる。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "内視鏡装置の計測補助光と画像表示技術"
+      },
+      {
+        "name": "无法确定",
+        "object": "光学走査装置",
+        "problem": "感光体上を走査する光ビームの被走査面におけるビーム径の均一性及び光量の均一性を向上させる。",
+        "means": "偏向器を用い、偏向面への主走査方向入射角を0°以外に設定し、位相シフト機能と回折機能を併有する光学素子を設ける。",
+        "effect": "ビーム径の均一性と光量の均一性が向上する。",
+        "evidence": [
+          {
+            "family_id": "google:11671791",
+            "quote": "感光体上を走査する光ビームの被走査面にお けるビーム径の均一性及び光量の均一性の向上を図る。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11671791",
+            "quote": "偏向器１６を含んで構成され、前記偏 向面への主走査方向入射角が０°以外に設定される光学 走査装置であって、光源１０と偏向器１６との間に位相 シフト機能及び回折機能を併有し、かつ位相シフト量、 回折効率ともに光軸に対して非対称となる特性を有する 光学素子３０を設ける。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:11671791",
+          "google:18638417",
+          "google:52831141"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:11671791",
+            "quote": "感光体上を走査する光ビームの被走査面にお けるビーム径の均一性及び光量の均一性の向上を図る。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:11671791",
+            "quote": "偏向器１６を含んで構成され、前記偏 向面への主走査方向入射角が０°以外に設定される光学 走査装置であって、光源１０と偏向器１６との間に位相 シフト機能及び回折機能を併有し、かつ位相シフト量、 回折効率ともに光軸に対して非対称となる特性を有する 光学素子３０を設ける。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "光走査装置の走査方向偏光制御技術"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术主题，包括光走査装置、内视镜系统和光源装置等，技术领域较为广泛。",
+    "needs_split": false,
+    "evidence_strength": "high",
+    "limitations": "部分技术证据来自摘要，未涵盖全部细节；部分技术主题证据不足，仅能识别出主要技术特征。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:11727877",
+        "quote": "第１レントルズ２４及び第２レンズ２６により構成されるｆθレ ンズ２２が配置される。",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    },
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:11727877",
+        "quote": "副走査方向に屈折力を有するシリンドリカルミラー３６が配置される。",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "input_sha256": "a2aa727061c7a30afd024ac9f4bd1c17b928855f965a2c6b1875ced1efe39936",
+  "wall_s": 30.796754121780396
+}

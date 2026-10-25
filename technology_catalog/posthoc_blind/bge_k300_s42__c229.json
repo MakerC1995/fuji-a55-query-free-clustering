@@ -1,0 +1,76 @@
+{
+  "panel_id": "bge_k300_s42__c229",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 229,
+  "cluster_size": 800,
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:14332782",
+            "quote": "PURPOSE:To improve the operating efficiency of manufacturing a thin film transistor by forming a metal film when forming source.drain electrodes, and then heat treating it prior to patterning to cause a boundary reaction between an ohmic contact layer and the metal film as a low resistance layer unnecessary for patterning the metal film.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:12400239",
+            "quote": "PURPOSE:To form an insulating film which has an excellent boundary characteristic by keeping a glass substrate at a specific temperature or lower and at the same time depositing an insulating newer thereon and then applying heat treatment thereto in a specific range of temperature.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:61300486",
+            "quote": "Provided are a piezoelectric film having high piezoelectric characteristics and a piezoelectric element provided with the piezoelectric film. In the piezoelectric film that includes a perovskite-type oxide represented by general formula P, 0.1≤x≤0.3 and 0<y≤0.49x are satisfied.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:14332782",
+          "google:12400239",
+          "google:61300486"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:14332782",
+            "quote": "PURPOSE:To improve the operating efficiency of manufacturing a thin film transistor by forming a metal film when forming source.drain electrodes, and then heat treating it prior to patterning to cause a boundary reaction between an ohmic contact layer and the metal film as a low resistance layer unnecessary for patterning the metal film.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:12400239",
+            "quote": "PURPOSE:To form an insulating film which has an excellent boundary characteristic by keeping a glass substrate at a specific temperature or lower and at the same time depositing an insulating newer thereon and then applying heat treatment thereto in a specific range of temperature.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "无法确定"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，包括薄膜晶体管制造、压电薄膜、绝缘层形成及半导体器件等，缺乏统一的技术主题。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中存在多个不相关技术方向的专利，且部分文档仅含标题或摘要不完整，难以提取一致的技术特征。"
+  },
+  "invalid_evidence": [
+    {
+      "theme": 0,
+      "evidence": {
+        "family_id": "google:61300486",
+        "quote": "Provided are a piezoelectric film having high piezoelectric characteristics and a piezoelectric element provided with the piezoelectric film. In the piezoelectric film that includes a perovskite-type oxide represented by general formula P, 0.1≤x≤0.3 and 0<y≤0.49x are satisfied.",
+        "field": "abstract"
+      },
+      "reason": "quote_or_family_not_in_input"
+    }
+  ],
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "selection_is_posthoc": true,
+  "model_received_historical_names": false,
+  "input_sha256": "8f173523545932a496287b4453ccc7f9daddf223de51925d857310998bceac58",
+  "wall_s": 20.93572211265564
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "RARE_TECHNOLOGY_CANDIDATES.xlsx",
+    "sheet": "Review queue",
+    "rows": 2329,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Review queue\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"候选区域类型\",\"Family ID\",\"标题原文\",\"摘要前300字；全文见CSV/底座\",\"双模型近邻重合\",\"实验覆盖族数\"],[\"model_disagreement\",\"google:100942504\",\"抗体修飾物複合体の製造方法、及び医薬の製造方法\",\"下記工程（ａ）及び（ｂ）を含む、抗体修飾物複合体の製造方法、及び医薬の製造方法。 工程（ａ）：抗体と還元剤とをＧａイオンの存在下で反応させ、上記抗体内の鎖間ジスルフィド結合を還元してチオール基を生成する工程。 工程（ｂ）：反応性基を有する修飾物と、上記工程（ａ）で生成した上記チオール基とを反応させて、抗体修飾物複合体を得る工程。\",0,238541],[\"model_disagreement\",\"google:101024438\",\"組成物の検査方法、組成物の検査装置、及び組成物の製造方法\",\"非接触で組成物を検査でき、かつインラインで、しかも短時間での組成物の検査に適した組成物の検査方法、組成物の検査装置、及び組成物の製造方法を提供する。組成物の検査方法は、組成物をノズルのノズル口から連続して送液する工程と、ノズル口から連続して送液される組成物の動画又は画像を取得する工程とを有し、さらに、組成物の形状、組成物の流速、及び組成物の光学特性のうち、少なくとも１つを算出する工程Ａ、及び組成物の動画又は画像を入力データとする学習済の機械学習モデルを用いて組成物を検査する工程Ｂのうち、少なくとも１つの工程とを有する。\",0,238541],[\"model_disagreement\",\"google:10986551\",\"Készítmény és eljárás rák kezelésére Az átmeneti oltalom az 1-26. igénypontokra vonatkozik.\",\"\",0,238541],[\"model_disagreement\",\"google:11474012\",\"Rear projection screens\",\"1529838 Rear projection screen FUJI PHOTO FILM CO Ltd 23 Dec 1975 [26 Dec 1974] 52730/75 Heading G2X [Also in Division C5] A rear projection screen comprises a lightdiffusing layer of wax mixed with 0À1-80 wt. per cent (based on the wt. of wax) of a polymer which increases the mechanical strength of\",0,238541],[\"model_disagreement\",\"google:11480365\",\"Bikoseishiito\",\"\",0,238541]]}"
+  },
+  {
+    "file": "RARE_TECHNOLOGY_CANDIDATES.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

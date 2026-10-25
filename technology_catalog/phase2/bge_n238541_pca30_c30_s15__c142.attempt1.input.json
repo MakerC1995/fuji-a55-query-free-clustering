@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"电光化学平版印刷原版\", \"problem\": \"需要提高印刷图像质量、静电特性及耐印性\", \"means\": \"在感光层中加入特定树脂和非水溶剂型分散树脂颗粒\", \"effect\": \"改善静电特性，增强打印抗性\", \"evidence\": [{\"family_id\": \"google:14122530\", \"quote\": \"incorporating respectively at least one kind of a specific resin and a specific nonaq. solvent type dispersion resin particles into this original plate\", \"field\": \"abstract\"}, {\"family_id\": \"google:13257316\", \"quote\": \"contains at least one kind of the nonaq. solvent type dispersing resin particles consisting of the copolymer resin particles obtd. by bringing a monofunctional monomer A contg. at least one kind of functional groups which form at least one carboxyl group by decomposition and a monofunctional monomer B which contains a substituent having at least two silicon atoms and/or fluorine atoms\", \"field\": \"abstract\"}, {\"family_id\": \"google:17365200\", \"quote\": \"incorporating a specific copolymer into a photoconductive layer\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:14122530\", \"google:13257316\", \"google:17365200\"], \"confidence\": \"medium\", \"llm_reported_confidence\": \"medium\", \"verified_evidence\": [{\"family_id\": \"google:14122530\", \"quote\": \"incorporating respectively at least one kind of a specific resin and a specific nonaq. solvent type dispersion resin particles into this original plate\", \"field\": \"abstract\"}, {\"family_id\": \"google:13257316\", \"quote\": \"contains at least one kind of the nonaq. solvent type dispersing resin particles consisting of the copolymer resin particles obtd. by bringing a monofunctional monomer A contg. at least one kind of functional groups which form at least one carboxyl group by decomposition and a monofunctional monomer B which contains a substituent having at least two silicon atoms and/or fluorine atoms\", \"field\": \"abstract\"}, {\"family_id\": \"google:17365200\", \"quote\": \"incorporating a specific copolymer into a photoconductive layer\", \"field\": \"abstract\"}], \"verified_family_count\": 3, \"evidence_validation\": \"PASS\"}], \"heterogeneity\": \"该聚类包含多个不同技术方案，涉及多种树脂类型和合成方法，但均围绕电光化学平版印刷原版的感光层改进。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"部分专利文本未完整披露具体实施细节，如聚合物结构、分子量范围等；且多个技术方案存在共现词汇但无明确技术关联。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

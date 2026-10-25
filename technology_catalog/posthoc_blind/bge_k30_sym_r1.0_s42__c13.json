@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k30_sym_r1.0_s42__c13",
+  "run_id": "bge_k30_sym_r1.0_s42",
+  "cluster_id": 13,
+  "cluster_size": 6055,
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:35021961",
+            "quote": "The ink composition contains a dispersion medium and charged particles containing at least a colorant. The charged particle includes at least one kind of polymer having a repeating unit of a specific structure.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:41586930",
+            "quote": "This inkjet recording apparatus 1 includes: a processing fluid applying part 12 which applies a processing fluid containing a flocculant on the recording medium 22; a drawing part 14 which applies the plurality of inks which contain a pigment particle (A), a dispersion agent polymer (B) for covering the pigment, and a self-dispersing polymer fine particle (C), where the total amount (B+C) of the polymer component occupies one half or more amount to the total solid component amount (A+B+C), and at the same time, which have different total solid component amounts to the recording medium 22; and a drying part 16 which makes solvents contained in the plurality of inks volatilize.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37207779",
+            "quote": "The liquid composition for inkjet contains at least an organic acid having a ring-shaped structure, an organic compound having the ring-shaped structure, a water-soluble solvent and water.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:35021961",
+          "google:41586930",
+          "google:37207779"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:35021961",
+            "quote": "The ink composition contains a dispersion medium and charged particles containing at least a colorant. The charged particle includes at least one kind of polymer having a repeating unit of a specific structure.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:41586930",
+            "quote": "This inkjet recording apparatus 1 includes: a processing fluid applying part 12 which applies a processing fluid containing a flocculant on the recording medium 22; a drawing part 14 which applies the plurality of inks which contain a pigment particle (A), a dispersion agent polymer (B) for covering the pigment, and a self-dispersing polymer fine particle (C), where the total amount (B+C) of the polymer component occupies one half or more amount to the total solid component amount (A+B+C), and at the same time, which have different total solid component amounts to the recording medium 22; and a drying part 16 which makes solvents contained in the plurality of inks volatilize.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:37207779",
+            "quote": "The liquid composition for inkjet contains at least an organic acid having a ring-shaped structure, an organic compound having the ring-shaped structure, a water-soluble solvent and water.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，包括墨水组合物、电声转换器、医疗用空心针等，技术异质性高。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分文档仅提供标题或摘要不完整，影响对技术细节的准确判断；部分文献语言为日文或德文，未提供翻译。"
+  },
+  "invalid_evidence": [],
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "selection_is_posthoc": true,
+  "model_received_historical_names": false,
+  "input_sha256": "945712cff0cf1c5dc308ce10dcf403dfe0d38a55a143dacde4baac870fbddd72",
+  "wall_s": 14.572148084640503
+}

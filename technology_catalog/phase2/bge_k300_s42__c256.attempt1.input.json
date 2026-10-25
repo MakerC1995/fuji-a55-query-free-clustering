@@ -1,0 +1,20 @@
+{
+  "model": "qwen3-coder:30b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据已经独立发现的技术候选，第二阶段单独判断它们是否可能与喷头芯片结构、材料、制造或应用有关。这不是聚类或删选；所有候选都保留。只依据给出的技术名称和已验证原文引文，区分明确、可能、无证据。输出JSON，含 relations 数组：每项含 theme_name,relation（明确/可能/无证据）,reason,uncertainties。不得补充未披露的细节。"
+    },
+    {
+      "role": "user",
+      "content": "{\"themes\": [{\"name\": \"无法确定\", \"object\": \"锂离子电池\", \"problem\": \"提高电池性能和安全性\", \"means\": \"添加特定化合物或材料\", \"effect\": \"改善循环特性、容量、安全\", \"evidence\": [{\"family_id\": \"google:26456257\", \"quote\": \"a negative electrode sheet formed by metal foil containing lithium as a main ingredient affixed in advance through an auxiliary layer and a nonaquesous electrolyte containing an aromatic compound as an additive are used\", \"field\": \"abstract\"}, {\"family_id\": \"google:16020424\", \"quote\": \"a negative electrode material mainly consisting of chalcogen compounds and/or oxides containing one or more elements selected from Sn, Al, B, P Si, and Ge\", \"field\": \"abstract\"}, {\"family_id\": \"google:16222072\", \"quote\": \"specific thiuram disulfide compound is added to the organic electrolyte solution\", \"field\": \"abstract\"}], \"representative_family_ids\": [\"google:26456257\", \"google:16020424\", \"google:16222072\"], \"confidence\": \"insufficient\", \"llm_reported_confidence\": \"medium\", \"verified_evidence\": [{\"family_id\": \"google:26456257\", \"quote\": \"a negative electrode sheet formed by metal foil containing lithium as a main ingredient affixed in advance through an auxiliary layer and a nonaquesous electrolyte containing an aromatic compound as an additive are used\", \"field\": \"abstract\"}, {\"family_id\": \"google:16020424\", \"quote\": \"a negative electrode material mainly consisting of chalcogen compounds and/or oxides containing one or more elements selected from Sn, Al, B, P Si, and Ge\", \"field\": \"abstract\"}], \"verified_family_count\": 2, \"evidence_validation\": \"REVIEW_REQUIRED\", \"unverified_name\": \"无法确定\"}], \"heterogeneity\": \"该聚类包含多种技术手段，如正极材料、负极材料、电解质添加剂及电池结构设计等，表明其技术异质性较高。\", \"needs_split\": true, \"evidence_strength\": \"medium\", \"limitations\": \"部分文献仅提供标题或摘要信息不足，无法全面评估技术细节；部分专利未明确说明具体实施方式。\"}"
+    }
+  ],
+  "format": "json",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 1200
+  }
+}

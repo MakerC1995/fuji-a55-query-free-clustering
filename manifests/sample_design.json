@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "strata": [
+    "representative_language",
+    "priority_decade",
+    "BGE_K100_region"
+  ],
+  "method": "one seeded representative per observed language/decade/vector-region stratum, then proportional relative quantile; nested samples",
+  "counts": {
+    "20000": 20000,
+    "50000": 50000
+  },
+  "note": "Metadata only controls diagnostics sampling, never full-corpus clustering membership."
+}

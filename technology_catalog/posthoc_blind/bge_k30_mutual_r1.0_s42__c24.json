@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k30_mutual_r1.0_s42__c24",
+  "run_id": "bge_k30_mutual_r1.0_s42",
+  "cluster_id": 24,
+  "cluster_size": 3623,
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:17146349",
+            "quote": "a protective film covering a sensor part and a gate insulating film of a thin film transistor are formed of the same layer",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14968814",
+            "quote": "flattening the surface of the insulating film with a silicon oxide film by a spin-on-glass method, performing etch back, and removing a part of the silicon oxide film and a part of the insulating film",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:38850335",
+            "quote": "a developing process of developing the layer after the exposure. The method is characterized in that the developing process includes a second step of forming a pattern made of the photosensitive resin layer and a third process of removing a development residue, and further includes a rinsing process, at least between the second process and the third process, of removing a process liquid used in a preceding process",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:17146349",
+          "google:14968814",
+          "google:38850335"
+        ],
+        "confidence": "medium",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:17146349",
+            "quote": "a protective film covering a sensor part and a gate insulating film of a thin film transistor are formed of the same layer",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14968814",
+            "quote": "flattening the surface of the insulating film with a silicon oxide film by a spin-on-glass method, performing etch back, and removing a part of the silicon oxide film and a part of the insulating film",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:38850335",
+            "quote": "a developing process of developing the layer after the exposure. The method is characterized in that the developing process includes a second step of forming a pattern made of the photosensitive resin layer and a third process of removing a development residue, and further includes a rinsing process, at least between the second process and the third process, of removing a process liquid used in a preceding process",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种不同技术领域，如半导体器件制造、电子设备、微结构制备及检测方法等，缺乏统一的技术主题。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中包含多个不相关技术领域，且部分文档仅提供标题或摘要片段，难以准确识别共同技术特征。"
+  },
+  "invalid_evidence": [],
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "selection_is_posthoc": true,
+  "model_received_historical_names": false,
+  "input_sha256": "7e95f596c97c0c634df75d3f42e37ec5ca0e8fe274073e3a98f261cdf337f66f",
+  "wall_s": 12.94047498703003
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "qwen_k300_s42__c11",
+  "run_id": "qwen_k300_s42",
+  "cluster_id": 11,
+  "cluster_size": 2446,
+  "algorithm": "kmeans",
+  "embedding_model": "qwen",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "信息处理装置、系统及程序",
+        "problem": "提供可分担处理的装置和系统",
+        "means": "获取处理指定信息与装置指定信息，执行分担处理",
+        "effect": "实现处理任务在多个装置间分担执行",
+        "evidence": [
+          {
+            "family_id": "google:43632851",
+            "quote": "指定情報取得部３０が、実行すべき一連の処理を指定する処理指定情報と、一連の処理のうちの一部の処理を分担して実行すべき装置を指定する装置指定情報と、を含む指定情報を取得する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:39356112",
+            "quote": "当該通信可能に接続された情報処理装置から、利用者の使用の記録を取得し、当該取得した使用の記録に基づいて、利用者に対する情報の提示と、利用者から指示を受け入れるための操作と、の少なくとも一方の態様を変更する情報処理装置である。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:80951467",
+            "quote": "発災地域の環境条件に適合した監視カメラの動作の制御を行うことが可能な災害情報処理装置、災害情報処理装置の作動方法、災害情報処理装置の作動プログラム、並びに災害情報処理システムを提供する。",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:43632851",
+          "google:39356112",
+          "google:80951467"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:43632851",
+            "quote": "指定情報取得部３０が、実行すべき一連の処理を指定する処理指定情報と、一連の処理のうちの一部の処理を分担して実行すべき装置を指定する装置指定情報と、を含む指定情報を取得する。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:39356112",
+            "quote": "当該通信可能に接続された情報処理装置から、利用者の使用の記録を取得し、当該取得した使用の記録に基づいて、利用者に対する情報の提示と、利用者から指示を受け入れるための操作と、の少なくとも一方の態様を変更する情報処理装置である。",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:80951467",
+            "quote": "発災地域の環境条件に適合した監視カメラの動作の制御を行うことが可能な災害情報処理装置、災害情報処理装置の作動方法、災害情報処理装置の作動プログラム、並びに災害情報処理システムを提供する。",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术主题，如分担处理、用户行为分析、灾害信息处理、概念图生成等，缺乏统一的技术特征。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "由于聚类中存在多个不同技术领域，且部分专利仅提供标题而无具体技术细节，难以形成一致的技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "0e64ca24a94598d05454ac44dc8ce1ebe7d87f8724b1f4ced3309eff2e220293",
+  "wall_s": 15.490211009979248
+}

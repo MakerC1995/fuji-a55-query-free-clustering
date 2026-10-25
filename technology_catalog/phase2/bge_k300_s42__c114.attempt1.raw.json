@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:20:47.3107181Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"relations\": [\n    {\n      \"theme_name\": \"无法确定\",\n      \"relation\": \"无证据\",\n      \"reason\": \"所提供的证据仅包含专利标题，未提供任何关于喷头芯片结构、材料、制造或应用的具体技术内容。由于缺乏详细的技术描述，无法判断该主题是否与喷头芯片相关。\",\n      \"uncertainties\": \"由于所有文档均为标题_only，且无摘要信息，无法提取有效证据支持任何明确的技术主题。\"\n    }\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2301225300,
+  "load_duration": 105393500,
+  "prompt_eval_count": 498,
+  "prompt_eval_duration": 385239000,
+  "eval_count": 108,
+  "eval_duration": 1775968000
+}

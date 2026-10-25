@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:15:44.4417587Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"\",\n      \"problem\": \"\",\n      \"means\": \"\",\n      \"effect\": \"\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:29231263\",\n          \"quote\": \"PROBLEM TO BE SOLVED: To reflect intention of finish of a user on a print output in applying image processing to image data and printing out the data.\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:40665242\",\n          \"quote\": \"PROBLEM TO BE SOLVED: To support selection of a content by a user such that processing expected by the user and actually performed processing accord as thoroughly as possible.\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:33470554\",\n          \"quote\": \"PROBLEM TO BE SOLVED: To provide a machine translation system for using a meaning analysis result on the basis of LFG to preferably convert input sentences of translation original language into translation objective language by using the meaning analysis result for the input sentences of the translation objective language to preferably obtain a translated result.\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:29231263\",\n        \"google:40665242\",\n        \"google:33470554\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种不同技术领域，如图像处理、机器翻译、化妆品及打印设备等，缺乏统一的技术主题。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"low\",\n  \"limitations\": \"由于聚类中技术内容分散且无明确共性，无法提取一致的技术方案或手段。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 12861111600,
+  "load_duration": 109626800,
+  "prompt_eval_count": 5197,
+  "prompt_eval_duration": 4437899000,
+  "eval_count": 407,
+  "eval_duration": 8190893000
+}

@@ -1,0 +1,70 @@
+{
+  "panel_id": "bge_k300_s42__c114",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 114,
+  "cluster_size": 369,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:11715719",
+            "quote": "Jikishiitonoseizohoho",
+            "field": "title"
+          },
+          {
+            "family_id": "google:13477651",
+            "quote": "Jikikirokutainoseiho",
+            "field": "title"
+          },
+          {
+            "family_id": "google:11839868",
+            "quote": "クリツプ",
+            "field": "title"
+          }
+        ],
+        "representative_family_ids": [
+          "google:11715719",
+          "google:13477651",
+          "google:11839868"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "insufficient",
+        "verified_evidence": [
+          {
+            "family_id": "google:11715719",
+            "quote": "Jikishiitonoseizohoho",
+            "field": "title"
+          },
+          {
+            "family_id": "google:13477651",
+            "quote": "Jikikirokutainoseiho",
+            "field": "title"
+          },
+          {
+            "family_id": "google:11839868",
+            "quote": "クリツプ",
+            "field": "title"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      }
+    ],
+    "heterogeneity": "该聚类中专利文本仅包含标题，无摘要信息，无法判断技术内容是否一致或存在差异。",
+    "needs_split": false,
+    "evidence_strength": "insufficient",
+    "limitations": "所有文档均为标题_only，缺乏具体技术细节，无法提取有效证据支持任何明确的技术主题。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "62f97995e5bbb5858fc170037ebc7804c5813d3f40a3a481d3a810c1fc09ad3b",
+  "wall_s": 8.42119812965393
+}

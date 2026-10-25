@@ -1,0 +1,16 @@
+{
+  "status": "METRIC_NOT_INTERPRETABLE_AS_PERFECT_STABILITY",
+  "hdbscan_version": "0.8.44",
+  "full_run": "bge_n238541_pca30_c30_s15",
+  "persistence_all_one": true,
+  "largest_raw_text_duplicate_group": 119,
+  "largest_exact_PCA30_duplicate_multiplicity": 119,
+  "min_samples": 15,
+  "min_cluster_size": 30,
+  "installed_source": "deps/hdbscan/_hdbscan_tree.pyx:635",
+  "source_sha256": "bae7a230325c585de78f1e86bace6b0d541d39321e26de3e4457d89566121316",
+  "source_behavior": "get_stability_scores assigns 1 to every cluster if global max_lambda is infinite, zero, or cluster empty.",
+  "inference": "119 repeated raw texts include sufficient exact zero-distance PCA neighbors to produce infinite inverse-distance density. This explains the all-ones persistence output; it is not independent evidence of stable technology groups.",
+  "primary_source": "https://github.com/scikit-learn-contrib/hdbscan/blob/master/hdbscan/_hdbscan_tree.pyx",
+  "labels_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "model": "qwen3-coder:30b",
+  "created_at": "2026-10-25T09:13:39.2611193Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"themes\": [\n    {\n      \"name\": \"无法确定\",\n      \"object\": \"thermal head\",\n      \"problem\": \"未明确技术问题\",\n      \"means\": \"加热电阻并联结构\",\n      \"effect\": \"实现高速打印时点对齐\",\n      \"evidence\": [\n        {\n          \"family_id\": \"google:16200066\",\n          \"quote\": \"Two heating resistors 11, 12 are provided in parallel to each other\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:16211180\",\n          \"quote\": \"individual electrodes with slits for adjusting their resistances\",\n          \"field\": \"abstract\"\n        },\n        {\n          \"family_id\": \"google:16792051\",\n          \"quote\": \"supplying a printing signal to a thermal head\",\n          \"field\": \"abstract\"\n        }\n      ],\n      \"representative_family_ids\": [\n        \"google:16200066\",\n        \"google:16211180\",\n        \"google:16792051\"\n      ],\n      \"confidence\": \"low\"\n    }\n  ],\n  \"heterogeneity\": \"该聚类包含多种不同技术领域，如热头结构、加热元件、通信电缆散热、温度传感器等，缺乏统一技术主题。\",\n  \"needs_split\": true,\n  \"evidence_strength\": \"medium\",\n  \"limitations\": \"部分专利仅提供标题或摘要片段，无法全面反映技术细节；存在多个技术概念混杂的情况。\"\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11670501000,
+  "load_duration": 108062600,
+  "prompt_eval_count": 5292,
+  "prompt_eval_duration": 4428205000,
+  "eval_count": 349,
+  "eval_duration": 7007684000
+}

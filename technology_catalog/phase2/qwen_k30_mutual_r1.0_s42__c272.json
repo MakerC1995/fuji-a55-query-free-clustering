@@ -1,0 +1,14 @@
+{
+  "panel_id": "qwen_k30_mutual_r1.0_s42__c272",
+  "analysis": {
+    "relations": [
+      {
+        "theme_name": "无法确定",
+        "relation": "无证据",
+        "reason": "所有文档仅包含标题，缺乏具体的技术细节、实施方式或功能描述，无法提取有效证据支持任何技术主题。",
+        "uncertainties": "由于缺乏具体技术内容，无法判断该主题是否与喷头芯片结构、材料、制造或应用相关。"
+      }
+    ]
+  },
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca"
+}

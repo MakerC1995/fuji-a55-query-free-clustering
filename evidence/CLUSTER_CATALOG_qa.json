@@ -1,0 +1,18 @@
+[
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "sheet": "Clusters",
+    "rows": 14163,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Clusters\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"实验\",\"群ID\",\"族数\",\"实验覆盖族数\",\"中心平均余弦\",\"原始HDBSCAN持久性\"],[\"bge_k100_s42\",0,3,238541,0.9539673328399658,null],[\"bge_k100_s42\",1,1424,238541,0.8344560265541077,null],[\"bge_k100_s42\",2,3178,238541,0.7506863474845886,null],[\"bge_k100_s42\",3,3097,238541,0.808946430683136,null],[\"bge_k100_s42\",4,833,238541,0.8262711763381958,null]]}"
+  },
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "sheet": "Evidence panels",
+    "rows": 533,
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Evidence panels\",\"address\":\"B5:G10\",\"rows\":6,\"cols\":6,\"values\":[[\"证据组\",\"群族数\",\"抽样角色\",\"Family ID\",\"标题原文\",\"摘要前360字；全文见CSV/底座\"],[\"bge_k300_s42__c257\",13,\"near_center\",\"google:30368193\",\"開閉式画像形成装置\",\"\"],[\"bge_k300_s42__c257\",13,\"near_center\",\"google:30368197\",\"開閉式画像形成装置\",\"\"],[\"bge_k300_s42__c257\",13,\"edge\",\"google:30671483\",\"丁合機付き開閉式画像形成機\",\"\"],[\"bge_k300_s42__c257\",13,\"edge\",\"google:31383908\",\"画像形成装置の用紙搬送路開閉装置\",\"\"],[\"bge_k300_s42__c257\",13,\"random\",\"google:30377172\",\"開閉式画像形成装置\",\"\"]]}"
+  },
+  {
+    "file": "CLUSTER_CATALOG.xlsx",
+    "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "panel_id": "bge_k300_s42__c254",
+  "run_id": "bge_k300_s42",
+  "cluster_id": 254,
+  "cluster_size": 535,
+  "algorithm": "kmeans",
+  "embedding_model": "bge",
+  "llm_digest": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+  "analysis": {
+    "themes": [
+      {
+        "name": "无法确定",
+        "object": "热显影感光材料和图像接收材料",
+        "problem": "需要紧凑结构的处理设备，以实现从供料到干燥的完整流程。",
+        "means": "通过旋转鼓、图像接收材料供应装置、溶剂涂布装置、热显影感光材料供应装置、加热装置、干燥装置以及第一和第二分离装置来完成处理。",
+        "effect": "在加热过程中进行热显影，并将形成的着色物质图像热转印至图像接收纸的转移表面。",
+        "evidence": [
+          {
+            "family_id": "google:14733212",
+            "quote": "To perform processes from the supply of a heat developed photosensitive material and an image receiving material to the drying of the image receiving material by compact constitution by providing a rotary drum, an image receiving material supply means, a solvent coating means, a heat developed photosensitive material supply means, a heating means, a drying means, and the 1st and the 2nd separating means.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:13634537",
+            "quote": "To obtain a heat developing and transfer device which has been constituted compactly, by supplying and superposing a heat developing sensitized material onto a an image receiving material which has been wound to the outside periphery of a rotary drum, executing a heat development and a heat transfer, peeling off the heat developing sensitized material from the image receiving material, and thereafter, drying the image receiving material in a state that it has been wound to the outside periphery of the rotary drum.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14733212",
+            "quote": "The heat developed photosensitive material 16 taken out of a magazine 14 is wound around an exposure drum 20 and exposed by an exposure head 22, and then sent to the rotary drum 26, so that the exposed surface is superposed upon the image transfer surface of the image receiving paper 32.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:14733212",
+          "google:13634537",
+          "google:14171417"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "high",
+        "verified_evidence": [
+          {
+            "family_id": "google:14733212",
+            "quote": "To perform processes from the supply of a heat developed photosensitive material and an image receiving material to the drying of the image receiving material by compact constitution by providing a rotary drum, an image receiving material supply means, a solvent coating means, a heat developed photosensitive material supply means, a heating means, a drying means, and the 1st and the 2nd separating means.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:13634537",
+            "quote": "To obtain a heat developing and transfer device which has been constituted compactly, by supplying and superposing a heat developing sensitized material onto a an image receiving material which has been wound to the outside periphery of a rotary drum, executing a heat development and a heat transfer, peeling off the heat developing sensitized material from the image receiving material, and thereafter, drying the image receiving material in a state that it has been wound to the outside periphery of the rotary drum.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:14733212",
+            "quote": "The heat developed photosensitive material 16 taken out of a magazine 14 is wound around an exposure drum 20 and exposed by an exposure head 22, and then sent to the rotary drum 26, so that the exposed surface is superposed upon the image transfer surface of the image receiving paper 32.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 2,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "热显影与转印装置"
+      },
+      {
+        "name": "无法确定",
+        "object": "",
+        "problem": "",
+        "means": "",
+        "effect": "",
+        "evidence": [
+          {
+            "family_id": "google:29585958",
+            "quote": "A process of producing a solid dispersion of an organic compound comprising a step in which after solid dispersing an organic compound, a temperature is elevated stepwise to subject the dispersion to heat treatment.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:17269928",
+            "quote": "To prevent the unevenness of developing by surely making vapor discharged from a photosensitive material in the case of heat developing processing escape to the outside from space between the photosensitive material and a heat roller without increasing a processing stage and making a device large.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16820458",
+            "quote": "To execute heating by inserting and holding an object to be heated, between a pair of belts, and to prevent peeling-off of a photosensitive material which is being carried, by providing one piece of heating body and two pieces of belts, on a device for heating the object to be heated, and moving a pair of these belts by allowing them to come into contact peripherally with a part of the heating body in a state that they are superposed to each other.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:29585958",
+          "google:17269928",
+          "google:16820458"
+        ],
+        "confidence": "low",
+        "llm_reported_confidence": "low",
+        "verified_evidence": [
+          {
+            "family_id": "google:29585958",
+            "quote": "A process of producing a solid dispersion of an organic compound comprising a step in which after solid dispersing an organic compound, a temperature is elevated stepwise to subject the dispersion to heat treatment.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:17269928",
+            "quote": "To prevent the unevenness of developing by surely making vapor discharged from a photosensitive material in the case of heat developing processing escape to the outside from space between the photosensitive material and a heat roller without increasing a processing stage and making a device large.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16820458",
+            "quote": "To execute heating by inserting and holding an object to be heated, between a pair of belts, and to prevent peeling-off of a photosensitive material which is being carried, by providing one piece of heating body and two pieces of belts, on a device for heating the object to be heated, and moving a pair of these belts by allowing them to come into contact peripherally with a part of the heating body in a state that they are superposed to each other.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 3,
+        "evidence_validation": "PASS"
+      },
+      {
+        "name": "无法确定",
+        "object": "图像形成溶剂的加热系统",
+        "problem": "需要在不使用燃烧器的情况下加热图像形成溶剂。",
+        "means": "通过热交换手段利用加热部分的废热来加热图像形成溶剂。",
+        "effect": "无需提供燃烧器即可加热图像形成溶剂，维持恒定温度。",
+        "evidence": [
+          {
+            "family_id": "google:16848641",
+            "quote": "PURPOSE:To heat an image forming solvent without providing a combustor such as a heater, by providing a heat exchange means which heats up the image forming solvent by the exhaustion of heat in a heating part.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16848641",
+            "quote": "The part of a water supplying pipe 60 between a pump 70 and a make-up tank 72 is installed around in the neighborhood of a developing and transfer part 28, and is heated up by the exhaustion of the heat of the developing and transfer part 28.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16848641",
+            "quote": "Therefore, since the water 56 heated up by the exhaustion of the heat of the developing and transfer part 28 is always, or at need, supplied to a tank 58, the temperature of the water 56 in the tank 58 can be maintained at a prescribed temperature without lowering a temperature even in a season when the temperature is low such as a winter.",
+            "field": "abstract"
+          }
+        ],
+        "representative_family_ids": [
+          "google:16848641",
+          "google:16848846",
+          "google:17269928"
+        ],
+        "confidence": "insufficient",
+        "llm_reported_confidence": "medium",
+        "verified_evidence": [
+          {
+            "family_id": "google:16848641",
+            "quote": "PURPOSE:To heat an image forming solvent without providing a combustor such as a heater, by providing a heat exchange means which heats up the image forming solvent by the exhaustion of heat in a heating part.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16848641",
+            "quote": "The part of a water supplying pipe 60 between a pump 70 and a make-up tank 72 is installed around in the neighborhood of a developing and transfer part 28, and is heated up by the exhaustion of the heat of the developing and transfer part 28.",
+            "field": "abstract"
+          },
+          {
+            "family_id": "google:16848641",
+            "quote": "Therefore, since the water 56 heated up by the exhaustion of the heat of the developing and transfer part 28 is always, or at need, supplied to a tank 58, the temperature of the water 56 in the tank 58 can be maintained at a prescribed temperature without lowering a temperature even in a season when the temperature is low such as a winter.",
+            "field": "abstract"
+          }
+        ],
+        "verified_family_count": 1,
+        "evidence_validation": "REVIEW_REQUIRED",
+        "unverified_name": "图像记录装置"
+      }
+    ],
+    "heterogeneity": "该聚类包含多种技术主题，包括热显影与转印装置、图像记录装置及加热系统等，表明其技术内容具有多样性。",
+    "needs_split": true,
+    "evidence_strength": "medium",
+    "limitations": "部分专利仅提供标题或摘要片段，缺乏详细工艺参数；部分技术证据来自不同领域，难以明确归类。"
+  },
+  "invalid_evidence": [],
+  "input_sha256": "e287a60940bb317ad3ca9f48f830b33ce56d9f0a36b7db640aaeb1805aef9250",
+  "wall_s": 33.70754313468933
+}
