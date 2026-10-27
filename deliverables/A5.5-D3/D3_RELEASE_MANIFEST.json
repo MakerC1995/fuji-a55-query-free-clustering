@@ -1,0 +1,140 @@
+{
+  "at": "2026-10-27T06:43:11.152430+00:00",
+  "repository": "https://github.com/MakerC1995/fuji-a55-query-free-clustering",
+  "directory": "deliverables/A5.5-D3",
+  "scope": "Only formal D3 task deliverables and code; no raw inputs or complete model logs",
+  "files": {
+    "D3_REPORT.md": {
+      "sha256": "007ab23daea8d4f8a7a09b74d3edf83235eb1661723fcf60be42507ab4aa8262",
+      "bytes": 5398
+    },
+    "D3_EVALUATION_SET.xlsx": {
+      "sha256": "bc437426244fa13973f204937568f74e79ee68734756196e68b5f3b25424a8ff",
+      "bytes": 186914
+    },
+    "D3_QUALITY_METRICS.xlsx": {
+      "sha256": "edce2af9407473c410065f6dc2798f64243829debad120c385b09f75b5bb3743",
+      "bytes": 70478
+    },
+    "D3_PATENT_CONTRIBUTIONS.parquet": {
+      "sha256": "24ced7730e06391be51544bdd2ffe5de01146ce1267b17b3196c5ef03ea9a99b",
+      "bytes": 2483315
+    },
+    "D3_EVIDENCE_AUDIT.parquet": {
+      "sha256": "e27a027a41289d36e71a7889e3db99c99744bf4360f867c9383c505bb6317f61",
+      "bytes": 1915402
+    },
+    "D3_PRINTHEAD_RELEVANCE.xlsx": {
+      "sha256": "c69cb23293fdb59267142c1df512e12dc085060e3dd386ca750a4c0dbd2bcd3c",
+      "bytes": 1182267
+    },
+    "D3_ERROR_ANALYSIS.md": {
+      "sha256": "4802ad86cac112c395c33cebe1ddf0eaf121b754b719c1d93340f64304883134",
+      "bytes": 55186
+    },
+    "D3_HISTORICAL_REGRESSION.md": {
+      "sha256": "7d706653b60e60935452326bff6c2700642cfb13058f007dd0418a5c66bb58ed",
+      "bytes": 42187
+    },
+    "D4_MERGE_TEST_CASES.parquet": {
+      "sha256": "7e3f8868b75e3def2eb6bbb8a54f3f3e2cd9f8983b5fc2724cd2eb29fb3bf75c",
+      "bytes": 240743
+    },
+    "D3_EXPERIMENT_COMPARISON.md": {
+      "sha256": "030852b977728af09358bb0736bff77cd9d2e88b421c88c90d3f2439f61e10c8",
+      "bytes": 4415
+    },
+    "D3_EVALUATION_PROTOCOL.md": {
+      "sha256": "a1f3608d96167c2ede718f07d2cd741fcc757437d3c1ecfb1f2b39b612c31dfa",
+      "bytes": 6176
+    },
+    "D3_LABELS.parquet": {
+      "sha256": "c4ea6c8f63202e4eb39bd9543d0c8ea28b586966846b72a56791c327a7d28c0c",
+      "bytes": 14195
+    },
+    "D3_PROCESSING_STATUS.parquet": {
+      "sha256": "e723d469b0fce48accb6eea9fa3cf53da6a1160352878d36912d6b562d0d6f01",
+      "bytes": 399163
+    },
+    "D3_METRICS.parquet": {
+      "sha256": "f6229d060131504317bb20661c5998edaaa827b2b7a49b0fed4f64efc0cd4fd8",
+      "bytes": 10483
+    },
+    "D3_RELEVANCE_CONFUSIONS.parquet": {
+      "sha256": "ba721040557838893a8ab647197e505c6b97d023a629db10b29e67432cb54482",
+      "bytes": 1617
+    },
+    "D3_ERRORS.parquet": {
+      "sha256": "0a874da88b3f5ccdb1220eeaf27c7c71fa3bc003b6c5bf40cc70a31a8b09ebf8",
+      "bytes": 586757
+    },
+    "D3_PRINTHEAD_RELEVANCE.parquet": {
+      "sha256": "26a5ba54c504728461b0baed3d77779b473b88dae153d20f261283a10f2e86f0",
+      "bytes": 585309
+    },
+    "D3_REVIEW_QUEUE.parquet": {
+      "sha256": "85cd6f68bb0e831042967e776c50ab96c3ddf30fd51570ef5a7be831b95c8906",
+      "bytes": 23978
+    },
+    "D3_MANIFEST.json": {
+      "sha256": "6e683f4cb831eea92d3968140b61f2d6ec8a2cbbd31ab1f0ff85b752304d15fa",
+      "bytes": 31354
+    },
+    "D3_PUBLIC_DELIVERY_BUNDLE.zip": {
+      "sha256": "dd8047e0744c33acb2ce49a7f63adc480d6586141d29d74d4153befa3fed9b9a",
+      "bytes": 7685069
+    }
+  },
+  "code_files": {
+    "scripts/metrics.py": "433429733cb692dbbf2641ffff7e28a43c4e0673b1c7739c25dde2f25c1a4b77",
+    "scripts/prepare_public_delivery.py": "ad643a8e06f63af37f7c5cdee0aaaf4d0d221abbffaed63b103bccc636bdf7e9",
+    "scripts/relevance_adjudicate.py": "f34d41a705ff8531743527b9dc1660e3b13943e0c3d21fa2a78db86badfdc189",
+    "scripts/client.py": "f5ba358ec50ba7651aa83560512ee4d1bc01b0eaf13049eab3d431608ab0c24f",
+    "scripts/design.py": "4bfae76326494f3f8334e332fd5e61877897ba056124e7d9fbf47ceae1e1ca4d",
+    "scripts/history_complete.py": "f6099c44cf92f24ae06631f07da6937ca7502cf390917b3d465f600982e93232",
+    "scripts/resume_probe.py": "136b66e1232db5db8ad36c3be8e0b2dc60595fd9435f7e1346b3379ad3d60e12",
+    "scripts/import_gold.py": "73731781393fefe2291ac60aa3ff6acff58c5aa02b66da136ec89e3df418d136",
+    "scripts/assemble.py": "ac5171481dc28f7f2f3a0d4ad9da8ef0793fcfc58635a952806fd941e1b11336",
+    "scripts/experiments.py": "6b7f3d6368220d2eb2222deb35e4a9ca2407277909fe06dd210f03a2a5c13a7d",
+    "scripts/final_verify.py": "b332d06c1a01f31a7b1aa7b3fb44dfde851b36f53cc172eba3254b54ee1fdff2",
+    "scripts/d4_cases.py": "c5b457e2e893e3fd7cc5358aa36b05af79bcbc55900253ac16587bbd432eda10",
+    "scripts/common.py": "368763ca2424238cd5ef67b06bd1e8bd3f4f561cb377ada42d4a6230fe2b83e1",
+    "scripts/pipeline.py": "44c2d68388849873b3452493e223d5881c39ffbfa5b2a2f683e1df71f4917284",
+    "scripts/d4_citation_recover.py": "13068791f912c3e256dd0f3fd4a26f531afe0eafea7513d65870b89fa8bb92c6",
+    "scripts/amend_split.py": "1e77d981d68b6c1d1cef0bd5a777bdf2e46faf5e24ed9463db8e2498c2c46655",
+    "scripts/freeze.py": "be732c875bda061dcb7c6525af2b14e61eb4de0bfe948a583bcebd7662e3cdc7",
+    "scripts/build_workbooks.mjs": "1a5836f67310521e6d6dffaaa5c6077f3837d8b0e92afd918b3ec6081d54f5af",
+    "scripts/related_audit.py": "3586114f5413d06fc821d2e725c8b27cad06fcdb1b79ec9858851e975a8b644b",
+    "scripts/prepare.py": "1bcc011870cd8f7c68c4587626d466bb93ee7670c57ef16af29155f585d0a81e",
+    "scripts/add_cost_metrics.py": "1d998015694f435d39d7ea2a5f317960d3dea546ecc52ae0ea58319a5836206f",
+    "scripts/diagnose_d2.py": "a49fb7cd9399ac1c17a035b3d27efa91b1ee6220e02feaf04190e14e4309c71f",
+    "scripts/history.py": "21445622b5066eed9ee3413ea8c70537b2d71e64e87bfeed834a36e372c5f18d",
+    "prompts/organize_v1.txt": "2bc423531f20cb8a9746e50a9fd7ee448629087fbc5fda3091492e1e3448691a",
+    "prompts/history_v1.txt": "27f7f43152ba6b3b473883039a39b8643017af8ced80a292e7cc1a061d36a880",
+    "prompts/compare_v1.txt": "3cae0ed62cc88ab9d12738965bb335236871249e905e014b5964f5501886c10c",
+    "prompts/revise_v1.txt": "723802e5abd2a1676fb4a4e2f13627251b2d324db076f60965d3853d25dd8fe8",
+    "prompts/audit_v1.txt": "09f377099c2c59a5a17cfcf82be2ce25d9acd4679c31ff2de6272df6d8f1ff14",
+    "prompts/relevance_v1.txt": "a217bd2a7c1a627d0c97d9266c4377043ab9d2095627b9d06f7883966d6c2d35",
+    "prompts/d4_pairs_v1.txt": "ea7e2a7885f238c2f0fe41ec3b3b7aa084bc710401db34f55c2b4d52b20fa19e",
+    "prompts/facts_v1.txt": "cc0fe66ae8a27dd1bfda3c586dadc7e5a7cc69a61fa247812952912baf97d14f",
+    "prompts/node_relevance_v1.txt": "2fd9ff4a3952b69a98d755394df5cf2371d53439665046c008ce393150f347d6",
+    "prompts/extract_only_v1.txt": "f83d6efff1f7dfe69fe0b4fcfe565f42f31eb29e5cb3fa3e711c774feac0ade6",
+    "schemas/AUDIT.json": "9de519a28a09f29debd510879f67a037824bfe96dae21a33184a9595edf768af",
+    "schemas/HISTORY.json": "c4508e5a11a4bc31670bfc94359f22e436edc1f099a164165dea57503fde87bb",
+    "schemas/NODE_RELEVANCE.json": "a4fa5f5baeb05c732431e062127c72110e0b5403313889a5681b7b9ff62f64a8",
+    "schemas/FACTS.json": "b1b6c40e92351a1105b5357db1b0fa2631bf6afa170e9c8e4a8da52857cdaf40",
+    "schemas/EXTRACTION.json": "792237839fd8836d21477f68615ebda16c3e1efc623c3156f48f1acd65668ad2",
+    "schemas/D4_PAIRS.json": "1c805e88e8a2d59043354787426ff10651c3bad2e36af736907c5264d98e36d1",
+    "schemas/COMPARE.json": "49a5533763559fd8690858b034201609522bcdb8d442f2c1e96e8d27c2698c5c",
+    "schemas/RELEVANCE.json": "40aaa66f3226dcab726c12170291fce2af03bd423b007859680ddf34aaa5de87",
+    "tests/test_integrity.py": "e5f85c6461cc5a89b1580e23614e379959100b560be8f482182076bfdb1ea954",
+    "run-python": "ecaf36ec9ab4157a55a9a0ceb8c6a5bc106b56c8ee4581df5ccbe9adcf0612e0",
+    "AGENTS.md": "52751b42bb19aa693f92a23f02a6dcf9e3c8681d3d94f07513a98f4e33a28594",
+    "README.md": "e355c755f5643dab68fad243e08b836d421e4ce4617f6e4fde502ea1a62f57b6",
+    "D3_EVALUATION_PROTOCOL.md": "a1f3608d96167c2ede718f07d2cd741fcc757437d3c1ecfb1f2b39b612c31dfa",
+    ".gitignore": "ccce473198f0c8e4fedcba695fc3eb3b6da17ddac5b65d41d63bcd3a7df0d701"
+  },
+  "credentials_excluded": true,
+  "databases_vectors_excluded": true,
+  "raw_inputs_and_model_logs_excluded": true
+}

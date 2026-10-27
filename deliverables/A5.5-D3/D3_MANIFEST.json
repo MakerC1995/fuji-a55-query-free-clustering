@@ -1,0 +1,847 @@
+{
+  "version": "D3.1",
+  "created_at": "2026-10-27T06:17:54.288743+00:00",
+  "statistics": {
+    "main_required": 1117,
+    "main_complete": 1098,
+    "main_status_counts": {
+      "VALID": 1053,
+      "QUARANTINED": 45,
+      "FAILED": 19
+    },
+    "contribution_count": 1065,
+    "contribution_distribution": {
+      "1": 881,
+      "0": 138,
+      "3": 21,
+      "2": 56,
+      "4": 1,
+      "5": 1
+    },
+    "source_status_counts": {
+      "PARTIAL": 978,
+      "TITLE_ONLY": 107,
+      "INSUFFICIENT": 13
+    },
+    "field_audit_rows": 15294,
+    "all_audit_rows": 20668,
+    "span_reference_count": 21874,
+    "level2_supported": 15124,
+    "human_gold_n": 0,
+    "api_attempts": 7029,
+    "api_responses": 6328,
+    "usage_peak_usd_upper_estimate": 9.620372454,
+    "unknown_usage_count": 701,
+    "node_audits": 151,
+    "relevance_patches": 86,
+    "relevance_changed": 67,
+    "historical_complete": 45,
+    "d4_pairs": 39,
+    "independent_compared": 135
+  },
+  "ssd_uuid": "534D9B75-27C9-49B5-89A0-4DF7E631107C",
+  "workspace": "/Volumes/Fuji_SSD_Work/workspaces/a55_d3_quality_convergence",
+  "d2_input_lock": {
+    "at": "2026-10-27T05:14:27.392305+00:00",
+    "root": "/Volumes/Fuji_SSD_Work/workspaces/a55_d2_technology_kb",
+    "files": {
+      "inputs/PATENT_TEXTS.parquet": "b68c580cd7a74acf6733ed1a76386cb48657eef228a5b95afb8b95ca93021996",
+      "inputs/CLUSTER_MEMBERS.parquet": "3b6ef8866573f9571e452b57bcec2625b2565d94b3c7a8f57a4a3c4982770867",
+      "outputs/PATENT_CONTRIBUTIONS.parquet": "94125d7d8d065cfd7b3d118e9f819b05c2298c0eb079c02c0d7a32100d7c92a2",
+      "outputs/TECHNOLOGY_CONCEPTS.parquet": "4d51e121eb5a0f1e5c9c3249615e3f09ed8bdf6e7fc832a4e4bb36c599546420",
+      "outputs/PATENT_TECHNOLOGY_RELATIONS.parquet": "5c0fbc79503ff8f2725a9ffe767fd6d987e3f8fd4f2c487a98d99c435d6acdd2",
+      "outputs/TECHNOLOGY_RELATIONS.parquet": "b459504a42852ba9643a09391deb2df3701e9e746e04416cb24b45f26375868f",
+      "outputs/MERGE_AUDIT.parquet": "446403e62cae239e1532ba29d1a26126c639a7016fcb698600293522c05e5805",
+      "outputs/PRINTHEAD_RELEVANCE.json": "635c5076398546aef4a66f299a26028dce79c2ebc37196b088625aa3638958f7",
+      "working/all_selected/contributions.json": "69f65e7a936e74c7278f13267aff2dde53d7770dcc392aadf42272ae5625936e",
+      "evidence/CORE_FREEZE.json": "b9258367400fb7adbfffddb6e4450d7df6b6d5c0da77dbade9d1efc7db9d10c1",
+      "prompts/extraction_v2.txt": "5483118e6b4a23db192419290775d2182c6b436b634014824d5e50fb614122fd",
+      "configs/EXTRACTION_WIRE_SCHEMA.json": "f9949a1f160c997414e469bee9456dc1aea1099a34016c9018aec3ccf95e1273",
+      "scripts/extract.py": "5348d527272c116814c5092fa96fc54bb631b5fae01882ee13c320236fce63fc",
+      "scripts/schema.py": "50f903cb97286423d02faf7e626028f817550ae3432552ef62f270a716cec117",
+      "scripts/consolidate.py": "ae3cd015ce25591a5e90fd3fa9f88aabab39a99874a5e1447d353f0fa009bb7c"
+    }
+  },
+  "split_lock": {
+    "at": "2026-10-27T05:14:28.213124+00:00",
+    "seed": 20261027,
+    "development": [
+      "google:59362509",
+      "google:41456566",
+      "google:17251922",
+      "google:13352846",
+      "google:39794835",
+      "google:40581936",
+      "google:66107903",
+      "google:40130930",
+      "google:34468469",
+      "google:49512008",
+      "google:39008916",
+      "google:40653572",
+      "google:38922757",
+      "google:40507396",
+      "google:39704160",
+      "google:34380406",
+      "google:58050904",
+      "google:73742813",
+      "google:51624657",
+      "google:42815230",
+      "google:41701892",
+      "google:37213043",
+      "google:85782526",
+      "google:29239882",
+      "google:38661685",
+      "google:27462003",
+      "google:56887867",
+      "google:31278183",
+      "google:30689093",
+      "google:55539451",
+      "google:57242495",
+      "google:17274876",
+      "google:59090151",
+      "google:17703599",
+      "google:91391245",
+      "google:40505713",
+      "google:46837256",
+      "google:42193096",
+      "google:42631330",
+      "google:51427994",
+      "google:59396305",
+      "google:56879469",
+      "google:39983745",
+      "google:66546920",
+      "google:94374918",
+      "google:85720647",
+      "google:57607984",
+      "google:83227597",
+      "google:46200054",
+      "google:15372636",
+      "google:12588428",
+      "google:38822359",
+      "google:29201596",
+      "google:57247963",
+      "google:12801784",
+      "google:16606943",
+      "google:89379758",
+      "google:42823045",
+      "google:38682475",
+      "google:12586162",
+      "google:37209342",
+      "google:26486695",
+      "google:77488994",
+      "google:40503426",
+      "google:44074462",
+      "google:13646412",
+      "google:40507397",
+      "google:77199452",
+      "google:26600617",
+      "google:18018956",
+      "google:35900903",
+      "google:35586368",
+      "google:76478556",
+      "google:84919233",
+      "google:35087200",
+      "google:18107843",
+      "google:38676104",
+      "google:38428973",
+      "google:41440949",
+      "google:26558742",
+      "google:27759358",
+      "google:46382635",
+      "google:28664252",
+      "google:63448527",
+      "google:75980650",
+      "google:39973649",
+      "google:39764462",
+      "google:65997764",
+      "google:56959496",
+      "google:66100574",
+      "google:30385752",
+      "google:15186844",
+      "google:34401873",
+      "google:78468006",
+      "google:38789567",
+      "google:55629724",
+      "google:45021765",
+      "google:46926924"
+    ],
+    "holdout": [
+      "google:38054887",
+      "google:30367931",
+      "google:12236950",
+      "google:18171514",
+      "google:39557852",
+      "google:39941348",
+      "google:34371433",
+      "google:94603654",
+      "google:51400522",
+      "google:84027308",
+      "google:38594995",
+      "google:55865914",
+      "google:15935806",
+      "google:24659692",
+      "google:36635088",
+      "google:15313678",
+      "google:27461722",
+      "google:30571323",
+      "google:44319402",
+      "google:35003267",
+      "google:38627201",
+      "google:38682416",
+      "google:15113393",
+      "google:40294662",
+      "google:41436956",
+      "google:88730031",
+      "google:43385403",
+      "google:45419556",
+      "google:40661203",
+      "google:71781236",
+      "google:36161986",
+      "google:71077225",
+      "google:15513528",
+      "google:38574496",
+      "google:87552109",
+      "google:31068464",
+      "google:34067413",
+      "google:12020054",
+      "google:41243822",
+      "google:31934213",
+      "google:57277585",
+      "google:30166147"
+    ],
+    "pilot30": [
+      "google:59362509",
+      "google:41456566",
+      "google:17251922",
+      "google:13352846",
+      "google:39794835",
+      "google:40581936",
+      "google:66107903",
+      "google:40130930",
+      "google:34468469",
+      "google:49512008",
+      "google:39008916",
+      "google:40653572",
+      "google:38922757",
+      "google:40507396",
+      "google:39704160",
+      "google:34380406",
+      "google:58050904",
+      "google:73742813",
+      "google:51624657",
+      "google:42815230",
+      "google:41701892",
+      "google:37213043",
+      "google:85782526",
+      "google:29239882",
+      "google:38661685",
+      "google:27462003",
+      "google:56887867",
+      "google:31278183",
+      "google:30689093",
+      "google:55539451"
+    ],
+    "historical_ids_excluded_from_independent_eval": [
+      "google:38754718",
+      "google:38962040",
+      "google:39774253",
+      "google:39810154",
+      "google:40046641",
+      "google:40085670",
+      "google:40110980",
+      "google:40130510",
+      "google:40130515",
+      "google:40587181",
+      "google:41346026",
+      "google:41610523",
+      "google:41681057",
+      "google:41736165",
+      "google:42010421",
+      "google:42021021",
+      "google:42039307",
+      "google:42171431",
+      "google:42239224",
+      "google:42239225",
+      "google:42248412",
+      "google:42558970",
+      "google:42558971",
+      "google:42558973",
+      "google:43903909",
+      "google:44504717",
+      "google:44504718",
+      "google:45351863",
+      "google:45352133",
+      "google:45564537",
+      "google:48190140",
+      "google:51658296",
+      "google:55399055",
+      "google:56073954",
+      "google:58719182",
+      "google:59500807",
+      "google:61016143",
+      "google:61300486",
+      "google:63675421",
+      "google:64105719",
+      "google:73781808",
+      "google:83395703",
+      "google:84329938",
+      "google:85172750",
+      "google:94776710"
+    ],
+    "known_issues_excluded_from_holdout": [
+      "google:14080699",
+      "google:15343657",
+      "google:16586379",
+      "google:16847035",
+      "google:17829349",
+      "google:19085123",
+      "google:34206471",
+      "google:34468469",
+      "google:35322406",
+      "google:36911941",
+      "google:36985093",
+      "google:38149581",
+      "google:38455368",
+      "google:38754718",
+      "google:38922757",
+      "google:38962040",
+      "google:39008916",
+      "google:39704160",
+      "google:39774253",
+      "google:39794835",
+      "google:39810154",
+      "google:40046641",
+      "google:40085670",
+      "google:40110980",
+      "google:40130510",
+      "google:40130515",
+      "google:40130930",
+      "google:40507396",
+      "google:40581936",
+      "google:40587181",
+      "google:40653572",
+      "google:41061590",
+      "google:41141126",
+      "google:41346026",
+      "google:41541242",
+      "google:41610523",
+      "google:41681057",
+      "google:41736165",
+      "google:42010421",
+      "google:42021021",
+      "google:42039307",
+      "google:42171431",
+      "google:42239224",
+      "google:42239225",
+      "google:42248412",
+      "google:42558970",
+      "google:42558971",
+      "google:42558973",
+      "google:42705590",
+      "google:42737164",
+      "google:43903909",
+      "google:44504717",
+      "google:44504718",
+      "google:44719320",
+      "google:45351863",
+      "google:45352133",
+      "google:45564537",
+      "google:47995898",
+      "google:48190140",
+      "google:49387621",
+      "google:49512008",
+      "google:51658295",
+      "google:51658296",
+      "google:51840117",
+      "google:55399055",
+      "google:56073954",
+      "google:58557302",
+      "google:58719182",
+      "google:59500807",
+      "google:61016143",
+      "google:61300486",
+      "google:63675421",
+      "google:64105719",
+      "google:73781808",
+      "google:83395703",
+      "google:84329938",
+      "google:85172750",
+      "google:92590282",
+      "google:94776710",
+      "google:97217328",
+      "google:97218156"
+    ],
+    "sampling_proxy_counts": {
+      "single_proxy": 102,
+      "multi_proxy": 53,
+      "material_proxy": 35,
+      "process_proxy": 67,
+      "equipment_proxy": 95,
+      "insufficient_proxy": 49,
+      "boundary_proxy": 49
+    },
+    "cohort_counts": {
+      "primary__qwen_k300_s42__c139": 54,
+      "specified_control__qwen_k800_s42__c404": 28,
+      "specified_control__bge_k800_s42__c223": 7,
+      "random_medium__bge_k800_s42__c655": 8,
+      "mixed_proxy__qwen_k300_s42__c57": 9,
+      "noise__bge_n238541_pca30_c30_s15": 9,
+      "random_medium__qwen_k800_s42__c505": 12,
+      "small_tight__qwen_k30_mutual_r1.0_s42__c138": 4,
+      "specified_control__bge_k800_s42__c475": 2,
+      "specified_control__qwen_k800_s42__c168": 5,
+      "specified_control__qwen_k800_s42__c286": 2
+    },
+    "selection_sha256": "ff316da3b1cc089421e01e3fa971fcae576304d85cc7a435e5f48190157846c7",
+    "d2_input_lock_sha256": "9eff8acebc07c67de9ef61d01dec3cef77cf7a43f190cd47c0b1affc6c611b43",
+    "holdout_policy": "Do not read content or run until MODEL_FREEZE.json; IDs and sampling metadata only during development; single frozen experiment pass. Technical repairs cannot use holdout for prompt tuning.",
+    "amended_at": "2026-10-27T05:17:13.624565+00:00",
+    "historical_overlap": 0
+  },
+  "model_policy": {
+    "at": "2026-10-27T05:35:46.383084+00:00",
+    "requested_model": "deepseek-flash",
+    "provider": "official DeepSeek API",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "provider_documented_version": "DeepSeek-V4.1-Flash-1017",
+    "model_digest": null,
+    "digest_reason": "Hosted API does not expose weight digest; do not invent one",
+    "thinking": "disabled",
+    "temperature": 0,
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "peak_usd_per_million": {
+      "cache_hit": 0.006,
+      "cache_miss": 0.3,
+      "output": 1.2
+    },
+    "cost_method": "Conservative peak-rate estimate from actual usage; billed spend unverified; missing usage remains unknown",
+    "safety_cap_usd": 30,
+    "scope": "1117 existing D2 families plus separate 6 historical probes; dev/holdout ablations bounded; no full-corpus run"
+  },
+  "actual_returned_models": [
+    "deepseek-flash"
+  ],
+  "weight_digest": null,
+  "model_freeze": {
+    "at": "2026-10-27T05:43:08.307337+00:00",
+    "version": "D3.1",
+    "semantic_code_hashes": {
+      "scripts/common.py": "368763ca2424238cd5ef67b06bd1e8bd3f4f561cb377ada42d4a6230fe2b83e1",
+      "scripts/client.py": "f5ba358ec50ba7651aa83560512ee4d1bc01b0eaf13049eab3d431608ab0c24f",
+      "scripts/design.py": "4bfae76326494f3f8334e332fd5e61877897ba056124e7d9fbf47ceae1e1ca4d",
+      "scripts/pipeline.py": "44c2d68388849873b3452493e223d5881c39ffbfa5b2a2f683e1df71f4917284",
+      "scripts/experiments.py": "6b7f3d6368220d2eb2222deb35e4a9ca2407277909fe06dd210f03a2a5c13a7d",
+      "scripts/related_audit.py": "3586114f5413d06fc821d2e725c8b27cad06fcdb1b79ec9858851e975a8b644b",
+      "scripts/history.py": "21445622b5066eed9ee3413ea8c70537b2d71e64e87bfeed834a36e372c5f18d",
+      "scripts/d4_cases.py": "c5b457e2e893e3fd7cc5358aa36b05af79bcbc55900253ac16587bbd432eda10",
+      "prompts/organize_v1.txt": "2bc423531f20cb8a9746e50a9fd7ee448629087fbc5fda3091492e1e3448691a",
+      "prompts/history_v1.txt": "27f7f43152ba6b3b473883039a39b8643017af8ced80a292e7cc1a061d36a880",
+      "prompts/compare_v1.txt": "3cae0ed62cc88ab9d12738965bb335236871249e905e014b5964f5501886c10c",
+      "prompts/revise_v1.txt": "723802e5abd2a1676fb4a4e2f13627251b2d324db076f60965d3853d25dd8fe8",
+      "prompts/audit_v1.txt": "09f377099c2c59a5a17cfcf82be2ce25d9acd4679c31ff2de6272df6d8f1ff14",
+      "prompts/relevance_v1.txt": "a217bd2a7c1a627d0c97d9266c4377043ab9d2095627b9d06f7883966d6c2d35",
+      "prompts/d4_pairs_v1.txt": "ea7e2a7885f238c2f0fe41ec3b3b7aa084bc710401db34f55c2b4d52b20fa19e",
+      "prompts/facts_v1.txt": "cc0fe66ae8a27dd1bfda3c586dadc7e5a7cc69a61fa247812952912baf97d14f",
+      "prompts/node_relevance_v1.txt": "2fd9ff4a3952b69a98d755394df5cf2371d53439665046c008ce393150f347d6",
+      "prompts/extract_only_v1.txt": "f83d6efff1f7dfe69fe0b4fcfe565f42f31eb29e5cb3fa3e711c774feac0ade6",
+      "schemas/AUDIT.json": "9de519a28a09f29debd510879f67a037824bfe96dae21a33184a9595edf768af",
+      "schemas/HISTORY.json": "c4508e5a11a4bc31670bfc94359f22e436edc1f099a164165dea57503fde87bb",
+      "schemas/NODE_RELEVANCE.json": "a4fa5f5baeb05c732431e062127c72110e0b5403313889a5681b7b9ff62f64a8",
+      "schemas/FACTS.json": "b1b6c40e92351a1105b5357db1b0fa2631bf6afa170e9c8e4a8da52857cdaf40",
+      "schemas/EXTRACTION.json": "792237839fd8836d21477f68615ebda16c3e1efc623c3156f48f1acd65668ad2",
+      "schemas/D4_PAIRS.json": "1c805e88e8a2d59043354787426ff10651c3bad2e36af736907c5264d98e36d1",
+      "schemas/COMPARE.json": "49a5533763559fd8690858b034201609522bcdb8d442f2c1e96e8d27c2698c5c",
+      "schemas/RELEVANCE.json": "40aaa66f3226dcab726c12170291fce2af03bd423b007859680ddf34aaa5de87"
+    },
+    "code_commit": "b2c516d17ab7bb33d78cd87273859ea3c619e4c3",
+    "code_snapshot": "a6551328d0f150b00cce4e7f655794fe29918c5d124666b95f0a3be3579b2220",
+    "split_lock_sha256": "afa6bc7bea1cf70c1087225eaa9119ad7cbd6477d1cb095ee9acb80789d58b1b",
+    "input_lock_sha256": "9eff8acebc07c67de9ef61d01dec3cef77cf7a43f190cd47c0b1affc6c611b43",
+    "development_main_counts": {
+      "VALID": 92,
+      "QUARANTINED": 4,
+      "FAILED": 2
+    },
+    "development_comparison_counts": {
+      "VALID": 95,
+      "FAILED": 3
+    },
+    "holdout_size": 42,
+    "holdout_seen_for_prompt_tuning": false,
+    "allowed_after_freeze": "Fixed same-model configs, bounded retries<=6 per fingerprint, cache recovery, reports/exports; no semantic prompt tuning based on holdout",
+    "human_gold_n": 0,
+    "known_limitations": [
+      "2 development families failed after6 bounded attempts",
+      "4 development families have unresolved evidence issues and remain quarantined",
+      "Same-model Silver bias; no human accuracy proof"
+    ]
+  },
+  "semantic_code_commit": "b2c516d17ab7bb33d78cd87273859ea3c619e4c3",
+  "posthoc_relevance": {
+    "version": "D3.1-R1",
+    "scope": "Only fixed-node-audit conflicts, fresh same-model source re-read",
+    "benchmark_predictions_unchanged": true,
+    "not_independent_quality_proof": true,
+    "patches": 86
+  },
+  "human_gold_n": 0,
+  "labels": "Silver and unlabeled Human template separated",
+  "failure_and_retry": {
+    "max_per_invocation": 3,
+    "max_total_per_fingerprint": 6,
+    "semantic_revision_cycles": 2,
+    "local_pre_api_credential_failures": 90,
+    "unknown_usage_attempts": 701,
+    "terminal_failure_classification": [
+      {
+        "family_id": "google:14917668",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:16590898",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:26618543",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:34214176",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:38552258",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:39595000",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:39739327",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:42069640",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:47506065",
+        "http_status_counts": {
+          "429": 3
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:48008156",
+        "http_status_counts": {
+          "429": 3
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:51463248",
+        "http_status_counts": {
+          "429": 5
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:53768637",
+        "http_status_counts": {
+          "429": 4
+        },
+        "output_validation_failures": 4,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:54699711",
+        "http_status_counts": {
+          "429": 4
+        },
+        "output_validation_failures": 4,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:57607984",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      },
+      {
+        "family_id": "google:72608678",
+        "http_status_counts": {
+          "402": 1
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:74060847",
+        "http_status_counts": {
+          "402": 1
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:83397327",
+        "http_status_counts": {
+          "402": 1
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:85782338",
+        "http_status_counts": {
+          "402": 1
+        },
+        "output_validation_failures": 3,
+        "category": "Mixed service and validation"
+      },
+      {
+        "family_id": "google:94374918",
+        "http_status_counts": {},
+        "output_validation_failures": 6,
+        "category": "Output validation only"
+      }
+    ]
+  },
+  "cost": {
+    "peak_usd_upper_estimate": 9.620372454,
+    "billed_cost": null,
+    "reason": "Real usage priced at published peak rates; bill unavailable; unknown usage not assumed zero",
+    "official_price_source": "https://api-docs.deepseek.com/quick_start/pricing/"
+  },
+  "artifacts": {
+    "D3_PATENT_CONTRIBUTIONS.parquet": {
+      "sha256": "24ced7730e06391be51544bdd2ffe5de01146ce1267b17b3196c5ef03ea9a99b",
+      "bytes": 2483315
+    },
+    "D3_EVIDENCE_AUDIT.parquet": {
+      "sha256": "e27a027a41289d36e71a7889e3db99c99744bf4360f867c9383c505bb6317f61",
+      "bytes": 1915402
+    },
+    "D3_PROCESSING_STATUS.parquet": {
+      "sha256": "e723d469b0fce48accb6eea9fa3cf53da6a1160352878d36912d6b562d0d6f01",
+      "bytes": 399163
+    },
+    "D3_ERRORS.parquet": {
+      "sha256": "0a874da88b3f5ccdb1220eeaf27c7c71fa3bc003b6c5bf40cc70a31a8b09ebf8",
+      "bytes": 586757
+    },
+    "D3_METRICS.parquet": {
+      "sha256": "f6229d060131504317bb20661c5998edaaa827b2b7a49b0fed4f64efc0cd4fd8",
+      "bytes": 10483
+    },
+    "D3_LABELS.parquet": {
+      "sha256": "c4ea6c8f63202e4eb39bd9543d0c8ea28b586966846b72a56791c327a7d28c0c",
+      "bytes": 14195
+    },
+    "D3_RELEVANCE_CONFUSIONS.parquet": {
+      "sha256": "ba721040557838893a8ab647197e505c6b97d023a629db10b29e67432cb54482",
+      "bytes": 1617
+    },
+    "D4_MERGE_TEST_CASES.parquet": {
+      "sha256": "7e3f8868b75e3def2eb6bbb8a54f3f3e2cd9f8983b5fc2724cd2eb29fb3bf75c",
+      "bytes": 240743
+    },
+    "D3_PRINTHEAD_RELEVANCE.parquet": {
+      "sha256": "26a5ba54c504728461b0baed3d77779b473b88dae153d20f261283a10f2e86f0",
+      "bytes": 585309
+    },
+    "D3_REPORT.md": {
+      "sha256": "007ab23daea8d4f8a7a09b74d3edf83235eb1661723fcf60be42507ab4aa8262",
+      "bytes": 5398
+    },
+    "D3_ERROR_ANALYSIS.md": {
+      "sha256": "4802ad86cac112c395c33cebe1ddf0eaf121b754b719c1d93340f64304883134",
+      "bytes": 55186
+    },
+    "D3_EXPERIMENT_COMPARISON.md": {
+      "sha256": "030852b977728af09358bb0736bff77cd9d2e88b421c88c90d3f2439f61e10c8",
+      "bytes": 4415
+    },
+    "D3_HISTORICAL_REGRESSION.md": {
+      "sha256": "7d706653b60e60935452326bff6c2700642cfb13058f007dd0418a5c66bb58ed",
+      "bytes": 42187
+    },
+    "D3_EVALUATION_PROTOCOL.md": {
+      "sha256": "a1f3608d96167c2ede718f07d2cd741fcc757437d3c1ecfb1f2b39b612c31dfa",
+      "bytes": 6176
+    },
+    "D3_REVIEW_QUEUE.parquet": {
+      "sha256": "85cd6f68bb0e831042967e776c50ab96c3ddf30fd51570ef5a7be831b95c8906",
+      "bytes": 23978
+    },
+    "D3_EVALUATION_SET.xlsx": {
+      "sha256": "bc437426244fa13973f204937568f74e79ee68734756196e68b5f3b25424a8ff",
+      "bytes": 186914
+    },
+    "D3_QUALITY_METRICS.xlsx": {
+      "sha256": "edce2af9407473c410065f6dc2798f64243829debad120c385b09f75b5bb3743",
+      "bytes": 70478
+    },
+    "D3_PRINTHEAD_RELEVANCE.xlsx": {
+      "sha256": "c69cb23293fdb59267142c1df512e12dc085060e3dd386ca750a4c0dbd2bcd3c",
+      "bytes": 1182267
+    }
+  },
+  "frozen_inputs_unchanged": true,
+  "not_modified": [
+    "E3 original corpus",
+    "BGE/Qwen full vectors",
+    "D1 assignments",
+    "D2 core and IDs/merges"
+  ],
+  "scope_exclusions": [
+    "No acquisition",
+    "No embeddings",
+    "No clustering",
+    "No formal D4 merge"
+  ],
+  "service_rejections": {
+    "HTTP402": 194,
+    "HTTP429": 507
+  },
+  "deterministic_postfreeze_adaptations": [
+    "History wrapper fields docs/contributions; actual D2 relevance included",
+    "D4 annotated source-ID recovery, raw content/semantic recommendations unchanged"
+  ],
+  "final_execution_code_commit": "7fbf12ede8beaecac9465f569b7022c228cdde66",
+  "workbook_qa": {
+    "at": "2026-10-27T06:36:38.590Z",
+    "workbooks": [
+      {
+        "file": "/Volumes/Fuji_SSD_Work/workspaces/a55_d3_quality_convergence/outputs/01a171fb-0dd6-7792-b36b-80e200aba942/D3_EVALUATION_SET.xlsx",
+        "sheets": [
+          "Overview",
+          "Development",
+          "Holdout",
+          "Human review",
+          "History",
+          "Source text",
+          "Protocol"
+        ],
+        "nonformula_cells_verified": 11484,
+        "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+        "readback": true
+      },
+      {
+        "file": "/Volumes/Fuji_SSD_Work/workspaces/a55_d3_quality_convergence/outputs/01a171fb-0dd6-7792-b36b-80e200aba942/D3_QUALITY_METRICS.xlsx",
+        "sheets": [
+          "Summary",
+          "Metrics",
+          "Usage",
+          "Confusions",
+          "Failures"
+        ],
+        "nonformula_cells_verified": 8547,
+        "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+        "readback": true
+      },
+      {
+        "file": "/Volumes/Fuji_SSD_Work/workspaces/a55_d3_quality_convergence/outputs/01a171fb-0dd6-7792-b36b-80e200aba942/D3_PRINTHEAD_RELEVANCE.xlsx",
+        "sheets": [
+          "Summary",
+          "Labels",
+          "Node audit",
+          "Source text"
+        ],
+        "nonformula_cells_verified": 50458,
+        "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+        "readback": true
+      }
+    ],
+    "human_input_completion_logic_tested": true,
+    "test_inputs_restored": true,
+    "formulas_recalculated": true,
+    "native_excel_application_tested": false
+  },
+  "final_verification": {
+    "at": "2026-10-27T06:39:35.431911+00:00",
+    "passed": true,
+    "source_spans_exact": true,
+    "source_files_unchanged": true,
+    "frozen_semantic_code_unchanged": true,
+    "primary_families": 1117,
+    "contributions": 1065,
+    "audit_rows": 20668,
+    "human_gold": 0,
+    "history39_plus6": true,
+    "d4_cases": 39,
+    "credential_scan_files": 27535,
+    "credential_found": false
+  },
+  "publication_scope": "Only formal task deliverables and execution code. Raw input snapshots, complete API requests/responses/cache/logs remain on SSD and are not in public bundle.",
+  "execution_code_files": {
+    "scripts/metrics.py": "433429733cb692dbbf2641ffff7e28a43c4e0673b1c7739c25dde2f25c1a4b77",
+    "scripts/prepare_public_delivery.py": "ad643a8e06f63af37f7c5cdee0aaaf4d0d221abbffaed63b103bccc636bdf7e9",
+    "scripts/relevance_adjudicate.py": "f34d41a705ff8531743527b9dc1660e3b13943e0c3d21fa2a78db86badfdc189",
+    "scripts/client.py": "f5ba358ec50ba7651aa83560512ee4d1bc01b0eaf13049eab3d431608ab0c24f",
+    "scripts/design.py": "4bfae76326494f3f8334e332fd5e61877897ba056124e7d9fbf47ceae1e1ca4d",
+    "scripts/history_complete.py": "f6099c44cf92f24ae06631f07da6937ca7502cf390917b3d465f600982e93232",
+    "scripts/resume_probe.py": "136b66e1232db5db8ad36c3be8e0b2dc60595fd9435f7e1346b3379ad3d60e12",
+    "scripts/import_gold.py": "73731781393fefe2291ac60aa3ff6acff58c5aa02b66da136ec89e3df418d136",
+    "scripts/assemble.py": "ac5171481dc28f7f2f3a0d4ad9da8ef0793fcfc58635a952806fd941e1b11336",
+    "scripts/experiments.py": "6b7f3d6368220d2eb2222deb35e4a9ca2407277909fe06dd210f03a2a5c13a7d",
+    "scripts/final_verify.py": "b332d06c1a01f31a7b1aa7b3fb44dfde851b36f53cc172eba3254b54ee1fdff2",
+    "scripts/d4_cases.py": "c5b457e2e893e3fd7cc5358aa36b05af79bcbc55900253ac16587bbd432eda10",
+    "scripts/common.py": "368763ca2424238cd5ef67b06bd1e8bd3f4f561cb377ada42d4a6230fe2b83e1",
+    "scripts/pipeline.py": "44c2d68388849873b3452493e223d5881c39ffbfa5b2a2f683e1df71f4917284",
+    "scripts/d4_citation_recover.py": "13068791f912c3e256dd0f3fd4a26f531afe0eafea7513d65870b89fa8bb92c6",
+    "scripts/amend_split.py": "1e77d981d68b6c1d1cef0bd5a777bdf2e46faf5e24ed9463db8e2498c2c46655",
+    "scripts/freeze.py": "be732c875bda061dcb7c6525af2b14e61eb4de0bfe948a583bcebd7662e3cdc7",
+    "scripts/build_workbooks.mjs": "1a5836f67310521e6d6dffaaa5c6077f3837d8b0e92afd918b3ec6081d54f5af",
+    "scripts/related_audit.py": "3586114f5413d06fc821d2e725c8b27cad06fcdb1b79ec9858851e975a8b644b",
+    "scripts/prepare.py": "1bcc011870cd8f7c68c4587626d466bb93ee7670c57ef16af29155f585d0a81e",
+    "scripts/add_cost_metrics.py": "1d998015694f435d39d7ea2a5f317960d3dea546ecc52ae0ea58319a5836206f",
+    "scripts/diagnose_d2.py": "a49fb7cd9399ac1c17a035b3d27efa91b1ee6220e02feaf04190e14e4309c71f",
+    "scripts/history.py": "21445622b5066eed9ee3413ea8c70537b2d71e64e87bfeed834a36e372c5f18d",
+    "prompts/organize_v1.txt": "2bc423531f20cb8a9746e50a9fd7ee448629087fbc5fda3091492e1e3448691a",
+    "prompts/history_v1.txt": "27f7f43152ba6b3b473883039a39b8643017af8ced80a292e7cc1a061d36a880",
+    "prompts/compare_v1.txt": "3cae0ed62cc88ab9d12738965bb335236871249e905e014b5964f5501886c10c",
+    "prompts/revise_v1.txt": "723802e5abd2a1676fb4a4e2f13627251b2d324db076f60965d3853d25dd8fe8",
+    "prompts/audit_v1.txt": "09f377099c2c59a5a17cfcf82be2ce25d9acd4679c31ff2de6272df6d8f1ff14",
+    "prompts/relevance_v1.txt": "a217bd2a7c1a627d0c97d9266c4377043ab9d2095627b9d06f7883966d6c2d35",
+    "prompts/d4_pairs_v1.txt": "ea7e2a7885f238c2f0fe41ec3b3b7aa084bc710401db34f55c2b4d52b20fa19e",
+    "prompts/facts_v1.txt": "cc0fe66ae8a27dd1bfda3c586dadc7e5a7cc69a61fa247812952912baf97d14f",
+    "prompts/node_relevance_v1.txt": "2fd9ff4a3952b69a98d755394df5cf2371d53439665046c008ce393150f347d6",
+    "prompts/extract_only_v1.txt": "f83d6efff1f7dfe69fe0b4fcfe565f42f31eb29e5cb3fa3e711c774feac0ade6",
+    "schemas/AUDIT.json": "9de519a28a09f29debd510879f67a037824bfe96dae21a33184a9595edf768af",
+    "schemas/HISTORY.json": "c4508e5a11a4bc31670bfc94359f22e436edc1f099a164165dea57503fde87bb",
+    "schemas/NODE_RELEVANCE.json": "a4fa5f5baeb05c732431e062127c72110e0b5403313889a5681b7b9ff62f64a8",
+    "schemas/FACTS.json": "b1b6c40e92351a1105b5357db1b0fa2631bf6afa170e9c8e4a8da52857cdaf40",
+    "schemas/EXTRACTION.json": "792237839fd8836d21477f68615ebda16c3e1efc623c3156f48f1acd65668ad2",
+    "schemas/D4_PAIRS.json": "1c805e88e8a2d59043354787426ff10651c3bad2e36af736907c5264d98e36d1",
+    "schemas/COMPARE.json": "49a5533763559fd8690858b034201609522bcdb8d442f2c1e96e8d27c2698c5c",
+    "schemas/RELEVANCE.json": "40aaa66f3226dcab726c12170291fce2af03bd423b007859680ddf34aaa5de87",
+    "tests/test_integrity.py": "e5f85c6461cc5a89b1580e23614e379959100b560be8f482182076bfdb1ea954",
+    "run-python": "ecaf36ec9ab4157a55a9a0ceb8c6a5bc106b56c8ee4581df5ccbe9adcf0612e0",
+    "AGENTS.md": "52751b42bb19aa693f92a23f02a6dcf9e3c8681d3d94f07513a98f4e33a28594",
+    "README.md": "e355c755f5643dab68fad243e08b836d421e4ce4617f6e4fde502ea1a62f57b6",
+    "D3_EVALUATION_PROTOCOL.md": "a1f3608d96167c2ede718f07d2cd741fcc757437d3c1ecfb1f2b39b612c31dfa",
+    ".gitignore": "ccce473198f0c8e4fedcba695fc3eb3b6da17ddac5b65d41d63bcd3a7df0d701"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string"
+    },
+    "source_status": {
+      "type": "string",
+      "enum": [
+        "SUFFICIENT",
+        "PARTIAL",
+        "TITLE_ONLY",
+        "INSUFFICIENT"
+      ]
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "object",
+              "problem",
+              "material",
+              "composition",
+              "process",
+              "parameter",
+              "equipment",
+              "control",
+              "effect",
+              "uncertainty"
+            ]
+          },
+          "subject": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relation": {
+            "type": "string"
+          },
+          "object": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "qualifier": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "subject",
+          "relation",
+          "object",
+          "qualifier",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 70,
+      "minItems": 0
+    },
+    "independence_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 12,
+      "minItems": 0
+    },
+    "source_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15,
+      "minItems": 0
+    }
+  },
+  "required": [
+    "family_id",
+    "source_status",
+    "facts",
+    "independence_cues",
+    "source_gaps"
+  ],
+  "additionalProperties": false
+}

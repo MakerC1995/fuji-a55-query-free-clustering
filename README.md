@@ -1,3 +1,9 @@
+## A5.5-D3 质量收敛交付
+
+代码：[a55_d3/](a55_d3/)；正式交付：[deliverables/A5.5-D3/](deliverables/A5.5-D3/)；[综合报告](deliverables/A5.5-D3/D3_REPORT.md)。
+
+官方deepseek-flash；98开发/42盲测。1117族全部尝试，1098族产出（含45族争议），19族失败；1065候选贡献、15294最终字段审计、151节点相关性复审、45族历史回归、39组D4困难样本。人工Gold=0，Silver不作为全自动扩大规模证明。原D1/D2冻结数据与概念ID不改。原始输入与完整模型调用日志仅保留SSD，不在公开包中。
+
 # A5.5-D2 技术知识库原型
 
 [D2交付件](deliverables/A5.5-D2/) 单独存放；[D2报告](deliverables/A5.5-D2/D2_REPORT.md)、[主工作簿](deliverables/A5.5-D2/TECHNOLOGY_KNOWLEDGE_BASE.xlsx)、[代码快照](a55_d2/)。当前为1117族试验，含已知误并及源文疑点，不是全库穷尽或经人工验证的知识库。

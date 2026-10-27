@@ -1,0 +1,123 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string"
+    },
+    "axis_a": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "AU"
+      ]
+    },
+    "axis_b": {
+      "type": "string",
+      "enum": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "BU"
+      ]
+    },
+    "document_evidence": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 30,
+          "minItems": 0
+        }
+      },
+      "required": [
+        "text",
+        "evidence_ids"
+      ],
+      "additionalProperties": false
+    },
+    "head_object": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "possible_application": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mechanism_rationale": {
+      "type": "string"
+    },
+    "engineering_inference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "key_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15,
+      "minItems": 0
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15,
+      "minItems": 0
+    },
+    "needs_full_text": {
+      "type": "boolean"
+    },
+    "legacy_single_label": {
+      "type": "string",
+      "enum": [
+        "Direct",
+        "Manufacturing",
+        "Transferable",
+        "Contextual",
+        "Unrelated",
+        "Uncertain"
+      ]
+    },
+    "legacy_rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "family_id",
+    "axis_a",
+    "axis_b",
+    "document_evidence",
+    "head_object",
+    "possible_application",
+    "mechanism_rationale",
+    "engineering_inference",
+    "key_conditions",
+    "open_questions",
+    "needs_full_text",
+    "legacy_single_label",
+    "legacy_rationale"
+  ],
+  "additionalProperties": false
+}

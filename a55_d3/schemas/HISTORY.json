@@ -1,0 +1,168 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string"
+    },
+    "object_judgment": {
+      "type": "string",
+      "enum": [
+        "Correct",
+        "Partially Correct",
+        "Incorrect",
+        "Insufficient Source Evidence",
+        "Uncertain"
+      ]
+    },
+    "problem_judgment": {
+      "type": "string",
+      "enum": [
+        "Correct",
+        "Partially Correct",
+        "Incorrect",
+        "Insufficient Source Evidence",
+        "Uncertain"
+      ]
+    },
+    "means_judgment": {
+      "type": "string",
+      "enum": [
+        "Correct",
+        "Partially Correct",
+        "Incorrect",
+        "Insufficient Source Evidence",
+        "Uncertain"
+      ]
+    },
+    "material_parameter_judgment": {
+      "type": "string",
+      "enum": [
+        "Correct",
+        "Partially Correct",
+        "Incorrect",
+        "Insufficient Source Evidence",
+        "Uncertain"
+      ]
+    },
+    "source_adequacy": {
+      "type": "string",
+      "enum": [
+        "sufficient",
+        "partially_sufficient",
+        "insufficient",
+        "uncertain"
+      ]
+    },
+    "historical_recovery": {
+      "type": "string",
+      "enum": [
+        "Recovered",
+        "Broad Topic Only",
+        "Insufficient Source Evidence",
+        "Missing Despite Available Evidence",
+        "Uncertain"
+      ]
+    },
+    "source_available_means": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "historical_details_absent": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "extraction_omissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "needs_full_text": {
+      "type": "boolean"
+    },
+    "false_unrelated": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "uncertain",
+        "not_applicable"
+      ]
+    },
+    "d2_to_d3_change": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "family_id",
+    "object_judgment",
+    "problem_judgment",
+    "means_judgment",
+    "material_parameter_judgment",
+    "source_adequacy",
+    "historical_recovery",
+    "source_available_means",
+    "historical_details_absent",
+    "extraction_omissions",
+    "needs_full_text",
+    "false_unrelated",
+    "d2_to_d3_change",
+    "reason"
+  ],
+  "additionalProperties": false
+}

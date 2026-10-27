@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "properties": {
+    "pair_id": {
+      "type": "string"
+    },
+    "recommended_relation": {
+      "type": "string",
+      "enum": [
+        "Same Mechanism",
+        "Parent-Child",
+        "Variant",
+        "Related",
+        "Complementary",
+        "Distinct",
+        "Uncertain"
+      ]
+    },
+    "parent_side": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "neither",
+        "uncertain"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "distinguishing_elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "evidence_a": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 30,
+      "minItems": 0
+    },
+    "evidence_b": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 30,
+      "minItems": 0
+    },
+    "ambiguity": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15,
+      "minItems": 0
+    },
+    "needs_full_text": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "pair_id",
+    "recommended_relation",
+    "parent_side",
+    "rationale",
+    "distinguishing_elements",
+    "evidence_a",
+    "evidence_b",
+    "ambiguity",
+    "needs_full_text"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,223 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string"
+    },
+    "field_audits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "grade": {
+            "type": "string",
+            "enum": [
+              "Explicit",
+              "Supported Paraphrase",
+              "Partial",
+              "Inferred",
+              "Unsupported",
+              "Insufficient"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "path",
+          "grade",
+          "reason",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 150,
+      "minItems": 0
+    },
+    "conclusion_grade": {
+      "type": "string",
+      "enum": [
+        "Explicit",
+        "Supported Paraphrase",
+        "Partial",
+        "Inferred",
+        "Unsupported",
+        "Insufficient"
+      ]
+    },
+    "source_adequacy": {
+      "type": "string",
+      "enum": [
+        "sufficient",
+        "partially_sufficient",
+        "insufficient",
+        "uncertain"
+      ]
+    },
+    "independent_contributions_expected": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "oversplit_count": {
+      "type": "integer"
+    },
+    "missing_contributions_count": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "hallucinated_contributions_count": {
+      "type": "integer"
+    },
+    "missing_critical_materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "missing_critical_processes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 20,
+      "minItems": 0
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "Missing Contribution",
+              "Over-splitting",
+              "Missing Critical Material",
+              "Wrong Deposition Object",
+              "Lost Process Sequence",
+              "Lost Parameter Context",
+              "Mechanism Hallucination",
+              "Unsupported Evidence",
+              "Evidence Field Mismatch",
+              "False Unrelated",
+              "False Direct Relevance",
+              "Ambiguous Transferability",
+              "Insufficient Source",
+              "Model Output Failure"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          },
+          "needs_full_text": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "description",
+          "evidence_ids",
+          "needs_full_text"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 30,
+      "minItems": 0
+    },
+    "revision_required": {
+      "type": "boolean"
+    },
+    "revision_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 0
+    }
+  },
+  "required": [
+    "family_id",
+    "field_audits",
+    "conclusion_grade",
+    "source_adequacy",
+    "independent_contributions_expected",
+    "oversplit_count",
+    "missing_contributions_count",
+    "hallucinated_contributions_count",
+    "missing_critical_materials",
+    "missing_critical_processes",
+    "errors",
+    "revision_required",
+    "revision_instructions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+inputs/
+requests/
+responses/
+cache/
+working/
+outputs/
+logs/
+code_snapshots/
+node_modules
+__pycache__/
+*.env
+*.sqlite*
+/*.xlsx
+/*.parquet
+/*.zip
+/*.tar.gz
+human_imports/

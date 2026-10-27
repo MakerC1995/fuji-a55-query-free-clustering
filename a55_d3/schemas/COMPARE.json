@@ -1,0 +1,301 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "dimensions": {
+            "type": "object",
+            "properties": {
+              "technical_object": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "technical_problem": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "technical_mechanism": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "materials": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "process_method": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "process_order": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "parameters": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "effects": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "multiple_contributions": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              },
+              "hallucination": {
+                "type": "string",
+                "enum": [
+                  "Correct",
+                  "Partially Correct",
+                  "Incorrect",
+                  "Insufficient Source Evidence",
+                  "Uncertain"
+                ]
+              }
+            },
+            "required": [
+              "technical_object",
+              "technical_problem",
+              "technical_mechanism",
+              "materials",
+              "process_method",
+              "process_order",
+              "parameters",
+              "effects",
+              "multiple_contributions",
+              "hallucination"
+            ],
+            "additionalProperties": false
+          },
+          "correct_contribution_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "expected_contribution_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "oversplit_count": {
+            "type": "integer"
+          },
+          "missing_contribution_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "hallucination_count": {
+            "type": "integer"
+          },
+          "critical_material_retained": {
+            "type": "integer"
+          },
+          "critical_material_expected": {
+            "type": "integer"
+          },
+          "critical_process_retained": {
+            "type": "integer"
+          },
+          "critical_process_expected": {
+            "type": "integer"
+          },
+          "full_conclusion_grade": {
+            "type": "string",
+            "enum": [
+              "Explicit",
+              "Supported Paraphrase",
+              "Partial",
+              "Inferred",
+              "Unsupported",
+              "Insufficient"
+            ]
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "Missing Contribution",
+                    "Over-splitting",
+                    "Missing Critical Material",
+                    "Wrong Deposition Object",
+                    "Lost Process Sequence",
+                    "Lost Parameter Context",
+                    "Mechanism Hallucination",
+                    "Unsupported Evidence",
+                    "Evidence Field Mismatch",
+                    "False Unrelated",
+                    "False Direct Relevance",
+                    "Ambiguous Transferability",
+                    "Insufficient Source",
+                    "Model Output Failure"
+                  ]
+                },
+                "description": {
+                  "type": "string"
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "maxItems": 30,
+                  "minItems": 0
+                },
+                "needs_full_text": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "type",
+                "description",
+                "evidence_ids",
+                "needs_full_text"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 20,
+            "minItems": 0
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "dimensions",
+          "correct_contribution_count",
+          "expected_contribution_count",
+          "oversplit_count",
+          "missing_contribution_count",
+          "hallucination_count",
+          "critical_material_retained",
+          "critical_material_expected",
+          "critical_process_retained",
+          "critical_process_expected",
+          "full_conclusion_grade",
+          "errors",
+          "notes"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 6,
+      "minItems": 1
+    },
+    "source_only_reference": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 0
+          }
+        },
+        "required": [
+          "text",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 30,
+      "minItems": 0
+    },
+    "source_adequacy": {
+      "type": "string",
+      "enum": [
+        "sufficient",
+        "partially_sufficient",
+        "insufficient",
+        "uncertain"
+      ]
+    }
+  },
+  "required": [
+    "family_id",
+    "scores",
+    "source_only_reference",
+    "source_adequacy"
+  ],
+  "additionalProperties": false
+}
