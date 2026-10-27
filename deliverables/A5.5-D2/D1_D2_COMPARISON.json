@@ -1,0 +1,2393 @@
+{
+  "at": "2026-10-27T09:29:21.092798+08:00",
+  "method_notes": "实际D1代码不是每群只有一个名称：它允许1至3个主题，要求原文引句，允许无法确定，也已有独立于Cluster的Technology散列ID和Cluster/Patent多对多表。D1以名称、对象、手段的字符串散列合并记录，尚无D2的逐族贡献层、源文坐标及双侧机制等价审计。\n本对照复刻的是D1群级命名与逐字引文检查阶段，未复制D1后来另做的助手语义审计，不能将它当作旧D1完整最终审定结果。\n本表是核心冻结之后、同一30B模型上新做的D1式对照，复用原SYSTEM、最多8个中心/边缘/随机/多样代表、摘要前1200字符和原逐字引文检查。不是冒充D1历史结果。部分控制池仅为本轮抽样；Noise原方法不命名，这里采用冻结60族中的均匀8族作为明确适配。\nD2阅读更多原文、允许单源机制候选并有助手修订；D1门槛至少3个Family ID，原文重复另计。两种不确定率和节点数单位不同，不能直接比较准确率。表中D1引文PASS仅为字面匹配，不是语义正确。D2多节点不等于真实技术拆分率；当前没有独立人类Gold、同成本精确率或全量机制Recall。D2的价值首先在可逐族追溯、保留不同限定及机制关系审计。实际调用成本含所有失败和重试，详见Manifest。\n",
+  "headers": [
+    "选择",
+    "群总体",
+    "本轮池",
+    "D1式输入族",
+    "D1式主题名",
+    "具名主题",
+    "引文PASS主题",
+    "D2候选机制",
+    "D2明确手段族",
+    "D2弃判记录",
+    "D1建议拆分"
+  ],
+  "rows": [
+    [
+      "primary__qwen_k300_s42__c139",
+      384,
+      384,
+      8,
+      "无法确定 / 无法确定 / 无法确定",
+      0,
+      0,
+      360,
+      382,
+      2,
+      "否/未报告"
+    ],
+    [
+      "specified_control__qwen_k800_s42__c286",
+      258,
+      258,
+      8,
+      "无法确定 / 无法确定 / 无法确定",
+      0,
+      1,
+      239,
+      258,
+      0,
+      "是"
+    ],
+    [
+      "specified_control__qwen_k800_s42__c168",
+      153,
+      153,
+      8,
+      "无法确定 / 无法确定 / 无法确定",
+      0,
+      0,
+      144,
+      149,
+      4,
+      "是"
+    ],
+    [
+      "specified_control__bge_k800_s42__c223",
+      190,
+      190,
+      8,
+      "无法确定 / 无法确定 / 无法确定",
+      0,
+      0,
+      178,
+      190,
+      0,
+      "是"
+    ],
+    [
+      "specified_control__bge_k800_s42__c475",
+      57,
+      57,
+      8,
+      "ペロブスカイト型圧電体の構成と特性制御 / ペロブスカイト型酸化物のドープと組成最適化 / 无法确定",
+      2,
+      3,
+      55,
+      57,
+      0,
+      "是"
+    ],
+    [
+      "specified_control__qwen_k800_s42__c404",
+      272,
+      272,
+      8,
+      "无法确定",
+      0,
+      1,
+      257,
+      268,
+      2,
+      "是"
+    ],
+    [
+      "random_medium__qwen_k800_s42__c505",
+      110,
+      110,
+      8,
+      "无法确定",
+      0,
+      1,
+      0,
+      0,
+      110,
+      "是"
+    ],
+    [
+      "random_medium__bge_k800_s42__c655",
+      109,
+      109,
+      8,
+      "无法确定",
+      0,
+      1,
+      99,
+      106,
+      3,
+      "是"
+    ],
+    [
+      "mixed_proxy__qwen_k300_s42__c57",
+      1043,
+      80,
+      8,
+      "无法确定",
+      0,
+      1,
+      80,
+      80,
+      0,
+      "是"
+    ],
+    [
+      "small_tight__qwen_k30_mutual_r1.0_s42__c138",
+      15,
+      15,
+      6,
+      "无法确定",
+      0,
+      0,
+      0,
+      0,
+      15,
+      "否/未报告"
+    ],
+    [
+      "noise__bge_n238541_pca30_c30_s15",
+      210176,
+      60,
+      8,
+      "无法确定 / 无法确定 / 无法确定",
+      0,
+      0,
+      53,
+      53,
+      6,
+      "是"
+    ]
+  ],
+  "operational_metrics": {
+    "d1": {
+      "input_family_appearances": 86,
+      "unique_input_families": 84,
+      "theme_records": 23,
+      "named_theme_records": 2,
+      "literal_evidence_references": 65,
+      "literal_verified_references": 56,
+      "themes_with_nonempty_means": 21,
+      "insufficient_theme_records": 21,
+      "exact_string_duplicate_named_records": 0,
+      "panels_suggested_split": 9
+    },
+    "d2": {
+      "input_families": 1117,
+      "contribution_or_abstention_records": 1115,
+      "explicit_mechanism_records": 975,
+      "nonexplicit_records": 140,
+      "candidate_mechanisms": 926,
+      "all_source_spans": 4299,
+      "nodes_with_multiple_family_ids": 44,
+      "nodes_with_distinct_source_texts": 44,
+      "contribution_reduction_into_candidates": 49
+    },
+    "mixed_mechanism_split_rate": null,
+    "independent_semantic_precision": null,
+    "reason": "No gold mechanism inventory or matched-cost semantic audit. Nonempty means and literal quote matches are structural indicators only; uncertainty units differ."
+  },
+  "same_input_family_headers": [
+    "选择",
+    "D1主题记录",
+    "D1具名",
+    "D1逐字证据匹配/提议",
+    "D1手段非空主题",
+    "共同输入唯一族",
+    "D2明确手段族",
+    "D2涉及全局节点",
+    "D2弃判记录"
+  ],
+  "same_input_family_rows": [
+    [
+      "primary__qwen_k300_s42__c139",
+      3,
+      0,
+      "8 / 9",
+      3,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "specified_control__qwen_k800_s42__c286",
+      3,
+      0,
+      "9 / 9",
+      3,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "specified_control__qwen_k800_s42__c168",
+      3,
+      0,
+      "5 / 8",
+      3,
+      8,
+      7,
+      7,
+      1
+    ],
+    [
+      "specified_control__bge_k800_s42__c223",
+      3,
+      0,
+      "6 / 9",
+      3,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "specified_control__bge_k800_s42__c475",
+      3,
+      2,
+      "9 / 9",
+      3,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "specified_control__qwen_k800_s42__c404",
+      1,
+      0,
+      "3 / 3",
+      1,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "random_medium__qwen_k800_s42__c505",
+      1,
+      0,
+      "3 / 3",
+      0,
+      8,
+      0,
+      0,
+      8
+    ],
+    [
+      "random_medium__bge_k800_s42__c655",
+      1,
+      0,
+      "3 / 3",
+      1,
+      8,
+      7,
+      7,
+      1
+    ],
+    [
+      "mixed_proxy__qwen_k300_s42__c57",
+      1,
+      0,
+      "3 / 3",
+      1,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      "small_tight__qwen_k30_mutual_r1.0_s42__c138",
+      1,
+      0,
+      "0 / 0",
+      0,
+      6,
+      0,
+      0,
+      6
+    ],
+    [
+      "noise__bge_n238541_pca30_c30_s15",
+      3,
+      0,
+      "7 / 9",
+      3,
+      8,
+      5,
+      5,
+      2
+    ]
+  ],
+  "controls": [
+    {
+      "selection_id": "primary__qwen_k300_s42__c139",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "圧電積層体及び圧電素子",
+            "problem": "圧電定数が高いことと、動作環境における圧電特性の安定性（長期信頼性）に優れた圧電積層体及び圧電素子を提供する。",
+            "means": "Pb含有ペロブスカイト型酸化物を含む圧電膜、質量数が18の酸素原子18Oを自然存在比を超えて含む。",
+            "effect": "圧電定数が高いことと、動作環境における圧電特性の安定性に優れた圧電積層体及び圧電素子を提供する。",
+            "evidence": [
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:85172750",
+              "google:55629724",
+              "google:75537363"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "高圧電定数と長期信頼性の圧電積層体",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "圧電素子及びその製造方法",
+            "problem": "基板と下部電極との密着性、及び、下部電極と圧電体膜との密着性が高く長期駆動信頼性に優れたPZT系圧電素子とその製造方法を提供する。",
+            "means": "チタン含有密着層、白金族元素を主成分とする多数の柱状結晶からなる柱状構造膜、柱径が50nm以上200nm以下。",
+            "effect": "基板と下部電極との密着性、及び、下部電極と圧電体膜との密着性が高く長期駆動信頼性に優れたPZT系圧電素子を提供する。",
+            "evidence": [
+              {
+                "family_id": "google:55629724",
+                "quote": "チタン含有密着層（２０）と、下部電極（３０）と、ＰＺＴ系圧電体膜（４０）と、上部電極（５０）とを順次備え",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:55629724",
+                "quote": "下部電極（３０）は、チタン含有密着層（２０）の表面から成長してなる白金族元素を主成分とする多数の柱状結晶（３０ｃ）からなる柱状構造膜と",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:55629724",
+                "quote": "柱状構造膜の柱状結晶の主たる柱径が５０ｎｍ以上２００ｎｍ以下である。",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:55629724",
+              "google:85172750",
+              "google:75537363"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:55629724",
+                "quote": "チタン含有密着層（２０）と、下部電極（３０）と、ＰＺＴ系圧電体膜（４０）と、上部電極（５０）とを順次備え",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:55629724",
+                "quote": "下部電極（３０）は、チタン含有密着層（２０）の表面から成長してなる白金族元素を主成分とする多数の柱状結晶（３０ｃ）からなる柱状構造膜と",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:55629724",
+                "quote": "柱状構造膜の柱状結晶の主たる柱径が５０ｎｍ以上２００ｎｍ以下である。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "密着性と長期駆動信頼性に優れた圧電素子",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "未明确技术对象",
+            "problem": "未明确技术问题",
+            "means": "未明确技术手段",
+            "effect": "未明确技术效果",
+            "evidence": [
+              {
+                "family_id": "google:58557302",
+                "quote": "The audio-video system includes：Electroacoustic converting unit has electroacoustic conversion film, and electroacoustic conversion film is supported in a curved fashion",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:12669515",
+                "quote": "The opening is provided to the SiO2 film on p-type Si substrate 10, and n<+> layer 16 and 17 are formed through diffusion of phosphorus.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:74061243",
+                "quote": "電気音響変換フィルムの熱膨張係数が１２ｐｐｍ／℃～１００ｐｐｍ／℃である。",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:58557302",
+              "google:12669515",
+              "google:74061243"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:58557302",
+                "quote": "The audio-video system includes：Electroacoustic converting unit has electroacoustic conversion film, and electroacoustic conversion film is supported in a curved fashion",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:74061243",
+                "quote": "電気音響変換フィルムの熱膨張係数が１２ｐｐｍ／℃～１００ｐｐｍ／℃である。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 2,
+            "unique_supporting_texts": 2,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          }
+        ],
+        "heterogeneity": "各技术主题涉及不同类型的压电材料和结构设计，如Pb含有的钙钛矿型氧化物、PZT系材料及高分子复合材料等，且应用领域涵盖传感器、驱动器、音视频系统等，具有显著异质性。",
+        "needs_split": false,
+        "evidence_strength": "medium",
+        "limitations": "部分技术主题证据不足，仅基于少量专利文献，无法全面反映技术细节；部分专利未明确说明具体材料组成或结构参数。"
+      },
+      "result_sha256": "224195991fdc7259715ed9726c11cf5b2edbef2e9c5d442bdc9198a26070caae",
+      "invalid_evidence": [
+        {
+          "theme": 2,
+          "evidence": {
+            "family_id": "google:12669515",
+            "quote": "The opening is provided to the SiO2 film on p-type Si substrate 10, and n<+> layer 16 and 17 are formed through diffusion of phosphorus.",
+            "field": "abstract"
+          }
+        }
+      ],
+      "request_id": "d1_baseline_b53cc88163e34839e2051bad",
+      "cache_key": "e9ce1be682103905e1ac0c40a7208a42f642fac136e0181a24a2f2d6fc14c515",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "specified_control__qwen_k800_s42__c286",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "piezoelectric film",
+            "problem": "high voltage characteristics and easy maintenance of electrical contact points",
+            "means": "stacking multiple layers with protective and electrode layers",
+            "effect": "obtaining high voltage characteristics and maintaining electrical contact points easily",
+            "evidence": [
+              {
+                "family_id": "google:77770852",
+                "quote": "A piezoelectric film is stacked in multiple layers, the piezoelectric film being obtained by layering, in the stated order, a first protective layer, a first electrode layer, a piezoelectric layer, a second electrode layer, and a second protective layer",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:77770852",
+                "quote": "in each piezoelectric film, a first electrode being positioned on the upstream side in the polarization direction of the piezoelectric layer, and a second electrode being positioned on the downstream side",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:77770852",
+                "quote": "a projecting part from which at least a first electrode layer and a first protective layer, or a second electrode layer and a second protective layer, project from the adhesive part toward the planar-direction outer side",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:77770852",
+              "google:83227626",
+              "google:38941880"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:77770852",
+                "quote": "A piezoelectric film is stacked in multiple layers, the piezoelectric film being obtained by layering, in the stated order, a first protective layer, a first electrode layer, a piezoelectric layer, a second electrode layer, and a second protective layer",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:77770852",
+                "quote": "in each piezoelectric film, a first electrode being positioned on the upstream side in the polarization direction of the piezoelectric layer, and a second electrode being positioned on the downstream side",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:77770852",
+                "quote": "a projecting part from which at least a first electrode layer and a first protective layer, or a second electrode layer and a second protective layer, project from the adhesive part toward the planar-direction outer side",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "多层压电薄膜结构",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "piezoelectric element",
+            "problem": "satisfactory durability, high sound pressure output, decreased electrode resistance and heat generation",
+            "means": "interlayer containing carbon and/or metal with specific atom concentration",
+            "effect": "improved durability, higher sound pressure, reduced resistance and heat generation",
+            "evidence": [
+              {
+                "family_id": "google:83227626",
+                "quote": "The above-described object is achieved by providing the piezoelectric film including a piezoelectric layer containing piezoelectric particles in a matrix that contains a polymer material, electrode layers provided on both surfaces of the piezoelectric layer, and an interlayer provided on at least one side between the piezoelectric layer and the electrode layers",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:83227626",
+                "quote": "in which the interlayer contains carbon and/or a metal, and a metal atom concentration of 30 to 90 atm % or a carbon atom concentration of 85 to 95 atm % is satisfied",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:64105183",
+                "quote": "外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:83227626",
+              "google:64105183",
+              "google:36110610"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:83227626",
+                "quote": "The above-described object is achieved by providing the piezoelectric film including a piezoelectric layer containing piezoelectric particles in a matrix that contains a polymer material, electrode layers provided on both surfaces of the piezoelectric layer, and an interlayer provided on at least one side between the piezoelectric layer and the electrode layers",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:83227626",
+                "quote": "in which the interlayer contains carbon and/or a metal, and a metal atom concentration of 30 to 90 atm % or a carbon atom concentration of 85 to 95 atm % is satisfied",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:64105183",
+                "quote": "外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 2,
+            "unique_supporting_texts": 2,
+            "unverified_name": "压电元件结构优化",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "未明确技术对象",
+            "problem": "未明确技术问题",
+            "means": "未明确技术手段",
+            "effect": "未明确技术效果",
+            "evidence": [
+              {
+                "family_id": "google:73458553",
+                "quote": "圧電素子を備え、一端が筐体に固定されて筐体内に空間を形成するカンチレバーと、空間内のカンチレバーから離間した位置に配置され、かつ外力が作用した際に、カンチレバーに向かって移動してカンチレバーの固定端側の部位に衝突し、衝突後にカンチレバーから離間する錘と、を含む振動発電素子において",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:59090151",
+                "quote": "This thermoelectric conversion device includes a plurality of thermoelectric conversion modules comprising: an insulating support body having flexibility; a plurality of p-type thermoelectric conversion layers and n-type thermoelectric conversion layers formed in an alternating manner on one surface of the support body with an interval resulting from the support body therebetween",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36635088",
+                "quote": "The capacitive micromachine ultrasonic vibrator includes the base plate 30 formed of a material containing a resin, and a vibrator cell 10 arranged at the base plate 30",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:73458553",
+              "google:59090151",
+              "google:36635088"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:73458553",
+                "quote": "圧電素子を備え、一端が筐体に固定されて筐体内に空間を形成するカンチレバーと、空間内のカンチレバーから離間した位置に配置され、かつ外力が作用した際に、カンチレバーに向かって移動してカンチレバーの固定端側の部位に衝突し、衝突後にカンチレバーから離間する錘と、を含む振動発電素子において",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:59090151",
+                "quote": "This thermoelectric conversion device includes a plurality of thermoelectric conversion modules comprising: an insulating support body having flexibility; a plurality of p-type thermoelectric conversion layers and n-type thermoelectric conversion layers formed in an alternating manner on one surface of the support body with an interval resulting from the support body therebetween",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36635088",
+                "quote": "The capacitive micromachine ultrasonic vibrator includes the base plate 30 formed of a material containing a resin, and a vibrator cell 10 arranged at the base plate 30",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "该聚类包含多种压电、热电和微机电系统技术，涉及不同应用领域如声学器件、能量收集和微泵等。",
+        "needs_split": true,
+        "evidence_strength": "medium",
+        "limitations": "部分专利仅提供抽象信息，缺乏具体结构细节；部分技术特征共现但未明确关联。"
+      },
+      "result_sha256": "2da6c1e3b4c6b3105d3d550b5cea52e26751b94c474bdfb48a802d40cff57f0f",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_c7895d5874b64de6c10e27f4",
+      "cache_key": "49c4450a88a4fdc794511db3e9fb7f454efecdccba2752f68f0a2243a9e240b1",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "specified_control__qwen_k800_s42__c168",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "圧電体膜",
+            "problem": "圧電特性が高く、長期駆動時の劣化が少ない。",
+            "means": "気相成長法により成膜されたペロブスカイト型酸化物を含む。",
+            "effect": "圧電特性が高く、劣化が少ない。",
+            "evidence": [
+              {
+                "family_id": "google:56073954",
+                "quote": "気相成長法により成膜されてなる圧電体膜であって、下記一般式Ｐで表されるペロブスカイト型酸化物にＳｉが０．２ｍｏｌ％以上０．５ｍｏｌ％以下ドープされてなるペロブスカイト型酸化物を含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:55399055",
+                "quote": "本発明の圧電体膜（４０）は、下記式（Ｐ）で表されるペロブスカイト型酸化物を含む圧電体膜であって、ペロブスカイト型酸化物の結晶相が、下記式（１）を満足する割合で正方晶と菱面体晶を含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40587181",
+                "quote": "The perovskite oxide is represented by the following equation (P): (Pb<SB>1-x+δ</SB>A<SB>x</SB>)(Zr<SB>y</SB>Ti<SB>1-y</SB>)<SB>1-z</SB>M<SB>z</SB>O<SB>w</SB>",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:56073954",
+              "google:55399055",
+              "google:40587181"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:55399055",
+                "quote": "本発明の圧電体膜（４０）は、下記式（Ｐ）で表されるペロブスカイト型酸化物を含む圧電体膜であって、ペロブスカイト型酸化物の結晶相が、下記式（１）を満足する割合で正方晶と菱面体晶を含む。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "ペロブスカイト型酸化物を含む圧電体膜",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "ペロブスカイト酸化物",
+            "problem": "高温域での発電性能を向上させる。",
+            "means": "リードフリーなペロブスカイト酸化物を用いる。",
+            "effect": "低温域において高いパワーファクターを実現し、発電量を増大する。",
+            "evidence": [
+              {
+                "family_id": "google:45021765",
+                "quote": "PROBLEM TO BE SOLVED: To provide a lead-free perovskite oxide having a low Curie temperature and exhibiting excellent ferroelectricity.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:60949825",
+                "quote": "本発明のβ−ＦｅＳｉ ２ 相を含む熱電材料は、β−ＦｅＳｉ ２ 相が熱電材料中に９０体積％より多く含有されており、β−ＦｅＳｉ ２ 相が少なくともＰ（リン）を０．１ａｔ％より多く０．３ａｔ％以下の範囲で含有する。",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:45021765",
+              "google:60949825"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:45021765",
+                "quote": "PROBLEM TO BE SOLVED: To provide a lead-free perovskite oxide having a low Curie temperature and exhibiting excellent ferroelectricity.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:60949825",
+                "quote": "本発明のβ−ＦｅＳｉ ２ 相を含む熱電材料は、β−ＦｅＳｉ ２ 相が熱電材料中に９０体積％より多く含有されており、β−ＦｅＳｉ ２ 相が少なくともＰ（リン）を０．１ａｔ％より多く０．３ａｔ％以下の範囲で含有する。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 2,
+            "unique_supporting_texts": 2,
+            "unverified_name": "リードフリーなペロブスカイト酸化物",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "无法确定",
+            "problem": "无法确定",
+            "means": "无法确定",
+            "effect": "无法确定",
+            "evidence": [
+              {
+                "family_id": "google:87552116",
+                "quote": "常温および氷点下のいずれの環境下においても、優れた可撓性を有する圧電デバイスを提供する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36231386",
+                "quote": "マイクロポンプは、圧電性材料からなる圧電基板１０と、圧電基板１０上に設けられ、圧電基板１０の表面に弾性表面波を励振させる櫛型電極１２と、を備えている。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:18171514",
+                "quote": "圧電素子電気的・機械的破損検出方法および圧電素子検査装置",
+                "field": "title"
+              }
+            ],
+            "representative_family_ids": [
+              "google:87552116",
+              "google:36231386",
+              "google:18171514"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:87552116",
+                "quote": "常温および氷点下のいずれの環境下においても、優れた可撓性を有する圧電デバイスを提供する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:18171514",
+                "quote": "圧電素子電気的・機械的破損検出方法および圧電素子検査装置",
+                "field": "title"
+              }
+            ],
+            "verified_family_count": 2,
+            "unique_supporting_texts": 2,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          }
+        ],
+        "heterogeneity": "该聚类包含多种技术主题，包括压电体膜、热电材料和微泵等，技术异质性较高。",
+        "needs_split": true,
+        "evidence_strength": "medium",
+        "limitations": "部分专利仅提供标题或摘要片段，无法确定具体技术手段；部分证据未明确说明技术效果。"
+      },
+      "result_sha256": "80a161d103c1610f9e1f327188df6555313cbb455de01dfc101f2b7cbf8e2fc8",
+      "invalid_evidence": [
+        {
+          "theme": 0,
+          "evidence": {
+            "family_id": "google:56073954",
+            "quote": "気相成長法により成膜されてなる圧電体膜であって、下記一般式Ｐで表されるペロブスカイト型酸化物にＳｉが０．２ｍｏｌ％以上０．５ｍｏｌ％以下ドープされてなるペロブスカイト型酸化物を含む。",
+            "field": "abstract"
+          }
+        },
+        {
+          "theme": 0,
+          "evidence": {
+            "family_id": "google:40587181",
+            "quote": "The perovskite oxide is represented by the following equation (P): (Pb<SB>1-x+δ</SB>A<SB>x</SB>)(Zr<SB>y</SB>Ti<SB>1-y</SB>)<SB>1-z</SB>M<SB>z</SB>O<SB>w</SB>",
+            "field": "abstract"
+          }
+        },
+        {
+          "theme": 2,
+          "evidence": {
+            "family_id": "google:36231386",
+            "quote": "マイクロポンプは、圧電性材料からなる圧電基板１０と、圧電基板１０上に設けられ、圧電基板１０の表面に弾性表面波を励振させる櫛型電極１２と、を備えている。",
+            "field": "abstract"
+          }
+        }
+      ],
+      "request_id": "d1_baseline_bbe80abbc612237549d7cb07",
+      "cache_key": "45d80a88898c7585afeb1d08b6390a09d98daa67d2c8e5698003f909c4754b3b",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "specified_control__bge_k800_s42__c223",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "piezoelectric film",
+            "problem": "To provide a piezoelectric film excelling in both piezoelectric performance and withstand voltage without requiring unnecessary films or complicated processes.",
+            "means": "A lower electrode, piezoelectric film, and upper electrode are sequentially laminated on a substrate. The piezoelectric film has surface roughness P-V of not more than 170.0 nm, piezoelectric constant d31 greater than 150 pc/N, and breakdown voltage of 80 V or more.",
+            "effect": "Achieves high piezoelectric performance and withstand voltage without unnecessary layers or complex processes.",
+            "evidence": [
+              {
+                "family_id": "google:42630618",
+                "quote": "a lower electrode 20, this piezoelectric film 30 and an upper electrode 40 are sequentially laminated on a substrate 10",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:42630618",
+                "quote": "a surface roughness value P-V of not more than 170.0 nm",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:42630618",
+                "quote": "a piezoelectric constant d31 greater than 150 pc/N and a breakdown voltage of 80 V or more",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:42630618",
+              "google:53004031",
+              "google:49512421"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:42630618",
+                "quote": "a lower electrode 20, this piezoelectric film 30 and an upper electrode 40 are sequentially laminated on a substrate 10",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:42630618",
+                "quote": "a surface roughness value P-V of not more than 170.0 nm",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "Piezoelectric film with controlled surface roughness and high breakdown voltage",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "piezoelectric element",
+            "problem": "To sufficiently relax stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer.",
+            "means": "The piezoelectric element comprises a substrate, intermediate layer formed on the substrate, first electrode layer formed on the intermediate layer, piezoelectric layer formed on the first electrode layer using lead-based piezoelectric material, and second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.",
+            "effect": "Relaxes stress between substrate and piezoelectric film effectively.",
+            "evidence": [
+              {
+                "family_id": "google:39704160",
+                "quote": "The piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO2)",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39704160",
+                "quote": "the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric layer formed on the first electrode layer by a lead-based piezoelectric material",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39704160",
+                "quote": "The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:39704160",
+              "google:35905714",
+              "google:39794835"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:39704160",
+                "quote": "the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric layer formed on the first electrode layer by a lead-based piezoelectric material",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39704160",
+                "quote": "The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "Piezoelectric element with intermediate layer for stress relaxation",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "piezoelectric element or transducer",
+            "problem": "未明确指出具体技术问题。",
+            "means": "涉及多种不同结构和制造方法，如薄膜形成、多层结构、开关集成等。",
+            "effect": "未明确说明效果。",
+            "evidence": [
+              {
+                "family_id": "google:52776400",
+                "quote": "Switchable micromachined transducer arrays are described where one or more switches, or relays, are monolithically integrated with transducer elements",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:45021765",
+                "quote": "A perovskite oxide of the present invention is represented by the following general formula (P)",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:53004031",
+                "quote": "a laminated structure in which a first electrode, a first piezoelectric film, a second electrode, a bonding layer, an intermediate layer, a third electrode, a second piezoelectric film, and a fourth electrode are laminated",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:52776400",
+              "google:45021765",
+              "google:53004031"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:52776400",
+                "quote": "Switchable micromachined transducer arrays are described where one or more switches, or relays, are monolithically integrated with transducer elements",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:45021765",
+                "quote": "A perovskite oxide of the present invention is represented by the following general formula (P)",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 2,
+            "unique_supporting_texts": 2,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          }
+        ],
+        "heterogeneity": "该聚类包含多种不同类型的压电元件和制造方法，包括薄膜结构、多层结构、开关集成以及材料组成等，技术异质性较高。",
+        "needs_split": true,
+        "evidence_strength": "medium",
+        "limitations": "部分专利仅描述了基本结构或材料组成，未提供具体工艺参数或性能数据；部分技术手段共现但未明确关联。"
+      },
+      "result_sha256": "bc493a1a9616f83d940ce97953586b71d6e7e5fa79f41fb4e7ef8b457ea50e8d",
+      "invalid_evidence": [
+        {
+          "theme": 0,
+          "evidence": {
+            "family_id": "google:42630618",
+            "quote": "a piezoelectric constant d31 greater than 150 pc/N and a breakdown voltage of 80 V or more",
+            "field": "abstract"
+          }
+        },
+        {
+          "theme": 1,
+          "evidence": {
+            "family_id": "google:39704160",
+            "quote": "The piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO2)",
+            "field": "abstract"
+          }
+        },
+        {
+          "theme": 2,
+          "evidence": {
+            "family_id": "google:53004031",
+            "quote": "a laminated structure in which a first electrode, a first piezoelectric film, a second electrode, a bonding layer, an intermediate layer, a third electrode, a second piezoelectric film, and a fourth electrode are laminated",
+            "field": "abstract"
+          }
+        }
+      ],
+      "request_id": "d1_baseline_9fcb016e79318de1c1131a66",
+      "cache_key": "f85e37dc884e5d564c1f102d83e4b18cdda9d8728bc77d1b393b5ae452872b80",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "specified_control__bge_k800_s42__c475",
+      "result": {
+        "themes": [
+          {
+            "name": "ペロブスカイト型圧電体の構成と特性制御",
+            "object": "圧電素子、圧電積層体",
+            "problem": "圧電特性を良好に維持し、リーク電流を抑制することが難しい。",
+            "means": "ペロブスカイト構造を有する複合酸化物を用い、特定の組成比と結晶配向を制御する。",
+            "effect": "圧電特性の向上と長期信頼性の確保。",
+            "evidence": [
+              {
+                "family_id": "google:59500807",
+                "quote": "圧電体膜（１３）が、（１００）面に優先配向したペロブスカイト構造を有し、組成式Ｐｂ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｎｂ ｙ ］Ｏ ３ で表される複合酸化物であり",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40130939",
+                "quote": "圧電体膜は、気相成長法によって第２の電極上に形成されたＰｂ ｘ Ｂ ｙ Ｏ ｚ を主成分とし、前記第２の電極との接触面から、前記第１の電極の方向に１００ｎｍ離れた部分のｘ／ｙを０．８以上１．６以下であり",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:59500807",
+              "google:85172750",
+              "google:40130939"
+            ],
+            "confidence": "high",
+            "verified_evidence": [
+              {
+                "family_id": "google:59500807",
+                "quote": "圧電体膜（１３）が、（１００）面に優先配向したペロブスカイト構造を有し、組成式Ｐｂ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｎｂ ｙ ］Ｏ ３ で表される複合酸化物であり",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:85172750",
+                "quote": "圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40130939",
+                "quote": "圧電体膜は、気相成長法によって第２の電極上に形成されたＰｂ ｘ Ｂ ｙ Ｏ ｚ を主成分とし、前記第２の電極との接触面から、前記第１の電極の方向に１００ｎｍ離れた部分のｘ／ｙを０．８以上１．６以下であり",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          },
+          {
+            "name": "ペロブスカイト型酸化物のドープと組成最適化",
+            "object": "ペロブスカイト型酸化物",
+            "problem": "圧電性能をさらに向上させるための組成制御が困難。",
+            "means": "特定元素（Rh、Nb、Feなど）をドープし、許容因子を調整する。",
+            "effect": "圧電特性と耐久性の向上。",
+            "evidence": [
+              {
+                "family_id": "google:55865914",
+                "quote": "チタン酸ストロンチウムに高濃度でＲｈがドープされてなるペロブスカイト型酸化物とその製造方法を提供する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:41061937",
+                "quote": "（Ｂａ，Ｂｉ，Ａ）（Ｔｉ，Ｆｅ，Ｍ）Ｏ ３ ・・・（Ｐ）、   ０．９８≦ＴＦ（Ｐ）≦１．０２・・・（１）、   ＴＦ（ＢｉＦｅＯ ３ ）＜ＴＦ（ＡＭＯ ３ ）＜ＴＦ（ＢａＴｉＯ ３ ）・・・（２）",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:43301845",
+                "quote": "（Ｂｉ ｘ ，Ａ １−ｘ ）（Ｂ ｙ ，Ｃ １−ｙ ）Ｏ ３ ・・・（ＰＸ）   （式（ＰＸ）中、ＡはＰｂ以外の平均イオン価数が２価のＡサイト元素、Ｂは平均イオン価数が３価のＢサイト元素，Ｃは平均イオン価数が３価より大きいＢサイト元素であり",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:55865914",
+              "google:41061937",
+              "google:43301845"
+            ],
+            "confidence": "high",
+            "verified_evidence": [
+              {
+                "family_id": "google:55865914",
+                "quote": "チタン酸ストロンチウムに高濃度でＲｈがドープされてなるペロブスカイト型酸化物とその製造方法を提供する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:41061937",
+                "quote": "（Ｂａ，Ｂｉ，Ａ）（Ｔｉ，Ｆｅ，Ｍ）Ｏ ３ ・・・（Ｐ）、   ０．９８≦ＴＦ（Ｐ）≦１．０２・・・（１）、   ＴＦ（ＢｉＦｅＯ ３ ）＜ＴＦ（ＡＭＯ ３ ）＜ＴＦ（ＢａＴｉＯ ３ ）・・・（２）",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:43301845",
+                "quote": "（Ｂｉ ｘ ，Ａ １−ｘ ）（Ｂ ｙ ，Ｃ １−ｙ ）Ｏ ３ ・・・（ＰＸ）   （式（ＰＸ）中、ＡはＰｂ以外の平均イオン価数が２価のＡサイト元素、Ｂは平均イオン価数が３価のＢサイト元素，Ｃは平均イオン価数が３価より大きいＢサイト元素であり",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          },
+          {
+            "name": "无法确定",
+            "object": "圧電アクチュエータ、液体吐出ヘッド",
+            "problem": "技術手段の明確な共通点が不明。",
+            "means": "非対称分極特性を有する圧電膜やアニール処理を用いる。",
+            "effect": "動作環境における安定性や性能向上。",
+            "evidence": [
+              {
+                "family_id": "google:98864925",
+                "quote": "複数の圧電膜はそれぞれ２つの抗電圧の絶対値が異なる非対称な分極－電圧ヒステリシス特性を有し",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40506572",
+                "quote": "酸素雰囲気中で前記成膜時に前記圧電体膜に加えた温度以下で前記圧電体膜をアニール処理する工程を含むことを特徴とする圧電アクチュエータの製造方法",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40130939",
+                "quote": "圧電体膜の一方の面に配置された第１の電極と、圧電体膜の第１の電極が配置された面とは反対側の面に配置された第２の電極とを有し",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:98864925",
+              "google:40506572",
+              "google:40130939"
+            ],
+            "confidence": "medium",
+            "verified_evidence": [
+              {
+                "family_id": "google:98864925",
+                "quote": "複数の圧電膜はそれぞれ２つの抗電圧の絶対値が異なる非対称な分極－電圧ヒステリシス特性を有し",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40506572",
+                "quote": "酸素雰囲気中で前記成膜時に前記圧電体膜に加えた温度以下で前記圧電体膜をアニール処理する工程を含むことを特徴とする圧電アクチュエータの製造方法",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:40130939",
+                "quote": "圧電体膜の一方の面に配置された第１の電極と、圧電体膜の第１の電極が配置された面とは反対側の面に配置された第２の電極とを有し",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "本群包含多种压电材料结构与制造方法，涵盖铅系、非铅系及不同掺杂元素，技术手段存在显著差异。",
+        "needs_split": true,
+        "evidence_strength": "high",
+        "limitations": "部分技术细节未明确披露，如具体工艺参数和性能测试数据。"
+      },
+      "result_sha256": "1035e0acaefb9ff3e7b0f11b63008752317d8b3b652643b98106c1ba13024f06",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_5620d90855729e445edbc248",
+      "cache_key": "537ec3ca3e463a8a1de74faa15c4436b5d056e153f69e417f703c97e814cd6f4",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "specified_control__qwen_k800_s42__c404",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "thin film deposition",
+            "problem": "vapor deposition efficiency and uniformity",
+            "means": "vapor flow focusing, diffusion preventing device, substrate transfer with cooling",
+            "effect": "high vapor deposition efficiency, uniform thickness thin film",
+            "evidence": [
+              {
+                "family_id": "google:11973474",
+                "quote": "To form a vapor deposited thin film with high vapor deposition efficiency in vapor depositing a thin film of metal or the like on the surface of a substrate by focusing the vapor flow for vapor deposition with a diffusion preventing device and rediating the same to the substrate surface.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:15622240",
+                "quote": "To provide vapor-deposited films of a uniform thickness on many substrates with one time of vapor deposition treatment by providing a supporting body for a vapor source at the center of a vacuum vessel in the position equidistant from respective substrate holders, and moving the vapor source vertically along the supporting body.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:15113393",
+                "quote": "To apply always a specified amt. of a non-essential component on a thin film at a high filming speed in a method for forming a thin alloy film on a substrate in a vacuum by directing the vapor flow of one material and the sputtering particles of the other material simultaneously toward the substrate.",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:11973474",
+              "google:15622240",
+              "google:15113393"
+            ],
+            "confidence": "medium",
+            "verified_evidence": [
+              {
+                "family_id": "google:11973474",
+                "quote": "To form a vapor deposited thin film with high vapor deposition efficiency in vapor depositing a thin film of metal or the like on the surface of a substrate by focusing the vapor flow for vapor deposition with a diffusion preventing device and rediating the same to the substrate surface.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:15622240",
+                "quote": "To provide vapor-deposited films of a uniform thickness on many substrates with one time of vapor deposition treatment by providing a supporting body for a vapor source at the center of a vacuum vessel in the position equidistant from respective substrate holders, and moving the vapor source vertically along the supporting body.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:15113393",
+                "quote": "To apply always a specified amt. of a non-essential component on a thin film at a high filming speed in a method for forming a thin alloy film on a substrate in a vacuum by directing the vapor flow of one material and the sputtering particles of the other material simultaneously toward the substrate.",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "该聚类包含多种技术手段，如真空蒸镀、等离子体处理、升华提纯等，涉及不同领域。",
+        "needs_split": true,
+        "evidence_strength": "medium",
+        "limitations": "部分专利仅描述了基本结构或方法，未提供具体实施细节；部分技术手段共现但未明确关联。"
+      },
+      "result_sha256": "144edcad45f94fe68f197e2cac23a26a223b591bba28f76e67f4cc7865ac5300",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_765df5d76bf3f1f1ac1c91ef",
+      "cache_key": "585b3894fcb5703c9daed402309936397c889a8bb7b0eebc498e047378370fb7",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "random_medium__qwen_k800_s42__c505",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "",
+            "problem": "",
+            "means": "",
+            "effect": "",
+            "evidence": [
+              {
+                "family_id": "google:18877548",
+                "quote": "Toner cartridge",
+                "field": "title"
+              },
+              {
+                "family_id": "google:27742532",
+                "quote": "Toner cartridge",
+                "field": "title"
+              },
+              {
+                "family_id": "google:51493904",
+                "quote": "Toner cartridge",
+                "field": "title"
+              }
+            ],
+            "representative_family_ids": [
+              "google:18877548",
+              "google:27742532",
+              "google:51493904"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:18877548",
+                "quote": "Toner cartridge",
+                "field": "title"
+              },
+              {
+                "family_id": "google:27742532",
+                "quote": "Toner cartridge",
+                "field": "title"
+              },
+              {
+                "family_id": "google:51493904",
+                "quote": "Toner cartridge",
+                "field": "title"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 2,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "该聚类中包含多种与打印耗材相关的技术，如色粉盒、废粉瓶和粉盒供应装置等，但缺乏具体的技术特征描述，难以判断其是否属于同一技术领域。",
+        "needs_split": true,
+        "evidence_strength": "insufficient",
+        "limitations": "所有文档的摘要均为空或未提供关键设计特征信息，无法提取有效技术手段进行归类。"
+      },
+      "result_sha256": "05d8018232596dcbebaa64f4bf8f9b38efb62d95092f9fcb706138e90640c9c1",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_db6d6d94064c7aa75b686dcd",
+      "cache_key": "e5aa7628c0b403b936504c346fedfa6cd3b22e038d8238941ffb4dcfed71590d",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "random_medium__bge_k800_s42__c655",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "无法确定",
+            "problem": "无法确定",
+            "means": "无法确定",
+            "effect": "无法确定",
+            "evidence": [
+              {
+                "family_id": "google:17300595",
+                "quote": "PURPOSE:To disassemble a cartridge with high efficiency.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:14640628",
+                "quote": "PURPOSE:To take out a dry analysis film piece positively from a cartridge containing the film piece to be used in a biochemical analysis, an immune analysis or the like even when the film piece is greatly deformed.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:18971854",
+                "quote": "PROBLEM TO BE SOLVED: To make confirmable the loaded state of a component to the main body without increasing the number of components, and also, to discriminate between a state where the component is defectively loaded and a state where the component is not loaded yet without generating an error with time.",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:17300595",
+              "google:14640628",
+              "google:18971854"
+            ],
+            "confidence": "low",
+            "verified_evidence": [
+              {
+                "family_id": "google:17300595",
+                "quote": "PURPOSE:To disassemble a cartridge with high efficiency.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:14640628",
+                "quote": "PURPOSE:To take out a dry analysis film piece positively from a cartridge containing the film piece to be used in a biochemical analysis, an immune analysis or the like even when the film piece is greatly deformed.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:18971854",
+                "quote": "PROBLEM TO BE SOLVED: To make confirmable the loaded state of a component to the main body without increasing the number of components, and also, to discriminate between a state where the component is defectively loaded and a state where the component is not loaded yet without generating an error with time.",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "该聚类包含多种不同技术主题，如 cartridge disassembling device、dry analysis film piece、loaded state discriminating device 等，表明其异质性较高。",
+        "needs_split": true,
+        "evidence_strength": "medium",
+        "limitations": "由于缺乏明确共现关键词和统一技术手段，无法准确归类为单一技术主题。"
+      },
+      "result_sha256": "fc7f48dacf4a94e170e989f937ce350b4f636eb22af15337934a473a5bb5cc6c",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_ebdc83e35054f56d6b84b091",
+      "cache_key": "b24f6c4bab6a7309218823fef42bbbc1c32767e86d20368f5c1ef16d4d7b3505",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "mixed_proxy__qwen_k300_s42__c57",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "无法确定",
+            "problem": "无法确定",
+            "means": "无法确定",
+            "effect": "无法确定",
+            "evidence": [
+              {
+                "family_id": "google:42354851",
+                "quote": "To perform more efficiently processing result output processing in a particle behavior analyzer.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:38454405",
+                "quote": "検出しようとする事象とセンサの出力との関係性の変化に柔軟に対応する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:75975474",
+                "quote": "To provide a health risk evaluation system for animals and a health risk evaluation method for animals which can appropriately evaluates risks to health of animals.",
+                "field": "abstract"
+              }
+            ],
+            "representative_family_ids": [
+              "google:42354851",
+              "google:38454405",
+              "google:75975474"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:42354851",
+                "quote": "To perform more efficiently processing result output processing in a particle behavior analyzer.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:38454405",
+                "quote": "検出しようとする事象とセンサの出力との関係性の変化に柔軟に対応する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:75975474",
+                "quote": "To provide a health risk evaluation system for animals and a health risk evaluation method for animals which can appropriately evaluates risks to health of animals.",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 3,
+            "unique_supporting_texts": 3,
+            "evidence_validation": "PASS"
+          }
+        ],
+        "heterogeneity": "该聚类包含多个不同技术领域，如粒子行为分析、传感器学习系统、动物健康风险评估、素数生成、斜坡测量、无人载具运输控制、线条绘制及树结构距离计算等，技术手段和应用场景差异较大。",
+        "needs_split": true,
+        "evidence_strength": "low",
+        "limitations": "由于各专利文本仅提供摘要且未明确说明具体实现方式，无法准确判断其是否属于同一技术主题。"
+      },
+      "result_sha256": "2011fa5c32f8494402952a3caee15aa347f4096e2c59dc290fc157e8acdf1cb7",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_29c31899fc67b48d72a43a2d",
+      "cache_key": "372824a7200a3197f5e7f00a417eb62c668f3b515d1e2b003b932c6110e856b9",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "small_tight__qwen_k30_mutual_r1.0_s42__c138",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "",
+            "problem": "",
+            "means": "",
+            "effect": "",
+            "evidence": [],
+            "representative_family_ids": [],
+            "confidence": "insufficient",
+            "verified_evidence": [],
+            "verified_family_count": 0,
+            "unique_supporting_texts": 0,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          }
+        ],
+        "heterogeneity": "该聚类中所有专利的标题均为“Lens for television camera”，未提供摘要信息，无法识别具体技术特征或差异。",
+        "needs_split": false,
+        "evidence_strength": "insufficient",
+        "limitations": "由于缺乏摘要内容，无法提取有效技术特征进行分析；仅靠标题无法区分不同技术方案。"
+      },
+      "result_sha256": "c3f42650b4e37a7f75640b330f98de63aa775f57439002f2af49d0485121677c",
+      "invalid_evidence": [],
+      "request_id": "d1_baseline_25b93a37615b2bf5d66fc901",
+      "cache_key": "3c406c3dc2dc2d45417914c3331ad12f5c6761915bbb010aa19a0e7e3104ed1f",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    },
+    {
+      "selection_id": "noise__bge_n238541_pca30_c30_s15",
+      "result": {
+        "themes": [
+          {
+            "name": "无法确定",
+            "object": "导电图案的低电阻化与视认性提升",
+            "problem": "基体上导电图案的低电阻化和视认性提升",
+            "means": "通过大格子结构和连接部设计实现",
+            "effect": "提供适用于投影型静电容量方式的触摸面板",
+            "evidence": [
+              {
+                "family_id": "google:44319402",
+                "quote": "第１導電シート１０Ａは、第１透明基体上に、２以上の導電性の第１大格子１４Ａと、隣接する第１大格子１４Ａ間を電気的に接続する第１接続部１６Ａとが形成され",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:44319402",
+                "quote": "各第１大格子１４Ａは、それぞれ２以上の小格子１８が組み合わされて構成され、第１接続部１６Ａの幅Ｗｃ１は、小格子１８のピッチをＰｓとしたとき、Ｗｃ１＞Ｐｓ／√２を満足する。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:44319402",
+                "quote": "第１導電シート、導電シートの使用方法及び静電容量方式タッチパネル",
+                "field": "title"
+              }
+            ],
+            "representative_family_ids": [
+              "google:44319402"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:44319402",
+                "quote": "第１導電シート１０Ａは、第１透明基体上に、２以上の導電性の第１大格子１４Ａと、隣接する第１大格子１４Ａ間を電気的に接続する第１接続部１６Ａとが形成され",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:44319402",
+                "quote": "各第１大格子１４Ａは、それぞれ２以上の小格子１８が組み合わされて構成され、第１接続部１６Ａの幅Ｗｃ１は、小格子１８のピッチをＰｓとしたとき、Ｗｃ１＞Ｐｓ／√２を満足する。",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "高浓度、色再現性、透明性、堅牢性のインクジェット記録体",
+            "problem": "提供高浓度、色再現性、透明性、堅牢性に優れた記録体",
+            "means": "使用油溶性染料和疏水性ポリマー微粒子分散物",
+            "effect": "获得高性能的インクジェット記録方法",
+            "evidence": [
+              {
+                "family_id": "google:36725631",
+                "quote": "高濃度で、色再現性及び透明性画高く、堅牢性に優れた記録体を得ることができるバックリット用のインクジェット記録方法を提供すること。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36725631",
+                "quote": "少なくとも１種の油溶性染料と、疎水性ポリマーと、を含む微粒子分散物を含有するインク組成物を用い",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36725631",
+                "quote": "バックリット用のインクジェット記録方法",
+                "field": "title"
+              }
+            ],
+            "representative_family_ids": [
+              "google:36725631"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:36725631",
+                "quote": "高濃度で、色再現性及び透明性画高く、堅牢性に優れた記録体を得ることができるバックリット用のインクジェット記録方法を提供すること。",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:36725631",
+                "quote": "少なくとも１種の油溶性染料と、疎水性ポリマーと、を含む微粒子分散物を含有するインク組成物を用い",
+                "field": "abstract"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          },
+          {
+            "name": "无法确定",
+            "object": "癌の検出と抑制方法",
+            "problem": "通过基因检测识别癌症并提供抑制方法",
+            "means": "检测特定染色体区域的基因改变",
+            "effect": "提供卵巢癌检测和抑制方法",
+            "evidence": [
+              {
+                "family_id": "google:39739327",
+                "quote": "An object of the present invention is to provide a method for detecting cancer through identification of genes exhibiting characteristic behavior in the cases of cancer such as ovarian cancer",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39739327",
+                "quote": "which comprises detecting canceration including malignancy of a specimen through detection of at least one alteration of a gene existing in a chromosomal region 2q14. 2, 3p24. 1, 3q26. 2, 3q29, 4q34. 2, 6q23, 9p21. 3, 11q13. 3, 13q22.1, 13q33. 1, 13q33. 3, 15q12, 15q15. 1, 17p12, 17p13. 1, 17p13. 3, 18q21. 1, 18q21. 2,18q21. 31, 18q21. 32, 18q21. 33, 18q23, 20q13. 13, 20q13. 2, 20q13. 31, 20q13. 33, Xp11. 23, Xp13.1, Xp13. 3, Xp26. 2, Xp26. 3, or Xq28 in the specimen.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39739327",
+                "quote": "Method for detecting ovarian cancer and method for suppresssing the same",
+                "field": "title"
+              }
+            ],
+            "representative_family_ids": [
+              "google:39739327"
+            ],
+            "confidence": "insufficient",
+            "verified_evidence": [
+              {
+                "family_id": "google:39739327",
+                "quote": "An object of the present invention is to provide a method for detecting cancer through identification of genes exhibiting characteristic behavior in the cases of cancer such as ovarian cancer",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39739327",
+                "quote": "which comprises detecting canceration including malignancy of a specimen through detection of at least one alteration of a gene existing in a chromosomal region 2q14. 2, 3p24. 1, 3q26. 2, 3q29, 4q34. 2, 6q23, 9p21. 3, 11q13. 3, 13q22.1, 13q33. 1, 13q33. 3, 15q12, 15q15. 1, 17p12, 17p13. 1, 17p13. 3, 18q21. 1, 18q21. 2,18q21. 31, 18q21. 32, 18q21. 33, 18q23, 20q13. 13, 20q13. 2, 20q13. 31, 20q13. 33, Xp11. 23, Xp13.1, Xp13. 3, Xp26. 2, Xp26. 3, or Xq28 in the specimen.",
+                "field": "abstract"
+              },
+              {
+                "family_id": "google:39739327",
+                "quote": "Method for detecting ovarian cancer and method for suppresssing the same",
+                "field": "title"
+              }
+            ],
+            "verified_family_count": 1,
+            "unique_supporting_texts": 1,
+            "unverified_name": "无法确定",
+            "evidence_validation": "REVIEW_REQUIRED"
+          }
+        ],
+        "heterogeneity": "各技术主题证据来自不同领域，包括导电材料、印刷记录、癌症检测等，存在显著异质性。",
+        "needs_split": true,
+        "evidence_strength": "insufficient",
+        "limitations": "样本数量有限且缺乏明确的技术共现证据，无法形成稳定的技术主题聚类。"
+      },
+      "result_sha256": "ceec791439859d45b5c0a386e8ee9abede7f2b057a894457c6774ad89919cf2d",
+      "invalid_evidence": [
+        {
+          "theme": 0,
+          "evidence": {
+            "family_id": "google:44319402",
+            "quote": "第１導電シート、導電シートの使用方法及び静電容量方式タッチパネル",
+            "field": "title"
+          }
+        },
+        {
+          "theme": 1,
+          "evidence": {
+            "family_id": "google:36725631",
+            "quote": "バックリット用のインクジェット記録方法",
+            "field": "title"
+          }
+        }
+      ],
+      "request_id": "d1_baseline_beebd788cc13c0c9d9b57b6b",
+      "cache_key": "f385b508ea7c799f60ef9a876979120de7b2b289f20afe527d7082f9a89e8fde",
+      "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+    }
+  ],
+  "source_method": {
+    "at": "2026-10-27T03:15:13.994401+08:00",
+    "panels": [
+      {
+        "selection_id": "primary__qwen_k300_s42__c139",
+        "run_id": "qwen_k300_s42",
+        "cluster_id": 139,
+        "cluster_population": 384,
+        "selected_pool": 384,
+        "docs": [
+          {
+            "family_id": "google:85172750",
+            "title": "圧電積層体、圧電素子及び圧電積層体の製造方法",
+            "abstract": "【課題】圧電定数が高いことに加えて、動作環境における圧電特性の安定性（長期信頼性）に優れた圧電積層体及び圧電素子を提供する。 【解決手段】下部電極層１２と、Ｐｂ含有ペロブスカイト型酸化物を含む圧電膜１５とをこの順に備えた圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:55629724",
+            "title": "圧電素子の製造方法、及びアクチュエータの製造方法",
+            "abstract": "【課題】基板と下部電極との密着性、及び、下部電極と圧電体膜との密着性が高く長期駆動信頼性に優れたＰＺＴ系圧電素子とその製造方法、この圧電素子を用いたアクチュエータ及び液体吐出装置を提供する。 【解決手段】圧電素子（１）は、シリコン基板（１０）上に、チタン含有密着層（２０）と、下部電極（３０）と、ＰＺＴ系圧電体膜（４０）と、上部電極（５０）とを順次備え、下部電極（３０）は、チタン含有密着層（２０）の表面から成長してなる白金族元素を主成分とする多数の柱状結晶（３０ｃ）からなる柱状構造膜と、この柱状構造膜中に存在してなる、チタン密着層（２０）から拡散した密着層成分と圧電体膜（４０）側から拡散した酸素とを含み、柱状構造膜の柱状結晶の主たる柱径が５０ｎｍ以上２００ｎｍ以下である。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:58557302",
+            "title": "Audio-video system",
+            "abstract": "The present invention provides a kind of audio-video system.The audio-video system includes：Electroacoustic converting unit has electroacoustic conversion film, and electroacoustic conversion film is supported in a curved fashion, and using at least part of electroacoustic conversion film as vibration area, and the electroacoustic conversion film has：Piezoelectrics particle is scattered in the viscoelastic ground substance formed by showing viscoelastic high molecular material at normal temperatures and forms by polymer composite piezoelectric body；And membrane electrode, it is laminated in the two sides of polymer composite piezoelectric body respectively；And projection image screen or display device as image display, at least one electroacoustic converting unit is configured at the back side of the side opposite with the face of display image of display device, and multiple vibration areas are arranged in the entire surface at the back side of display device, are input to the location information that vibration area is included in the voice data of electroacoustic converting unit.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:12669515",
+            "title": "Charge transfer element",
+            "abstract": "PURPOSE:To secure the steady operation for the monolithic charge transfer element by providing  the channel stop to prevent the shift of the charge carrier from the channel, propagating the  ultrasonic wave into the piezoelectric substance layer and bunching the charge carrier into the  valley of the potential for transfer and detection. CONSTITUTION:The opening is provided to the SiO2 film on p-type Si substrate 10, and n&lt;+&gt; layer  16 and 17 are formed through diffusion of phosphorus. Then the selective opening is given to  heat oxide film 18, and Al19 is deposited. The exposure and development is given to resist 20  via mask 22, and then Al19 is etched to form electrodes 23-26. Piezoelectric substance ZnO27  is laminated with deposition of Au electrode 30 applied to Al electrode 28 and 29 as well as to  the back of the substrate. Then the high frequency voltage is applied to electrode 28 to generate  the elastic surface wave on layer 27. And one wavelength progress time is set shorter than the  time during which the charge carrier falls into the trap on the semiconductor surface, and then  gate 25 is opened to inject carrier 34. Thus, carrier 34 is restricted by wave 33 of ",
+            "abstract_truncated": true,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:75537363",
+            "title": "圧電素子",
+            "abstract": "【課題】電極層への電気的接続を確実にできる圧電素子を提供する。 \n【解決手段】圧電層、圧電層の両面に形成される電極層、および、電極層の、高分子複合圧電体側の面とは反対側の面に積層される保護層を有する圧電素子であって、保護層は、表面から電極層まで貫通する孔部を有し、孔部内から保護層の表面の一部に形成され、電極層に電気的に接続される、導電性材料からなる充填部材と、充填部材の少なくとも一部を覆って、充填部材に電気的に接続される導電性部材と、導電性部材を固定する固定部材と、を有する。 \n【選択図】図３",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:74061243",
+            "title": "電気音響変換フィルムおよび電気音響変換器",
+            "abstract": "高温環境下での使用時に圧電変換効率が低下することを抑制できる電気音響変換フィルムおよび電気音響変換器を提供する。高分子材料を含むマトリックス中に圧電体粒子を含む高分子複合圧電体、および、高分子複合圧電体の両面に形成される電極層を有する電気音響変換フィルムであって、電気音響変換フィルムの熱膨張係数が１２ｐｐｍ／℃～１００ｐｐｍ／℃である。",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:97217650",
+            "title": "Film, electret material, vibration-type power generation element, and film production method",
+            "abstract": "The present invention provides: a film in which the amount of power generation that can be obtained when said film is applied, as an electret material, to a vibration-type power generation element is large, and which has excellent thermal stability of charges; an electret material using said film; a vibration-type power generation element; and a film production method. A film according to the present invention has the absolute value of the surface charge density being 0.5 mC/m 2  or more, and the ratio of the elastic modulus at 150°C to the elastic modulus at 25°C being 0.6 or more.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:54699711",
+            "title": "Piezoelectric transducer device with lens structures",
+            "abstract": "In an embodiment, a probe device includes a portion having a curved surface and a plurality of tiles variously coupled to the curved surface. The tiles each include a plurality of piezoelectric transducer elements and a base adjoining and supporting the plurality of piezoelectric transducer elements. The probe device further comprises curved lens portions each coupled to a respective one of the plurality of tiles, wherein for each of the tiles, the plurality of piezoelectric transducer elements of the tile are to propagate a wave toward the respective curved lens portion. In another embodiment, the probe device further comprises a sheath material surrounding the curved lens portions.",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "specified_control__qwen_k800_s42__c286",
+        "run_id": "qwen_k800_s42",
+        "cluster_id": 286,
+        "cluster_population": 258,
+        "selected_pool": 258,
+        "docs": [
+          {
+            "family_id": "google:77770852",
+            "title": "Layered piezoelectric element and electroacoustic transducer",
+            "abstract": "Provided are a layered piezoelectric element and an electroacoustic transducer, with which high voltage characteristics are obtained and in which electrical contact points with an electrode layer are easily maintained. A piezoelectric film is stacked in multiple layers, the piezoelectric film being obtained by layering, in the stated order, a first protective layer, a first electrode layer, a piezoelectric layer, a second electrode layer, and a second protective layer, each piezoelectric layer being polarized in the thickness direction, and in each piezoelectric film, a first electrode being positioned on the upstream side in the polarization direction of the piezoelectric layer, and a second electrode being positioned on the downstream side, the plurality of piezoelectric films each having: an adhesive part that is affixed to an adjacent piezoelectric film; and a projecting part from which at least a first electrode layer and a first protective layer, or a second electrode layer and a second protective layer, project from the adhesive part toward the planar-direction outer side, the projecting part not being affixed to the adjacent piezoelectric film, and a first contact point in ",
+            "abstract_truncated": true,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:83227626",
+            "title": "Piezoelectric film and laminated piezoelectric element",
+            "abstract": "An object of the present invention is to provide a piezoelectric film that has satisfactory durability, is capable of outputting a sound with a high sound pressure, decreases the resistance of an electrode layer, and is capable of suppressing heat generation. The above-described object is achieved by providing the piezoelectric film including a piezoelectric layer containing piezoelectric particles in a matrix that contains a polymer material, electrode layers provided on both surfaces of the piezoelectric layer, and an interlayer provided on at least one side between the piezoelectric layer and the electrode layers, in which the interlayer contains carbon and/or a metal, and a metal atom concentration of 30 to 90 atm % or a carbon atom concentration of 85 to 95 atm % is satisfied.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:73458553",
+            "title": "振動発電素子",
+            "abstract": "インパクト型の振動発電素子において、発電効率を向上させる。圧電素子を備え、一端が筐体に固定されて筐体内に空間を形成するカンチレバーと、空間内のカンチレバーから離間した位置に配置され、かつ外力が作用した際に、カンチレバーに向かって移動してカンチレバーの固定端側の部位に衝突し、衝突後にカンチレバーから離間する錘と、を含む振動発電素子において、錘が衝突する部位を、１パルスの外力を受けて錘がカンチレバーに一度衝突し、衝突の後、カンチレバーから離間する錘に、次のパルスの外力が加わるまで、錘がカンチレバーに衝突しない部位に設定する。",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:59090151",
+            "title": "Thermoelectric conversion device",
+            "abstract": "This thermoelectric conversion device includes a plurality of thermoelectric conversion modules comprising: an insulating support body having flexibility; a plurality of p-type thermoelectric conversion layers and n-type thermoelectric conversion layers formed in an alternating manner on one surface of the support body with an interval resulting from the support body therebetween; and connecting electrodes that electrically connect a p-type thermoelectric conversion layer and an n-type thermoelectric conversion layer adjacent to each other on the support body. The plurality of thermoelectric conversion modules are formed to have a bellows structure in which ridge folds or valley folds are present in an alternating manner at the position of the connecting electrode between a p-type thermoelectric conversion layer and an n-type thermoelectric conversion layer that are adjacent in one direction. The ridge fold section of one thermoelectric conversion module and the valley fold section of a thermoelectric conversion module adjacent thereto among the plurality of thermoelectric conversion modules are layered so as to overlap when viewed from the lengthwise direction of the support body.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:36635088",
+            "title": "Capacitive micromachine ultrasonic vibrator and its manufacturing method, and ultrasonic transducer array",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a capacitive micromachine ultrasonic vibrator in which a vibrating membrane is arranged on a base plate having a backing function, and to provide a method of manufacturing it.  &lt;P&gt;SOLUTION: The capacitive micromachine ultrasonic vibrator includes the base plate 30 formed of a material containing a resin, and a vibrator cell 10 arranged at the base plate 30. Further, the vibrator cell includes a lower electrode 25, a support section 23a and a beam 23b formed integrally, a vibrating membrane 23 arranged via an air gap 15 between upper electrodes 22, when this beam 23b is supported by the supporter 23a and the upper electrode 22 formed in this vibrating membrane 23.  &lt;P&gt;COPYRIGHT: (C)2006,JPO&amp;NCIPI",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:38941880",
+            "title": "Process for forming a film, piezoelectric film, and piezoelectric device",
+            "abstract": "In a process for forming a film with a vapor phase growth technique utilizing plasma, such as a sputtering technique, reliable formation of a film with good quality is made possible. Film formation conditions are determined in accordance with relationships among a film formation temperature Ts (°C), a plasma potential Vs (V) in the plasma at the time of the film formation, and characteristics of the film. For a piezoelectric film containing at least one kind of Pb-containing perovskite type oxide, the film formation conditionsshould preferably be determined within a range such that Formulas (1) and (2) shown below are satisfied, or within a range such that Formulas (3) and (4) shown below are satisfied:      400   ≤   Ts     °C     ≤   475             20   ≤   Vs     V     ≤   50             475   ≤   Ts     °C     ≤   600             Vs     V     ≤   40",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:64105183",
+            "title": "圧電マイクロフォンチップおよび圧電マイクロフォン",
+            "abstract": "音圧検出信号の感度が高く、パッケージへの実装に適する圧電マイクロフォンチップおよび圧電マイクロフォンを提供する。   圧電マイクロフォンにおいて、１枚の薄板と、薄板の一方の面に設けられた、薄板の外縁を支持する外縁支持部および外縁支持部と共働して薄板を複数のダイヤフラムに仕切る分離支持部からなるダイヤフラム支持構造と、各ダイヤフラム上に、各ダイヤフラム側から第１の電極、圧電体膜および第２の電極が順に積層されてなる、単数もしくは複数の圧電変換部と、複数のダイヤフラム上に設けられている圧電変換部からの出力を検出する信号検出回路とを備え、外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする。",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          },
+          {
+            "family_id": "google:36110610",
+            "title": "Micro pump",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a micro pump of a simple structure, easy to manufacture, of high energy transmission efficiency to liquid of elastic surface wave and capable of stable liquid transfer.  &lt;P&gt;SOLUTION: This pump is provided with a piezoelectric substrate 10 composed of piezoelectric material, a comb shape electrode 12 provided on the piezoelectric substrate 10 and exciting elastic surface wave on a surface of the piezoelectric substrate 10, a flow passage 18 provided in a transmission direction downstream side of the elastic surface wave excited by the comb shape electrode 12 of the piezoelectric substrate 10 and communicating a suction port 14 sucking liquid and a delivery port 16 delivering liquid, a top panel 20 covering the flow passage 18, and a drive circuit 22 driving the comb shape electrode 12. The flow passage 18 is formed as a flow passage groove extending in a direction perpendicularly crossing an electrode finger to move liquid sucked from the suction port 14 along a transmission direction of the elastic surface wave in the flow passage and be delivered from the delivery port 16. The flow passage 18 is formed to widen width of flow passage ",
+            "abstract_truncated": true,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Selected-pool arithmetic-mean center; frozen scores absent",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "specified_control__qwen_k800_s42__c168",
+        "run_id": "qwen_k800_s42",
+        "cluster_id": 168,
+        "cluster_population": 153,
+        "selected_pool": 153,
+        "docs": [
+          {
+            "family_id": "google:56073954",
+            "title": "圧電体膜及びそれを備えた圧電素子、及び液体吐出装置",
+            "abstract": "【課題】圧電特性が高い圧電体膜及びその圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜は、気相成長法により成膜されてなる圧電体膜であって、下記一般式Ｐで表されるペロブスカイト型酸化物にＳｉが０．２ｍｏｌ％以上０．５ｍｏｌ％以下ドープされてなるペロブスカイト型酸化物を含み、Ｘ線回折法により測定されたペロブスカイト相の（１００）、（００１）、（１１０）、（１０１）及び（１１１）の各面方位におけるピーク強度の総和に対するパイロクロア相のピーク強度の比が０．２５以下である。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・一般式Ｐ   但し、式Ｐ中、ＡはＰｂを主成分とするＡサイト元素、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素。ｘは０超１未満、ａは０．１以上０．３未満。 【選択図】図６",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:55399055",
+            "title": "圧電体膜とその製造方法、圧電素子、及び液体吐出装置",
+            "abstract": "【課題】圧電特性が高く長期駆動時の圧電特性の劣化の小さい圧電体膜とその製造方法、その圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜（４０）は、下記式（Ｐ）で表されるペロブスカイト型酸化物を含む圧電体膜であって、ペロブスカイト型酸化物の結晶相が、下記式（１）を満足する割合で正方晶と菱面体晶を含む。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・（Ｐ）、   ０．７０≦菱面体晶／（菱面体晶＋正方晶）≦０．９５  ・・・（１）、 但し、式（Ｐ）中、ＡはＰｂを主成分とするＡサイト元素であり、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素である。ｘは０．４以上１未満、但し０．５１以上０．５３以下を除く。ａは０．０８以上である。 【選択図】図２",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:45021765",
+            "title": "Perovskite oxide, oxide composition, oxide material, piezoelectric element, and liquid discharge device",
+            "abstract": "PROBLEM TO BE SOLVED: To provide a lead-free perovskite oxide having a low Curie temperature and exhibiting excellent ferroelectricity.SOLUTION: A perovskite oxide of the present invention is represented by the following general formula (P).(Bi, Ba, X)(Fe, Ti, Mn)O...(P) (wherein, Bi and Ba are an A site element, and X is one kind or multiple kinds of A site element having average ionic valency of divalent except Pb and Ba. Fe, Ti and Mn are a B site element. O is oxygen. 0&lt;x1+x2&lt;1.0, 0&lt;x3&lt;1.0, 0&lt;y1+y2≤1.0, 0≤y3&lt;1.0, 0&lt;x1, 0&lt;x2,0&lt;y1, 0&lt;y2. Standard mole ratio between A site element, B site element, and oxygen is 1:1:3, and these mole ratios may deviate from the reference mole ratio within a range where perovskite structure can be taken.)",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:40587181",
+            "title": "Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT-based perovskite oxide in which replacement ions of more than 1 mol% and replacement ions of more than 10 mol% are added to an A site and a B site, respectively, and A site defects are few.  &lt;P&gt;SOLUTION: The perovskite oxide is represented by the following equation (P): (Pb&lt;SB&gt;1-x+δ&lt;/SB&gt;A&lt;SB&gt;x&lt;/SB&gt;)(Zr&lt;SB&gt;y&lt;/SB&gt;Ti&lt;SB&gt;1-y&lt;/SB&gt;)&lt;SB&gt;1-z&lt;/SB&gt;M&lt;SB&gt;z&lt;/SB&gt;O&lt;SB&gt;w&lt;/SB&gt;, where Pb and A each denote A site element in which A is at least one kind of element other than Pb, and Zr, Ti, and M each denote a B site element in which M is at least one kind of element selected from a group consisting of Nb, Ta, V, Sb, Mo, and W. 0.01&lt;x≤0.4, 0&lt;y≤0.7, 0.1≤z≤0.4, δ=0, and w=3 are satisfied as standard values, but these values may be shifted from reference values within a range in which the perovskite oxide can take a perovskite structure.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:87552116",
+            "title": "圧電デバイス",
+            "abstract": "常温および氷点下のいずれの環境下においても、優れた可撓性を有する圧電デバイスを提供する。高分子材料を含むマトリックス中に圧電体粒子を含有する圧電体層と、圧電体層の両面に形成された電極層とを有し、動的粘弾性測定による周波数１Ｈｚでの損失正接が０．１以上となる極大値が０℃から５０℃の温度範囲に存在する圧電フィルム、および、圧電フィルムを加熱するための加熱機構を備える。",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:36231386",
+            "title": "マイクロポンプ",
+            "abstract": "【課題】弾性表面波を励振する電極上に流路を形成して、より小型のマイクロポンプを提供する。 【解決手段】マイクロポンプは、圧電性材料からなる圧電基板１０と、圧電基板１０上に設けられ、圧電基板１０の表面に弾性表面波を励振させる櫛型電極１２と、圧電基板１０上に配設され、弾性表面波が伝搬する伝搬面と共に管状の流路１８を形成するハウジング２０と、櫛型電極１２を駆動する駆動回路２２と、を備えている。流路１８は、中心線ｂの吐出口１６側で流路幅が拡大し、領域Ｂの流路面積Ｓ B が領域Ａの流路面積Ｓ A より大きくなるように形成されている。 【選択図】図２",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:18171514",
+            "title": "圧電素子電気的・機械的破損検出方法および圧電素子検査装置",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:60949825",
+            "title": "熱電材料、その製造方法および発電装置",
+            "abstract": "【課題】より低温域において高いパワーファクターを実現し、発電量を顕著に増大する、Ｐドープしたβ−ＦｅＳｉ ２ 相を含む熱電材料、その製造方法およびそれを用いた発電装置を提供すること。 【解決手段】本発明のβ−ＦｅＳｉ ２ 相を含む熱電材料は、β−ＦｅＳｉ ２ 相が熱電材料中に９０体積％より多く含有されており、β−ＦｅＳｉ ２ 相が少なくともＰ（リン）を０．１ａｔ％より多く０．３ａｔ％以下の範囲で含有する。 【選択図】図１０",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Selected-pool arithmetic-mean center; frozen scores absent",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "specified_control__bge_k800_s42__c223",
+        "run_id": "bge_k800_s42",
+        "cluster_id": 223,
+        "cluster_population": 190,
+        "selected_pool": 190,
+        "docs": [
+          {
+            "family_id": "google:42630618",
+            "title": "Piezoelectric film, method for forming the same, piezoelectric element, and liquid discharge device",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a piezoelectric film excelling in both piezoelectric performance and a withstand voltage without: requiring an intrinsically-unnecessary film as a piezoelectric element of an orientation control layer or a protective film; or requiring a complicated process.  &lt;P&gt;SOLUTION: In this piezoelectric element 1, a lower electrode 20, this piezoelectric film 30 and an upper electrode 40 are sequentially laminated on a substrate 10. The piezoelectric film 30 has a surface roughness value P-V of not more than 170.0 nm, which is defined by a difference between a maximum height (peak value P) and a minimum height (valley value V) on a film surface, a piezoelectric constant d&lt;SB&gt;31&lt;/SB&gt;greater than 150 pc/N and a breakdown voltage of 80 V or more, which is defined by an applied voltage that results in a current value of 1 μA or more.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:53004031",
+            "title": "Piezoelectric element and method for manufacturing piezoelectric element",
+            "abstract": "The present invention provides a highly stable piezoelectric element operating at high efficiency, and a method for manufacturing such a piezoelectric element. According to one aspect of the present invention, a piezoelectric element (10) has a laminated structure in which a first electrode (14), a first piezoelectric film (16), a second electrode (18), a bonding layer (20), an intermediate layer (22), a third electrode (24), a second piezoelectric film (26), and a fourth electrode (28) are laminated in the stated order on a silicon substrate (12). The intermediate layer (22) is made of a material different from that of the second electrode (18), the thickness of the intermediate layer (22) being 0.4µm or greater and 10 µm or less. A portion of the silicon substrate (12) is removed, and a device having a diaphragm structure or a cantilever structure is formed. The respective layers (14-28) laminated on the silicon substrate (12) can be formed by a thin-film-forming method such as vapor phase epitaxy.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:49512421",
+            "title": "Multi-frequency ultra wide bandwidth transducer",
+            "abstract": "Piezoelectric micromachined ultrasonic transducer (pMUT) arrays and techniques for frequency shaping in pMUT arrays are described, for example to achieve both high frequency and low frequency operation in a same device. The ability to operate at both high and low frequencies may be tuned during use of the device to adaptively adjust for optimal resolution at a particular penetration depth of interest. In embodiments, various sizes of piezoelectric membranes are fabricated for tuning resonance frequency across the membranes. The variously sized piezoelectric membranes are lumped together by two or more separate electrode rails, enabling independent addressing between the two or more subgroups of sized transducer elements. Signal processing of the drive and/or response signals generated and/or received from each of the two or more electrode rails may achieve a variety of operative modes for the device, such as a near field mode, a far field mode, and an ultra wide bandwidth mode.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:52776400",
+            "title": "Piezoelectric ultrasonic transducer array with switched operational modes",
+            "abstract": "Switchable micromachined transducer arrays are described where one or more switches, or relays, are monolithically integrated with transducer elements in a piezoelectric micromachined transducer array (pMUT). In embodiments, a MEMS switch is implemented on the same substrate as the transducer array for switching operational modes of the transducer array. In embodiments, a plurality of transducers are interconnected in parallel through MEMS switch(es) in a first operational mode (e.g., a drive mode) during a first time period, and are then interconnected through the MEMS switch(es) with at least some of the transducers in series in a second operational mode (e.g., a sense mode) during a second time period.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:35905714",
+            "title": "Piezoelectric element and its manufacturing method",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a method of manufacturing a piezoelectric element which can prevent faults by internal defects and holes.  &lt;P&gt;SOLUTION: Fine particles, each of which is a raw material for the piezoelectric element, are sintered to make an ingot consiting of a fine particle sintered body. Then, the ingot is sliced into a plate-like piezoelectric body 206, which is then ground and thinned into a piezoelectric plate. The piezoelectric plate is divided into piezoelectric elements. When sintering the fine particles, a cavity 210 remains and will become an internal defect or hole of the piezoelectric element. In order to avoid this, the sliced plate-like piezoelectric body 206 is dipped in an insulating liquid 304. Since the plate-like piezoelectric body 206 is a fine particle sintered body, the insulating liquid 304 permeates along the grain boundaries of the fine particles 202 (304A) and thereby the cavity 210 is filled with the insulating liquid 304 (304B). Then, the plate-like piezoelectric body 206 with its cavity 210 now filled up with the insulating liquid 304 is taken out of the insulating liquid 304 and is heated to solidify the insulating liquid ",
+            "abstract_truncated": true,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:39794835",
+            "title": "Piezoelectric element manufacturing method and liquid ejection head manufacturing method",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a piezoelectric element manufacturing method for producing a desirable piezoelectric element by the epitaxial growth method such as the sputtering method or the oriented growth method, and to provide a liquid ejection head manufacturing method.  &lt;P&gt;SOLUTION: A lower electrode 14 is formed in a film on a top face 12 of a substrate 10, a piezoelectric film 16 is formed on the lower electrode 14 by the sputtering method, and an upper electrode 18 is formed in a film on the top face of the piezoelectric film 16. Thereafter, a wiring layer is formed to join a flexible cable 34. In this state, after an AC electric field of not smaller than a coercive electric field is impressed, a positive voltage is applied to the upper electrode 18 making the lower electrode 14 the ground, and an electric field is applied to the piezoelectric film. Hence a polarization direction of the piezoelectric film 16 which is a direction from the lower electrode 14 to the upper electrode 18 can be reversed, and the piezoelectric element 20 can be deformed in an ejection direction by applying a positive voltage to the upper electrode 18 making the lower electrode 14",
+            "abstract_truncated": true,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:39704160",
+            "title": "Piezoelectric element and ink jet head",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To sufficiently relax a stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer for fulfilling a proper condition.  &lt;P&gt;SOLUTION: The piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO&lt;SB&gt;2&lt;/SB&gt;), the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric layer formed on the first electrode layer by a lead-based piezoelectric material, and a second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:45021765",
+            "title": "Perovskite oxide, oxide composition, oxide material, piezoelectric element, and liquid discharge device",
+            "abstract": "PROBLEM TO BE SOLVED: To provide a lead-free perovskite oxide having a low Curie temperature and exhibiting excellent ferroelectricity.SOLUTION: A perovskite oxide of the present invention is represented by the following general formula (P).(Bi, Ba, X)(Fe, Ti, Mn)O...(P) (wherein, Bi and Ba are an A site element, and X is one kind or multiple kinds of A site element having average ionic valency of divalent except Pb and Ba. Fe, Ti and Mn are a B site element. O is oxygen. 0&lt;x1+x2&lt;1.0, 0&lt;x3&lt;1.0, 0&lt;y1+y2≤1.0, 0≤y3&lt;1.0, 0&lt;x1, 0&lt;x2,0&lt;y1, 0&lt;y2. Standard mole ratio between A site element, B site element, and oxygen is 1:1:3, and these mole ratios may deviate from the reference mole ratio within a range where perovskite structure can be taken.)",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "specified_control__bge_k800_s42__c475",
+        "run_id": "bge_k800_s42",
+        "cluster_id": 475,
+        "cluster_population": 57,
+        "selected_pool": 57,
+        "docs": [
+          {
+            "family_id": "google:59500807",
+            "title": "圧電素子",
+            "abstract": "【課題】圧電特性を良好に維持し、かつリーク電流を抑制することが可能な圧電素子を提供する。 【解決手段】基板（１１）上に、下部電極（１２）、圧電体膜（１３）、密着層（１４）、および上部電極（１５）をこの順に備える圧電素子（１０）であって、圧電体膜（１３）が、（１００）面に優先配向したペロブスカイト構造を有し、組成式Ｐｂ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｎｂ ｙ ］Ｏ ３ で表される複合酸化物であり、式中、ｘは０＜ｘ＜１であり、ｙは０．１０≦ｙ≦０．１３であり、かつ、Ｘ線回折法によって測定されたペロブスカイト（１００）面からの回折ピーク強度Ｉ （１００） とペロブスカイト（２００）面からの回折ピーク強度Ｉ （２００） の比であるＩ （２００） ／Ｉ （１００） が、０．８５≦Ｉ （２００） ／Ｉ （１００） ≦１．００であり、かつ、密着層（１４９）が、イオン化エネルギー０．３４ｅＶ以下の金属を含む圧電素子（１０）とする。 【選択図】図３",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:85172750",
+            "title": "圧電積層体、圧電素子及び圧電積層体の製造方法",
+            "abstract": "【課題】圧電定数が高いことに加えて、動作環境における圧電特性の安定性（長期信頼性）に優れた圧電積層体及び圧電素子を提供する。 【解決手段】下部電極層１２と、Ｐｂ含有ペロブスカイト型酸化物を含む圧電膜１５とをこの順に備えた圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:55865914",
+            "title": "ペロブスカイト型酸化物とその製造方法",
+            "abstract": "【課題】チタン酸ストロンチウムに高濃度でＲｈがドープされてなるペロブスカイト型酸化物とその製造方法を提供する。 【解決手段】本発明のペロブスカイト型酸化物は、下記一般式（Ｇ）で表されるものである。 Ｓｒ ａ （Ｔｉ ｙ ，Ｒｈ ｘ ）Ｏ ｃ   ・・・（Ｇ）、 但し、式中、ＳｒはＡサイト元素、Ｔｉ及びＲｈはＢサイト元素であり、 ０．１＜ｘ≦０．５である。ａ＝１、ｘ＋ｙ＝１、ｃ＝３が標準値であるがペロブスカイト構造を取りうる範囲内で標準値からずれてもよい。 【選択図】図２",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:98864925",
+            "title": "圧電アクチュエータ",
+            "abstract": "圧電アクチュエータは積層された複数の圧電膜と、圧電膜の間及び両端面のそれぞれに配置された電極を有する圧電素子と、駆動回路とを備え、複数の圧電膜はそれぞれ２つの抗電圧の絶対値が異なる非対称な分極－電圧ヒステリシス特性を有し、駆動回路は、複数の圧電膜のうちの少なくとも１層に自発分極の向きと同じ向きの電界を生じさせ、他の圧電膜に自発分極の向きと逆向きの電界を生じさせるユニポーラ電圧波形を印加する駆動回路であり、ユニポーラ電圧波形において絶対値が最小である最小電圧値Ｖ１は、他の圧電膜のバイポーラ分極－ヒステリシス特性を示すヒステリシス曲線における０［Ｖ］での傾きＴ０と、前記最小電圧値Ｖ１［Ｖ］での傾きＴ１との比が｜Ｔ０／Ｔ１｜≧１．５を満たすように設定されている。",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:40130939",
+            "title": "圧電素子及びそれを用いる液滴吐出ヘッド並びに圧電素子の製造方法",
+            "abstract": "【課題】圧電特性が高く、かつ耐久性の高い圧電素子を提供すること。 【解決手段】印加される電圧の変化により伸縮する圧電体膜と、圧電体膜の一方の面に配置された第１の電極と、圧電体膜の第１の電極が配置された面とは反対側の面に配置された第２の電極とを有し、圧電体膜は、気相成長法によって第２の電極上に形成されたＰｂ ｘ Ｂ ｙ Ｏ ｚ を主成分とし、前記第２の電極との接触面から、前記第１の電極の方向に１００ｎｍ離れた部分のｘ／ｙを０．８以上１．６以下であり、Ｂが、Ｔｉ，Ｚｒ，Ｖ，Ｎｂ，Ｔａ，Ｃｒ，Ｍｏ，Ｗ，Ｍｎ，Ｓｃ，Ｃｏ，Ｃｕ，Ｉｎ，Ｓｎ，Ｇａ，Ｚｎ，Ｃｄ，Ｆｅ，Ｎｉ及びランタニド元素の少なくとも１つで構成されており、かつ、０＜ｘ≦１、０＜ｙ≦１、２．５＜ｚ≦３とすることで上記課題を解決する。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:40506572",
+            "title": "圧電アクチュエータの製造方法、液体吐出ヘッド、及び画像形成装置",
+            "abstract": "【課題】電体膜の膜剥離を防止しつつ、圧電特性を向上させる。 【解決手段】上部電極膜と下部電極膜との間に圧電体膜が設けられてなる圧電アクチュエータの製造方法であって、下部電極膜上に一般式ＡＢＯ ３ （但し、Ａは、Ｐｂ及びＢａのうちの少なくとも一方を含み、Ｂは、Ｚｒ及びＴｉのうち少なくとも一方を含む。）で示されるペロブスカイト型の結晶構造を有する圧電体膜を成膜した後、酸素雰囲気中で前記成膜時に前記圧電体膜に加えた温度以下で前記圧電体膜をアニール処理する工程を含むことを特徴とする圧電アクチュエータの製造方法を提供することにより、前記課題を解決する。 【選択図】  図２",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:41061937",
+            "title": "ペロブスカイト型酸化物とその製造方法、圧電体、圧電素子、液体吐出装置",
+            "abstract": "【課題】圧電性能に優れたペロブスカイト型酸化物を提供する。 【解決手段】下記一般式（Ｐ）で表される組成を有するペロブスカイト型酸化物の製造方法において、下記式（１）及び（２）を充足する条件で、組成を決定する。   （Ｂａ，Ｂｉ，Ａ）（Ｔｉ，Ｆｅ，Ｍ）Ｏ ３ ・・・（Ｐ）、   ０．９８≦ＴＦ（Ｐ）≦１．０２・・・（１）、   ＴＦ（ＢｉＦｅＯ ３ ）＜ＴＦ（ＡＭＯ ３ ）＜ＴＦ（ＢａＴｉＯ ３ ）・・・（２） （式（Ｐ）中、Ｂａ，Ｂｉ，及びＡはＡサイト元素、Ｔｉ，Ｆｅ，及びＭはＢサイト元素。Ａ及びＭは、Ｐｂを除く各々１種又は複数種の金属元素である。式（１），（２）中、ＴＦ（Ｐ）は上記一般式（Ｐ）で表される酸化物の許容因子、ＴＦ（ＢｉＦｅＯ ３ ）、ＴＦ（ＡＭＯ ３ ）、及びＴＦ（ＢａＴｉＯ ３ ）はそれぞれ（）内に記載の酸化物の許容因子である。） 【選択図】なし",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:43301845",
+            "title": "タイヤ内電力発生装置及び該装置を用いたタイヤモニタリングシステム",
+            "abstract": "【課題】非鉛系タイヤ内電力発生装置において高い発電能力を実現する。 【解決手段】タイヤ内電力発生装置２は、下記一般式（ＰＸ）で表されるペロブスカイト型酸化物からなる（不可避不純物を含んでもよい）無機圧電体を含む圧電部２０と、圧電部２０がタイヤに加えられる外力により歪むことにより、圧電部２０に発生する電荷を取り出す一対の電極（２１，２２）と、取り出した電荷を蓄積するエネルギー蓄積部２３とを備えている。   （Ｂｉ ｘ ，Ａ １−ｘ ）（Ｂ ｙ ，Ｃ １−ｙ ）Ｏ ３ ・・・（ＰＸ）   （式（ＰＸ）中、ＡはＰｂ以外の平均イオン価数が２価のＡサイト元素、Ｂは平均イオン価数が３価のＢサイト元素，Ｃは平均イオン価数が３価より大きいＢサイト元素であり、Ａ，ＢおよびＣは各々１種又は複数種の金属元素である。Ｏは酸素。Ｂ及びＣは互いに異なる組成である。０．６≦ｘ≦１．０、ｘ−０．２≦ｙ≦ｘ。） 【選択図】図１Ａ",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "specified_control__qwen_k800_s42__c404",
+        "run_id": "qwen_k800_s42",
+        "cluster_id": 404,
+        "cluster_population": 272,
+        "selected_pool": 272,
+        "docs": [
+          {
+            "family_id": "google:11973474",
+            "title": "Method and device for forming thin film",
+            "abstract": "PURPOSE:To form a vapor deposited thin film with high vapor deposition efficiency in vapor depositing a thin film of metal or the like on the surface of a substrate by focusing the vapor flow for vapor deposition with a diffusion preventing device and rediating the same to the substrate surface. CONSTITUTION:An open type hearth 3 is placed in a casing 1, and a vapor source 4 of Ag, Cr, Co, Fe, Ni, and other materials to be vapor-deposited is placed thereon, and is heated with an electron beam type heater 5, whereby vapor flow V of these metal is generated. The vapor flow V enters a vapor flow diffusion preventing device 6 through its wide inlet, and is released through an upper narrow outlet together with the main vapor flow while impinging upon and reflecting on the heated inside wall. It is vapor-deposited on the surface of a substrate W by passing through the hole parts of a focusing electrode 14 connected to the negative electrode of an electric power source 12. While the substrate W is transferred with a rotating cooling can 13, the thin vapor deposition film is formed on the surface at uniform thickness efficiently.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:15622240",
+            "title": "Vapor deposition device",
+            "abstract": "PURPOSE:To provide vapor-deposited films of a uniform thickness on many substrates with one time of vapor deposition treatment by providing a supporting body for a vapor source at the center of a vacuum vessel in the position equidistant from respective substrate holders, and moving the vapor source vertically along the supporting body. CONSTITUTION:Substrate holders 3 are mounted to the cryogenic panels 2 disposed in a bell-jar 1, and substrates 4 are fixed and held to the holders 3. A supporting body 5 for a vapor source is located on the centerline of the bell-jar 1, and a vapor source 6 contg. evaporating materials 7 is supported to said body. The source 6 is moved vertically along the body 5 according to adequate scanning parameters. Vapor-deposited films of a uniform thickness are obtained by such device, and the number of the large area substrates to be treated per batch is increased.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:95698415",
+            "title": "Plasma processing method nd plasma processing device",
+            "abstract": "To provide a plasma processing method capable of performing plasma processing with high productivity by suppressing mixture of a carrier gas and stably generating plasma even in a case where a conveyance speed of a long workpiece is made high when performing the plasma processing while conveying the workpiece in a length direction in a roll-to-roll manner.SOLUTION: A plasma processing method for performing plasma processing between opposed electrode pairs by inserting a long workpiece between the opposed electrode pairs while conveying the workpiece in a length direction includes supplying a gas for plasma generation from a gas supply section, which is disposed at an upstream side of one electrode of the opposed electrode pairs in a conveyance direction of the workpiece, and feeding a part of the gas for plasma generation supplied from the gas supply section to an upstream side of a conveyance path of the workpiece. An average flow velocity Vave of the gas for plasma generation fed to the upstream side and a conveyance speed U of the workpiece satisfy 2≤6×Vave/U≤20.SELECTED DRAWING: Figure 4",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:12586162",
+            "title": "Micro vacuum tube",
+            "abstract": "PURPOSE:To provide a micro vacuum tube having little cathode deterioration, and stable and approximately uniform electric characteristics. CONSTITUTION:A higher voltage than the voltage applied between a cathode electrode 2 and a main electrode 3 is applied between the cathode electrode 2 and an anode electrode 4. Further, the cathode electrode 2 is irradiate by light from EL luminescent elements 6a and 6b. Accordingly, electrons are emitted from the cathode 2 receiving energy from an electric field generated by the voltage applied between the cathode 2 and the anode 4, and the energy by light irradiation. Thereafter, the electrons are attracted by the main electrode 3, to which the higher voltage than that of the anode electrode 4 is applied, and collides with a fluorescent layer 5 formed on the main electrode 3 with a high speed so that the fluorescent layer 5 emits light.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:49259408",
+            "title": "真空成膜装置用防着板、真空成膜装置、および、真空成膜方法",
+            "abstract": "【課題】成膜材料の剥離防止効果に優れる真空成膜装置用防着板およびその製造方法、ならびに、この防着板を用いる真空成膜装置および真空成膜方法の提供。 【解決手段】真空成膜装置において、不要な位置への成膜材料の付着を防止するための真空成膜装置用防着板であって、アルミニウム製であり、平均開口径０．０１〜９μｍの凹部を含む凹凸構造の表面を有し、表面の算術平均粗さＲａが０．２０μｍ以上である真空成膜装置用防着板。 【選択図】図２",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:17251922",
+            "title": "Film forming device and formation of film",
+            "abstract": "PROBLEM TO BE SOLVED: To uniformly and continuously form a protective film at a high speed. SOLUTION: This device is provided with a vacuum reaction chamber 11, a plasma generating device 14, a plasma introducing part 15, a plasma reflecting part 20, a reaction gas introducing part 28, the feeding part 22, the winding part 23 and a film forming drum 24 in a substrate supporting means and a substrate bias power source 25, in which the plasma introducing part 15 disposed between the plasma generating device 14 and the vacuum reaction chamber 11 has an opening 16 through which plasma passes in the center part, and furthermore, it is composed of an electrically conductive member 17, a heat transferring member 19 having electrical conductivity and a cooling member 18 having electrical conductivity from the inside part.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:15113393",
+            "title": "Production of thin alloy film",
+            "abstract": "PURPOSE:To apply always a specified amt. of a non-essential component on a thin film at a high filming speed in a method for forming a thin alloy film on a substrate in a vacuum by directing the vapor flow of one material and the sputtering particles of the other material simultaneously toward the substrate. CONSTITUTION:Co which is an essential component is evaporated by heating on a substrate of a synthetic resin film; at the same time, a slight amt. of Cr which is a non-essential component to be incorporated is sputtered, in the production of, for example, a vertical magnetization recording medium of a non-coated type. The resulted vapor flow of Co and the sputtering particles of Cr are directed simultaneously toward the substrate film. Since the essential component is vapor-deposited by ion plating, the filming speed is high. Since the non-essential component is filmed by sputtering, always a specified amt. can be added into the thin film and the filming speed over the entire part is not affected by the low speed with the sputtering as the non-essential component is very slight in content.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:51353928",
+            "title": "Sublimation refining apparatus",
+            "abstract": "PROBLEM TO BE SOLVED: To provide a sublimation refining apparatus capable of increasing sublimation efficiency further even when not only a crude material having high thermal stability but also a crude material having low thermal stability are used as samples.SOLUTION: Provided is a sublimation refining apparatus having a sublimation pipe, a vacuum pump and piping connecting the sublimation pipe and the vacuum pump. When an end part of the sublimation pipe, further from the vacuum pump, is defined as A and a connection part of the piping and the vacuum pump is defined as C, conductance (K) from A to C is 0.01 m/sec or more.",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Selected-pool arithmetic-mean center; frozen scores absent",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "random_medium__qwen_k800_s42__c505",
+        "run_id": "qwen_k800_s42",
+        "cluster_id": 505,
+        "cluster_population": 110,
+        "selected_pool": 110,
+        "docs": [
+          {
+            "family_id": "google:18877548",
+            "title": "Toner cartridge",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:27742532",
+            "title": "Toner cartridge",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:51493904",
+            "title": "Toner cartridge",
+            "abstract": "Newness and distinctiveness reside in the features of shape and/or configuration of the toner cartridge indicated in gray scale in the accompanying representations. The features shown in green in the accompanying representations form no part of the design. The gray scale shading in each of the figures is shading which merely shows the three-dimensional surface of the toner cartridge and colour per se is not a visual feature of the design.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:44652881",
+            "title": "Waste toner bottle",
+            "abstract": "Newness and distinctiveness resides in the features of shape and/or configuration of the waste toner bottle as shown in the accompanying representations.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:94603815",
+            "title": "Toner cartridge",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:30368199",
+            "title": "Toner supply device",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:30225661",
+            "title": "toner collection bottle",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          },
+          {
+            "family_id": "google:15524868",
+            "title": "Preparation of magnetic toner",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Selected-pool arithmetic-mean center; frozen scores absent",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "random_medium__bge_k800_s42__c655",
+        "run_id": "bge_k800_s42",
+        "cluster_id": 655,
+        "cluster_population": 109,
+        "selected_pool": 109,
+        "docs": [
+          {
+            "family_id": "google:17300595",
+            "title": "Cartridge disassembling device",
+            "abstract": "PURPOSE:To disassemble a cartridge with high efficiency. CONSTITUTION:A cartridge receiving part 14 is provided at fixed pitch on the outer periphery of a cartridge holder 12, and the cartridge gets into the receiving part 14. Plural extruding rods 27 are provided to freely slide on a rod supporting part 26 which rotates integrally with the holder 12. The trailing end of the rod 27 contacts with a cam surface 30, and the spool shaft of the cartridge is gradually pressed when the cartridge is rotated and moved with the holder 12, and a cap is removed from the trunk part of the cartridge.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:14640628",
+            "title": "Cartridge containing dry analysis film piece",
+            "abstract": "PURPOSE:To take out a dry analysis film piece positively from a cartridge containing the film piece to be used in a biochemical analysis, an immune analysis or the like even when the film piece is greatly deformed. CONSTITUTION:A discharge port 821 is formed at the lower part of a casing 810 of the cartridge. A dry analysis film piece is discharged out through the discharge port 821. A notch part 834 is formed at an end plate 830 to accommodate a pressure reduction/suction pad for transportation. Two flexible retaining means 841 for the forefront film piece are formed at the lower part of the front face of the casing 810 and moreover, a retaining means 846 for a second film is provided in the middle of the means 841. An inclining/holding member 881 for raising a side end of the dry analysis film piece upward is integrally formed at the center of the end plate 830 at the opposite side to the discharge port 821.",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:39941348",
+            "title": "Cap of cartridge for component extraction",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:18971854",
+            "title": "Loaded state discriminating device",
+            "abstract": "PROBLEM TO BE SOLVED: To make confirmable the loaded state of a component to the main body without increasing the number of components, and also, to discriminate between a state where the component is defectively loaded and a state where the component is not loaded yet without generating an error with time. SOLUTION: The device is provided with a function of discriminating the loaded state of a cartridge to a toner cartridge holder 20 by radio, and also, the loaded state of the cartridge 50 with reference to the toner cartridge holder 20 is discriminated while classifying the loaded state into three states, that is, the loaded state, the defectively loaded state and the unloaded state based on a change in output voltage at transmitting and receiving by radio. Besides, the relation between the confronted state of spiral antenna parts 56 and 68 and the output voltage is set to the optimum state, then, such the troubles never occur that the defectively loaded state is erroneously judged as the loaded state, and a boundary between the loaded state and the defectively loaded state is fluctuated with time.  Besides, the device dispenses with a complicated discrimination structure of thre",
+            "abstract_truncated": true,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:17774629",
+            "title": "Cartridge for dry-process analysis film piece",
+            "abstract": "PURPOSE:To improve the stability for withdrawal and to prevent a development layer from being damaged by reducing the press force of a dry-process analysis film piece when releasing the energization force by an energization means at the time of energization of a dry-process analysis film piece housed in a box body to a withdrawal port side. CONSTITUTION:A withdrawal port 22 is provided at one edge of a box body 21 for housing dry-process analysis film pieces 1 by laminating a plurality of them and a press member 31 which is related by an external energization means while being in contact with the dry process analysis film pieces 1 from the opposite side of the withdrawal port 22 is provided inside the box body 21 so that it can be slid. Further, a gearlock member 33 which can move in the direction of the withdrawal port 22 and cannot be moved in the opposite direction is provided inside the box body 21, the press member 31 and the gear-lock member 33 are moved in the direction of withdrawal port while being interlocked on external force operation to the press member 31, and the press member 31 is displaced in the direction of antiwithdrawal port for the gear-lock position of the ge",
+            "abstract_truncated": true,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:17373628",
+            "title": "Method and device for supplying processing solution",
+            "abstract": "PURPOSE:To facilitate the setting operation of a cartridge filled up with processing solution. CONSTITUTION:Before the cartridge 62 is mounted on a bracket 58, an opening means 84 is lowered and retreated. Therefore, an operator can easily mount the cartridge 62 without coming into contact with a pressing bar 86. At the using time, a solenoid 104 is excited and the link of the opening means 84 is elevated. Then, the cover of the cartridge 62 is opened by the bar 86 and the processing solution is made to fall.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:36601150",
+            "title": "Apparatus for extracting nucleic acid",
+            "abstract": "The apparatus for extracting nucleic acid includes a cartridge holder  61  which holds nucleic acid extraction cartridges  11 , a container holder  62  which holds waste liquid containers  12  and recovering containers  13  and a container holding table  63  which holds the cartridge holder  61  and the container holder  62 , the container holding table  63  is attachable to and detachable from an apparatus main body  2  with the cartridge holder  61  holding the nucleic acid extraction cartridges and the container holder  62  holding the waste liquid containers and the recovering containers held by the container holding table  63.",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          },
+          {
+            "family_id": "google:49387621",
+            "title": "Specimen inspection system, inspection cartridge, and specimen inspection device",
+            "abstract": "PROBLEM TO BE SOLVED: To prevent reuse of a used inspection cartridge in a specimen inspection system that measures a test object in specimen solution using the inspection cartridge.SOLUTION: The specimen inspection system comprises: an inspection cartridge 10 configured by forming an identification code 30 on a case outer face; and a specimen inspection device 1 that has a cartridge insertion port 3 for receiving the inspection cartridge 10 and inspects a specimen by measuring a coloration state of a test area of the received inspection cartridge 10. The inspection cartridge 10 includes a cover 33 that, before use, is located at a position to expose the identification code 30 and, when the inspection cartridge 10 is in the cartridge insertion port 3, coacts with means in the specimen inspection device 1 side and moves to a position to cover the identification code 30. The specimen inspection device 1 includes means 34 for moving the cover 33 to a position to cover the identification code 30.",
+            "abstract_truncated": false,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "mixed_proxy__qwen_k300_s42__c57",
+        "run_id": "qwen_k300_s42",
+        "cluster_id": 57,
+        "cluster_population": 1043,
+        "selected_pool": 80,
+        "docs": [
+          {
+            "family_id": "google:42354851",
+            "title": "Particle behavior analyzer, information processor and program",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To perform more efficiently processing result output processing in a particle behavior analyzer.  &lt;P&gt;SOLUTION: A numerical value operation processing part 234 calculates behavior of the particle in consideration of interaction force with another substance that acts on a particle, while performing information communication with other devices, regarding a divided portion divided in accordance with a division method determined beforehand relative to particles in an analysis object range. A priority setting part 242 sets on a particle, priority corresponding to propriety of output processing of an analysis result based on the kind of the particle, a distribution of a particle characteristic, the kind of atoms constituting the particle or the like. A division processing part 250 divides the particles in the analysis object range in accordance with the division method determined beforehand, and assigns each divided portion to each numerical value operation processing part 234. An output data processing part 236 or a row direction processing result output processing part 260 switches output propriety of an analysis result acquired by the numerical valu",
+            "abstract_truncated": true,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:38454405",
+            "title": "学習システム、学習装置、コンピュータの制御方法及びプログラム",
+            "abstract": "【課題】検出しようとする事象とセンサの出力との関係性の変化に柔軟に対応する。 【解決手段】複数のセンサを含むセンサ群１１０と、検出の対象となる検出対象事象とセンサ群１１０の出力との関係性が学習された学習ネットワークにより、前記検出対象事象が発生しているか否かを判定する手段と、前記検出対象事象の模擬行動を示す模擬行動情報を提示する模擬行動提示手段と、前記模擬行動提示手段により提示された模擬行動情報が示す模擬行動時におけるセンサ群１１０の出力に基づいて、前記関係性を再学習する再学習手段と、を含む学習システム１００。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:75975474",
+            "title": "Health risk evaluation system for animals and health risk evaluation method for animals",
+            "abstract": "To provide a health risk evaluation system for animals and a health risk evaluation method for animals which can appropriately evaluates risks to health of animals.SOLUTION: A health risk evaluation system 10 for animals comprises: an examination value acquisition unit 51 which acquires examination values being results of examination performed on animals; a breed data acquisition unit 52 which acquires breed data being information specifying breeds of the animals; a storage unit 53 which stores the breed data and the examination values in association with each other; and a risk evaluation unit 54 which uses breed data and examination values of a specific animal being an evaluation object to evaluate future risks to health of the specific animal.SELECTED DRAWING: Figure 3",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:16588166",
+            "title": "Method and device to generate prime number",
+            "abstract": "PROBLEM TO BE SOLVED: To generate the prime numbers, in which arbitrary number of integers have one or plural large prime factors, by having the factors which are the factors of specific integers and are one or plural large prime numbers. SOLUTION: Prime numbers are generated so that integers p+αi have Ci number of adequately large prime factors against k number αi . Then, integers s1 , s2 ,... sk are generated (102). Note that si are integers which become the factors of p+αi and are mutually prime integers and are also Ci number of the products of adequately large prime factors. Based on the integers si (i=1 to k), p1 =Πi =1,2,...,kSi are computed (103). Then, based on the integers si (i=1 to k) and the computed p1 , P2 =-Σi1 ,2 ...,k αi (Πj =1,2,...,i-1,id+1,...,k Sj &lt;ϕ(&gt; S&lt;i)&gt; ) mod p1 are computed (104). Then, prime numbers p are generated having a form of P=p1 +mp2 from p1 and p2 (105) where m is a positive integer.",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:80845353",
+            "title": "Measurement terminal device, slope measurement method and program",
+            "abstract": "To provide a measurement terminal device, a slope measurement method and program that may use a measurement terminal device to do a stable slope measurement of a house, etc. and allow anybody to easily perform a stable slope measurement of a house, etc. A terminal posture detection is carried out that detects whether or not the slope of a measurement terminal device (10) with respect to the horizontal direction is within a specified range, the measurement terminal device (10) being in a plane in parallel with a wall to be measured, first assist information that assists the terminal posture detection is displayed on a display device (102), a wall slope measurement is carried out that measures the slope of the wall with respect to the vertical direction according to measurement data of an acceleration sensor (204), and the result of the wall slope measurement is stored in a memory (202).",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:12987250",
+            "title": "Carrying control device of unmanned carrier vehicle",
+            "abstract": "PURPOSE: To prevent a loading station in which a buffer is caused to overflow by carried articles to be carried out. CONSTITUTION: A carried article 3 of a buffer 7 is detected to detect the number of carried articles by a detector 6 of each station at an instruction waiting place of an unmanned carrier vehicle 5. The number of unalloted carried articles of a buffer of each station is calculated from information on the number or detected carried articles and the alloted carried articles. A buffer free area estimated value in the case where a carrier vehicle reaches each station is calculated from the moving time M from the instruction waiting time to each station, carried article carrying-out time interval Pi as buffer data, carried article storage possible number Ki, and the number Bi of unalloted carried articles by the following expression. (Ki-Bi)-Mi/Pi (i=1, 2,..., n).  Carried articles are alloted in order from a loading station with the minimum value among the above estimated values for the unmanned transport vehicle to the loading possible number.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:18291501",
+            "title": "Method and device for drawing thin line",
+            "abstract": "PROBLEM TO BE SOLVED: To provide a method and device that can draw an accurate thin curved line with nearly as simple constitution as a constituting method for drawing a thin straight line. SOLUTION: A reference line scanning means 3 scans a reference line based upon the shape of a curved line to be drawn. At each scanning point, a direction calculating means 4 calculates a direction crossing the travel direction of the reference line, a normal vector generating means 5 generates a normal vector which crosses the travel direction of the reference line at right angles and has a length equal to the line width of the curved line to be drawn, and a drawing means 6 draws a thick curved lines having the line width as a set of normal vectors in a page buffer 7.",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:29201596",
+            "title": "Device and method for calculating distance between tree structures",
+            "abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To calculate a distance between trees in consideration of corresponding relationship between vertexes and corresponding relationship between sides.  &lt;P&gt;SOLUTION: Memories 2 and 3 respectively record one of tree structure data recorded in an external recording device 1. In a data conversion part 4, a number is assigned to the vertex and the side in preorder from a root with the usage of the tree structure data stored in the memories 2 and 3, and data required for calculating the distance is added. The result is respectively stored in memories 5 and 6. A distance between woods calculation part 9 calculates a distance between the woods stored in the memories 5 and 6 with the usage of the distance between partial trees belonging to the woods stored in a memory 7. The result is given to a distance between partial trees calculation part 8. The distance between partial trees calculation part 8 calculates the distance between the partial trees stored in the memories 5 and 6 with the usage of the distance between the partial trees stored in the memory 7 and the distance between the woods supplied from the distance between woods calculation part 9. The re",
+            "abstract_truncated": true,
+            "selection_role": "diverse"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "SAMPLED_MEMBERS_ONLY",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "small_tight__qwen_k30_mutual_r1.0_s42__c138",
+        "run_id": "qwen_k30_mutual_r1.0_s42",
+        "cluster_id": 138,
+        "cluster_population": 15,
+        "selected_pool": 15,
+        "docs": [
+          {
+            "family_id": "google:46641981",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:46641982",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "near_center"
+          },
+          {
+            "family_id": "google:84027306",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:84027308",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "edge"
+          },
+          {
+            "family_id": "google:84027305",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          },
+          {
+            "family_id": "google:56959496",
+            "title": "Lens for television camera",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "random"
+          }
+        ],
+        "centroid_scope": "Frozen D1 semantic-center cosine, restricted to selected D2 pool",
+        "coverage": "FULL_CLUSTER",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      },
+      {
+        "selection_id": "noise__bge_n238541_pca30_c30_s15",
+        "run_id": "bge_n238541_pca30_c30_s15",
+        "cluster_id": -1,
+        "cluster_population": 210176,
+        "selected_pool": 60,
+        "docs": [
+          {
+            "family_id": "google:31278183",
+            "title": "画像記録装置",
+            "abstract": "",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:44319402",
+            "title": "導電シート、導電シートの使用方法及び静電容量方式タッチパネル",
+            "abstract": "【課題】基体上に形成される導電パターンの低抵抗化を図ることができると共に、視認性も向上させることができ、例えば投影型静電容量方式のタッチパネルに用いて好適な導電シートを提供する。 【解決手段】第１導電シート１０Ａは、第１透明基体上に、２以上の導電性の第１大格子１４Ａと、隣接する第１大格子１４Ａ間を電気的に接続する第１接続部１６Ａとが形成され、各第１大格子１４Ａは、それぞれ２以上の小格子１８が組み合わされて構成され、第１接続部１６Ａの幅Ｗｃ１は、小格子１８のピッチをＰｓとしたとき、Ｗｃ１＞Ｐｓ／√２を満足する。 【選択図】図１",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:36725631",
+            "title": "インクジェット記録方法",
+            "abstract": "【課題】  高濃度で、色再現性及び透明性画高く、堅牢性に優れた記録体を得ることができるバックリット用のインクジェット記録方法を提供すること。 【解決手段】  少なくとも１種の油溶性染料と、疎水性ポリマーと、を含む微粒子分散物を含有するインク組成物を用い、インク受容層を設けてなるバックリット用のインクジェット記録媒体に画像を記録することを特徴とするインクジェット記録方法である。 【選択図】  なし",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:39739327",
+            "title": "Method for detecting ovarian cancer and method for suppresssing the same",
+            "abstract": "An object of the present invention is to provide a method for detecting cancer through identification of genes exhibiting characteristic behavior in the cases of cancer such as ovarian cancer, and a cell growth inhibitor. The present invention provides a method for detecting cancer, which comprises detecting canceration including malignancy of a specimen through detection of at least one alteration of a gene existing in a chromosomal region 2q14. 2, 3p24. 1, 3q26. 2, 3q29, 4q34. 2, 6q23, 9p21. 3, 11q13. 3, 13q22.1, 13q33. 1, 13q33. 3, 15q12, 15q15. 1, 17p12, 17p13. 1, 17p13. 3, 18q21. 1, 18q21. 2,18q21. 31, 18q21. 32, 18q21. 33, 18q23, 20q13. 13, 20q13. 2, 20q13. 31, 20q13. 33, Xp11. 23, Xp13.1, Xp13. 3, Xp26. 2, Xp26. 3, or Xq28 in the specimen. \nThe gene can be CTGF, ENPP1, ENPP3, CRSP3, ARG, AKAP7, EPB41L2, KIAA1913. Homozygons deletion of these genes occures in ovarian cancer.",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:15372636",
+            "title": "Method for preparation of printing plate by electrophotographic process",
+            "abstract": "A method for preparation of a printing plate by an electrophotographic process comprising providing a peelable transfer layer (T) containing a resin (A) capable of being removed upon a chemical reaction treatment on an electrophotographic light-sensitive element, forming a toner image on the transfer layer by an electrophotographic process, providing an adhesive layer (M) containing a thermoplastic resin (B) only on the toner image, transferring the toner image together with the transfer layer (T) and the adhesive layer (M) from the electrophotographic light-sensitive element to a primary receptor, transferring the toner image together with the transfer layer (T) and the adhesive layer (M) from the primary receptor to a receiving material having a surface capable of providing a hydrophilic surface suitable for lithographic printing at the time of printing, and then removing the transfer layer (T) in the non-image portion on the receiving material by the chemical reaction treatment. \n     According to the method of the present invention, printing plates which produce prints of good image qualities having a lage proportion of image areas can be continuously obtained in a stable manne",
+            "abstract_truncated": true,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:47139244",
+            "title": "Medicinal agent containing pyrmidobenzothiazin-6-imine derivative or salt thereof for prevention and/or treatment of viral infection",
+            "abstract": "The problem addressed by the present invention is to provide a novel medicinal agent for the prevention and/or treatment of a viral infection. The present invention provides a medicinal agent for the prevention and/or treatment of a viral infection other than hepatitis C, and contains as the active ingredient the compound represented by general formula (I) or a salt thereof [In the formula, X represents a nitrogen atom or C‑R 4 ; R 1 , R 2 , R 3 , and R 4  each independently represent a hydrogen atom, C 1 \n ‑ \n 6  alkyl group, C 2 \n ‑ \n 6  alkenyl group, C 2 \n ‑ \n 6  alkynyl group, C 1 \n ‑ \n 6  alkoxy group, halogen atom, nitro group, amino group, C 1 \n ‑ \n 3  mono- or di-alkyl amino group, C 1 \n ‑ \n 3  alkyl carbonylamino group optionally substituted by a phenyl group, benzoyl amino group, trifluoromethyl group, azido group, carboxyl group, C 1 \n ‑ \n 3  alkyl carbonyl group, C 1 \n ‑ \n 3  alkoxy carbonyl group, carbamoyl group, naphthyl group, optionally substituted heteroaryl group, styryl group, C 1 \n ‑ \n 3  alkyl thio group, C 1 \n ‑ \n 6  hydroxyalkyl group, or a group having the structure represented by general formula (1) in the description; R 2  and R 3 , or R 3  and R 4  are ",
+            "abstract_truncated": true,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:14150694",
+            "title": "Contact charging chip",
+            "abstract": "PURPOSE: To provide a contact charging device with very simple configuration as a charger device for a photoreceptor to be used in a copying machine, laser printer, etc. CONSTITUTION: A plastic film 1 subjected to an electroconductivity processing has at the tip a contact electrostatically charging chip 4, and one end of this plastic film is dipped in a solution of a semi-electroconductive material so that the film end is coated therewith, and thus a semi-electroconductive coating film 2 is formed, and its foremost part is contacted with a photoreceptor 5 in such a way as directed in the rotating direction. The electroconductivity processing should favorably consist of a process to form a metal evaporation film on the surface of the plastic film 1, and it is also preferable that a protection film is provided on the evaporation film. It may also be acceptable that this contact charging device is composed of a plurality of contact charging chips 4.",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          },
+          {
+            "family_id": "google:41248555",
+            "title": "記録用の材料、および記録装置",
+            "abstract": "【課題】インク受容性粒子に対するインクの適度な吸液速度が実現される記録用の材料、および、種々のインクを利用しても、多様な記録媒体に対して高速で記録が可能となると共に、高い発色性が得られ且つインク受容性粒子の定着性を向上し得る記録装置の提供。 【解決手段】少なくとも顔料、水溶性溶媒および水を含み、前記顔料の体積平均粒径（ｍｖ）が１０ｎｍ以上６０ｎｍ以下であり、かつ前記顔料の粒度分布指標（ｍｖ／ｍｎ）が１．０以上１．６以下であるインクと、少なくとも樹脂を含んでなるインク受容性粒子と、を備えることを特徴とする記録用の材料、および、該記録用の材料を用いた記録装置。 【選択図】なし",
+            "abstract_truncated": false,
+            "selection_role": "uniform_noise_sample"
+          }
+        ],
+        "centroid_scope": "No centroid for Noise; uniform sample from the frozen60",
+        "coverage": "SAMPLED_MEMBERS_ONLY",
+        "phase": "POST_FREEZE_D1_STYLE_REPLICATION"
+      }
+    ],
+    "system_prompt_sha256": "2f658e00c495f22846ec193fc43278b4e341553a45249702d8206b5cfbae6e4d",
+    "source_method_sha256": {
+      "scripts/name_topics.py": "0b538c7760aef7238acd3524e5aaaeae35a6748ad608ceb4cebe7d4b08acdcb1",
+      "scripts/analyze.py": "bccbca344fafd73743d12de787ea6671a5b668011be5a95cce4ef5b2f63e8d4b",
+      "scripts/assemble.py": "05208a44a181b067ef72e331dfe0fa93216b0dc0b23e81980ef7fdd1833f12f1"
+    },
+    "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+    "differences": "Same D1 system prompt, up to8 center/edge/random/diverse documents and1200-character abstract cap. Selected D2 pools used for partial controls; Noise uses uniform8. New post-freeze calls, not original D1 results. Original D1 already supported1–3 themes, literal evidence, independent technology hashes and M:N tables."
+  },
+  "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a"
+}

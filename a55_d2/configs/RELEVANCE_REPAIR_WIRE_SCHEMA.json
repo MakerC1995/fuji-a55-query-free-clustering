@@ -1,0 +1,83 @@
+{
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "Direct",
+        "Manufacturing",
+        "Transferable",
+        "Contextual",
+        "Unrelated",
+        "Uncertain"
+      ]
+    },
+    "head_object": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "application": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "conditions": {
+      "type": "string",
+      "maxLength": 900
+    },
+    "engineering_inference": {
+      "type": "string",
+      "maxLength": 900
+    },
+    "evidence_origin": {
+      "type": "string",
+      "enum": [
+        "PATENT_TEXT",
+        "ENGINEERING_INFERENCE",
+        "MIXED",
+        "NO_SUPPORT"
+      ]
+    },
+    "needs_full_text": {
+      "type": "boolean"
+    },
+    "rationale": {
+      "type": "string",
+      "maxLength": 1000
+    },
+    "review_reason": {
+      "type": "string",
+      "maxLength": 1000
+    },
+    "frozen_definition_issue": {
+      "type": "string",
+      "maxLength": 900
+    },
+    "source_explicit_head_relation": {
+      "type": "boolean"
+    },
+    "source_quote_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 16
+      },
+      "minItems": 0,
+      "maxItems": 20
+    }
+  },
+  "required": [
+    "category",
+    "head_object",
+    "application",
+    "conditions",
+    "engineering_inference",
+    "evidence_origin",
+    "needs_full_text",
+    "rationale",
+    "review_reason",
+    "frozen_definition_issue",
+    "source_explicit_head_relation",
+    "source_quote_ids"
+  ],
+  "additionalProperties": false
+}

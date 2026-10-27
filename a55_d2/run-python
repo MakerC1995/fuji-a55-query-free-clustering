@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+case "$ROOT" in /Volumes/Fuji_SSD_Work/*) ;; *) echo 'SSD required' >&2; exit 1;; esac
+cd "$ROOT"
+exec /Volumes/Fuji_SSD_Work/patent/embedding_benchmark/run-python "$@"

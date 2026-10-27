@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "mappings": {
+      "type": "object",
+      "properties": {
+        "N001": {
+          "type": "string",
+          "enum": [
+            "P001",
+            "UNCLASSIFIED"
+          ]
+        }
+      },
+      "required": [
+        "N001"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "mappings"
+  ],
+  "additionalProperties": false
+}

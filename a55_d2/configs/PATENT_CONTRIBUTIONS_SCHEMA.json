@@ -1,0 +1,651 @@
+{
+  "type": "object",
+  "properties": {
+    "family_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contributions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "evidence_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^E[1-9][0-9]*$"
+                },
+                "field": {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "abstract"
+                  ]
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 280
+                },
+                "start": {
+                  "type": "integer"
+                },
+                "end": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "field",
+                "quote",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 18
+          },
+          "technical_object": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "technical_problem": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "technical_mechanism": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "implementation": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "expected_effect": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "applicable_conditions": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 700
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 16
+                },
+                "minItems": 0,
+                "maxItems": 12
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "materials": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 400
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 16
+                  },
+                  "minItems": 0,
+                  "maxItems": 8
+                }
+              },
+              "required": [
+                "text",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "process_methods": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 400
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 16
+                  },
+                  "minItems": 0,
+                  "maxItems": 8
+                }
+              },
+              "required": [
+                "text",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "structures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 400
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 16
+                  },
+                  "minItems": 0,
+                  "maxItems": 8
+                }
+              },
+              "required": [
+                "text",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "TEMPERATURE",
+                    "PRESSURE",
+                    "VOLTAGE",
+                    "TIME",
+                    "LENGTH",
+                    "FREQUENCY",
+                    "COMPOSITION_RATIO",
+                    "COUNT",
+                    "OTHER_QUANTITATIVE"
+                  ]
+                },
+                "raw": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 120,
+                  "pattern": "^.*[0-9０-９].*$"
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 16
+                  },
+                  "minItems": 1,
+                  "maxItems": 8
+                }
+              },
+              "required": [
+                "name",
+                "kind",
+                "raw",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "mechanism_type": {
+            "type": "string",
+            "enum": [
+              "STRUCTURE",
+              "PROCESS",
+              "CONTROL",
+              "MATERIAL",
+              "CHEMICAL",
+              "COMPUTATIONAL",
+              "COMPOSITE",
+              "UNDISCLOSED"
+            ]
+          },
+          "evidence_level": {
+            "type": "string",
+            "enum": [
+              "EXPLICIT_MECHANISM",
+              "MECHANISM_UNDISCLOSED",
+              "INSUFFICIENT_EVIDENCE"
+            ]
+          },
+          "ambiguity_notes": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "contribution_id": {
+            "type": "string",
+            "pattern": "^C_[a-f0-9]{20}$"
+          },
+          "family_id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "source_text_hash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "effect_interpretation": {
+            "type": "string",
+            "enum": [
+              "disclosed_or_claimed_not_independently_measured"
+            ]
+          },
+          "evidence_alignment_provenance": {
+            "type": "object",
+            "properties": {
+              "technical_object": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "technical_problem": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "technical_mechanism": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "implementation": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "expected_effect": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "applicable_conditions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "materials": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "process_methods": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "structures": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              },
+              "parameters": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 0,
+                "maxItems": 30
+              }
+            },
+            "additionalProperties": false
+          },
+          "field_evidence_gaps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 2000
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "semantic_validation_status": {
+            "type": "string",
+            "enum": [
+              "PENDING_SOURCE_AUDIT",
+              "AI_SOURCE_CORRECTED_PENDING_HUMAN_REVIEW",
+              "LLM_REFINED_PENDING_SOURCE_AUDIT"
+            ]
+          },
+          "numeric_citation_gaps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "technical_object",
+                "technical_problem",
+                "technical_mechanism",
+                "implementation",
+                "expected_effect",
+                "applicable_conditions"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 6
+          },
+          "schema_version": {
+            "type": "string",
+            "enum": [
+              "D2-contribution-v3"
+            ]
+          },
+          "wire_canonicalization": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "split_long_verbatim_quote"
+                  ]
+                },
+                "field": {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "abstract"
+                  ]
+                },
+                "original_length": {
+                  "type": "integer"
+                },
+                "segments": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "kind",
+                "field",
+                "original_length",
+                "segments"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 30
+          },
+          "rejected_parameter_claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                "model_type": {
+                  "type": "string",
+                  "maxLength": 80
+                },
+                "model_claim": {
+                  "type": "string",
+                  "maxLength": 4000
+                },
+                "reason": {
+                  "type": "string",
+                  "maxLength": 500
+                }
+              },
+              "required": [
+                "name",
+                "model_type",
+                "model_claim",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "parameter_extraction_status": {
+            "type": "string",
+            "enum": [
+              "SOME_MODEL_PARAMETERS_WITHHELD",
+              "LITERAL_PARAMETERS_RETAINED",
+              "NO_STRUCTURED_PARAMETER_VALUES"
+            ]
+          },
+          "source_model_contribution_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "curation_provenance_json": {
+            "type": "string",
+            "maxLength": 15000
+          },
+          "refinement_provenance_json": {
+            "type": "string",
+            "maxLength": 15000
+          }
+        },
+        "required": [
+          "evidence_spans",
+          "technical_object",
+          "technical_problem",
+          "technical_mechanism",
+          "implementation",
+          "expected_effect",
+          "applicable_conditions",
+          "materials",
+          "process_methods",
+          "structures",
+          "parameters",
+          "mechanism_type",
+          "evidence_level",
+          "ambiguity_notes",
+          "contribution_id",
+          "family_id",
+          "source_text_hash",
+          "effect_interpretation",
+          "evidence_alignment_provenance",
+          "field_evidence_gaps",
+          "semantic_validation_status",
+          "numeric_citation_gaps",
+          "schema_version"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "family_id",
+    "contributions"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-27T09:33:20.212676+08:00",
+  "gates": [
+    {
+      "gate": "Gate 1 逐族抽取",
+      "status": "STRUCTURE_PASSED_WITH_KNOWN_SEMANTIC_LIMITS",
+      "evidence": "Schema、完整源文与4299个逐字坐标通过；多贡献接口已实际使用，但仍有未可靠原子化及泛化问题，非独立语义准确率验收。"
+    },
+    {
+      "gate": "Gate 2 主群384",
+      "status": "ALL_FAMILIES_ATTEMPTED",
+      "evidence": "384族全部尝试；有效384，失败0；明确手段标签族382，候选机制360。"
+    },
+    {
+      "gate": "Gate 3 跨群归并",
+      "status": "FUNCTIONAL_COMPLETE_WITH_KNOWN_OVERMERGES",
+      "evidence": "指定群与控制组完成选定范围；M:N及稳定ID可复用；事后原文诊断确认两组具体结构/材料窗口差异仍共用节点，不能宣称归并语义质量全部达标。"
+    },
+    {
+      "gate": "Gate 4 历史核验",
+      "status": "45_CASES_CHECKED_BY_AI",
+      "evidence": "Recipe27/Equipment18；39个主发现范围、6个独立事后源文探针；人工Gold0，不能推导未知全库Recall。"
+    },
+    {
+      "gate": "Gate 5 原型交付",
+      "status": "DELIVERY_INTEGRITY_PASSED",
+      "evidence": "8表值回读与逐表视觉复核、原文坐标/FK/核心哈希/SQLite及工作簿结构检查通过；不代表独立语义正确性。"
+    }
+  ],
+  "semantic_accuracy_verified": false,
+  "human_gold_families": 0,
+  "finalized_at": "2026-10-27T09:43:42.793897+08:00"
+}

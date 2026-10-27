@@ -1,3 +1,11 @@
+# A5.5-D2 技术知识库原型
+
+[D2交付件](deliverables/A5.5-D2/) 单独存放；[D2报告](deliverables/A5.5-D2/D2_REPORT.md)、[主工作簿](deliverables/A5.5-D2/TECHNOLOGY_KNOWLEDGE_BASE.xlsx)、[代码快照](a55_d2/)。当前为1117族试验，含已知误并及源文疑点，不是全库穷尽或经人工验证的知识库。
+
+仓库完整性检查：python3 scripts/verify_repository.py。原D1发布清单保持历史版本；以下为D1入口。
+
+---
+
 # FUJIFILM A5.5-D1｜全库 Query-Free 聚类与技术主题发现
 
 2026-10-25 完成的实验与交付归档。BGE-M3 / Qwen 已有向量各覆盖 238,541 个专利族，共 56 组 KMeans、HDBSCAN、Leiden 实验。本库独立于后续检索项目，保留本次代码和实际输出。

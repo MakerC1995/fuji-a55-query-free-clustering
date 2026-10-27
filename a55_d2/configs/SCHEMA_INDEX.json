@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-27T08:53:44.786521+08:00",
+  "canonical_contributions": "PATENT_CONTRIBUTIONS_SCHEMA.json",
+  "wire_templates": [
+    "CONCEPT_NAMING_WIRE_SCHEMA.json",
+    "DOMAIN_CATALOG_WIRE_SCHEMA.json",
+    "DOMAIN_ORGANIZATION_WIRE_SCHEMA.json",
+    "EXTRACTION_WIRE_SCHEMA.json",
+    "HISTORICAL_VALIDATION_WIRE_SCHEMA.json",
+    "PAIR_RELATION_SCHEMA.json",
+    "PRINTHEAD_RELEVANCE_WIRE_SCHEMA.json",
+    "RELEVANCE_SOURCE_REVIEW_WIRE_SCHEMA.json"
+  ],
+  "scope": "Generic LLM wire templates. Per-request schemas may add short-ID enums. Saved outputs add provenance; final Parquet schema is recorded in the manifest. Offsets are Unicode code-point half-open intervals.",
+  "sha256": {
+    "configs/CONCEPT_NAMING_WIRE_SCHEMA.json": "f3aa0552e0c3233e7ebedd6de6712f7a66b2cf595b43220a9a621d2305e00e4a",
+    "configs/DOMAIN_CATALOG_WIRE_SCHEMA.json": "210879e9a737da4a00380fd5cf3766fa33c79a24d706db73c70410eb9d995f3d",
+    "configs/DOMAIN_ORGANIZATION_WIRE_SCHEMA.json": "f466ba95f54d963bccce73ad42ab4767a3f21859e44b13122811967c9e10cf66",
+    "configs/EXTRACTION_WIRE_SCHEMA.json": "f9949a1f160c997414e469bee9456dc1aea1099a34016c9018aec3ccf95e1273",
+    "configs/HISTORICAL_VALIDATION_WIRE_SCHEMA.json": "e753b5aa278e0c0e2e1043e5cd110ea51999d3c165aaec77b95d28942759b15c",
+    "configs/PAIR_RELATION_SCHEMA.json": "905f6b1d8b09dd03abf41165c2eec54fc4cb563f7aa0af2cfc98ef5282995414",
+    "configs/PATENT_CONTRIBUTIONS_SCHEMA.json": "8bb56ff59bd5be76eabe7d38e67906d0644e98aac6b5dfde044f7ef22429d877",
+    "configs/PRINTHEAD_RELEVANCE_WIRE_SCHEMA.json": "842f0b1af1fc97d82dd829f5295348cf538bf908269cb14de4729516dd1212c8",
+    "configs/RELEVANCE_REPAIR_WIRE_SCHEMA.json": "150239e56bde6e40ec74394c1a011d9c3256700789767db2872634c547bdc672",
+    "configs/RELEVANCE_SOURCE_REVIEW_WIRE_SCHEMA.json": "750367083fd373fc17377f69cdec463c3658c9a39b9c4a1b06941f381dceeb50"
+  }
+}

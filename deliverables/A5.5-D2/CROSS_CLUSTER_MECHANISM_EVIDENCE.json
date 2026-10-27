@@ -1,0 +1,376 @@
+{
+  "rows": [
+    {
+      "technology_id": "T_24590c1e2f310a9a92d4",
+      "name": "粘弹聚合物基体分散压电颗粒的复合膜",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:47995898",
+        "google:51840117"
+      ],
+      "support_cids": [
+        "C_039e0c9247dc1d68c26b",
+        "C_570450b7197863064a81"
+      ]
+    },
+    {
+      "technology_id": "T_d336980bf6f64815548f",
+      "name": "基于MEMS开关的压电换能器阵列模式切换控制",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:52776400",
+        "google:54699709"
+      ],
+      "support_cids": [
+        "C_05660f05895374394ee4",
+        "C_58224d4da8abe5fdf88a"
+      ]
+    },
+    {
+      "technology_id": "T_3181cce2c2b12050b8c7",
+      "name": "基于Zn(A,B,C)O组成的wurtzite型复合氧化物材料",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:50106350",
+        "google:50107755"
+      ],
+      "support_cids": [
+        "C_0be35274cf82a1788769",
+        "C_0e9de1df4e85103b8745"
+      ]
+    },
+    {
+      "technology_id": "T_e5c85feaaee0543629bd",
+      "name": "主链型液晶聚合物压电复合材料制备工艺",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:32032541",
+        "google:34401886"
+      ],
+      "support_cids": [
+        "C_1798c4d7c7ba74085254",
+        "C_fe5be1e0d4d7cbe6e9d5"
+      ]
+    },
+    {
+      "technology_id": "T_8fad65659270513ee6a7",
+      "name": "Bi基钙钛矿氧化物薄膜材料制备方法",
+      "families": 3,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:41392767",
+        "google:41456566",
+        "google:41590734"
+      ],
+      "support_cids": [
+        "C_1b38417817626208272a",
+        "C_87b4b3084c97fe6647d6",
+        "C_f8fef3973f5128d954b3"
+      ]
+    },
+    {
+      "technology_id": "T_57678c80b159d5d5e16e",
+      "name": "多尺寸压电膜分组驱动的频率调谐技术",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:49512421",
+        "google:50545100"
+      ],
+      "support_cids": [
+        "C_1deedf2dd476b25c5b18",
+        "C_7c1bf5b3922754d42fbc"
+      ]
+    },
+    {
+      "technology_id": "T_90c787d5e470987cd27d",
+      "name": "基于等离子电位差的压电膜成膜控制方法",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:38922757",
+        "google:39439960"
+      ],
+      "support_cids": [
+        "C_1ecfcf563d950037dc6a",
+        "C_8004d1345bda828bfb46"
+      ]
+    },
+    {
+      "technology_id": "T_746063f405308a578c53",
+      "name": "侧壁绝缘膜形成结构",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:41116035",
+        "google:41307802"
+      ],
+      "support_cids": [
+        "C_1f15f008d6554e6a9d52",
+        "C_c41212b29c8e94eb7c1c"
+      ]
+    },
+    {
+      "technology_id": "T_d746c33f55e38a3880b8",
+      "name": "金属氧化物调控的铅基钙钛矿压电结构",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:73742813",
+        "google:73781808"
+      ],
+      "support_cids": [
+        "C_2020acb9d682db04c344",
+        "C_ea4480cceb5b9cac61fa"
+      ]
+    },
+    {
+      "technology_id": "T_8f1f68dd44e345adde71",
+      "name": "基于特定摩尔比的钙钛矿结构压电薄膜材料",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:41346026",
+        "google:61300486"
+      ],
+      "support_cids": [
+        "C_217c3abe5e475778e627",
+        "C_275beb4edcd217eb8e52"
+      ]
+    },
+    {
+      "technology_id": "T_aaa32d3112a67aab8769",
+      "name": "金属氧化物粘附层增强电极结合力的叠层结构制造工艺",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:34214176",
+        "google:34467468"
+      ],
+      "support_cids": [
+        "C_2c35c24facc8b7541525",
+        "C_d2e9c47ebe0dfae640d1"
+      ]
+    },
+    {
+      "technology_id": "T_67fecbf1500684b9a4c0",
+      "name": "种子晶体诱导固相外延法",
+      "families": 2,
+      "multiple_clusters_in_same_run": true,
+      "support_family_ids": [
+        "google:41463824",
+        "google:41463825"
+      ],
+      "support_cids": [
+        "C_3e2c825452fe351d35c6",
+        "C_ba026a597914d3d7f2bf"
+      ]
+    },
+    {
+      "technology_id": "T_877564f93f91b5e87473",
+      "name": "弹性表面波驱动微泵技术",
+      "families": 2,
+      "multiple_clusters_in_same_run": true,
+      "support_family_ids": [
+        "google:36110610",
+        "google:36231386"
+      ],
+      "support_cids": [
+        "C_47b3f2c6ab3493f5e0bf",
+        "C_8efa08228a098ad02b08"
+      ]
+    },
+    {
+      "technology_id": "T_bb8d4b0183f93fea0797",
+      "name": "主链液晶聚合物压电域分散基体的减振复合材料",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:29717503",
+        "google:34401873"
+      ],
+      "support_cids": [
+        "C_4987fd426b2b8cb04af5",
+        "C_c14eda8d77fac22491bc"
+      ]
+    },
+    {
+      "technology_id": "T_7b5787933f2f82324a8d",
+      "name": "切口-键合-研磨压电岛形成工艺",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:35632644",
+        "google:35649145"
+      ],
+      "support_cids": [
+        "C_5a5cd9a9c285d1936827",
+        "C_eb1efc6779374b6a4346"
+      ]
+    },
+    {
+      "technology_id": "T_3574c594ba417b3ab41c",
+      "name": "双层压电薄膜结构及中间电极配置技术",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:40294662",
+        "google:40505756"
+      ],
+      "support_cids": [
+        "C_5f0c536b615769cfef7c",
+        "C_c7a0812aa26eaf5ee0c9"
+      ]
+    },
+    {
+      "technology_id": "T_0d839e931eafa7d74053",
+      "name": "声学匹配层集成多层压电结构",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:48478543",
+        "google:51209587"
+      ],
+      "support_cids": [
+        "C_5f721e70c85e1bfd37a0",
+        "C_a2e42ea819ccc9dfff60"
+      ]
+    },
+    {
+      "technology_id": "T_d20059286eb336061677",
+      "name": "聚合物复合压电体声学转换结构",
+      "families": 3,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:51624314",
+        "google:55217532",
+        "google:58050862"
+      ],
+      "support_cids": [
+        "C_61eebfcffe546968c01a",
+        "C_95352c427da0a3547e5e",
+        "C_a52c030724943929eb5e"
+      ]
+    },
+    {
+      "technology_id": "T_31d65860893b7d578923",
+      "name": "基于压电薄膜弯曲结构的声学信号检测机制",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:71128976",
+        "google:74230297"
+      ],
+      "support_cids": [
+        "C_653e96e5d63f37d6644e",
+        "C_f8f0c77b5af00c7ebd85"
+      ]
+    },
+    {
+      "technology_id": "T_f7ba7c7e30a6bb62bd1a",
+      "name": "钙钛矿结构容许因子调控制备方法",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:38813296",
+        "google:39377937"
+      ],
+      "support_cids": [
+        "C_6fcc4e3f873c983d1d75",
+        "C_d6f136ff038968284c2f"
+      ]
+    },
+    {
+      "technology_id": "T_1c2aa4cf84d02d5a0b00",
+      "name": "分段薄膜电极结构的压电转换膜技术",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:55019213",
+        "google:55019214"
+      ],
+      "support_cids": [
+        "C_774a37d954222e5241b7",
+        "C_ef45c5324c72a16dbd32"
+      ]
+    },
+    {
+      "technology_id": "T_1ee3b1127b14edac8264",
+      "name": "分组电极层绝缘覆盖布线结构",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:34836395",
+        "google:35018540"
+      ],
+      "support_cids": [
+        "C_82b3a6a7b4bf6a33884e",
+        "C_f24a01a1ad6313ac4d8a"
+      ]
+    },
+    {
+      "technology_id": "T_d870b5ae48f2121e228b",
+      "name": "基于应力反转区域的压电致动器驱动方法",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:72608678",
+        "google:72942082"
+      ],
+      "support_cids": [
+        "C_8ad61da77d16795442a9",
+        "C_9eef127fdaa37c4a47d4"
+      ]
+    },
+    {
+      "technology_id": "T_204dd0037d91b8696b8b",
+      "name": "压电材料抛光工艺",
+      "families": 3,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:38660583",
+        "google:38661685",
+        "google:40880916"
+      ],
+      "support_cids": [
+        "C_9f61c42f14d180660fb6",
+        "C_d273f7aa32ae75ff785c",
+        "C_d3013048f9c33bff62ec"
+      ]
+    },
+    {
+      "technology_id": "T_974f938ecc9269fb0548",
+      "name": "双相变压电体驱动机制",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:37888946",
+        "google:39651231"
+      ],
+      "support_cids": [
+        "C_bbc1ef23ec5e495c0ebe",
+        "C_db66730336210fdf0d2e"
+      ]
+    },
+    {
+      "technology_id": "T_a1c16f8bd96a7f11874e",
+      "name": "主链液晶聚合物基压电换能材料高温稳定性控制方法",
+      "families": 2,
+      "multiple_clusters_in_same_run": false,
+      "support_family_ids": [
+        "google:29774069",
+        "google:32032540"
+      ],
+      "support_cids": [
+        "C_d40bb2088ca843ea2644",
+        "C_e261a7062659ea20b2df"
+      ]
+    }
+  ],
+  "rule": "At least two Family IDs and two distinct source title/abstract texts; identical source clones and repeated placement of one family are excluded",
+  "scope": "Selected cohorts only"
+}

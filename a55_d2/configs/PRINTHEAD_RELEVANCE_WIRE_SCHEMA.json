@@ -1,0 +1,119 @@
+{
+  "type": "object",
+  "properties": {
+    "relevance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "technology_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Direct",
+              "Manufacturing",
+              "Transferable",
+              "Contextual",
+              "Unrelated",
+              "Uncertain"
+            ]
+          },
+          "head_object": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300
+          },
+          "application": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 500
+          },
+          "conditions": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 700
+          },
+          "patent_evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "contribution_id": {
+                  "type": "string",
+                  "maxLength": 80
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 16
+                  },
+                  "minItems": 1,
+                  "maxItems": 8
+                }
+              },
+              "required": [
+                "contribution_id",
+                "evidence_ids"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 4
+          },
+          "engineering_inference": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 700
+          },
+          "evidence_origin": {
+            "type": "string",
+            "enum": [
+              "PATENT_TEXT",
+              "ENGINEERING_INFERENCE",
+              "MIXED",
+              "NO_SUPPORT"
+            ]
+          },
+          "needs_full_text": {
+            "type": "boolean"
+          },
+          "rationale": {
+            "type": "string",
+            "maxLength": 700
+          }
+        },
+        "required": [
+          "technology_id",
+          "category",
+          "head_object",
+          "application",
+          "conditions",
+          "patent_evidence",
+          "engineering_inference",
+          "evidence_origin",
+          "needs_full_text",
+          "rationale"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 6
+    }
+  },
+  "required": [
+    "relevance"
+  ],
+  "additionalProperties": false
+}

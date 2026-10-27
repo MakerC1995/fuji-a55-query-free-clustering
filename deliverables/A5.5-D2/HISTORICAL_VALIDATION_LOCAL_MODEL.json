@@ -1,0 +1,4117 @@
+{
+  "at": "2026-10-27T09:25:44.585914+08:00",
+  "required": 45,
+  "completed": 45,
+  "rows": [
+    {
+      "family_id": "google:38754718",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了通过控制薄膜沉积温度Ts、靶基距离D以及薄膜特性来决定成膜条件的方法，与历史节点R01所指的‘早期Ts×靶基距成膜窗口’一致。摘要中已包含具体技术手段和条件范围（如400≤Ts≤500, 30≤D≤80等），可直接核对。",
+      "support_contribution_ids": [
+        "C_8e4e75a724be6d588bc6"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film, process of manufacturing the same and piezoelectric element",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To stably deposit a film of high quality in a film deposition method where a film is deposited by a vapor phase growth process using plasma such as a sputtering process.  &lt;P&gt;SOLUTION: In the process for depositing a piezoelectric film where a target having a composition in accordance with the composition of the film to be deposited and a substrate are arranged so as to be confronted, and, by a vapor phase growth process using plasma such as a sputtering process, the constituting elements of the target are released, and a piezoelectric film composed of the constituting elements of the target is deposited on the substrate, film deposition conditions are decided based on the relation among a film deposition temperature Ts(°C), the distance D(mm) between the substrate and the target and the characteristics of the film to be deposited. Regarding a piezoelectric film made of one or two or more kinds of Pb-containing perovskite type oxides, the film deposition conditions are preferably decided in the ranges satisfying inequalities (1) and (2), or (3) and (4): 400≤Ts(°C)≤500...(1), 30≤D(mm)≤80...(2), 500≤Ts(°C)≤600...(3), and 30≤D(mm)≤100...(4).  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT",
+      "publication_id": "JP-2008081802-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R01"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R01",
+          "branch": "早期 Ts×靶基距成膜窗口",
+          "description": "早期工艺平台；温度与靶基距窗口",
+          "historical_note": "Recipe–equipment boundary",
+          "representative": "JP2008081802A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L64",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2008081802A",
+            "JP4246227B2",
+            "US20080079783A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_ea6a131661dd07c9152f"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film, process of manufacturing the same and piezoelectric element",
+          "start": 0,
+          "end": 79
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To stably deposit a film of high quality in a film deposition method where a film is deposited by a vapor phase growth process using plasma such as a sputtering process.  &lt;P&gt;SOLUTION: In the process for ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "depositing a piezoelectric film where a target having a composition in accordance with the composition of the film to be deposited and a substrate are arranged so as to be confronted, and, by a vapor phase growth process using plasma such ",
+          "start": 240,
+          "end": 479
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "as a sputtering process, the constituting elements of the target are released, and a piezoelectric film composed of the constituting elements of the target is deposited on the substrate, film deposition conditions are decided based on the ",
+          "start": 479,
+          "end": 718
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "relation among a film deposition temperature Ts(°C), the distance D(mm) between the substrate and the target and the characteristics of the film to be deposited. Regarding a piezoelectric film made of one or two or more kinds of ",
+          "start": 718,
+          "end": 947
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "Pb-containing perovskite type oxides, the film deposition conditions are preferably decided in the ranges satisfying inequalities (1) and (2), or (3) and (4): 400≤Ts(°C)≤500...(1), 30≤D(mm)≤80...(2), 500≤Ts(°C)≤600...(3), and ",
+          "start": 947,
+          "end": 1173
+        },
+        {
+          "source_id": "S007",
+          "field": "abstract",
+          "text": "30≤D(mm)≤100...(4).  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT",
+          "start": 1173,
+          "end": 1235
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_edfeb8a1798f231e37136e9b"
+    },
+    {
+      "family_id": "google:38962040",
+      "outcome": "Broad Topic Only",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中仅提及了‘在靶材外周设置多个间隔排列的屏蔽层以控制成膜气体流动路径’这一泛称性技术目标，未具体说明该结构如何影响等离子体电位或浮动电位差（Vs−Vf），因此无法确认是否恢复了历史节点H01中关于‘调整靶周shield/环结构的位置及高度，控制等离子体电位与基板浮动电位之差’的具体机制。",
+      "support_contribution_ids": [
+        "C_5a5e7bb5588527ea1842"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置",
+      "source_abstract": "【課題】プラズマを用いる成膜装置および成膜方法において、良質な膜を安定的に成膜できるようにする。 【解決手段】成膜ガスＧの導入と排気が可能な真空容器３１０と、真空容器３１０内に配置される、ターゲットＴを保持するターゲットホルダ１２と、ターゲットホルダ１２に対向して配置され、膜が形成される成膜用基板Ｂを保持する基板ホルダ１１と、ターゲットホルダ１２と成膜基板側との間にプラズマ空間Ｐを生成するプラズマ生成部１２、１３とを備えた成膜装置３００において、ターゲットホルダ１２の成膜基板側の外周を取囲み、成膜ガスＧが通過する間隙２０４を有するシールド層２５０aを、上下方向に複数間隔をおいて重なるようにターゲットＴと非接触状態で配置してなるシールド２５０を有する。 【選択図】図４",
+      "publication_id": "JP-2008081803-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H01"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H01",
+          "branch": "靶周电位边界/shield",
+          "description": "调整靶周shield/环结构的位置及高度，控制等离子体电位与基板浮动电位之差 Vs−Vf。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "JP4142706B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L121",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP1906433A1",
+            "JP2008081803A",
+            "JP4142706B2",
+            "US20080081128A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "成膜装置、成膜方法、絶縁膜、誘電体膜、圧電膜、強誘電体膜、圧電素子および液体吐出装置",
+          "start": 0,
+          "end": 42
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】プラズマを用いる成膜装置および成膜方法において、良質な膜を安定的に成膜できるようにする。 【解決手段】成膜ガスＧの導入と排気が可能な真空容器３１０と、真空容器３１０内に配置される、ターゲットＴを保持するターゲットホルダ１２と、ターゲットホルダ１２に対向して配置され、膜が形成される成膜用基板Ｂを保持する基板ホルダ１１と、ターゲットホルダ１２と成膜基板側との間にプラズマ空間Ｐを生成するプラズマ生成部１２、１３とを備えた成膜装置３００において、ターゲットホルダ１２の成膜基板",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "側の外周を取囲み、成膜ガスＧが通過する間隙２０４を有するシールド層２５０aを、上下方向に複数間隔をおいて重なるようにターゲットＴと非接触状態で配置してなるシールド２５０を有する。 【選択図】図４",
+          "start": 240,
+          "end": 337
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_edfeb8a1798f231e37136e9b"
+    },
+    {
+      "family_id": "google:39774253",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过特定 compositional formula A1+´ [(Zr x Ti 1-x ) 1-y M y ]O z 形成钙钛矿氧化物，且该公式在摘要中被完整引用并说明了A、M、Zr、Ti等元素构成及参数范围。历史节点P1描述的技术路线与之对应，包括Nb-PZT、plasma窗口等工艺条件，属于同一技术族。",
+      "support_contribution_ids": [
+        "C_421746e27efddf838519"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device",
+      "source_abstract": "A ferroelectric film (40) having a columnar structure constituted by a plurality of columnar grains, and containing as a main component a perovskite oxide which has a composition expressed by a compositional formula A 1+´ [(Zr x Ti 1-x ) 1-y M y ]O z , where A represents one or more A-site elements including lead (Pb) as a main component, M represents one or more of vanadium (V), niobium (Nb), tantalum (Ta), and antimony (Sb) as one or more B-site elements, zirconium (Zr) and titanium (Ti) are also B-site elements, 0 &lt; x ¤ 0.7, 0.1 ¤ y ¤ 0.4, ´ is approximately zero, z is approximately 3, and ´ and z may deviate from 0 and 3, respectively, within ranges of ´ and z in which the composition expressed by the compositional formula A 1+´ [(Zr x Ti 1-x ) 1-y M y ]O z  can substantially form a perovskite structure.",
+      "publication_id": "EP-1973177-A2",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P1"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P1",
+          "branch": "高donor Nb-PZT与plasma窗口",
+          "description": "高施主Nb PZT、Ts/靶基距、plasma/shield联合窗口；早期基础平台",
+          "historical_note": "关联项#60 JP2008270704A共享部分优先权/技术背景，但不同Google Simple Family，不算命中",
+          "representative": "US8100513B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L33",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP1973177A2",
+            "US20080231667A1",
+            "US8100513B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_93314e7d624cc1f55a96"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Ferroelectric film, process for producing the same, ferroelectric device, and liquid discharge device",
+          "start": 0,
+          "end": 101
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "A ferroelectric film (40) having a columnar structure constituted by a plurality of columnar grains, and containing as a main component a perovskite oxide which has a composition expressed by a compositional formula A 1+´ [(Zr x Ti 1-x ) ",
+          "start": 0,
+          "end": 238
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "1-y M y ]O z , where A represents one or more A-site elements including lead (Pb) as a main component, M represents one or more of vanadium (V), niobium (Nb), tantalum (Ta), and antimony (Sb) as one or more B-site elements, zirconium (Zr) ",
+          "start": 238,
+          "end": 477
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "and titanium (Ti) are also B-site elements, 0 &lt; x ¤ 0.7, 0.1 ¤ y ¤ 0.4, ´ is approximately zero, z is approximately 3, and ´ and z may deviate from 0 and 3, respectively, within ranges of ´ and z in which the composition expressed by ",
+          "start": 477,
+          "end": 717
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "the compositional formula A 1+´ [(Zr x Ti 1-x ) 1-y M y ]O z  can substantially form a perovskite structure.",
+          "start": 717,
+          "end": 825
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_0530d47feb0d268275f95fb6"
+    },
+    {
+      "family_id": "google:39810154",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出在PZT类钙钛矿氧化物中，可在A位掺杂给体离子（Bi和镧系元素），且掺杂浓度为0.05≤x≤0.4。摘要中完整描述了该机制及对应公式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z，并说明δ和z可偏离标准值。历史节点R06所指的A-site donor组成与之相符。",
+      "support_contribution_ids": [
+        "C_88e928792cc6d603af5d"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置",
+      "source_abstract": "本发明提供钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置。在PZT类的钙钛矿型氧化物中，能够在不掺杂烧结助剂或受体离子的情况下，在A位以至少5摩尔％的掺杂浓度掺杂给体离子。所述钙钛矿型氧化物由式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z 表示，其中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3这样的组成，条件是在能够获得所述钙钛矿结构的范围内，δ值和z值分别可以偏离0和3的标准值。",
+      "publication_id": "CN-101381101-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R06"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R06",
+          "branch": "A-site donor组成",
+          "description": "A-site donor/Bi等组成",
+          "historical_note": "Materials+recipe",
+          "representative": "JP2009062207A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L69",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2009062207A",
+            "JP5095315B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_86df2fbc30d112fe022f"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置",
+          "start": 0,
+          "end": 31
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "本发明提供钙钛矿型氧化物、铁电体膜及其制备方法、铁电体器件和液体排出装置。在PZT类的钙钛矿型氧化物中，能够在不掺杂烧结助剂或受体离子的情况下，在A位以至少5摩尔％的掺杂浓度掺杂给体离子。所述钙钛矿型氧化物由式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z ",
+          "start": 0,
+          "end": 142
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "表示，其中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3这样的组成，条件是在能够获得所述钙钛矿结构的范围内，δ值和z值分别可以偏离0和3的标准值。",
+          "start": 142,
+          "end": 248
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_0530d47feb0d268275f95fb6"
+    },
+    {
+      "family_id": "google:40046641",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过在B-site添加V、Nb、Ta、Sb等元素，并结合柱状结晶结构实现无需烧结助剂或接受离子的高掺杂。历史节点R02描述了2007年B-site高施主Nb-PZT组成，与该族贡献内容一致，且摘要已提供具体成分和结构信息。",
+      "support_contribution_ids": [
+        "C_23e78d35f451b596d777"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置",
+      "source_abstract": "【課題】ＰＺＴ系の強誘電体膜において、焼結助剤やアクセプタイオンを添加することなく、Ｂサイトに１０モル％以上のドナイオンを添加することを可能とする。 【解決手段】本発明の強誘電体膜は、多数の柱状結晶からなる柱状結晶膜構造を有し、下記式（Ｐ）で表されるペロブスカイト型酸化物を主成分とするものである。 Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｍ ｙ ］Ｏ ｚ ・・・（Ｐ） （式中、ＡはＡサイト元素であり、Ｐｂを主成分とする少なくとも１種の元素である。Ｚｒ，Ｔｉ，及びＭはＢサイト元素である。ＭはＶ，Ｎｂ，Ｔａ，及びＳｂからなる群より選ばれた少なくとも１種の元素である。０＜ｘ≦０．７、０．１≦ｙ≦０．４。δ＝０及びｚ＝３が標準であるが、これらの値はペロブスカイト構造を取り得る範囲内で基準値からずれてもよい。） 【選択図】なし",
+      "publication_id": "JP-2008270704-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R02",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R02",
+          "branch": "B-site high-donor组成",
+          "description": "2007 B-site高施主Nb-PZT组成，注意与US8100513B2不能默认归同Simple Family",
+          "historical_note": "Materials+recipe",
+          "representative": "JP2008270704A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L65",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2008270704A",
+            "JP5367242B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R03",
+          "branch": "B-site Ts×靶基距",
+          "description": "2007 B-site系列的温度×距离窗口",
+          "historical_note": "Recipe",
+          "representative": "JP2008266770A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L66",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2008266770A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R04",
+          "branch": "B-site Ts×plasma potential",
+          "description": "2007 B-site系列的等离子体/基板电位",
+          "historical_note": "Recipe–equipment boundary",
+          "representative": "JP2008266771A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L67",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2008266771A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R05",
+          "branch": "B-site Shield×Vs−Vf",
+          "description": "2007 B-site系列靶周屏蔽和电位窗口",
+          "historical_note": "Recipe–equipment boundary",
+          "representative": "JP2008266772A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L68",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2008266772A",
+            "JP4808689B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_b7ebf32f36bc6302cfe1"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "強誘電体膜とその製造方法、強誘電体素子、及び液体吐出装置",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】ＰＺＴ系の強誘電体膜において、焼結助剤やアクセプタイオンを添加することなく、Ｂサイトに１０モル％以上のドナイオンを添加することを可能とする。 【解決手段】本発明の強誘電体膜は、多数の柱状結晶からなる柱状結晶膜構造を有し、下記式（Ｐ）で表されるペロブスカイト型酸化物を主成分とするものである。 Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｍ ｙ ］Ｏ ｚ ・・・（Ｐ） （式中、ＡはＡサイト元素であり、Ｐｂを主成分とする少なくとも１種の元素である。",
+          "start": 0,
+          "end": 231
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "Ｚｒ，Ｔｉ，及びＭはＢサイト元素である。ＭはＶ，Ｎｂ，Ｔａ，及びＳｂからなる群より選ばれた少なくとも１種の元素である。０＜ｘ≦０．７、０．１≦ｙ≦０．４。δ＝０及びｚ＝３が標準であるが、これらの値はペロブスカイト構造を取り得る範囲内で基準値からずれてもよい。） 【選択図】なし",
+          "start": 231,
+          "end": 369
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_953bd4e289f0cfa5c85d1d72"
+    },
+    {
+      "family_id": "google:40085670",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出通过调节基片阻抗电路来控制基片电位，从而改善薄膜质量、成分控制和重现性。历史节点H09描述了基片支撑电极到地之间的可调阻抗以控制基片电位及离子轰击，与该族贡献内容一致，摘要已提供具体机制。",
+      "support_contribution_ids": [
+        "C_0ea78319e9c6a6eb1a1b"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Sputtering method and apparatus",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a sputtering method and a sputtering apparatus for forming thin films such as high quality piezoelectric films, insulation films, electroconductive films without fluctuation of film quality, which can improve the quality of the films, the control of composition change, and the reproducibility of film formation by preventing reverse sputtering with simple construction and control.  &lt;P&gt;SOLUTION: The sputtering apparatus has a sputter electrode for holding a target material and a substrate holder arranged so as to face to and apart from the sputter electrode and holding the substrate in a vacuum vessel, and further has an impedance adjusting circuit with an adjustable impedance circuit for adjusting the impedance of a substrate holder. The impedance of the substrate holder is adjusted and the potential of the substrate is adjusted by adjusting the impedance of the impedance circuit. Consequently, the above problem is solved.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+      "publication_id": "JP-2009057599-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H09"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H09",
+          "branch": "基片阻抗控制电位",
+          "description": "基板支撑电极到地之间的可调阻抗，控制基板电位及离子轰击。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "EP2031084B1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L129",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN101376965B",
+            "EP2031084B1",
+            "JP4317888B2",
+            "US9111732B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_cd38c8cf926f234a0c2e"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Sputtering method and apparatus",
+          "start": 0,
+          "end": 31
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a sputtering method and a sputtering apparatus for forming thin films such as high quality piezoelectric films, insulation films, electroconductive films without fluctuation of film quality, which ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "can improve the quality of the films, the control of composition change, and the reproducibility of film formation by preventing reverse sputtering with simple construction and control.  &lt;P&gt;SOLUTION: The sputtering apparatus has a ",
+          "start": 239,
+          "end": 476
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "sputter electrode for holding a target material and a substrate holder arranged so as to face to and apart from the sputter electrode and holding the substrate in a vacuum vessel, and further has an impedance adjusting circuit with an ",
+          "start": 476,
+          "end": 711
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "adjustable impedance circuit for adjusting the impedance of a substrate holder. The impedance of the substrate holder is adjusted and the potential of the substrate is adjusted by adjusting the impedance of the impedance circuit. ",
+          "start": 711,
+          "end": 941
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "Consequently, the above problem is solved.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+          "start": 941,
+          "end": 1026
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_953bd4e289f0cfa5c85d1d72"
+    },
+    {
+      "family_id": "google:40110980",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过溅射技术在基板上形成铁电体膜，并满足特定成膜温度和等离子体电位条件（400≤Ts(℃)≤475或475≤Ts(℃)≤600，20≤Vs(V)≤50或Vs(V)≤40），与历史节点R08描述的A-site Ts×Vs控制一致。摘要中已包含具体机制及必要条件。",
+      "support_contribution_ids": [
+        "C_6d7ce6b0df5d5d78753d"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置",
+      "source_abstract": "本发明涉及形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置。为了能够在A位掺杂至少5摩尔％的给体离子，在满足式(1)和(2)，或式(3)和(4)的条件下，通过溅射技术在基板上形成含有式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z 的钙钛矿型氧化物的铁电体膜，式(P)中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3的组成，式(1)～(4)中Ts(℃)表示成膜温度，并且Vs(V)表示在成膜时等离子体中的等离子体电位。400≤Ts(℃)≤475 (1)；20≤Vs(V)≤50 (2)；475≤Ts(℃)≤600 (3)；Vs(V)≤40 (4)。",
+      "publication_id": "CN-101381858-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R08"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R08",
+          "branch": "A-site Ts×Vs",
+          "description": "A-site的plasma potential/基板电位控制",
+          "historical_note": "Recipe–equipment boundary",
+          "representative": "JP2009064859A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L71",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN101381858A",
+            "EP2034534A2",
+            "JP2009064859A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置",
+          "start": 0,
+          "end": 27
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "本发明涉及形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置。为了能够在A位掺杂至少5摩尔％的给体离子，在满足式(1)和(2)，或式(3)和(4)的条件下，通过溅射技术在基板上形成含有式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z ",
+          "start": 0,
+          "end": 132
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "的钙钛矿型氧化物的铁电体膜，式(P)中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3的组成，式(1)～(4)中Ts(℃)表示成膜温度，并且Vs(V)表示在成膜时等离子体中的等离子体电位。400≤Ts(℃)≤475 (1)；20≤Vs(V)≤50 (2)；475≤Ts(℃)≤600 (3)；Vs(V)≤40 (4)。",
+          "start": 132,
+          "end": 323
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_5a861ea57884c7850273b9dc"
+    },
+    {
+      "family_id": "google:40130510",
+      "outcome": "Mechanism Missed",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中仅提及材料组成公式 (Pb1-x+δMx)(ZryTi1-y)Oz 及其适用条件，未涉及具体工艺参数如成膜温度或等离子体电位控制。而历史节点R09强调了A-site shield和能量窗口控制（Shield×Vs−Vf），该机制在冻结贡献中被遗漏。",
+      "support_contribution_ids": [
+        "C_86087cd3f70fd5cc06e7"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT perovskite type oxide in which it is possible to add 5 mol% or more of a donor ion to the A site without adding a sintering aid or an acceptor ion.  &lt;P&gt;SOLUTION: The perovskite type oxide of the present invention is represented by the formula: (Pb&lt;SB&gt;1-x+δ&lt;/SB&gt;M&lt;SB&gt;x&lt;/SB&gt;) (Zr&lt;SB&gt;y&lt;/SB&gt;Ti&lt;SB&gt;1-y&lt;/SB&gt;)O&lt;SB&gt;z&lt;/SB&gt;, wherein M represents at least one kind of element selected from the group consisting of Bi and lanthanide elements, x represents a number satisfying the condition of 0.05≤x≤0.4, and y represents a number satisfying the condition of 0&lt;y≤0.7, the standard composition being such that δ=0, and z=3, with the proviso that the value of δ and the value of z may deviate from the standard values of 0 and 3, respectively, within a range such that the perovskite structure is capable of being attained.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+      "publication_id": "JP-2009062208-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R09"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R09",
+          "branch": "A-site Shield×Vs−Vf",
+          "description": "A-site的shield和能量窗口",
+          "historical_note": "Recipe–equipment boundary",
+          "representative": "JP2009062208A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L72",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN101665907B",
+            "EP2034041B1",
+            "JP2009062208A",
+            "JP4993294B2",
+            "US7923906B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_65683a8230ddf8608fa6"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Perovskite type oxide, ferroelectric film, process for producing same, ferroelectric device, and liquid discharge apparatus",
+          "start": 0,
+          "end": 123
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT perovskite type oxide in which it is possible to add 5 mol% or more of a donor ion to the A site without adding a sintering aid or an acceptor ion.  &lt;P&gt;SOLUTION: The perovskite type ",
+          "start": 0,
+          "end": 236
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "oxide of the present invention is represented by the formula: (Pb&lt;SB&gt;1-x+δ&lt;/SB&gt;M&lt;SB&gt;x&lt;/SB&gt;) (Zr&lt;SB&gt;y&lt;/SB&gt;Ti&lt;SB&gt;1-y&lt;/SB&gt;)O&lt;SB&gt;z&lt;/SB&gt;, wherein M represents at least one kind of ",
+          "start": 236,
+          "end": 471
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "element selected from the group consisting of Bi and lanthanide elements, x represents a number satisfying the condition of 0.05≤x≤0.4, and y represents a number satisfying the condition of 0&lt;y≤0.7, the standard composition being such ",
+          "start": 471,
+          "end": 709
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "that δ=0, and z=3, with the proviso that the value of δ and the value of z may deviate from the standard values of 0 and 3, respectively, within a range such that the perovskite structure is capable of being attained.  &lt;P&gt;COPYRIGHT: ",
+          "start": 709,
+          "end": 948
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "(C)2009,JPO&amp;INPIT",
+          "start": 948,
+          "end": 969
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_5a861ea57884c7850273b9dc"
+    },
+    {
+      "family_id": "google:40130515",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过溅射技术在基板上形成铁电体膜，其中靶材包含A位掺杂至少5摩尔％的给体离子，并满足特定成膜温度和间隔距离条件。摘要中详细描述了使用溅射技术、A位掺杂条件（0.05≤x≤0.4）、成膜温度范围（400≤Ts≤500或500≤Ts≤600）以及基板与靶之间距离范围（30≤D≤80或30≤D≤100），完全支持该机制。",
+      "support_contribution_ids": [
+        "C_6b1fd65e5d9c61261fd9"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置",
+      "source_abstract": "本发明涉及形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置。为了能够在A位掺杂至少5摩尔％的给体离子，在满足式(1)和(2)，或式(3)和(4)的条件下，通过溅射技术在面对具有预定组成的靶(T)的基板(20，B)上形成含有式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z 的钙钛矿型氧化物的铁电体膜(40)，式(P)中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3的组成，式(1)至(4)中的Ts(℃)表示成膜温度，D(mm)表示所述基板和所述靶之间的间隔距离。400≤Ts(℃)≤500 (1)；30≤D(mm)≤80 (2)；500≤Ts(℃)≤600 (3)；30≤D(mm)≤100 (4)。",
+      "publication_id": "CN-101665908-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R07"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R07",
+          "branch": "A-site Ts×靶基距",
+          "description": "A-site工艺温度×距离；CN对应关系须经E3 family表复核",
+          "historical_note": "Recipe",
+          "representative": "JP2009062564A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L70",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN101665908A",
+            "EP2034042A3",
+            "JP2009062564A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置",
+          "start": 0,
+          "end": 27
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "本发明涉及形成铁电体膜的方法、铁电体膜、铁电体器件和液体排出装置。为了能够在A位掺杂至少5摩尔％的给体离子，在满足式(1)和(2)，或式(3)和(4)的条件下，通过溅射技术在面对具有预定组成的靶(T)的基板(20，B)上形成含有式(P)：(Pb 1－x+δ M x )(Zr y Ti 1－y )O z ",
+          "start": 0,
+          "end": 152
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "的钙钛矿型氧化物的铁电体膜(40)，式(P)中M表示选自Bi和镧系元素中的至少一种元素，0.05≤x≤0.4，并且0＜y≤0.7，标准组成是使得δ＝0和z＝3的组成，式(1)至(4)中的Ts(℃)表示成膜温度，D(mm)表示所述基板和所述靶之间的间隔距离。400≤Ts(℃)≤500 (1)；30≤D(mm)≤80 (2)；500≤Ts(℃)≤600 (3)；30≤D(mm)≤100 (4)。",
+          "start": 152,
+          "end": 349
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_d175a5a1815e3371b628fa57"
+    },
+    {
+      "family_id": "google:40587181",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出以非Pb的A位元素与Nb、Ta、V、Sb、Mo、W中的B位元素共同取代PZT，材料通式及x、y、z范围受摘要组成关系限定。摘要中明确给出了材料通式、A位掺杂范围（0.01<x≤0.4）、B位替代范围（0<y≤0.7）、M位掺杂范围（0.1≤z≤0.4）及标准值设定（δ=0, w=3），完全支持该机制。",
+      "support_contribution_ids": [
+        "C_cf00b11ba6a53b82f69b"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT-based perovskite oxide in which replacement ions of more than 1 mol% and replacement ions of more than 10 mol% are added to an A site and a B site, respectively, and A site defects are few.  &lt;P&gt;SOLUTION: The perovskite oxide is represented by the following equation (P): (Pb&lt;SB&gt;1-x+δ&lt;/SB&gt;A&lt;SB&gt;x&lt;/SB&gt;)(Zr&lt;SB&gt;y&lt;/SB&gt;Ti&lt;SB&gt;1-y&lt;/SB&gt;)&lt;SB&gt;1-z&lt;/SB&gt;M&lt;SB&gt;z&lt;/SB&gt;O&lt;SB&gt;w&lt;/SB&gt;, where Pb and A each denote A site element in which A is at least one kind of element other than Pb, and Zr, Ti, and M each denote a B site element in which M is at least one kind of element selected from a group consisting of Nb, Ta, V, Sb, Mo, and W. 0.01&lt;x≤0.4, 0&lt;y≤0.7, 0.1≤z≤0.4, δ=0, and w=3 are satisfied as standard values, but these values may be shifted from reference values within a range in which the perovskite oxide can take a perovskite structure.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+      "publication_id": "JP-2009117592-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R10"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R10",
+          "branch": "Bi/Nb共掺与极性响应",
+          "description": "B-site Nb与A-site Bi路线交汇",
+          "historical_note": "Materials+recipe",
+          "representative": "JP2009117592A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L73",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2009117592A",
+            "JP4505492B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_6484f53018d323c37d9e"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Perovskite oxide, ferroelectric film, ferroelectric element, and liquid discharge device",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT-based perovskite oxide in which replacement ions of more than 1 mol% and replacement ions of more than 10 mol% are added to an A site and a B site, respectively, and A site defects are few.  ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "&lt;P&gt;SOLUTION: The perovskite oxide is represented by the following equation (P): ",
+          "start": 239,
+          "end": 325
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "(Pb&lt;SB&gt;1-x+δ&lt;/SB&gt;A&lt;SB&gt;x&lt;/SB&gt;)(Zr&lt;SB&gt;y&lt;/SB&gt;Ti&lt;SB&gt;1-y&lt;/SB&gt;)&lt;SB&gt;1-z&lt;/SB&gt;M&lt;SB&gt;z&lt;/SB&gt;O&lt;SB&gt;w&lt;/SB&gt;, where Pb and A each denote A site element in which A is at ",
+          "start": 325,
+          "end": 561
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "least one kind of element other than Pb, and Zr, Ti, and M each denote a B site element in which M is at least one kind of element selected from a group consisting of Nb, Ta, V, Sb, Mo, and W. 0.01&lt;x≤0.4, 0&lt;y≤0.7, 0.1≤z≤0.4, δ=0, and ",
+          "start": 561,
+          "end": 801
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "w=3 are satisfied as standard values, but these values may be shifted from reference values within a range in which the perovskite oxide can take a perovskite structure.  &lt;P&gt;COPYRIGHT: (C)2009,JPO&amp;INPIT",
+          "start": 801,
+          "end": 1013
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_d175a5a1815e3371b628fa57"
+    },
+    {
+      "family_id": "google:41346026",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出一种PZT压电薄膜，其为钙钛矿单相结构且不含焦绿石相，由通式(P): Pb_a(Zr_x,Ti_y,M_{b-x-y})_bO_c构成，其中a/b≤1.06，并允许在适用的钙钛矿结构范围内偏离标准摩尔比（a:b:c=1:1:3）。该历史节点描述的技术手段与冻结贡献完全一致，包括材料组成、结构特征及成分比例控制。",
+      "support_contribution_ids": [
+        "C_275beb4edcd217eb8e52"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT piezoelectric film which improves both piezoelectric performance and durability.  &lt;P&gt;SOLUTION: A piezoelectric film is of a perovskite single-phase structure, not including a pyrochlore phase, constituted of a perovskite oxide represented in the general formula of (P): Pb&lt;SB&gt;a&lt;/SB&gt;(Zr&lt;SB&gt;x&lt;/SB&gt;,Ti&lt;SB&gt;y&lt;/SB&gt;,M&lt;SB&gt;b-x-y&lt;/SB&gt;)&lt;SB&gt;b&lt;/SB&gt;O&lt;SB&gt;c&lt;/SB&gt;, wherein a/b≤1.06. In the formula, M denotes one or two or more kinds of B site elements. Furthermore, a:b:c=1:1:3 is a standard, wherein 0&lt;x&lt;b, 0&lt;y&lt;b, 0≤b-x-y, but the mole ratio may also be deviated from a reference mole ratio within a range where a perovskite structure is applicable.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010080813-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R12"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R12",
+          "branch": "初期/主体温度分段",
+          "description": "初期成核、两段温度、抑制非钙钛矿相",
+          "historical_note": "Recipe",
+          "representative": "JP2010080813A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L75",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010080813A",
+            "US8354777B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_8f1f68dd44e345adde71"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film and method of manufacturing the same, piezoelectric device, and liquid discharge apparatus",
+          "start": 0,
+          "end": 109
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a PZT piezoelectric film which improves both piezoelectric performance and durability.  &lt;P&gt;SOLUTION: A piezoelectric film is of a perovskite single-phase structure, not including a pyrochlore ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "phase, constituted of a perovskite oxide represented in the general formula of (P): Pb&lt;SB&gt;a&lt;/SB&gt;(Zr&lt;SB&gt;x&lt;/SB&gt;,Ti&lt;SB&gt;y&lt;/SB&gt;,M&lt;SB&gt;b-x-y&lt;/SB&gt;)&lt;SB&gt;b&lt;/SB&gt;O&lt;SB&gt;c&lt;/SB&gt;, ",
+          "start": 240,
+          "end": 474
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "wherein a/b≤1.06. In the formula, M denotes one or two or more kinds of B site elements. Furthermore, a:b:c=1:1:3 is a standard, wherein 0&lt;x&lt;b, 0&lt;y&lt;b, 0≤b-x-y, but the mole ratio may also be deviated from a reference mole ratio ",
+          "start": 474,
+          "end": 714
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "within a range where a perovskite structure is applicable.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 714,
+          "end": 815
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_441f8f96c65eae0ffb2077f2"
+    },
+    {
+      "family_id": "google:41610523",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出一种溅射成膜装置，其中背板的热膨胀系数小于靶材（具有95%或更高烧结密度）的热膨胀系数。该历史节点描述的技术手段与冻结贡献一致，包括设备结构、材料匹配关系及其对薄膜质量的影响。",
+      "support_contribution_ids": [
+        "C_3ee3602123dac45c5adb"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Film-depositing apparatus and film-forming method",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-depositing apparatus which can form a thin film of high quality at a high film-deposition rate without increasing an apparatus cost, and to provide a film-depositing method.  &lt;P&gt;SOLUTION: This film-depositing apparatus has: a vacuum vessel which can introduce a gas therein and exhaust it therefrom; a backing plate which is arranged in the vacuum vessel and holds a target that is a material for forming the film; a substrate holder that is arranged in the vacuum vessel so as to face to the backing plate and holds a substrate to be film-deposited on which a thin film of the film-depositing material is formed. The backing plate has a tabular shape and has a smaller coefficient of thermal expansion than that of the target having a sinter density of 95% or more, which expresses a weight ratio of the actual weight in a sintered state to the theoretical weight to be generated through a sintering operation.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010037565-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H18"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H18",
+          "branch": "靶材背板热机械",
+          "description": "PZT靶/背板的热膨胀匹配、键合和热机械可靠性。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "JP5344864B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L138",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5344864B2",
+            "WO2010013831A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_ff635b037d978531cbec"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Film-depositing apparatus and film-forming method",
+          "start": 0,
+          "end": 49
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-depositing apparatus which can form a thin film of high quality at a high film-deposition rate without increasing an apparatus cost, and to provide a film-depositing method.  ",
+          "start": 0,
+          "end": 224
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "&lt;P&gt;SOLUTION: This film-depositing apparatus has: a vacuum vessel which can introduce a gas therein and exhaust it therefrom; a backing plate which is arranged in the vacuum vessel and holds a target that is a material for forming the ",
+          "start": 224,
+          "end": 464
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "film; a substrate holder that is arranged in the vacuum vessel so as to face to the backing plate and holds a substrate to be film-deposited on which a thin film of the film-depositing material is formed. The backing plate has a tabular ",
+          "start": 464,
+          "end": 701
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "shape and has a smaller coefficient of thermal expansion than that of the target having a sinter density of 95% or more, which expresses a weight ratio of the actual weight in a sintered state to the theoretical weight to be generated ",
+          "start": 701,
+          "end": 936
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "through a sintering operation.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 936,
+          "end": 1009
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_441f8f96c65eae0ffb2077f2"
+    },
+    {
+      "family_id": "google:41681057",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了阳极结构包括一个环绕基板支撑件外周的圆筒状构件，以及多个附着于该圆筒内表面、与基板支撑件垂直方向排列且具有比基板更大中心通孔的环形板状构件。这与历史参考中的“多级侧壁阳极”描述一致，即通过筒壁导体与同轴多级环形板控制离子/电子流动。",
+      "support_contribution_ids": [
+        "C_3b94758c6585606c20b4"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-forming apparatus which stabilizes a plasma state and maintains a suitable film-forming condition to form a film of high quality; a film-forming method therefor; a piezoelectric film formed by the same; and a liquid discharge device using the piezoelectric film.  &lt;P&gt;SOLUTION: The film-forming apparatus comprises: a vacuum vessel; a target holder; a substrate holder; and an anode. The anode includes: a cylindrical member which is arranged so as to surround the periphery of the substrate holder; and a plurality of annular plate-like members which are attached to an internal perimeter surface of the cylindrical member, in a direction perpendicular to the substrate holder in such a state as to have a space between themselves, and which have a larger center aperture than that of a substrate to be film-formed. The film-forming method includes introducing a gas into the vacuum vessel, applying voltage between the target holder and the substrate holder to generate plasma, and forming a thin film of a film-forming material on the substrate to be film-formed.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010043330-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H07"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H07",
+          "branch": "多级侧壁阳极",
+          "description": "基板周围的筒壁导体与同轴多级环形板控制离子/电子。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8047636B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L127",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010043330A",
+            "JP5052455B2",
+            "US8047636B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_f41194f1f669d94686fb"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Film-forming apparatus, film-forming method, piezoelectric film and liquid discharge device",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-forming apparatus which stabilizes a plasma state and maintains a suitable film-forming condition to form a film of high quality; a film-forming method therefor; a piezoelectric film formed ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "by the same; and a liquid discharge device using the piezoelectric film.  &lt;P&gt;SOLUTION: The film-forming apparatus comprises: a vacuum vessel; a target holder; a substrate holder; and an anode. The anode includes: a cylindrical member ",
+          "start": 239,
+          "end": 479
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "which is arranged so as to surround the periphery of the substrate holder; and a plurality of annular plate-like members which are attached to an internal perimeter surface of the cylindrical member, in a direction perpendicular to the ",
+          "start": 479,
+          "end": 715
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "substrate holder in such a state as to have a space between themselves, and which have a larger center aperture than that of a substrate to be film-formed. The film-forming method includes introducing a gas into the vacuum vessel, applying ",
+          "start": 715,
+          "end": 955
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "voltage between the target holder and the substrate holder to generate plasma, and forming a thin film of a film-forming material on the substrate to be film-formed.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 955,
+          "end": 1163
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_9758336fe9db5a3a228a358c"
+    },
+    {
+      "family_id": "google:41736165",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中描述了阳极由一层或多层带有多个通孔的板状构件堆叠而成，且该结构设置在靶材支撑件与基板支撑件之间以环绕基板外周。这与历史参考中的“多孔板阳极”描述一致，即通过多个通孔的多孔阳极板实现稳定放电。",
+      "support_contribution_ids": [
+        "C_0c2eafcadcb19d286b04"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Film deposition apparatus, film deposition method, and liquid discharger",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film deposition apparatus capable of achieving stable plasma discharge only by simple cleaning of an anode without increasing the scale of the apparatus and depositing a thin film having a stable film quality, a deposition method, and a liquid discharge apparatus using the piezoelectric films deposited by the film deposition apparatus and the film deposition method.  &lt;P&gt;SOLUTION: The apparatus includes a vacuum vessel, a target holder, a substrate holder, and an anode provided so as to surround the outer periphery of the substrate holder on the target holder side between the target holder and the substrate holder. The anode is obtained by stacking a sheet of a plate-like member or a plurality of sheets of plate-like members having a plurality of through-holes, and a gas is introduced into a vacuum vessel and a voltage is applied between the target holder and the substrate holder to generate plasma, and the thin film of the deposition material is formed on the substrate for the film deposition.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010031343-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H05"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H05",
+          "branch": "多孔板阳极",
+          "description": "多个通孔的多孔阳极板，可多层错孔布局以稳定放电。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "JP2010031343A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L125",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010031343A",
+            "JP5135106B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_f41194f1f669d94686fb"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Film deposition apparatus, film deposition method, and liquid discharger",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film deposition apparatus capable of achieving stable plasma discharge only by simple cleaning of an anode without increasing the scale of the apparatus and depositing a thin film having a stable ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "film quality, a deposition method, and a liquid discharge apparatus using the piezoelectric films deposited by the film deposition apparatus and the film deposition method.  &lt;P&gt;SOLUTION: The apparatus includes a vacuum vessel, a ",
+          "start": 240,
+          "end": 475
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "target holder, a substrate holder, and an anode provided so as to surround the outer periphery of the substrate holder on the target holder side between the target holder and the substrate holder. The anode is obtained by stacking a sheet ",
+          "start": 475,
+          "end": 714
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "of a plate-like member or a plurality of sheets of plate-like members having a plurality of through-holes, and a gas is introduced into a vacuum vessel and a voltage is applied between the target holder and the substrate holder to generate ",
+          "start": 714,
+          "end": 954
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "plasma, and the thin film of the deposition material is formed on the substrate for the film deposition.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 954,
+          "end": 1101
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_9758336fe9db5a3a228a358c"
+    },
+    {
+      "family_id": "google:42010421",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出anode为环形捕获阳极，且其作用是补充target holder与substrate holder之间等离子体中的离子。历史描述与摘要一致，支持到具体结构机制。",
+      "support_contribution_ids": [
+        "C_ac996a545b1930b6f969"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-forming apparatus forming a film of satisfactory quality while stabilizing a plasma state and on suitable film-forming conditions, a film-forming method, a piezoelectric film formed by these, and a discharging device using the piezoelectric film.  &lt;P&gt;SOLUTION: The film-forming apparatus includes a vacuum vessel, a target holder, a substrate holder, and an anode provided so as to surround the outer periphery on the target holder side of the substrate holder to supplement the ions in the plasma between the target holder and the substrate holder. The anode is a planar member or a plurality of the superposed members and is used to form a thin film of a film-forming material on a substrate for deposition by applying a voltage to create plasma between the target holder and a substrate holder.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010037566-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H06"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H06",
+          "branch": "环形捕获阳极",
+          "description": "环形捕获阳极/多层中空板，用于捕获/调节基板周围离子。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US20100090154A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L126",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010037566A",
+            "JP5047087B2"
+          ],
+          "mapping_relationships": [
+            "Candidate member exact; representative relationship unresolved"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_5faa73fcbbd7a35396b3"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Film-forming apparatus, film forming method, piezoelectric film, and liquid discharge device",
+          "start": 0,
+          "end": 92
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film-forming apparatus forming a film of satisfactory quality while stabilizing a plasma state and on suitable film-forming conditions, a film-forming method, a piezoelectric film formed by ",
+          "start": 0,
+          "end": 234
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "these, and a discharging device using the piezoelectric film.  &lt;P&gt;SOLUTION: The film-forming apparatus includes a vacuum vessel, a target holder, a substrate holder, and an anode provided so as to surround the outer periphery on the ",
+          "start": 234,
+          "end": 473
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "target holder side of the substrate holder to supplement the ions in the plasma between the target holder and the substrate holder. The anode is a planar member or a plurality of the superposed members and is used to form a thin film of a ",
+          "start": 473,
+          "end": 712
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "film-forming material on a substrate for deposition by applying a voltage to create plasma between the target holder and a substrate holder.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 712,
+          "end": 895
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_4fa13d935552134ce2cf1fc9"
+    },
+    {
+      "family_id": "google:42021021",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出通过物理处理腔壁以促进成分再释放，与历史描述一致。摘要详细说明了使用壁面围住基板并进行物理处理以释放成分的机制。",
+      "support_contribution_ids": [
+        "C_c68ef97f8c7b827ed452"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置",
+      "source_abstract": "【課題】ターゲットと成膜される膜との組成ずれを抑制し、所望組成を安定的に得ることが可能な成膜方法を提供する。 【解決手段】基板ＢとターゲットＴとを対向させて、プラズマを用いた気相成長法により基板Ｂ上にターゲットＴの構成元素を含む膜を成膜する際に、基板ＢをターゲットＴの構成元素が付着する壁面１０Ｓで囲むと共に、壁面１０Ｓに対して物理的な処理を行って壁面１０Ｓに付着した成分を成膜雰囲気中に放出させながら、成膜を行う。 【選択図】図１",
+      "publication_id": "JP-2010189703-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H20"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H20",
+          "branch": "腔壁成分再释放",
+          "description": "腔壁加热或施加电位促进Pb等物质从腔壁再释放，影响成膜成分。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8563091B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L140",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010189703A",
+            "US8563091B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "成膜方法、成膜装置、圧電体膜、圧電素子、及び液体吐出装置",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】ターゲットと成膜される膜との組成ずれを抑制し、所望組成を安定的に得ることが可能な成膜方法を提供する。 【解決手段】基板ＢとターゲットＴとを対向させて、プラズマを用いた気相成長法により基板Ｂ上にターゲットＴの構成元素を含む膜を成膜する際に、基板ＢをターゲットＴの構成元素が付着する壁面１０Ｓで囲むと共に、壁面１０Ｓに対して物理的な処理を行って壁面１０Ｓに付着した成分を成膜雰囲気中に放出させながら、成膜を行う。 【選択図】図１",
+          "start": 0,
+          "end": 216
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_4fa13d935552134ce2cf1fc9"
+    },
+    {
+      "family_id": "google:42039307",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "摘要中明确记载了在距离靶表面2-3cm处控制等离子体电位变动在±10V内，并控制气体压力变动在±1.5%内的具体技术手段，与冻结贡献中的机制一致。该族的实现方式、技术问题和机制均已在摘要中清晰体现。",
+      "support_contribution_ids": [
+        "C_0c90efec9edbe019ef50"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "成膜方法、成膜装置、压电膜、压电器件和液体排出装置",
+      "source_abstract": "本发明提供了一种成膜方法，所述成膜方法实现了在面内方向上的膜性质如组成的高度均化，而与形成的膜的组成和基板尺寸无关。在将基板(B)和靶(T)放置成相互面对的情况下，当使用等离子体通过气相沉积在基板(B)上形成含有靶(T)的构成元素的膜时，在距离靶(T)的朝向基板(B)的表面为2-3cm的地方，将基板(B)的面内方向上的等离子体空间中的等离子体电位Vs(V)的变动控制在±10V内。优选的是，在距离靶(T)的朝向基板(20)的表面为2-3cm的地方，将基板(B)的面内方向上的气体压力的变动控制在±1.5％内的情况下进行成膜。",
+      "publication_id": "CN-102159748-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H19"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H19",
+          "branch": "面内气压均匀",
+          "description": "环形分气器和多点供气调节靶下方气压分布与等离子体均匀性。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "WO2010032459A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L139",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN102159748A",
+            "JP5296468B2",
+            "WO2010032459A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "成膜方法、成膜装置、压电膜、压电器件和液体排出装置",
+          "start": 0,
+          "end": 25
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "本发明提供了一种成膜方法，所述成膜方法实现了在面内方向上的膜性质如组成的高度均化，而与形成的膜的组成和基板尺寸无关。在将基板(B)和靶(T)放置成相互面对的情况下，当使用等离子体通过气相沉积在基板(B)上形成含有靶(T)的构成元素的膜时，在距离靶(T)的朝向基板(B)的表面为2-3cm的地方，将基板(B)的面内方向上的等离子体空间中的等离子体电位Vs(V)的变动控制在±10V内。",
+          "start": 0,
+          "end": 191
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "优选的是，在距离靶(T)的朝向基板(20)的表面为2-3cm的地方，将基板(B)的面内方向上的气体压力的变动控制在±1.5％内的情况下进行成膜。",
+          "start": 191,
+          "end": 263
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_e3c53620ab0185a51570a3ac"
+    },
+    {
+      "family_id": "google:42171431",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "摘要中明确记载了在基板外周侧方10mm范围内调整电位至与基板同电位，或使用同电位壁面围住基板的技术手段，与冻结贡献中的机制一致。该族的实现方式、技术问题和机制均已在摘要中清晰体现。",
+      "support_contribution_ids": [
+        "C_a53a3a69502143173837"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子",
+      "source_abstract": "【課題】成膜する膜の組成及び基板サイズによらず、面内方向の組成等の膜特性を高度に均一化することが可能な成膜方法を提供する。 【解決手段】基板ＢとターゲットＴとを対向させて、プラズマを用いた気相成長法により基板Ｂ上にターゲットＴの構成元素を含む膜を成膜するに際して、少なくとも基板Ｂの外周から基板Ｂの側方に１０ｍｍ離れた位置までの電位を基板Ｂと同電位に調整する、及び／又は基板Ｂを基板Ｂと同電位に調整された壁面１０Ｓで囲む。 【選択図】図５",
+      "publication_id": "JP-2010138485-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H13"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H13",
+          "branch": "大尺寸边缘等电位",
+          "description": "调节基板外缘及邻近空间电位，减小大尺寸晶圆边缘的离子能量差。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8172372B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L133",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010138485A",
+            "JP5399165B2",
+            "US8172372B2",
+            "US8366259B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_0732142d40e6cc28525b"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "成膜方法、成膜装置、圧電体膜、圧電素子、液体吐出装置、及び圧電型超音波振動子",
+          "start": 0,
+          "end": 38
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】成膜する膜の組成及び基板サイズによらず、面内方向の組成等の膜特性を高度に均一化することが可能な成膜方法を提供する。 【解決手段】基板ＢとターゲットＴとを対向させて、プラズマを用いた気相成長法により基板Ｂ上にターゲットＴの構成元素を含む膜を成膜するに際して、少なくとも基板Ｂの外周から基板Ｂの側方に１０ｍｍ離れた位置までの電位を基板Ｂと同電位に調整する、及び／又は基板Ｂを基板Ｂと同電位に調整された壁面１０Ｓで囲む。 【選択図】図５",
+          "start": 0,
+          "end": 219
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_e3c53620ab0185a51570a3ac"
+    },
+    {
+      "family_id": "google:42239224",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了成形阳极结构，包括环状体和从该环状体向内突出的环状法兰，并指出其布置在等离子体生成用靶下方以划定体积。这与历史参考H03中的‘成形阳极RF回流’机制一致，且摘要已提供足够细节支持该具体技术手段。",
+      "support_contribution_ids": [
+        "C_297ff11d70c5481c67f0"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "真空物理的蒸着のための成形アノードとアノード−シールド接続",
+      "source_abstract": "【解決手段】物理的蒸着装置は、側壁を有する真空チャンバ、カソード、高周波電源、基板支持体、シールド及びアノードを含む。カソードは真空チャンバ内にあり、スパッタリングターゲットを含むように構成される。高周波電源はカソードに電力を印加するように構成される。基板支持体は真空チャンバの側壁の内側にあり、当該側壁から電気的に絶縁される。シールドは真空チャンバの側壁の内側にあり、当該側壁に電気的に接続される。アノードは真空チャンバの側壁の内側にあり、当該側壁に電気的に接続される。アノードは環状体と当該環状体から内向きに突出する環状フランジとを含み、プラズマ生成用のターゲットの下の体積を画定するように環状フランジは配置される。 【選択図】図１",
+      "publication_id": "JP-2012512325-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H03"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H03",
+          "branch": "成形阳极RF回流",
+          "description": "成形阳极与shield导通，增加可维持的RF回流面积。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8066857B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L123",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5421388B2",
+            "US8066857B2",
+            "WO2010068625A2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_3ea553206f6ca0f6b70c"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "真空物理的蒸着のための成形アノードとアノード−シールド接続",
+          "start": 0,
+          "end": 29
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【解決手段】物理的蒸着装置は、側壁を有する真空チャンバ、カソード、高周波電源、基板支持体、シールド及びアノードを含む。カソードは真空チャンバ内にあり、スパッタリングターゲットを含むように構成される。高周波電源はカソードに電力を印加するように構成される。基板支持体は真空チャンバの側壁の内側にあり、当該側壁から電気的に絶縁される。シールドは真空チャンバの側壁の内側にあり、当該側壁に電気的に接続される。アノードは真空チャンバの側壁の内側にあり、当該側壁に電気的に接続される。",
+          "start": 0,
+          "end": 236
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "アノードは環状体と当該環状体から内向きに突出する環状フランジとを含み、プラズマ生成用のターゲットの下の体積を画定するように環状フランジは配置される。 【選択図】図１",
+          "start": 236,
+          "end": 318
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_16abc11937a0d70f49ddb7d0"
+    },
+    {
+      "family_id": "google:42239225",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中描述了腔体屏蔽结构，包括环状主体和从该主体向外延伸的同心环凸起。这与历史参考H02中的‘腔体RF屏蔽’机制一致，且摘要已提供足够细节支持该具体技术手段。",
+      "support_contribution_ids": [
+        "C_4fb9869c78c9352a2987"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Chamber shield for vacuum physical vapor deposition",
+      "source_abstract": "A physical vapor deposition apparatus includes a vacuum chamber having sidewalls, a cathode, a radio frequency power supply, a substrate support and an anode, and a shield. The cathode is located inside the vacuum chamber and is configured to include a target. The radio frequency power supply is configured to apply power to the cathode. The substrate support is located inside the vacuum chamber and is electrically insulated from the side walls of the vacuum chamber. The anode is located inside the vacuum chamber and is electrically connected to the side wall of the vacuum chamber. The shield is located inside and electrically connected to a sidewall of the vacuum chamber and includes an annular body and a plurality of concentric annular projections extending from the annular body.",
+      "publication_id": "CN-102246270-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H02"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H02",
+          "branch": "腔体RF屏蔽",
+          "description": "同心环凸起与扩展接地shield稳定RF边界，抑制寄生放电及plasma spill-out。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8043487B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L122",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5421387B2",
+            "US8043487B2",
+            "WO2010068624A2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_03fa15d742c409cd2826"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Chamber shield for vacuum physical vapor deposition",
+          "start": 0,
+          "end": 51
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "A physical vapor deposition apparatus includes a vacuum chamber having sidewalls, a cathode, a radio frequency power supply, a substrate support and an anode, and a shield. The cathode is located inside the vacuum chamber and is configured ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "to include a target. The radio frequency power supply is configured to apply power to the cathode. The substrate support is located inside the vacuum chamber and is electrically insulated from the side walls of the vacuum chamber. The ",
+          "start": 240,
+          "end": 475
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "anode is located inside the vacuum chamber and is electrically connected to the side wall of the vacuum chamber. The shield is located inside and electrically connected to a sidewall of the vacuum chamber and includes an annular body and a ",
+          "start": 475,
+          "end": 715
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "plurality of concentric annular projections extending from the annular body.",
+          "start": 715,
+          "end": 791
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_16abc11937a0d70f49ddb7d0"
+    },
+    {
+      "family_id": "google:42248412",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了初始阶段使用过量铅摩尔比条件，随后切换至铅量减少的基本沉积条件。该机制在摘要中被清晰表述，与历史节点R13所指的'初期Pb富集成核，然后主体相对低Pb'一致。",
+      "support_contribution_ids": [
+        "C_05ce936373ec4c8e0964"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film deposition method capable of easily depositing a lead-containing perovskite-type oxide film of (100) orientation and/or (001) orientation without changing any film deposition material or adding forming of a base film, and to provide a piezoelectric device, and a liquid ejecting device.  &lt;P&gt;SOLUTION: When depositing the lead-containing perovskite-type oxide film having the crystalline orientation of (100) and/or (001) orientation and mainly composed of lead, in the initial stage of the film deposition, the oxide film is deposited under the initial film deposition condition that the quantity of lead indicating the molar ratio of lead to cations other than lead out of cations contained in the oxide film becomes excessive, and thereafter, the oxide film is deposited under the basic film deposition condition that the quantity of lead is less than that in the initial film deposition condition.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+      "publication_id": "JP-2010084160-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R13"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R13",
+          "branch": "初期Pb富集成核",
+          "description": "initial Pb-rich然后主体相对低Pb",
+          "historical_note": "Recipe",
+          "representative": "JP2010084160A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L76",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010084160A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_3f8fc4b155cf720689b2"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Film deposition method of lead-containing perovskite-type oxide film, piezoelectric device, and liquid ejecting device",
+          "start": 0,
+          "end": 118
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a film deposition method capable of easily depositing a lead-containing perovskite-type oxide film of (100) orientation and/or (001) orientation without changing any film deposition material or ",
+          "start": 0,
+          "end": 236
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "adding forming of a base film, and to provide a piezoelectric device, and a liquid ejecting device.  &lt;P&gt;SOLUTION: When depositing the lead-containing perovskite-type oxide film having the crystalline orientation of (100) and/or (001) ",
+          "start": 236,
+          "end": 476
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "orientation and mainly composed of lead, in the initial stage of the film deposition, the oxide film is deposited under the initial film deposition condition that the quantity of lead indicating the molar ratio of lead to cations other ",
+          "start": 476,
+          "end": 712
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "than lead out of cations contained in the oxide film becomes excessive, and thereafter, the oxide film is deposited under the basic film deposition condition that the quantity of lead is less than that in the initial film deposition ",
+          "start": 712,
+          "end": 945
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "condition.  &lt;P&gt;COPYRIGHT: (C)2010,JPO&amp;INPIT",
+          "start": 945,
+          "end": 998
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_2c08b6603a44492ad5fe8bed"
+    },
+    {
+      "family_id": "google:42558970",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中描述了在靶和基板之间设置导电网格，并通过第二RF源施加功率以调节溅射过程的性质。摘要中明确指出该方法包括将导电网格置于靶与基板之间，且第二RF源和导电网格构成电容电路，其电压变化影响溅射气体及沉积过程特性。这与历史节点H08所指的'主动电位调节网格'一致。",
+      "support_contribution_ids": [
+        "C_eb13420013fc4deeab90"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Sputtering method and film deposition apparatus",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a sputtering method and a film deposition apparatus which, during a process for depositing a layer on a substrate by a physical vapor deposition (PVD) method, control properties of the layer.  &lt;P&gt;SOLUTION: A method and apparatus for sputtering a target material (such as PZT) include positioning a conductive grid between a target and a substrate. The target, the substrate, and a sputtering gas can be contained in a chamber, and power of a first RF source can be applied so as to maintain a plasma in the chamber. Target material can be sputtered from the target onto the substrate. Power of a second RF source can be applied to the conductive grid. Positioning of the conductive grid and power applied by the second RF source can affect properties of sputter deposition of the target material. For example, the second RF source and the conductive grid can be a part of a capacitive circuit configured such that voltage change in the capacitive circuit affects properties of the sputtering gas and, then properties of a sputter deposition process is changed.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+      "publication_id": "JP-2010242213-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H08"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H08",
+          "branch": "主动电位调节网格",
+          "description": "靶和基板之间的主动grid，施加RF/DC电位以调节到达基板的带电粒子能量。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US20100206713A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L128",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010242213A",
+            "US20100206713A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_89940c301b97a3c69ead"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Sputtering method and film deposition apparatus",
+          "start": 0,
+          "end": 47
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide a sputtering method and a film deposition apparatus which, during a process for depositing a layer on a substrate by a physical vapor deposition (PVD) method, control properties of the layer.  ",
+          "start": 0,
+          "end": 235
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "&lt;P&gt;SOLUTION: A method and apparatus for sputtering a target material (such as PZT) include positioning a conductive grid between a target and a substrate. The target, the substrate, and a sputtering gas can be contained in a chamber, ",
+          "start": 235,
+          "end": 475
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "and power of a first RF source can be applied so as to maintain a plasma in the chamber. Target material can be sputtered from the target onto the substrate. Power of a second RF source can be applied to the conductive grid. Positioning of ",
+          "start": 475,
+          "end": 715
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "the conductive grid and power applied by the second RF source can affect properties of sputter deposition of the target material. For example, the second RF source and the conductive grid can be a part of a capacitive circuit configured ",
+          "start": 715,
+          "end": 952
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "such that voltage change in the capacitive circuit affects properties of the sputtering gas and, then properties of a sputter deposition process is changed.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+          "start": 952,
+          "end": 1151
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_2c08b6603a44492ad5fe8bed"
+    },
+    {
+      "family_id": "google:42558971",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了通过在阴极（包含溅射靶材）施加第一高频信号、在夹具上施加第二高频信号，并利用两者的相位差控制基板上的正自偏置直流电压，与历史节点H11中的双RF相位控制机制一致。摘要提供了足够的细节支持该具体技术手段。",
+      "support_contribution_ids": [
+        "C_74e3733cfe0a31f61441"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "位相シフトによる物理的気相成長方法",
+      "source_abstract": "【課題】堆積させる薄膜の特性の制御が可能な物理的気相成長方法を提供する。 【解決手段】第１の位相を持つ第１の高周波信号を物理的気相成長装置内の、スパッタリングターゲットを含むカソードに印加するステップと、第２の位相を持つ第２の高周波信号を前記物理的気相成長装置内のチャックに印加するステップと、スパッタリングターゲットからの物質を基板上に堆積させるステップと、を備え、前記チャックは、基板を保持し、前記第１の位相と前記第２の位相の位相差は、前記基板上に正の自己バイアス直流電圧を引き起こす物理的気相成長方法。 【選択図】図１Ａ",
+      "publication_id": "JP-2010242212-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H11"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H11",
+          "branch": "双RF相位控制",
+          "description": "两路RF源与相位移相器，利用RF相位差调节基板DC自偏置。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8557088B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L131",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2010242212A",
+            "US8557088B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_65042c5c0e05f31757c6"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "位相シフトによる物理的気相成長方法",
+          "start": 0,
+          "end": 17
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】堆積させる薄膜の特性の制御が可能な物理的気相成長方法を提供する。 【解決手段】第１の位相を持つ第１の高周波信号を物理的気相成長装置内の、スパッタリングターゲットを含むカソードに印加するステップと、第２の位相を持つ第２の高周波信号を前記物理的気相成長装置内のチャックに印加するステップと、スパッタリングターゲットからの物質を基板上に堆積させるステップと、を備え、前記チャックは、基板を保持し、前記第１の位相と前記第２の位相の位相差は、前記基板上に正の自己バイアス直流電圧を引",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_6819313e2195b1c72609f813"
+    },
+    {
+      "family_id": "google:42558973",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中描述了通过向包含溅射靶材的阴极施加无线频率信号，并将基板支撑用的夹具连接至包含至少一个电容器的阻抗匹配电路网络，以实现DC自偏压调节。该机制与历史节点H10中的匹配网络自偏压机制一致，摘要已提供足够信息支持。",
+      "support_contribution_ids": [
+        "C_3c8b4b60cf1875f3bdb1"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "インピーダンス整合回路網による物理的蒸着",
+      "source_abstract": "物理的蒸着方法は、物理的蒸着装置内のスパッタターゲットを含む陰極に無線周波数信号を印加する工程と、物理的蒸着装置内の基板を支持するチャックを少なくとも一つのキャパシタを含むインピーダンス整合回路網に電気的に接続する工程と、スパッタターゲットからの材料を基板上に堆積する工程と、を含む。",
+      "publication_id": "JP-2012518722-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H10"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H10",
+          "branch": "匹配网络自偏压",
+          "description": "基板与地之间的可调匹配网络，实现DC self-bias调节。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8540851B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L130",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "US8540851B2",
+            "WO2010096533A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_8b204cddad4fe40c459c"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "インピーダンス整合回路網による物理的蒸着",
+          "start": 0,
+          "end": 20
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "物理的蒸着方法は、物理的蒸着装置内のスパッタターゲットを含む陰極に無線周波数信号を印加する工程と、物理的蒸着装置内の基板を支持するチャックを少なくとも一つのキャパシタを含むインピーダンス整合回路網に電気的に接続する工程と、スパッタターゲットからの材料を基板上に堆積する工程と、を含む。",
+          "start": 0,
+          "end": 142
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_6819313e2195b1c72609f813"
+    },
+    {
+      "family_id": "google:43903909",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过汽相沉积方法在基板表面形成压电薄膜，且该薄膜无晶粒边界、晶粒边界平行于基板表面并由层叠引起；同时指出晶体(100)平面法线与基板表面法线的倾斜角度不小于6°且不大于36°。这些具体技术手段在摘要中均有体现，可支持历史节点P12和R14所指的晶柱倾斜/取向与寿命关系。",
+      "support_contribution_ids": [
+        "C_862360013bb500c6498d"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法",
+      "source_abstract": "压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法。一种压电薄膜，所述压电薄膜通过汽相沉积方法在基板表面上形成，没有产生晶粒边界，该晶粒边界基本上平行于基板表面，并且是由层叠引起的。构成压电薄膜的每个晶体的(100)平面的法线与基板表面法线的倾斜角度不小于6°且不大于36°。",
+      "publication_id": "CN-102194670-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P12",
+        "R14"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P12",
+          "branch": "晶柱倾斜/取向与寿命",
+          "description": "柱状晶轴倾斜、偏压、耐久性",
+          "historical_note": "重要缺失",
+          "representative": "JP2011181828A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L44",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2011181828A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R14",
+          "branch": "倾斜晶柱、取向与寿命",
+          "description": "Rocking曲线、晶轴倾斜、偏压与耐久性",
+          "historical_note": "Recipe+microstructure",
+          "representative": "JP2011181828A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L77",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2011181828A"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_5ba545cdf5067ad5d6e9"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法",
+          "start": 0,
+          "end": 27
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "压电薄膜、压电器件、液体喷射装置、及制备压电薄膜的方法。一种压电薄膜，所述压电薄膜通过汽相沉积方法在基板表面上形成，没有产生晶粒边界，该晶粒边界基本上平行于基板表面，并且是由层叠引起的。构成压电薄膜的每个晶体的(100)平面的法线与基板表面法线的倾斜角度不小于6°且不大于36°。",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_b8f34d72996ab3589d265baf"
+    },
+    {
+      "family_id": "google:44504717",
+      "outcome": "Broad Topic Only",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献描述了物理气相沉积设备结构，包括真空室、阴极（含溅射靶材）、射频电源、阳极、基座、夹具及导电电极等组件。虽然摘要中提及了多点夹持设计及其压缩特性，但未具体说明该结构如何影响溅射过程或薄膜性能，因此仅恢复了领域泛称而非可辨别的历史手段。",
+      "support_contribution_ids": [
+        "C_8d04b2991937b229fef1"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Apparatus and method of physical vapor deposition with multi-point clamp",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide an apparatus and method of physical vapor deposition with a multi-point clamp.  &lt;P&gt;SOLUTION: The physical vapor deposition apparatus includes a vacuum chamber having side walls, a cathode inside the vacuum chamber, wherein the cathode is configured to include a sputtering target, a radio frequency power supply configured to apply power to the cathode, an anode inside and electrically connected to the side walls of the vacuum chamber, a chuck inside and electrically isolated from the side walls of the vacuum chamber, the chuck configured to support a substrate, a clamp configured to hold the substrate to the chuck, wherein the clamp is electrically conductive, and a plurality of conductive electrodes attached to the clamp, each electrode configured to compress when contacted by the substrate.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+      "publication_id": "JP-2011179120-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H15"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H15",
+          "branch": "多点导电夹持",
+          "description": "多个独立弹性导电接点连接晶圆边缘，分散RF电流及局部热/电弧。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US8133362B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L135",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2011179120A",
+            "JP5580760B2",
+            "US8133362B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_de3ea1c245ff268191ba"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Apparatus and method of physical vapor deposition with multi-point clamp",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide an apparatus and method of physical vapor deposition with a multi-point clamp.  &lt;P&gt;SOLUTION: The physical vapor deposition apparatus includes a vacuum chamber having side walls, a cathode ",
+          "start": 0,
+          "end": 236
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "inside the vacuum chamber, wherein the cathode is configured to include a sputtering target, a radio frequency power supply configured to apply power to the cathode, an anode inside and electrically connected to the side walls of the ",
+          "start": 236,
+          "end": 470
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "vacuum chamber, a chuck inside and electrically isolated from the side walls of the vacuum chamber, the chuck configured to support a substrate, a clamp configured to hold the substrate to the chuck, wherein the clamp is electrically ",
+          "start": 470,
+          "end": 704
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "conductive, and a plurality of conductive electrodes attached to the clamp, each electrode configured to compress when contacted by the substrate.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+          "start": 704,
+          "end": 893
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_b8f34d72996ab3589d265baf"
+    },
+    {
+      "family_id": "google:44504718",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了物理气相沉积装置的结构组成，包括真空腔体、阴极（含溅射靶材）、射频电源、阳极、电隔离的晶圆台及加热器；其中晶圆台包含石墨热扩散片。该历史节点H17所指的具体技术手段与冻结贡献完全一致，且摘要已提供足够细节支持。",
+      "support_contribution_ids": [
+        "C_07e567d5210c54b2a898"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Apparatus and method of physical vapor deposition with heat diffuser",
+      "source_abstract": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide an apparatus and method of physical vapor deposition with a heat diffuser.  &lt;P&gt;SOLUTION: The physical vapor deposition apparatus includes a vacuum chamber having side walls, a cathode inside the vacuum chamber, wherein the cathode is configured to include a sputtering target, a radio frequency power supply configured to apply power to the cathode, an anode inside and electrically connected to the side walls of the vacuum chamber, and a chuck 110 inside and electrically isolated from the side walls of the vacuum chamber, the chuck configured to support a substrate 116, and a heater 601 to heat the substrate supported on the chuck. The chuck includes a body 605 and a graphite heat diffuser supported on the body and configured to contact the substrate.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+      "publication_id": "JP-2011179119-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H17"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H17",
+          "branch": "石墨热扩散/背气",
+          "description": "石墨热扩散片和背气通道，改善高温沉积的温度均匀性。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US9181619B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L137",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2011179119A",
+            "US9181619B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_4550ecc9a6a1fb14e78b"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Apparatus and method of physical vapor deposition with heat diffuser",
+          "start": 0,
+          "end": 68
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "&lt;P&gt;PROBLEM TO BE SOLVED: To provide an apparatus and method of physical vapor deposition with a heat diffuser.  &lt;P&gt;SOLUTION: The physical vapor deposition apparatus includes a vacuum chamber having side walls, a cathode inside ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "the vacuum chamber, wherein the cathode is configured to include a sputtering target, a radio frequency power supply configured to apply power to the cathode, an anode inside and electrically connected to the side walls of the vacuum ",
+          "start": 239,
+          "end": 473
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "chamber, and a chuck 110 inside and electrically isolated from the side walls of the vacuum chamber, the chuck configured to support a substrate 116, and a heater 601 to heat the substrate supported on the chuck. The chuck includes a body ",
+          "start": 473,
+          "end": 712
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "605 and a graphite heat diffuser supported on the body and configured to contact the substrate.  &lt;P&gt;COPYRIGHT: (C)2011,JPO&amp;INPIT",
+          "start": 712,
+          "end": 850
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_ab247ed781887559ba706a28"
+    },
+    {
+      "family_id": "google:45351863",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中详细描述了压电薄膜的组成结构，包括钙钛矿结构、复合氧化物表达式以及特定成分范围（x, y, δ, z），并指出I(100)/I(200)比值需≥1.25。该历史节点P2和R15所指的具体技术手段与冻结贡献一致，摘要已提供足够细节支持。",
+      "support_contribution_ids": [
+        "C_5d5bc194b4ff76ff4907"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film and piezoelectric device",
+      "source_abstract": "A kind of piezoelectric film, it comprises calcium titanium ore structure and the crystalline composite oxide that is expressed from the next: the Pb with (100) preferred orientation\n        \n         1+ δ [(Zr\n        \n         x Ti\n        \n         1-x )\n        \n         1-y Nb\n        \n         y ] O\n        \n         z Wherein the value of x is within the scope of 0＜x＜1, and the value of y is within the scope of 0.13≤y≤0.25, and the value of δ and z is within the scope that can obtain calcium titanium ore structure; And with δ=0 and z=3 is standard value; Wherein, measure like X-ray diffraction, the ratio between the diffraction peak intensity I (200) of the diffraction peak intensity I (100) of uhligite (100) face and uhligite (200) face satisfies I (100)/I (200)&gt;=1.25.According to piezoelectric film of the present invention, can obtain enough piezoelectric properties.In addition, the invention still further relates to the piezoelectric device that comprises said piezoelectric film.",
+      "publication_id": "CN-102329132-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P2",
+        "R15"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P2",
+          "branch": "Nb含量与压电性能DOE",
+          "description": "Nb含量梯度DOE、介电/压电响应和等离子体条件",
+          "historical_note": "以已列publications为候选成员，E4核Family ID",
+          "representative": "US8390178B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L34",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5601899B2",
+            "US8390178B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R15",
+          "branch": "高Nb浓度扫描与最大响应",
+          "description": "Nb含量扫描、d31、晶向、电学性能",
+          "historical_note": "Recipe+materials",
+          "representative": "JP5601899B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L78",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5601899B2",
+            "US8390178B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_ed3ff6e38107d3b6fab2"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film and piezoelectric device",
+          "start": 0,
+          "end": 43
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "A kind of piezoelectric film, it comprises calcium titanium ore structure and the crystalline composite oxide that is expressed from the next: the Pb with (100) preferred orientation\n        \n         1+ δ [(Zr\n        \n         x Ti\n      ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "  \n         1-x )\n        \n         1-y Nb\n        \n         y ] O\n        \n         z Wherein the value of x is within the scope of 0＜x＜1, and the value of y is within the scope of 0.13≤y≤0.25, and the value of δ and z is within the scope ",
+          "start": 240,
+          "end": 480
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "that can obtain calcium titanium ore structure; And with δ=0 and z=3 is standard value; Wherein, measure like X-ray diffraction, the ratio between the diffraction peak intensity I (200) of the diffraction peak intensity I (100) of uhligite ",
+          "start": 480,
+          "end": 720
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "(100) face and uhligite (200) face satisfies I (100)/I (200)&gt;=1.25.According to piezoelectric film of the present invention, can obtain enough piezoelectric properties.In addition, the invention still further relates to the ",
+          "start": 720,
+          "end": 947
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "piezoelectric device that comprises said piezoelectric film.",
+          "start": 947,
+          "end": 1007
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_ab247ed781887559ba706a28"
+    },
+    {
+      "family_id": "google:45352133",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出采用柱状晶结构的铅基钙钛矿压电膜，并限定铅不足、A位总量超额及B位掺杂之间的组成关系（a<1、a+b>1和0<d<b），与历史节点R11所指的低Pb/Bi补偿与可靠性应用一致。摘要中已提供具体机制和必要条件。",
+      "support_contribution_ids": [
+        "C_a189f64aeb4c3e9a46e6"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電体膜、圧電素子および液体吐出装置",
+      "source_abstract": "【課題】膜中の鉛量を低減することで、高湿中の駆動耐久性を得ることができる圧電体膜、圧電素子および液体吐出装置を提供する。 【解決手段】多数の柱状結晶からなる柱状結晶構造を有し、下記式（Ｐ）で表されるペロブスカイト型酸化物を主成分とすることを特徴とする圧電体膜。 Ｐｂ ａ Ａ ｂ ［（Ｚｒ ｃ Ｔｉ １−ｃ ） １−ｄ Ｂ ｄ ］Ｏ ｅ ・・・（Ｐ） （式中Ｐｂ、ＡはＡサイト元素であり、Ｚｒ、ＴｉおよびＢはＢサイト元素である。ａ：鉛量、ｂ：Ａサイトドープ量、ｃ：Ｚｒ／Ｔｉ比、ｄ：Ｂサイトドープ量、ｅ：酸素量であり、ａ＜１、ａ＋ｂ＞１、０＜ｄ＜ｂである。ｅ＝３が標準であるが、ペロブスカイト構造を取り得る範囲内で基準値からずれてもよい。） 【選択図】なし",
+      "publication_id": "JP-2012009678-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R11"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R11",
+          "branch": "Bi的低Pb耐久性应用",
+          "description": "低Pb/Bi补偿与可靠性",
+          "historical_note": "Materials+recipe",
+          "representative": "JP5555072B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L74",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5555072B2",
+            "US8672456B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_210d2ce489dfcbb4f896"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電体膜、圧電素子および液体吐出装置",
+          "start": 0,
+          "end": 18
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】膜中の鉛量を低減することで、高湿中の駆動耐久性を得ることができる圧電体膜、圧電素子および液体吐出装置を提供する。 【解決手段】多数の柱状結晶からなる柱状結晶構造を有し、下記式（Ｐ）で表されるペロブスカイト型酸化物を主成分とすることを特徴とする圧電体膜。 Ｐｂ ａ Ａ ｂ ［（Ｚｒ ｃ Ｔｉ １−ｃ ） １−ｄ Ｂ ｄ ］Ｏ ｅ ・・・（Ｐ） （式中Ｐｂ、ＡはＡサイト元素であり、Ｚｒ、ＴｉおよびＢはＢサイト元素である。",
+          "start": 0,
+          "end": 214
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "ａ：鉛量、ｂ：Ａサイトドープ量、ｃ：Ｚｒ／Ｔｉ比、ｄ：Ｂサイトドープ量、ｅ：酸素量であり、ａ＜１、ａ＋ｂ＞１、０＜ｄ＜ｂである。ｅ＝３が標準であるが、ペロブスカイト構造を取り得る範囲内で基準値からずれてもよい。） 【選択図】なし",
+          "start": 214,
+          "end": 328
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_87643734f3ba8ebfdbed29d3"
+    },
+    {
+      "family_id": "google:45564537",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出采用公式Pb(ZrTi)(MgNb)O表示的钙钛矿氧化物，其组成满足特定参数范围（0.090≤b≤0.25 和 0.13≤a×(1-b)），并说明Pb可在钙钛矿结构范围内被其他A位元素替代。该机制与历史节点P13和R16所指的Mg/Nb共掺及Nb与Mg共掺的应用一致，摘要中已提供具体技术手段和组成关系。",
+      "support_contribution_ids": [
+        "C_a602cb42f61849fb4b31"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus",
+      "source_abstract": "PROBLEM TO BE SOLVED: To provide a piezoelectric film which has high piezoelectric performance and excellent surface morphology, a method for manufacturing the same, a piezoelectric element, and a liquid discharge apparatus.SOLUTION: The piezoelectric film is formed of a perovskite oxide represented by the following formula (P): Pb(ZrTi)(MgNb)O...(P) (where δ=0 and z=3 are preferable, but may be shifted within a range in which the oxide can take a perovskite structure, and Pb may be substituted by other A site element within an amount in a range in which the oxide can take a perovskite structure) which satisfies 0.090≤b≤0.25 and has an Nb ratio in a B site satisfying 0.13≤a×(1-b). The method for manufacturing the same, the piezoelectric element using the piezoelectric film, and the liquid discharge apparatus are also provided.",
+      "publication_id": "JP-2012039037-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P13",
+        "R16"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P13",
+          "branch": "Mg/Nb共掺",
+          "description": "Mg/Nb共掺的形貌、应力和电荷补偿",
+          "historical_note": "#52",
+          "representative": "US8672457B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L45",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2012039037A",
+            "JP5592192B2",
+            "US8672457B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R16",
+          "branch": "Nb与Mg共掺",
+          "description": "表面形态、应力、部分电荷补偿",
+          "historical_note": "Materials",
+          "representative": "JP5592192B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L79",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2012039037A",
+            "JP5592192B2",
+            "US8672457B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_4f036cbf5e415974b49e"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film, method for manufacturing the same, piezoelectric element, and liquid discharge apparatus",
+          "start": 0,
+          "end": 108
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "PROBLEM TO BE SOLVED: To provide a piezoelectric film which has high piezoelectric performance and excellent surface morphology, a method for manufacturing the same, a piezoelectric element, and a liquid discharge apparatus.SOLUTION: The ",
+          "start": 0,
+          "end": 238
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "piezoelectric film is formed of a perovskite oxide represented by the following formula (P): Pb(ZrTi)(MgNb)O...(P) (where δ=0 and z=3 are preferable, but may be shifted within a range in which the oxide can take a perovskite structure, and ",
+          "start": 238,
+          "end": 478
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "Pb may be substituted by other A site element within an amount in a range in which the oxide can take a perovskite structure) which satisfies 0.090≤b≤0.25 and has an Nb ratio in a B site satisfying 0.13≤a×(1-b). The method for ",
+          "start": 478,
+          "end": 705
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "manufacturing the same, the piezoelectric element using the piezoelectric film, and the liquid discharge apparatus are also provided.",
+          "start": 705,
+          "end": 838
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_87643734f3ba8ebfdbed29d3"
+    },
+    {
+      "family_id": "google:48190140",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了在阴极施加高频信号，并将基板夹具通过由电容器和电感器组成的串联阻抗匹配电路网络进行电气连接以实现材料沉积的过程。该机制与历史参考中的简化RF调谐及基板偏压网络一致，且摘要已提供足够细节支持。",
+      "support_contribution_ids": [
+        "C_32e72b2a4a127bd9cc6e"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "高周波同調基板バイアス物理的蒸着装置及びその駆動方法",
+      "source_abstract": "【課題】高周波同調基板バイアス物理的蒸着装置及びその駆動方法を提供する。 【解決手段】物理的蒸着方法は、物理的蒸着装置内の、スパッタリングターゲットを含む陰極に、高周波信号を印加する工程と、物理的蒸着装置内の、基板を支持するチャックを、直列接続されたキャパシタ及びインダクタのみから成るインピーダンス整合回路網に電気的に接続する工程と、スパッタリングターゲットからの材料を基板上に堆積する工程と、を含む。 【選択図】図１",
+      "publication_id": "JP-2013231233-A",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H12"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H12",
+          "branch": "简化RF调谐",
+          "description": "简化RF调谐与基板偏压网络，降低寄生路径影响。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "US20130284589A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L132",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP2660351B1",
+            "JP2013231233A"
+          ],
+          "mapping_relationships": [
+            "Candidate member exact; representative relationship unresolved"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_4bf7cd8b5b24e026cbc4"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "高周波同調基板バイアス物理的蒸着装置及びその駆動方法",
+          "start": 0,
+          "end": 26
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】高周波同調基板バイアス物理的蒸着装置及びその駆動方法を提供する。 【解決手段】物理的蒸着方法は、物理的蒸着装置内の、スパッタリングターゲットを含む陰極に、高周波信号を印加する工程と、物理的蒸着装置内の、基板を支持するチャックを、直列接続されたキャパシタ及びインダクタのみから成るインピーダンス整合回路網に電気的に接続する工程と、スパッタリングターゲットからの材料を基板上に堆積する工程と、を含む。 【選択図】図１",
+          "start": 0,
+          "end": 210
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_54474fabcdd38ea5a3b5e373"
+    },
+    {
+      "family_id": "google:51658296",
+      "outcome": "Mechanism Missed",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "虽然摘要中给出了关于压电体膜的组成公式（Pb_x[(Zr_a Ti_1−a) 1−y Nb_y]O_z）以及性能指标（d31^2/(ε×tanδ×1000)>3），但冻结贡献未提及具体的碳杂质控制策略或靶材中C含量对薄膜电学损耗/响应的影响，因此遗漏了历史节点P8和R17所代表的关键技术手段。",
+      "support_contribution_ids": [
+        "C_8462733dc0ca1c12893a"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電体膜および圧電体膜の製造方法",
+      "source_abstract": "【課題】圧電定数を維持したまま、圧電体膜への供給電流や消費電力が抑えられる圧電体膜および圧電体膜の製造方法を提供する。 【解決手段】下記式（Ｐ）で表されるペロブスカイト型結晶構造を有する圧電体膜であって、圧電定数ｄ ３１ ［ｐｍ／Ｖ］、比誘電率ε［−］、誘電損失ｔａｎδ［−］としたとき、（ｄ ３１ ） ２ ／（ε×ｔａｎδ×１０００）＞３  を満たす圧電体膜である。また、この圧電体膜の製造方法である。   Ｐｂ ｘ ［（Ｚｒ ａ Ｔｉ １−ａ ） １−ｙ Ｎｂ ｙ ］Ｏ ｚ ・・・（Ｐ）   （式中、ｘ：鉛量、ｙ：Ｎｂ量（Ｂサイトドープ量）、ｚ：酸素量、ａ：Ｚｒ／Ｔｉ比であり、ｙ＞０．１４である。ｘ＝１．０、ｚ＝３である場合が標準であるが、ペロブスカイト構造を取り得る範囲内でずれてもよい。） 【選択図】なし",
+      "publication_id": "JP-2014203840-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P8",
+        "R17"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P8",
+          "branch": "陶瓷靶材碳杂质控制",
+          "description": "陶瓷PZT靶材碳杂质与膜性能",
+          "historical_note": "重要缺失",
+          "representative": "JP5943870B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L40",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5943870B2",
+            "WO2014162999A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R17",
+          "branch": "靶材碳杂质",
+          "description": "靶材C含量与高Nb薄膜电学损耗/响应",
+          "historical_note": "Target+recipe",
+          "representative": "JP5943870B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L80",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP5943870B2",
+            "WO2014162999A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_a5677792617e20a6b598"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電体膜および圧電体膜の製造方法",
+          "start": 0,
+          "end": 16
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】圧電定数を維持したまま、圧電体膜への供給電流や消費電力が抑えられる圧電体膜および圧電体膜の製造方法を提供する。 【解決手段】下記式（Ｐ）で表されるペロブスカイト型結晶構造を有する圧電体膜であって、圧電定数ｄ ３１ ［ｐｍ／Ｖ］、比誘電率ε［−］、誘電損失ｔａｎδ［−］としたとき、（ｄ ３１ ） ２ ／（ε×ｔａｎδ×１０００）＞３  を満たす圧電体膜である。また、この圧電体膜の製造方法である。   Ｐｂ ｘ ［（Ｚｒ ａ Ｔｉ １−ａ ） １−ｙ Ｎｂ ｙ ］Ｏ ｚ ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "・・・（Ｐ）   （式中、ｘ：鉛量、ｙ：Ｎｂ量（Ｂサイトドープ量）、ｚ：酸素量、ａ：Ｚｒ／Ｔｉ比であり、ｙ＞０．１４である。ｘ＝１．０、ｚ＝３である場合が標準であるが、ペロブスカイト構造を取り得る範囲内でずれてもよい。） 【選択図】なし",
+          "start": 240,
+          "end": 358
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_54474fabcdd38ea5a3b5e373"
+    },
+    {
+      "family_id": "google:55399055",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出：在ペロブスカイト型酸化物的結晶相中，正方晶と菱面体晶の割合控制在0.70≦菱面体晶／（菱面体晶＋正方晶）≦0.95。该历史节点P9描述了靶功率密度与R/T晶相比例的关系，并指出通过调节工艺参数可实现此比例范围，与贡献中的技术手段一致。",
+      "support_contribution_ids": [
+        "C_0fe950d71d800eacbd61"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電体膜とその製造方法、圧電素子、及び液体吐出装置",
+      "source_abstract": "【課題】圧電特性が高く長期駆動時の圧電特性の劣化の小さい圧電体膜とその製造方法、その圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜（４０）は、下記式（Ｐ）で表されるペロブスカイト型酸化物を含む圧電体膜であって、ペロブスカイト型酸化物の結晶相が、下記式（１）を満足する割合で正方晶と菱面体晶を含む。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・（Ｐ）、   ０．７０≦菱面体晶／（菱面体晶＋正方晶）≦０．９５  ・・・（１）、 但し、式（Ｐ）中、ＡはＰｂを主成分とするＡサイト元素であり、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素である。ｘは０．４以上１未満、但し０．５１以上０．５３以下を除く。ａは０．０８以上である。 【選択図】図２",
+      "publication_id": "JP-WO2016031134-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P9",
+        "R18"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P9",
+          "branch": "R/T晶相与靶功率密度",
+          "description": "靶功率密度、R/T晶相共存及疲劳",
+          "historical_note": "#45",
+          "representative": "WO2016031134A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L41",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6392360B2",
+            "US10011111B2",
+            "WO2016031134A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R18",
+          "branch": "R/T晶相与RF功率密度",
+          "description": "低功率密度、R/T相比例、可靠性",
+          "historical_note": "Recipe+microstructure",
+          "representative": "JP6392360B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L81",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6392360B2",
+            "US10011111B2",
+            "WO2016031134A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_7fe318a89a322cbb64aa"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電体膜とその製造方法、圧電素子、及び液体吐出装置",
+          "start": 0,
+          "end": 25
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】圧電特性が高く長期駆動時の圧電特性の劣化の小さい圧電体膜とその製造方法、その圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜（４０）は、下記式（Ｐ）で表されるペロブスカイト型酸化物を含む圧電体膜であって、ペロブスカイト型酸化物の結晶相が、下記式（１）を満足する割合で正方晶と菱面体晶を含む。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・（Ｐ）、   ",
+          "start": 0,
+          "end": 215
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "０．７０≦菱面体晶／（菱面体晶＋正方晶）≦０．９５  ・・・（１）、 但し、式（Ｐ）中、ＡはＰｂを主成分とするＡサイト元素であり、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素である。ｘは０．４以上１未満、但し０．５１以上０．５３以下を除く。ａは０．０８以上である。 【選択図】図２",
+          "start": 215,
+          "end": 350
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_3014bdef06f7a979fb1adbd0"
+    },
+    {
+      "family_id": "google:56073954",
+      "outcome": "Mechanism Missed",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出：采用気相成長法成膜，并通过Si掺杂控制晶相峰强比。但摘要未提及如何具体调节Si掺杂量及晶相比例，仅说明了结果要求（Si为0.2mol%以上0.5mol%以下，峰强比≤0.25），未提供实现该机制的具体手段或工艺参数，因此贡献遗漏了关键历史手段。",
+      "support_contribution_ids": [
+        "C_a799fe25601d11b40116"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電体膜及びそれを備えた圧電素子、及び液体吐出装置",
+      "source_abstract": "【課題】圧電特性が高い圧電体膜及びその圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜は、気相成長法により成膜されてなる圧電体膜であって、下記一般式Ｐで表されるペロブスカイト型酸化物にＳｉが０．２ｍｏｌ％以上０．５ｍｏｌ％以下ドープされてなるペロブスカイト型酸化物を含み、Ｘ線回折法により測定されたペロブスカイト相の（１００）、（００１）、（１１０）、（１０１）及び（１１１）の各面方位におけるピーク強度の総和に対するパイロクロア相のピーク強度の比が０．２５以下である。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・一般式Ｐ   但し、式Ｐ中、ＡはＰｂを主成分とするＡサイト元素、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素。ｘは０超１未満、ａは０．１以上０．３未満。 【選択図】図６",
+      "publication_id": "JP-2016103567-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P14",
+        "R19"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P14",
+          "branch": "微量Si成分调节",
+          "description": "微量Si与结晶/晶格微调",
+          "historical_note": "#37",
+          "representative": "JP6284875B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L46",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2016103567A",
+            "JP6284875B2",
+            "US10103316B2"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R19",
+          "branch": "微量Si调节",
+          "description": "微量Si、晶格与薄膜性能",
+          "historical_note": "Materials",
+          "representative": "JP2016103567A",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L82",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP2016103567A",
+            "JP6284875B2",
+            "US10103316B2",
+            "WO2016084365A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_b3962f8768ae4d1a9733"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電体膜及びそれを備えた圧電素子、及び液体吐出装置",
+          "start": 0,
+          "end": 25
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】圧電特性が高い圧電体膜及びその圧電体膜を備えた圧電素子及び液体吐出装置を提供する。 【解決手段】本発明の圧電体膜は、気相成長法により成膜されてなる圧電体膜であって、下記一般式Ｐで表されるペロブスカイト型酸化物にＳｉが０．２ｍｏｌ％以上０．５ｍｏｌ％以下ドープされてなるペロブスカイト型酸化物を含み、Ｘ線回折法により測定されたペロブスカイト相の（１００）、（００１）、（１１０）、（１０１）及び（１１１）の各面方位におけるピーク強度の総和に対するパイロクロア相のピーク強度の",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "比が０．２５以下である。   Ａ １＋δ ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ａ Ｎｂ ａ ］Ｏ ｙ ・・・一般式Ｐ   但し、式Ｐ中、ＡはＰｂを主成分とするＡサイト元素、Ｚｒ，Ｔｉ，及びＮｂはＢサイト元素。ｘは０超１未満、ａは０．１以上０．３未満。 【選択図】図６",
+          "start": 240,
+          "end": 373
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_3014bdef06f7a979fb1adbd0"
+    },
+    {
+      "family_id": "google:58719182",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出使用了特定组成范围的钙钛矿氧化物薄膜以实现低压下的高压电性能。摘要中详细描述了通用公式A1+δB1-x-yNbxNiyOz，其中A包括至少Pb，B包括至少Zr和Ti，且x和y满足0.1≤x≤0.3与0<y≤0.75x的条件，这与历史节点P10（Nb/Ni共掺与低压响应）所指的具体技术手段一致。",
+      "support_contribution_ids": [
+        "C_4352ef07facde10d313d"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film, piezoelectric element, and liquid delivery head",
+      "source_abstract": "[Problem] To provide a piezoelectric film having high piezoelectric performance even when being driven at a low voltage, and a piezoelectric element and liquid delivery head equipped with the piezoelectric film. [Solution] A piezoelectric film containing perovskite oxide represented by general formula (P) below. General formula (P): A 1+δ B 1-x-y Nb x Ni y O z  where A includes at least Pb, B includes at least Zr and Ti, and x and y satisfy the conditions 0.1 ≤ x ≤ 0.3 and 0 &lt;y ≤ 0.75 x. The nominal values for δ and z are δ = 0 and z = 3, but these values may deviate from the nominal values within the range in which a perovskite structure can be obtained.",
+      "publication_id": "WO-2017085924-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P10",
+        "R20"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P10",
+          "branch": "Nb/Ni共掺与低压响应",
+          "description": "高Nb+Ni共掺的低压d31与非钙钛矿相抑制",
+          "historical_note": "#61",
+          "representative": "US10217929B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L42",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6392469B2",
+            "US10217929B2",
+            "WO2017085924A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R20",
+          "branch": "Nb与Ni共掺",
+          "description": "低电压响应及pyrochlore抑制",
+          "historical_note": "Materials",
+          "representative": "JP6392469B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L83",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6392469B2",
+            "US10217929B2",
+            "US20180254406A1",
+            "WO2017085924A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_28aeb9caa90f4826aee2"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film, piezoelectric element, and liquid delivery head",
+          "start": 0,
+          "end": 67
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "[Problem] To provide a piezoelectric film having high piezoelectric performance even when being driven at a low voltage, and a piezoelectric element and liquid delivery head equipped with the piezoelectric film. [Solution] A piezoelectric ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "film containing perovskite oxide represented by general formula (P) below. General formula (P): A 1+δ B 1-x-y Nb x Ni y O z  where A includes at least Pb, B includes at least Zr and Ti, and x and y satisfy the conditions 0.1 ≤ x ≤ 0.3 and ",
+          "start": 239,
+          "end": 478
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "0 &lt;y ≤ 0.75 x. The nominal values for δ and z are δ = 0 and z = 3, but these values may deviate from the nominal values within the range in which a perovskite structure can be obtained.",
+          "start": 478,
+          "end": 666
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_e0d1bca216cf5f9981d3938b"
+    },
+    {
+      "family_id": "google:59500807",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中指出使用了特定组成范围的钙钛矿氧化物薄膜，并结合XRD峰强度比及粘附层金属离子化能来优化性能。摘要中明确描述了组成为Pb[(Zr x Ti 1−x ) 1−y Nb y ]O3，其中0.10≤y≤0.13，且I(200)/I(100)在0.85至1.00之间，并指出密着层含离子化能量≤0.34eV的金属。这些内容与历史节点P3（10–13% Nb、XRD与热漏电）和R22（10–13%Nb热漏电可靠性）的技术手段一致。",
+      "support_contribution_ids": [
+        "C_a42e192cfb4eab3029b2"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電素子",
+      "source_abstract": "【課題】圧電特性を良好に維持し、かつリーク電流を抑制することが可能な圧電素子を提供する。 【解決手段】基板（１１）上に、下部電極（１２）、圧電体膜（１３）、密着層（１４）、および上部電極（１５）をこの順に備える圧電素子（１０）であって、圧電体膜（１３）が、（１００）面に優先配向したペロブスカイト構造を有し、組成式Ｐｂ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｎｂ ｙ ］Ｏ ３ で表される複合酸化物であり、式中、ｘは０＜ｘ＜１であり、ｙは０．１０≦ｙ≦０．１３であり、かつ、Ｘ線回折法によって測定されたペロブスカイト（１００）面からの回折ピーク強度Ｉ （１００） とペロブスカイト（２００）面からの回折ピーク強度Ｉ （２００） の比であるＩ （２００） ／Ｉ （１００） が、０．８５≦Ｉ （２００） ／Ｉ （１００） ≦１．００であり、かつ、密着層（１４９）が、イオン化エネルギー０．３４ｅＶ以下の金属を含む圧電素子（１０）とする。 【選択図】図３",
+      "publication_id": "JP-WO2017135166-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P3",
+        "R22"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P3",
+          "branch": "10–13% Nb、XRD与热漏电",
+          "description": "Nb 10–13%、I200/I100、热处理后漏电",
+          "historical_note": "#47",
+          "representative": "JP6426310B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L35",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6426310B2",
+            "WO2017135166A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R22",
+          "branch": "10–13%Nb热漏电可靠性",
+          "description": "Nb、XRD峰比、热处理前后漏电",
+          "historical_note": "Recipe+reliability",
+          "representative": "JP6426310B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L85",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6426310B2",
+            "WO2017135166A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_adbd298799cb1d9e850c"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電素子",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】圧電特性を良好に維持し、かつリーク電流を抑制することが可能な圧電素子を提供する。 【解決手段】基板（１１）上に、下部電極（１２）、圧電体膜（１３）、密着層（１４）、および上部電極（１５）をこの順に備える圧電素子（１０）であって、圧電体膜（１３）が、（１００）面に優先配向したペロブスカイト構造を有し、組成式Ｐｂ［（Ｚｒ ｘ Ｔｉ １−ｘ ） １−ｙ Ｎｂ ｙ ］Ｏ ３ ",
+          "start": 0,
+          "end": 189
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "で表される複合酸化物であり、式中、ｘは０＜ｘ＜１であり、ｙは０．１０≦ｙ≦０．１３であり、かつ、Ｘ線回折法によって測定されたペロブスカイト（１００）面からの回折ピーク強度Ｉ （１００） とペロブスカイト（２００）面からの回折ピーク強度Ｉ （２００） の比であるＩ （２００） ／Ｉ （１００） が、０．８５≦Ｉ （２００） ／Ｉ （１００） ≦１．００であり、かつ、密着層（１４９）が、イオン化エネルギー０．３４ｅＶ以下の金属を含む圧電素子（１０）とする。 【選択図】図３",
+          "start": 189,
+          "end": 425
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_e0d1bca216cf5f9981d3938b"
+    },
+    {
+      "family_id": "google:61016143",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确提出了通过XRD峰强比r与A/B组成比q的耦合范围限定压电膜结构的技术手段，该技术手段在摘要中被完整描述。具体包括：0.28r+0.9≤q≤0.32r+0.95，同时1.10≤q≤1.25、r≤1.00。这些条件与历史节点P4和R23中的配方控制及温度速率控制一致。",
+      "support_contribution_ids": [
+        "C_f13b2f61c44c3b0eaa6e"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film",
+      "source_abstract": "Provided is a piezoelectric film that has a perovskite structure preferentially oriented to a (100) plane and that comprises a composite oxide represented by the following compositional formula: Pb a [(Zr x Ti 1-x ) 1-y Nb y ] b O 3  wherein 0&lt;x&lt;1, and 0.10≤y&lt;0.13, in which in a case where a ratio I (200) /I (100)  of a diffraction peak intensity I (200)  from a perovskite (200) plane with respect to a diffraction peak intensity I (100)  from a perovskite (100) plane, as measured by an X-ray diffraction method, is r, and a/b is q, 0.28r+0.9≤q≤0.32r+0.95, 1.10≤q≤1.25, and r≤1.00 are satisfied.",
+      "publication_id": "US-2019097121-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P4",
+        "R23"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P4",
+          "branch": "两段温度/速率、Pb与可靠性",
+          "description": "初期与主体成膜温度、速率及Pb/B和可靠性",
+          "historical_note": "重要缺失",
+          "representative": "WO2018021197A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L36",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6661771B2",
+            "US11195983B2",
+            "WO2018021197A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R23",
+          "branch": "初期温度速率/Pb控制",
+          "description": "T1/T2、R1/R2、Pb/B、I200/I100",
+          "historical_note": "Recipe+reliability",
+          "representative": "WO2018021197A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L86",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "DE112017003091B4",
+            "JP6661771B2",
+            "US11195983B2",
+            "WO2018021197A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_bd99ac5b2bb813f526b3"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film, piezoelectric element, and method for manufacturing piezoelectric film",
+          "start": 0,
+          "end": 90
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "Provided is a piezoelectric film that has a perovskite structure preferentially oriented to a (100) plane and that comprises a composite oxide represented by the following compositional formula: Pb a [(Zr x Ti 1-x ) 1-y Nb y ] b O 3  ",
+          "start": 0,
+          "end": 234
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "wherein 0&lt;x&lt;1, and 0.10≤y&lt;0.13, in which in a case where a ratio I (200) /I (100)  of a diffraction peak intensity I (200)  from a perovskite (200) plane with respect to a diffraction peak intensity I (100)  from a perovskite ",
+          "start": 234,
+          "end": 469
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "(100) plane, as measured by an X-ray diffraction method, is r, and a/b is q, 0.28r+0.9≤q≤0.32r+0.95, 1.10≤q≤1.25, and r≤1.00 are satisfied.",
+          "start": 469,
+          "end": 608
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_ccd01ae4e57da888e5e122cb"
+    },
+    {
+      "family_id": "google:61300486",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中提出了一种通过调整δ和z参数以实现稳定钙钛矿结构的压电膜材料，其技术机制在摘要中被完整描述。具体包括：A site A元素主要为Pb，且δ=0和z=3为标准值，但可偏离以维持钙钛矿结构。该机制与历史节点R21中的Nb与Sc共掺及晶相稳定策略一致。",
+      "support_contribution_ids": [
+        "C_217c3abe5e475778e627"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film and piezoelectric element provided with same",
+      "source_abstract": "Provided are a piezoelectric film having high piezoelectric characteristics and a piezoelectric element provided with the piezoelectric film. In the piezoelectric film that includes a perovskite-type oxide represented by general formula P, 0.1≤x≤0.3 and 0&lt;y≤0.49x are satisfied. A 1+δ [(Zr, Ti) 1-x-y Nb x Sc y ]O z  ··· general formula P. In general formula P, A represents a site A element in which Pb is a main component, and δ=0 and z=3 are standard. These standard values can be deviated from as long as the values fall within a range which can achieve the perovskite structure.",
+      "publication_id": "WO-2018042946-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R21"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R21",
+          "branch": "Nb与Sc共掺",
+          "description": "高Nb下的晶相稳定",
+          "historical_note": "Materials",
+          "representative": "JP6499810B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L84",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6499810B2",
+            "US10483452B2",
+            "WO2018042946A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_8f1f68dd44e345adde71"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film and piezoelectric element provided with same",
+          "start": 0,
+          "end": 63
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "Provided are a piezoelectric film having high piezoelectric characteristics and a piezoelectric element provided with the piezoelectric film. In the piezoelectric film that includes a perovskite-type oxide represented by general formula P, ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "0.1≤x≤0.3 and 0&lt;y≤0.49x are satisfied. A 1+δ [(Zr, Ti) 1-x-y Nb x Sc y ]O z  ··· general formula P. In general formula P, A represents a site A element in which Pb is a main component, and δ=0 and z=3 are standard. These standard values ",
+          "start": 240,
+          "end": 480
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "can be deviated from as long as the values fall within a range which can achieve the perovskite structure.",
+          "start": 480,
+          "end": 586
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_ccd01ae4e57da888e5e122cb"
+    },
+    {
+      "family_id": "google:63675421",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出：通过控制Nb含量q与XRD峰强度比r/q（0.35≤r/q＜0.58）来获得高温下优异压电性能的压电体薄膜。该历史节点P5和R24均对应此机制，其中P5强调了Nb含量与XRD晶相联合约束，R24则进一步引入高温漏电可靠性因素。摘要中已充分描述了公式(1)、(2)及具体参数范围，支持到具体技术手段粒度。",
+      "support_contribution_ids": [
+        "C_e18d64ea4766de0e7490"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method",
+      "source_abstract": "To provide a piezoelectric body film and a piezoelectric element from which an excellent piezoelectric characteristic can be obtained even in a high-temperature environment and a method for manufacturing a piezoelectric element.A piezoelectric body film of the present invention is a piezoelectric body film containing a perovskite-type oxide represented by Formula (1), in which a content q of Nb with respect to the number of all atoms in the perovskite-type oxide and a ratio r of a diffraction peak intensity from a (200) plane to a diffraction peak intensity from a (100) plane of the perovskite-type oxide, which is measured using an X-ray diffraction method, satisfy Formula (2), Formula (1) A&lt;sub&gt;1+δ&lt;/sub&gt;[(Zr&lt;sub&gt;y&lt;/sub&gt;Ti&lt;sub&gt;1-y&lt;/sub&gt;)&lt;sub&gt;1-x&lt;/sub&gt;Nb&lt;sub&gt;x&lt;/sub&gt;]O&lt;sub&gt;z&lt;/sub&gt;, Formula (2) 0.35≤r/q&lt;0.58, in this case, in Formula (1), A represents an A site element containing Pb, x and y each independently represent a numerical value of more than 0 and less than 1, standard values of δ and z each are 0 and 3, but these values may deviate from the standard values as long as the perovskite-type oxide has a perovskite structure, and, in Formula (2), a unit of q is atm%.",
+      "publication_id": "EP-3605625-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P5",
+        "R24"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P5",
+          "branch": "Pb/Nb与XRD/漏电可靠性",
+          "description": "Pb/Nb、晶相和高温漏电联合约束",
+          "historical_note": "重要缺失",
+          "representative": "WO2018180276A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L37",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6850870B2",
+            "US11793082B2",
+            "WO2018180276A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R24",
+          "branch": "Pb/Nb与晶相及高温漏电",
+          "description": "Pb/Nb与XRD和热漏电的联合窗口",
+          "historical_note": "Recipe+reliability",
+          "representative": "WO2018180276A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L87",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6850870B2",
+            "US11793082B2",
+            "WO2018180276A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_a3638d1da52eadbd547a"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric body membrane, piezoelectric element, and piezoelectric element manufacturing method",
+          "start": 0,
+          "end": 98
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "To provide a piezoelectric body film and a piezoelectric element from which an excellent piezoelectric characteristic can be obtained even in a high-temperature environment and a method for manufacturing a piezoelectric element.A ",
+          "start": 0,
+          "end": 230
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "piezoelectric body film of the present invention is a piezoelectric body film containing a perovskite-type oxide represented by Formula (1), in which a content q of Nb with respect to the number of all atoms in the perovskite-type oxide ",
+          "start": 230,
+          "end": 467
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "and a ratio r of a diffraction peak intensity from a (200) plane to a diffraction peak intensity from a (100) plane of the perovskite-type oxide, which is measured using an X-ray diffraction method, satisfy Formula (2), Formula (1) ",
+          "start": 467,
+          "end": 699
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "A&lt;sub&gt;1+δ&lt;/sub&gt;[(Zr&lt;sub&gt;y&lt;/sub&gt;Ti&lt;sub&gt;1-y&lt;/sub&gt;)&lt;sub&gt;1-x&lt;/sub&gt;Nb&lt;sub&gt;x&lt;/sub&gt;]O&lt;sub&gt;z&lt;/sub&gt;, Formula (2) 0.35≤r/q&lt;0.58, in this case, in Formula (1), A represents an ",
+          "start": 699,
+          "end": 939
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "A site element containing Pb, x and y each independently represent a numerical value of more than 0 and less than 1, standard values of δ and z each are 0 and 3, but these values may deviate from the standard values as long as the ",
+          "start": 939,
+          "end": 1170
+        },
+        {
+          "source_id": "S007",
+          "field": "abstract",
+          "text": "perovskite-type oxide has a perovskite structure, and, in Formula (2), a unit of q is atm%.",
+          "start": 1170,
+          "end": 1261
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_f144b70f2b32600feebba5e5"
+    },
+    {
+      "family_id": "google:64105719",
+      "outcome": "Mechanism Missed",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中未提及关于防着机构的电位调整机制、防着板间距控制（0.5mm~3.0mm）以及多电位管理策略。虽然摘要描述了防着板结构和间距，但未体现其在电学控制层面的具体实现方式，因此贡献遗漏了该历史节点H14所代表的关键技术手段。",
+      "support_contribution_ids": [
+        "C_30ae638a9370cc6e1d7d"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "成膜装置および圧電膜の成膜方法",
+      "source_abstract": "ターゲットＴをスパッタして基板に薄膜を成膜する成膜装置において、成膜チャンバ内に防着機構を備え、防着機構が基板保持部上の基板が設置される領域の周縁に備えられた基板周縁防着板と、基板周縁防着板の外周に基板周縁防着板と離間して配置された基板外周域防着板とを少なくとも含む複数の防着板からなり、基板周縁防着板および基板外周域防着板のいずれか一方の防着板に電気的に接続された電位調整機構を備えたものとし、電位調整機構に接続された防着板と隣り合って配置される防着板とを、０．５ｍｍ〜３．０ｍｍの間隔で配置する。",
+      "publication_id": "JP-WO2018207577-A1",
+      "history_group": "Equipment",
+      "expected_node_ids": [
+        "H14"
+      ],
+      "history_reference": [
+        {
+          "node_id": "H14",
+          "branch": "周边多电位管理",
+          "description": "分别控制stage、沉积环及外围防沉积板电位，抑制起弧和边缘异常。",
+          "historical_note": "历史设备树成员，需逐一核验",
+          "representative": "WO2018207577A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L134",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "JP6900469B2",
+            "US20200066494A1",
+            "WO2018207577A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "POST_FREEZE_SUPPLEMENT_PROBE",
+      "technology_ids": [],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "成膜装置および圧電膜の成膜方法",
+          "start": 0,
+          "end": 15
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "ターゲットＴをスパッタして基板に薄膜を成膜する成膜装置において、成膜チャンバ内に防着機構を備え、防着機構が基板保持部上の基板が設置される領域の周縁に備えられた基板周縁防着板と、基板周縁防着板の外周に基板周縁防着板と離間して配置された基板外周域防着板とを少なくとも含む複数の防着板からなり、基板周縁防着板および基板外周域防着板のいずれか一方の防着板に電気的に接続された電位調整機構を備えたものとし、電位調整機構に接続された防着板と隣り合って配置される防着板とを、０．５ｍｍ〜３．０ｍ",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "ｍの間隔で配置する。",
+          "start": 240,
+          "end": 250
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_f144b70f2b32600feebba5e5"
+    },
+    {
+      "family_id": "google:73781808",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出成长控制层为M d N 1-d O e结构，其中M为可置换于铅的A-site金属元素，并给出了d值与M电负性X的关系式。摘要中也包含相同机制描述及参数条件，支持到具体结构和调控关系。",
+      "support_contribution_ids": [
+        "C_2020acb9d682db04c344"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電素子",
+      "source_abstract": "Ｐｂを含有するペロブスカイト型酸化物からなる圧電体層を備えた、温環境下においても駆動信頼性が高い圧電素子を提供する。圧電素子は、基板上に、下部電極層、成長制御層、鉛をＡサイトの主成分として含有するペロブスカイト型酸化物を含んで構成される圧電体層、及び上部電極層をこの順に備える。成長制御層はＭ ｄ Ｎ １－ｄ Ｏ ｅ で表される金属酸化物を含み、Ｍはペロブスカイト型酸化物のＡサイトに置換可能な１以上の金属元素である。Ｍの電気陰性度をＸとした場合、１．４１Ｘ－１．０５≦ｄ≦Ａ１・ｅｘｐ（－Ｘ／ｔ１）＋ｙ０，Ａ１＝１．６８×１０ １２ ，ｔ１＝０．０３０６，ｙ０＝０．５９９５８であり、ペロブスカイト型酸化物は、（Ｐｂ ａ１ α ａ２ ）（Ｚｒ ｂ１ Ｔｉ ｂ２ β ｂ３ ）Ｏ ｃ で表され、０．５＜ａ１／（ｂ１＋ｂ２＋ｂ３）＜１．０７である。",
+      "publication_id": "WO-2020250632-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P11",
+        "R25"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P11",
+          "branch": "超薄growth control氧化物界面",
+          "description": "超薄Growth-control oxide layer、初始成核",
+          "historical_note": "重要缺失",
+          "representative": "US11985899B2",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L43",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "US11985899B2",
+            "US20220093844A1",
+            "WO2020250632A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R25",
+          "branch": "Growth-control layer界面",
+          "description": "超薄界面氧化物控制成核和pyrochlore",
+          "historical_note": "Interface+recipe",
+          "representative": "WO2020250632A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L88",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "US11985899B2",
+            "US20220093844A1",
+            "WO2020250632A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_d746c33f55e38a3880b8"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電素子",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "Ｐｂを含有するペロブスカイト型酸化物からなる圧電体層を備えた、温環境下においても駆動信頼性が高い圧電素子を提供する。圧電素子は、基板上に、下部電極層、成長制御層、鉛をＡサイトの主成分として含有するペロブスカイト型酸化物を含んで構成される圧電体層、及び上部電極層をこの順に備える。成長制御層はＭ ｄ Ｎ １－ｄ Ｏ ｅ で表される金属酸化物を含み、Ｍはペロブスカイト型酸化物のＡサイトに置換可能な１以上の金属元素である。",
+          "start": 0,
+          "end": 209
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "Ｍの電気陰性度をＸとした場合、１．４１Ｘ－１．０５≦ｄ≦Ａ１・ｅｘｐ（－Ｘ／ｔ１）＋ｙ０，Ａ１＝１．６８×１０ １２ ，ｔ１＝０．０３０６，ｙ０＝０．５９９５８であり、ペロブスカイト型酸化物は、（Ｐｂ ａ１ α ａ２ ）（Ｚｒ ｂ１ Ｔｉ ｂ２ β ｂ３ ）Ｏ ｃ で表され、０．５＜ａ１／（ｂ１＋ｂ２＋ｂ３）＜１．０７である。",
+          "start": 209,
+          "end": 373
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_61bd208da5e57721516a2aa8"
+    },
+    {
+      "family_id": "google:83395703",
+      "outcome": "Mechanism Missed",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "摘要中仅说明了电流-电压曲线具有两个峰值，但未提及具体工艺控制手段（如分段偏压控制），而冻结贡献中并未涉及此类工艺细节。历史节点P6/R26所指的分段基板偏压机制在摘要中无体现。",
+      "support_contribution_ids": [
+        "C_2eb23f1b6ca5012c9c28"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric film, piezoelectric element and method for producing piezoelectric film",
+      "source_abstract": "There are provided a piezoelectric film, a piezoelectric element, and a manufacturing method for a piezoelectric film, in which both high withstand voltage and long-term reliability are achieved. \n     The piezoelectric film is a piezoelectric film containing a perovskite-type oxide as a main component, in which a current-voltage profile showing a relationship between a voltage and a current that flows in a case where the voltage is applied has two maximal values, where the current-voltage profile is acquired in a case where the voltage is sweep-applied from -40 V to +40 V at a first change rate of 10 kV/cm·sec while the piezoelectric film is sandwiched between a pair of electrode layers.",
+      "publication_id": "EP-4318619-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P6",
+        "R26"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P6",
+          "branch": "初期正偏→后期负偏",
+          "description": "初期正基板偏压→主体负偏压的分段工艺",
+          "historical_note": "重要缺失",
+          "representative": "EP4318619B1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L38",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP4318619B1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R26",
+          "branch": "分段基板偏压",
+          "description": "初期正bias→主体负bias，随深度控制",
+          "historical_note": "Recipe",
+          "representative": "EP4318619B1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L89",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP4318619B1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_6e9fc2c59a8bec96234e"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric film, piezoelectric element and method for producing piezoelectric film",
+          "start": 0,
+          "end": 85
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "There are provided a piezoelectric film, a piezoelectric element, and a manufacturing method for a piezoelectric film, in which both high withstand voltage and long-term reliability are achieved. \n     The piezoelectric film is a ",
+          "start": 0,
+          "end": 230
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "piezoelectric film containing a perovskite-type oxide as a main component, in which a current-voltage profile showing a relationship between a voltage and a current that flows in a case where the voltage is applied has two maximal values, ",
+          "start": 230,
+          "end": 469
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "where the current-voltage profile is acquired in a case where the voltage is sweep-applied from -40 V to +40 V at a first change rate of 10 kV/cm·sec while the piezoelectric film is sandwiched between a pair of electrode layers.",
+          "start": 469,
+          "end": 697
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_61bd208da5e57721516a2aa8"
+    },
+    {
+      "family_id": "google:84329938",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确描述了通过在压电膜中形成与下电极接触的氧缺陷区域，并控制该区域的氧含量和厚度以改善压电特性。摘要中详细说明了氧缺陷区域的氧含量比例（小于0.97）及厚度范围（120nm以上且不超过总厚度的1/3），与历史节点P7（氧分压深度轮廓）和R27（分段氧气/深度剖面）所指的技术手段一致。",
+      "support_contribution_ids": [
+        "C_03e081552d8252ff29b2"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate",
+      "source_abstract": "An object of the present disclosure is to obtain a piezoelectric laminate and a piezoelectric element, having improved piezoelectric characteristics and drive stability. \n     There is provided a piezoelectric laminate (5) and a piezoelectric element (1) have, on a substrate (10) in the following order, a lower electrode layer (12) and a piezoelectric film (15) containing a perovskite-type oxide as a main component. The piezoelectric film has an oxygen-deficient region (15b) in a region in contact with the lower electrode (12) layer. In a case where an average value of oxygen amounts in a region (15a) centrally located among three regions obtained by dividing the piezoelectric film (15) into three equal parts in a thickness direction is denoted as a first average oxygen amount, and an average value of oxygen amounts in the oxygen-deficient region (15b) is denoted as a second average oxygen amount, a ratio R of the second average oxygen amount to the first average oxygen amount is less than 0.97. A thickness of the oxygen-deficient region (15b) is 120 nm or more and is 1/3 or less of a thickness of the entire piezoelectric film (15).",
+      "publication_id": "EP-4178333-A1",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P7",
+        "R27"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P7",
+          "branch": "氧分压深度轮廓",
+          "description": "初期/主体O2比例切换，O2 depth profile、TDDB",
+          "historical_note": "重要缺失",
+          "representative": "EP4178333B1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L39",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP4178333B1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R27",
+          "branch": "分段氧气/深度剖面",
+          "description": "O2(z)与缺陷/TDDB可靠性",
+          "historical_note": "Recipe",
+          "representative": "EP4178333B1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L90",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP4178333B1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_e894f4ed1824cf8a0374"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric laminate, piezoelectric element, and manufacturing method for piezoelectric laminate",
+          "start": 0,
+          "end": 98
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "An object of the present disclosure is to obtain a piezoelectric laminate and a piezoelectric element, having improved piezoelectric characteristics and drive stability. \n     There is provided a piezoelectric laminate (5) and a ",
+          "start": 0,
+          "end": 229
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "piezoelectric element (1) have, on a substrate (10) in the following order, a lower electrode layer (12) and a piezoelectric film (15) containing a perovskite-type oxide as a main component. The piezoelectric film has an oxygen-deficient ",
+          "start": 229,
+          "end": 467
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "region (15b) in a region in contact with the lower electrode (12) layer. In a case where an average value of oxygen amounts in a region (15a) centrally located among three regions obtained by dividing the piezoelectric film (15) into three ",
+          "start": 467,
+          "end": 707
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "equal parts in a thickness direction is denoted as a first average oxygen amount, and an average value of oxygen amounts in the oxygen-deficient region (15b) is denoted as a second average oxygen amount, a ratio R of the second average ",
+          "start": 707,
+          "end": 943
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "oxygen amount to the first average oxygen amount is less than 0.97. A thickness of the oxygen-deficient region (15b) is 120 nm or more and is 1/3 or less of a thickness of the entire piezoelectric film (15).",
+          "start": 943,
+          "end": 1150
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_5665c0a6d4be69a6ed4205cc"
+    },
+    {
+      "family_id": "google:85172750",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献中明确指出通过在压电膜中引入超过自然存在比的18O同位素来提升压电性能和长期稳定性。摘要中清楚说明了使用质量数为18的氧原子18O，并且其含量超过自然存在比例，这与历史节点R28（氧同位素控制）所指的技术手段一致。",
+      "support_contribution_ids": [
+        "C_531c7b6aee09985275e2"
+      ],
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "needs_full_text": false,
+      "source_title": "圧電積層体、圧電素子及び圧電積層体の製造方法",
+      "source_abstract": "【課題】圧電定数が高いことに加えて、動作環境における圧電特性の安定性（長期信頼性）に優れた圧電積層体及び圧電素子を提供する。 【解決手段】下部電極層１２と、Ｐｂ含有ペロブスカイト型酸化物を含む圧電膜１５とをこの順に備えた圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。 【選択図】図１",
+      "publication_id": "JP-2023122266-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "R28"
+      ],
+      "history_reference": [
+        {
+          "node_id": "R28",
+          "branch": "氧同位素控制",
+          "description": "18O同位素富集与氧化学/可靠性",
+          "historical_note": "Recipe",
+          "representative": "EP4231807A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L91",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "EP4231807A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_fbef6190c1ec75f5ba53"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "圧電積層体、圧電素子及び圧電積層体の製造方法",
+          "start": 0,
+          "end": 22
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "【課題】圧電定数が高いことに加えて、動作環境における圧電特性の安定性（長期信頼性）に優れた圧電積層体及び圧電素子を提供する。 【解決手段】下部電極層１２と、Ｐｂ含有ペロブスカイト型酸化物を含む圧電膜１５とをこの順に備えた圧電積層体５を有する圧電素子１であって、圧電膜１５は、構成元素の酸素として、質量数が１８の酸素原子 １８ Ｏを、自然存在比を超えて含む。圧電積層体５のペロブスカイト型酸化物は、Ｐｂに加え、Ｚｒ、Ｔｉ及びＯを含むことが好ましい。 【選択図】図１",
+          "start": 0,
+          "end": 231
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_5665c0a6d4be69a6ed4205cc"
+    },
+    {
+      "family_id": "google:94776710",
+      "outcome": "Mechanism Recovered",
+      "source_sufficiency": "SUFFICIENT_IN_ABSTRACT",
+      "reason": "冻结贡献R1中明确指出：'the piezoelectric film contains a perovskite oxide as a main component'，与历史节点P15（Pt/SrRuO3 seed及reverse sputter预处理，12%Nb-PZT）和R29（Pt150/SrRuO3约20nm、12%Nb-PZT及沉积前处理）中的技术手段一致。摘要中描述了下电极层、含钙钛矿氧化物为主成分的压电薄膜以及上电极层的结构顺序，并给出了电压扫描过程中的电流-电压曲线特征，支持了该机制的具体实现方式。",
+      "support_contribution_ids": [
+        "C_4d72e6d47035a438db19"
+      ],
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "needs_full_text": false,
+      "source_title": "Piezoelectric laminate and piezoelectric element",
+      "source_abstract": "The invention provides a piezoelectric laminate and a piezoelectric element, which have higher withstand voltage and higher reliability than the prior art. The piezoelectric laminate and the piezoelectric element are provided with a lower electrode layer and a piezoelectric film containing a perovskite oxide as a main component in this order on a substrate, and when an upper electrode layer is formed on the piezoelectric film and a voltage applied between the upper electrode layer and the lower electrode layer is scanned, and when the lower electrode layer is grounded, the upper electrode layer is used as a driving electrode, and after the voltage applied to the piezoelectric film is gradually increased from 0V to the positive side, the number of peaks at the time of voltage increase is different from the number of peaks at the time of voltage decrease in a current-voltage curve indicating a change in current versus a change in voltage obtained when the voltage gradually decreases from the positive side to the negative side.",
+      "publication_id": "CN-119630263-A",
+      "history_group": "Recipe",
+      "expected_node_ids": [
+        "P15",
+        "R29"
+      ],
+      "history_reference": [
+        {
+          "node_id": "P15",
+          "branch": "2025 Pt/SrRuO3 seed与预处理",
+          "description": "Pt/SrRuO3 seed及reverse sputter预处理，12%Nb-PZT",
+          "historical_note": "#46 JP2025042311A是相邻另一个申请/不同Simple Family，不计命中",
+          "representative": "US20250098540A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L47",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN119630263A",
+            "JP2025042312A",
+            "US20250098540A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        },
+        {
+          "node_id": "R29",
+          "branch": "2025 Pt/SRO底层与预处理",
+          "description": "Pt150/SrRuO3约20nm、12%Nb-PZT及沉积前处理；与JP2025042311A不同Simple Family",
+          "historical_note": "Interface+recipe",
+          "representative": "US20250098540A1",
+          "source_reference": "inputs/historical_sputter_tree_recipe_equipment.md:L92",
+          "owner_history": "Historical Fuji-associated; current ownership unverified",
+          "observed_publications": [
+            "CN119630263A",
+            "JP2025042312A",
+            "US20250098540A1"
+          ],
+          "mapping_relationships": [
+            "Representative exact; local Simple Family verified",
+            "Verified same Simple Family as historical representative"
+          ],
+          "ownership_verified": [
+            "False"
+          ]
+        }
+      ],
+      "discovery_scope": "CORE_DISCOVERY_COHORT",
+      "technology_ids": [
+        "T_134acac84f1c03d5fa38"
+      ],
+      "evidence_quotes": [
+        {
+          "source_id": "S001",
+          "field": "title",
+          "text": "Piezoelectric laminate and piezoelectric element",
+          "start": 0,
+          "end": 48
+        },
+        {
+          "source_id": "S002",
+          "field": "abstract",
+          "text": "The invention provides a piezoelectric laminate and a piezoelectric element, which have higher withstand voltage and higher reliability than the prior art. The piezoelectric laminate and the piezoelectric element are provided with a lower ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "source_id": "S003",
+          "field": "abstract",
+          "text": "electrode layer and a piezoelectric film containing a perovskite oxide as a main component in this order on a substrate, and when an upper electrode layer is formed on the piezoelectric film and a voltage applied between the upper ",
+          "start": 239,
+          "end": 470
+        },
+        {
+          "source_id": "S004",
+          "field": "abstract",
+          "text": "electrode layer and the lower electrode layer is scanned, and when the lower electrode layer is grounded, the upper electrode layer is used as a driving electrode, and after the voltage applied to the piezoelectric film is gradually ",
+          "start": 470,
+          "end": 703
+        },
+        {
+          "source_id": "S005",
+          "field": "abstract",
+          "text": "increased from 0V to the positive side, the number of peaks at the time of voltage increase is different from the number of peaks at the time of voltage decrease in a current-voltage curve indicating a change in current versus a change in ",
+          "start": 703,
+          "end": 942
+        },
+        {
+          "source_id": "S006",
+          "field": "abstract",
+          "text": "voltage obtained when the voltage gradually decreases from the positive side to the negative side.",
+          "start": 942,
+          "end": 1040
+        }
+      ],
+      "validation_origin": "POSTHOC_LLM_SOURCE_REGRESSION_NOT_HUMAN_GOLD",
+      "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+      "request_id": "history_1c7b6ca660da539fd70991bb"
+    }
+  ],
+  "core_freeze_sha256": "e7ab07fdb6cb811f3e32d300d057f78ee891a87ac6c512fda388c9da6666780a",
+  "human_gold": false
+}

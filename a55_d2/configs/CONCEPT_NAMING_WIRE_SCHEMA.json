@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "properties": {
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "group_key": {
+            "type": "string",
+            "maxLength": 16
+          },
+          "name_zh": {
+            "type": "string",
+            "maxLength": 150
+          },
+          "level_a": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "technical_object": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "core_mechanism": {
+            "type": "string",
+            "maxLength": 400
+          },
+          "applicable_conditions": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 400
+          },
+          "support_representative_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 8
+            },
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "review_notes": {
+            "type": "string",
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "group_key",
+          "name_zh",
+          "level_a",
+          "technical_object",
+          "core_mechanism",
+          "applicable_conditions",
+          "support_representative_ids",
+          "review_notes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "concepts"
+  ],
+  "additionalProperties": false
+}

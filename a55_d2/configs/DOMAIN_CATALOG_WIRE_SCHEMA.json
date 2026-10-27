@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name_zh": {
+            "type": "string",
+            "maxLength": 90
+          },
+          "scope": {
+            "type": "string",
+            "maxLength": 250
+          }
+        },
+        "required": [
+          "name_zh",
+          "scope"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 35
+    }
+  },
+  "required": [
+    "domains"
+  ],
+  "additionalProperties": false
+}

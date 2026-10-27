@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "judgments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "left": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "right": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "Same",
+              "Parent-Child",
+              "Alternative",
+              "Complementary",
+              "Related",
+              "Distinct",
+              "Uncertain"
+            ]
+          },
+          "parent_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rationale": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "evidence_ids_left": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 16
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "evidence_ids_right": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 16
+            },
+            "minItems": 0,
+            "maxItems": 8
+          }
+        },
+        "required": [
+          "left",
+          "right",
+          "relation",
+          "parent_id",
+          "rationale",
+          "evidence_ids_left",
+          "evidence_ids_right"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 20
+    }
+  },
+  "required": [
+    "judgments"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "family_id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "outcome": {
+            "type": "string",
+            "enum": [
+              "Mechanism Recovered",
+              "Broad Topic Only",
+              "Mechanism Missed",
+              "Insufficient Source Evidence"
+            ]
+          },
+          "source_sufficiency": {
+            "type": "string",
+            "enum": [
+              "SUFFICIENT_IN_ABSTRACT",
+              "PARTIAL_ABSTRACT",
+              "TITLE_ONLY_OR_NO_MECHANISM",
+              "HISTORY_DETAIL_ONLY_IN_FULL_TEXT",
+              "UNRESOLVED"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "maxLength": 1200
+          },
+          "support_contribution_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 80
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 16
+            },
+            "minItems": 0,
+            "maxItems": 12
+          },
+          "needs_full_text": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "family_id",
+          "outcome",
+          "source_sufficiency",
+          "reason",
+          "support_contribution_ids",
+          "source_ids",
+          "needs_full_text"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 4
+    }
+  },
+  "required": [
+    "rows"
+  ],
+  "additionalProperties": false
+}

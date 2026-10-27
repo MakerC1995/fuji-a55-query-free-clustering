@@ -1,0 +1,911 @@
+{
+  "cases": [
+    {
+      "technology_id": "T_83e353df871073a02ded",
+      "name": "针状晶种定向生长压电膜技术",
+      "domain": "薄膜沉积与制备工艺",
+      "family_id": "google:25533490",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "在基底上放置针状晶种，对基底上的该晶种定向，和从该针状晶种生长压电膜。",
+          "start": 16,
+          "end": 51
+        }
+      ],
+      "evidence_report": "在基底上放置针状晶种，对基底上的该晶种定向，和从该针状晶种生长压电膜。",
+      "evidence_excerpt_parts": [
+        {
+          "start": 16,
+          "end": 51,
+          "quote": "在基底上放置针状晶种，对基底上的该晶种定向，和从该针状晶种生长压电膜。"
+        }
+      ],
+      "evidence_short": "在基底上放置针状晶种，对基底上的该晶种定向，和从该针状晶种生长压电膜。",
+      "source_field": "abstract",
+      "relevance": "Direct",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "在基底上放置针状晶种，对基底上的该晶种定向，和从该针状晶种生长压电膜",
+      "review": "原始模型抽取；未明确说明适用材料或工艺条件，无法确定通用性。"
+    },
+    {
+      "technology_id": "T_9be62e71545ec018581e",
+      "name": " piezoelectric元件分离取料方法",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:35900903",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "A piezoelectric plate 208 is manufactured by sandwiching a plate shape piezoelectric element between an upper polishing surface plate 402 and a lower polishing surface plate 404, and by turning the upper polishing surface plate 402 and the lower polishing surface plate 404 in the",
+          "start": 118,
+          "end": 398
+        },
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "After the polishing has been completed, the upper polishing surface plate 402 and the lower polishing surface plate 404 are separated upward and downward respectively. The attractive force of the upper polishing surface plate 402 is larger than the total force of the attractive",
+          "start": 489,
+          "end": 767
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "Therefore, the piezoelectric plate 208 is separated from the lower polishing surface plate 404, and is lifted upward in the state that the piezoelectric plate 208 has been attracted by the upper polishing surface plate 402.",
+          "start": 873,
+          "end": 1096
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "After the upper polishing surface plate 402 and the lower polishing surface plate 404 have been separated upward and downward respectively, a peeling fluid is discharged from a nozzle 412, and is supplied between the polishing surface 402A of the upper polishing surface plate 402",
+          "start": 1097,
+          "end": 1377
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "As a result, the piezoelectric plate 208 is peeled from the upper polishing surface plate 402 by the weight of the piezoelectric plate 208. The peeled piezoelectric plate 208 drops on the lower polishing surface plate 404, and is collected so as not to fracture.",
+          "start": 1518,
+          "end": 1780
+        }
+      ],
+      "evidence_report": "A piezoelectric plate 208 is manufactured by sandwiching a plate shape piezoelectric element between an upper polishing surface plate 402 and a lower polishing surface plate 404, and by turning the upper polishing surface plate 402 and the lower polishing surface plate 404 in the … After the polishing has been completed, the upper polishing surface plate 402 and the lower polishing surface plate 404 are separated upward and downward respectively. The attractive force of the upper polishing surface plate 402 is larger than the total force of the attractive … Therefore, the piezoelectric plate 208 is separated from the lower polishing surface plate 404, and is lifted upward in the state that the piezoelectric plate 208 has been attracted by the upper polishing surface plate 402. … After the upper polishing surface plate 402 and the lower polishing surface plate 404 have been separated upward and downward respectively, a peeling fluid is discharged from a nozzle 412, and is supplied between the polishing surface 402A of the upper polishing surface plate 402 … As a result, the piezoelectric plate 208 is peeled from the upper polishing surface plate 402 by the weight of the piezoelectric plate 208. The peeled piezoelectric plate 208 drops on the lower polishing surface plate 404, and is collected so as not to fracture.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 118,
+          "end": 398,
+          "quote": "A piezoelectric plate 208 is manufactured by sandwiching a plate shape piezoelectric element between an upper polishing surface plate 402 and a lower polishing surface plate 404, and by turning the upper polishing surface plate 402 and the lower polishing surface plate 404 in the"
+        },
+        {
+          "start": 489,
+          "end": 767,
+          "quote": "After the polishing has been completed, the upper polishing surface plate 402 and the lower polishing surface plate 404 are separated upward and downward respectively. The attractive force of the upper polishing surface plate 402 is larger than the total force of the attractive"
+        },
+        {
+          "start": 873,
+          "end": 1096,
+          "quote": "Therefore, the piezoelectric plate 208 is separated from the lower polishing surface plate 404, and is lifted upward in the state that the piezoelectric plate 208 has been attracted by the upper polishing surface plate 402."
+        },
+        {
+          "start": 1097,
+          "end": 1377,
+          "quote": "After the upper polishing surface plate 402 and the lower polishing surface plate 404 have been separated upward and downward respectively, a peeling fluid is discharged from a nozzle 412, and is supplied between the polishing surface 402A of the upper polishing surface plate 402"
+        },
+        {
+          "start": 1518,
+          "end": 1780,
+          "quote": "As a result, the piezoelectric plate 208 is peeled from the upper polishing surface plate 402 by the weight of the piezoelectric plate 208. The peeled piezoelectric plate 208 drops on the lower polishing surface plate 404, and is collected so as not to fracture."
+        }
+      ],
+      "evidence_short": "A piezoelectric plate 208 is manufactured by sandwiching a plate shape piezoelectric element between an upper polishing surface plate 402 and a lower polishing surface plate 404, and by turning the upper polishing surface plate 40 […] e plate 402 by the weight of the piezoelectric plate 208. The peeled piezoelectric plate 208 drops on the lower polishing surface plate 404, and is collected so as not to fracture.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "sandwiching a plate shape piezoelectric element between an upper polishing surface plate and a lower polishing surface plate, turning the upper and lower plates in opposite directions for polishing, separating the plates upward and downward after polishing with the upper plate's attractive force larger than the combined lower plate force and self-weight, discharging peeling fluid from a nozzle to weaken attraction between the upper plate and the piezoelectric element before peeling by weight",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_84703f0bca190a791f0f",
+      "name": "双极补偿金属氧化物层修复压电特性机制",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:36033435",
+      "evidence": [
+        {
+          "id": "E5",
+          "field": "abstract",
+          "start": 26,
+          "end": 266,
+          "quote": "圧電素子、液滴吐出ヘッド及び液滴吐出装置を提供する。 【解決手段】  金属酸化物層１６６は、電界が印加されることにより変形する圧電体１５６に対して所定方向の電界が印加される際の低電位側に設けられ、当該電界の印加により圧電体１５６内に発生する酸素空孔１８０を補償し、金属酸化物層１６４は、圧電体１５６に対して印加される電界の高電位側に設けられ、当該電界とは逆向きの電界の印加により圧電体１５６内に蓄積される酸素空孔１８０を補償するので、圧電素子１４４の圧電特性の劣化を修復することが"
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "start": 123,
+          "end": 278,
+          "quote": "、当該電界の印加により圧電体１５６内に発生する酸素空孔１８０を補償し、金属酸化物層１６４は、圧電体１５６に対して印加される電界の高電位側に設けられ、当該電界とは逆向きの電界の印加により圧電体１５６内に蓄積される酸素空孔１８０を補償するので、圧電素子１４４の圧電特性の劣化を修復することができる。 【選択図】図４"
+        }
+      ],
+      "evidence_report": "圧電素子、液滴吐出ヘッド及び液滴吐出装置を提供する。 【解決手段】  金属酸化物層１６６は、電界が印加されることにより変形する圧電体１５６に対して所定方向の電界が印加される際の低電位側に設けられ、当該電界の印加により圧電体１５６内に発生する酸素空孔１８０を補償し、金属酸化物層１６４は、圧電体１５６に対して印加される電界の高電位側に設けられ、当該電界とは逆向きの電界の印加により圧電体１５６内に蓄積される酸素空孔１８０を補償するので、圧電素子１４４の圧電特性の劣化を修復することができる。 【選択図】図４",
+      "evidence_excerpt_parts": [
+        {
+          "start": 26,
+          "end": 278,
+          "quote": "圧電素子、液滴吐出ヘッド及び液滴吐出装置を提供する。 【解決手段】  金属酸化物層１６６は、電界が印加されることにより変形する圧電体１５６に対して所定方向の電界が印加される際の低電位側に設けられ、当該電界の印加により圧電体１５６内に発生する酸素空孔１８０を補償し、金属酸化物層１６４は、圧電体１５６に対して印加される電界の高電位側に設けられ、当該電界とは逆向きの電界の印加により圧電体１５６内に蓄積される酸素空孔１８０を補償するので、圧電素子１４４の圧電特性の劣化を修復することができる。 【選択図】図４"
+        }
+      ],
+      "evidence_short": "圧電素子、液滴吐出ヘッド及び液滴吐出装置を提供する。 【解決手段】  金属酸化物層１６６は、電界が印加されることにより変形する圧電体１５６に対して所定方向の電界が印加される際の低電位側に設けられ、当該電界の印加により圧電体１５６内に発生する酸素空孔１８０を補償し、金属酸化物層１６４は、圧電体１５６に対して印加される電界の高電位側に設けられ、当該電界とは逆向きの電界の印加により圧電体１５６内に蓄積される酸素空孔１８０を補償するので、圧電素子１４４の圧電特性の劣化を修復することができる。 【選択図】図４",
+      "source_field": "abstract",
+      "relevance": "Direct",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "在压电体所定方向电场的低电位侧设置金属氧化物层以补偿该电场产生的氧空位；高电位侧另设金属氧化物层，以补偿反向电场造成的累积氧空位。",
+      "review": "助手源文修订；未明确说明具体电场强度或补偿机制的详细物理过程"
+    },
+    {
+      "technology_id": "T_62ab20d0ede78a960427",
+      "name": "气溶胶沉积制备铋基钙钛矿氧化物致密薄膜技术",
+      "domain": "薄膜沉积与制备工艺",
+      "family_id": "google:42069640",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "The oxide body 13 is formed on a substrate 11, contains the Bi-based perovskite-type oxide as a main component in which the A site contains Bi as a main component.",
+          "start": 312,
+          "end": 475
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "The oxide body 13 is produced through a production method which includes a deposition step of making aerosolized ceramic row powders collide with the face of the substrate 11 and making the crushed substance of the raw powders deposit on the substrate 11.",
+          "start": 587,
+          "end": 842
+        }
+      ],
+      "evidence_report": "The oxide body 13 is formed on a substrate 11, contains the Bi-based perovskite-type oxide as a main component in which the A site contains Bi as a main component. … The oxide body 13 is produced through a production method which includes a deposition step of making aerosolized ceramic row powders collide with the face of the substrate 11 and making the crushed substance of the raw powders deposit on the substrate 11.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 312,
+          "end": 475,
+          "quote": "The oxide body 13 is formed on a substrate 11, contains the Bi-based perovskite-type oxide as a main component in which the A site contains Bi as a main component."
+        },
+        {
+          "start": 587,
+          "end": 842,
+          "quote": "The oxide body 13 is produced through a production method which includes a deposition step of making aerosolized ceramic row powders collide with the face of the substrate 11 and making the crushed substance of the raw powders deposit on the substrate 11."
+        }
+      ],
+      "evidence_short": "The oxide body 13 is formed on a substrate 11, contains the Bi-based perovskite-type oxide as a main component in which the A site contains Bi as a main component. … The oxide body 13 is produced through a production method which  […] deposition step of making aerosolized ceramic row powders collide with the face of the substrate 11 and making the crushed substance of the raw powders deposit on the substrate 11.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "making aerosolized ceramic raw powders collide with the face of the substrate and making the crushed substance of the raw powders deposit on the substrate",
+      "review": "原始模型抽取；未明确说明是否所有铋基钙钛矿氧化物均适用该方法"
+    },
+    {
+      "technology_id": "T_8f3c993a28d367ab3058",
+      "name": "外缘与分隔支撑厚度限定的多振膜压电麦克风",
+      "domain": "电声转换器件结构",
+      "family_id": "google:64105183",
+      "evidence": [
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "音圧検出信号の感度が高く、パッケージへの実装に適する圧電マイクロフォンチップおよび圧電マイクロフォンを提供する。   圧電マイクロフォンにおいて、１枚の薄板と、薄板の一方の面に設けられた、薄板の外縁を支持する外縁支持部および外縁支持部と共働して薄板を複数のダイヤフラムに仕切る分離支持部からなるダイヤフラム支持構造と、各ダイヤフラム上に、各ダイヤフラム側から第１の電極、圧電体膜および第２の電極が順に積層されてなる、単数もしくは複数の圧電変換部と、複数のダイヤフラム上に設けられて",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "いる圧電変換部からの出力を検出する信号検出回路とを備え、外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする。",
+          "start": 240,
+          "end": 335
+        }
+      ],
+      "evidence_report": "音圧検出信号の感度が高く、パッケージへの実装に適する圧電マイクロフォンチップおよび圧電マイクロフォンを提供する。   圧電マイクロフォンにおいて、１枚の薄板と、薄板の一方の面に設けられた、薄板の外縁を支持する外縁支持部および外縁支持部と共働して薄板を複数のダイヤフラムに仕切る分離支持部からなるダイヤフラム支持構造と、各ダイヤフラム上に、各ダイヤフラム側から第１の電極、圧電体膜および第２の電極が順に積層されてなる、単数もしくは複数の圧電変換部と、複数のダイヤフラム上に設けられている圧電変換部からの出力を検出する信号検出回路とを備え、外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする。",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 335,
+          "quote": "音圧検出信号の感度が高く、パッケージへの実装に適する圧電マイクロフォンチップおよび圧電マイクロフォンを提供する。   圧電マイクロフォンにおいて、１枚の薄板と、薄板の一方の面に設けられた、薄板の外縁を支持する外縁支持部および外縁支持部と共働して薄板を複数のダイヤフラムに仕切る分離支持部からなるダイヤフラム支持構造と、各ダイヤフラム上に、各ダイヤフラム側から第１の電極、圧電体膜および第２の電極が順に積層されてなる、単数もしくは複数の圧電変換部と、複数のダイヤフラム上に設けられている圧電変換部からの出力を検出する信号検出回路とを備え、外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする。"
+        }
+      ],
+      "evidence_short": "音圧検出信号の感度が高く、パッケージへの実装に適する圧電マイクロフォンチップおよび圧電マイクロフォンを提供する。   圧電マイクロフォンにおいて、１枚の薄板と、薄板の一方の面に設けられた、薄板の外縁を支持する外縁支持部および外縁支持部と共働して薄板を複数のダイヤフラムに仕切る分離支持部からなるダイヤフラム支持構造と、各ダイヤフラム上に、各ダイヤフラム側から第１の電極、圧電体膜および第２の電極が順に積層されてなる、単数もしくは複数の圧電変換部と、複数のダイヤフラム上に設けられている圧電変換部からの出力を検出する信号検出回路とを備え、外縁支持部の厚みｔ １ と、分離支持部の厚みｔ ２ と、薄板１０の厚みｔｄの関係を１３．３×ｔｄ＜ｔ ２ ＜ｔ １ −２０μｍとする。",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "薄板上設置のダイヤフラム支持構造と圧電変換部を備える圧電マイクロフォン構造",
+      "review": "原始模型抽取；助手源文修订：保留原始厚度不等式；二元减法中的20与有符号负数的表现不同，未凭此声称源文没有该量。"
+    },
+    {
+      "technology_id": "T_a6f66e1ad2c293ec84f9",
+      "name": "基于能量-场耦合判据的钙钛矿混合组成设计方法",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:40581936",
+      "evidence": [
+        {
+          "id": "E3",
+          "field": "abstract",
+          "start": 245,
+          "end": 434,
+          "quote": "ト元素、Ｏ：酸素原子、Ａ〜Ｄは各々１種又は複数種の金属元素。）、   ｜Ｅ（Ｘ）−Ｅ（Ｙ）｜≦Ｅ・ＰＶ・・・（１）   （式（１）中、Ｅ（Ｘ）及びＥ（Ｙ）はそれぞれ、上記一般式（ａ）で表される強誘電性酸化物の結晶構造Ｘ及びＹの時のエネルギー、Ｐは電場をかける前の自発分極密度ベクトル、Ｅは駆動電場ベクトル、Ｖは基本格子の体積である。Ｅ・ＰはＥとＰの内積である。） 【選択図】なし"
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "start": 376,
+          "end": 434,
+          "quote": "自発分極密度ベクトル、Ｅは駆動電場ベクトル、Ｖは基本格子の体積である。Ｅ・ＰはＥとＰの内積である。） 【選択図】なし"
+        }
+      ],
+      "evidence_report": "ト元素、Ｏ：酸素原子、Ａ〜Ｄは各々１種又は複数種の金属元素。）、   ｜Ｅ（Ｘ）−Ｅ（Ｙ）｜≦Ｅ・ＰＶ・・・（１）   （式（１）中、Ｅ（Ｘ）及びＥ（Ｙ）はそれぞれ、上記一般式（ａ）で表される強誘電性酸化物の結晶構造Ｘ及びＹの時のエネルギー、Ｐは電場をかける前の自発分極密度ベクトル、Ｅは駆動電場ベクトル、Ｖは基本格子の体積である。Ｅ・ＰはＥとＰの内積である。） 【選択図】なし",
+      "evidence_excerpt_parts": [
+        {
+          "start": 245,
+          "end": 434,
+          "quote": "ト元素、Ｏ：酸素原子、Ａ〜Ｄは各々１種又は複数種の金属元素。）、   ｜Ｅ（Ｘ）−Ｅ（Ｙ）｜≦Ｅ・ＰＶ・・・（１）   （式（１）中、Ｅ（Ｘ）及びＥ（Ｙ）はそれぞれ、上記一般式（ａ）で表される強誘電性酸化物の結晶構造Ｘ及びＹの時のエネルギー、Ｐは電場をかける前の自発分極密度ベクトル、Ｅは駆動電場ベクトル、Ｖは基本格子の体積である。Ｅ・ＰはＥとＰの内積である。） 【選択図】なし"
+        }
+      ],
+      "evidence_short": "ト元素、Ｏ：酸素原子、Ａ〜Ｄは各々１種又は複数種の金属元素。）、   ｜Ｅ（Ｘ）−Ｅ（Ｙ）｜≦Ｅ・ＰＶ・・・（１）   （式（１）中、Ｅ（Ｘ）及びＥ（Ｙ）はそれぞれ、上記一般式（ａ）で表される強誘電性酸化物の結晶構造Ｘ及びＹの時のエネルギー、Ｐは電場をかける前の自発分極密度ベクトル、Ｅは駆動電場ベクトル、Ｖは基本格子の体積である。Ｅ・ＰはＥとＰの内積である。） 【選択図】なし",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "依据具有不同对称性及分极方向的稳定结构X与Y之间的能量差，选择满足 |E(X)−E(Y)|≤E·P·V 的混合钙钛矿组成，其中E·P为电场与自发极化密度的内积，V为基本晶格体积。",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_23a593f67519a17b20b6",
+      "name": "双蚀刻液金属硬掩模压电膜图形化方法",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:51658295",
+      "evidence": [
+        {
+          "id": "E5",
+          "field": "abstract",
+          "start": 259,
+          "end": 499,
+          "quote": "ch a lower electrode 12 is formed; forming a metal film 16 having a film thickness of not less than 20 nm and not more than 300 nm; forming a patterned resist film 18; etching the metal film 16 with a first etchant; and etching the piezoele"
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "start": 501,
+          "end": 741,
+          "quote": "ric film 14 with a second etchant. In the first etchant, the piezoelectric film 14 has etching resistance to the first etchant. In the second etchant, the metal film 16 has etching resistance to the second etchant. There is also provided a "
+        }
+      ],
+      "evidence_report": "ch a lower electrode 12 is formed; forming a metal film 16 having a film thickness of not less than 20 nm and not more than 300 nm; forming a patterned resist film 18; etching the metal film 16 with a first etchant; and etching the piezoele … ric film 14 with a second etchant. In the first etchant, the piezoelectric film 14 has etching resistance to the first etchant. In the second etchant, the metal film 16 has etching resistance to the second etchant. There is also provided a ",
+      "evidence_excerpt_parts": [
+        {
+          "start": 259,
+          "end": 499,
+          "quote": "ch a lower electrode 12 is formed; forming a metal film 16 having a film thickness of not less than 20 nm and not more than 300 nm; forming a patterned resist film 18; etching the metal film 16 with a first etchant; and etching the piezoele"
+        },
+        {
+          "start": 501,
+          "end": 741,
+          "quote": "ric film 14 with a second etchant. In the first etchant, the piezoelectric film 14 has etching resistance to the first etchant. In the second etchant, the metal film 16 has etching resistance to the second etchant. There is also provided a "
+        }
+      ],
+      "evidence_short": "ch a lower electrode 12 is formed; forming a metal film 16 having a film thickness of not less than 20 nm and not more than 300 nm; forming a patterned resist film 18; etching the metal film 16 with a first etchant; and etching th […]  piezoelectric film 14 has etching resistance to the first etchant. In the second etchant, the metal film 16 has etching resistance to the second etchant. There is also provided a ",
+      "source_field": "abstract",
+      "relevance": "Manufacturing",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "先用第一蚀刻液图形化20～300nm金属膜，再用第二蚀刻液蚀刻压电膜；压电膜耐第一蚀刻液、金属膜耐第二蚀刻液，以此抑制侧蚀。",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_3295d28fc7404c94dbff",
+      "name": "中间层厚度匹配应力松弛结构",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:39704160",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "&lt;P&gt;PROBLEM TO BE SOLVED: To sufficiently relax a stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer for fulfilling a proper condition.  &lt;P&gt;SOLUTION: The piezoelectric ",
+          "start": 0,
+          "end": 234
+        },
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO&lt;SB&gt;2&lt;/SB&gt;), the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric ",
+          "start": 234,
+          "end": 471
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "layer formed on the first electrode layer by a lead-based piezoelectric material, and a second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% ",
+          "start": 471,
+          "end": 709
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "not less than 15% of that of the piezoelectric layer",
+          "start": 691,
+          "end": 743
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "start": 582,
+          "end": 787,
+          "quote": "formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT"
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "start": 219,
+          "end": 459,
+          "quote": " piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO&lt;SB&gt;2&lt;/SB&gt;), the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a pi"
+        },
+        {
+          "id": "E7",
+          "field": "abstract",
+          "start": 483,
+          "end": 723,
+          "quote": " on the first electrode layer by a lead-based piezoelectric material, and a second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the"
+        }
+      ],
+      "evidence_report": "&lt;P&gt;PROBLEM TO BE SOLVED: To sufficiently relax a stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer for fulfilling a proper condition.  &lt;P&gt;SOLUTION: The piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO&lt;SB&gt;2&lt;/SB&gt;), the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric layer formed on the first electrode layer by a lead-based piezoelectric material, and a second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 787,
+          "quote": "&lt;P&gt;PROBLEM TO BE SOLVED: To sufficiently relax a stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer for fulfilling a proper condition.  &lt;P&gt;SOLUTION: The piezoelectric element comprises a substrate consisting mainly of a silicon (Si) or an oxide silicon (SiO&lt;SB&gt;2&lt;/SB&gt;), the intermediate layer formed on the substrate, a first electrode layer formed on the intermediate layer, a piezoelectric layer formed on the first electrode layer by a lead-based piezoelectric material, and a second electrode layer formed on the piezoelectric layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT"
+        }
+      ],
+      "evidence_short": "&lt;P&gt;PROBLEM TO BE SOLVED: To sufficiently relax a stress generated between a substrate and a piezoelectric film by arranging an adequate intermediate layer for fulfilling a proper condition.  &lt;P&gt;SOLUTION: The piezoelect […] ic layer. The thickness of the intermediate layer plus the first electrode layer is not less than 15% of that of the piezoelectric layer.  &lt;P&gt;COPYRIGHT: (C)2008,JPO&amp;INPIT",
+      "source_field": "abstract",
+      "relevance": "Transferable",
+      "evidence_origin": "MIXED",
+      "mechanism": "Arranging an adequate intermediate layer between a substrate and a piezoelectric film to reduce stress",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_de9de026d506ad5c6cb1",
+      "name": "带压差隔离孔的中空阴极等离子体辅助蒸镀结构",
+      "domain": "真空蒸镀与成膜设备",
+      "family_id": "google:42705590",
+      "evidence": [
+        {
+          "id": "E3",
+          "field": "abstract",
+          "start": 74,
+          "end": 307,
+          "quote": "し、透明で緻密な酸化物膜等が得られる蒸着装置を提供する。 【解決手段】ホローカソード型プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２を有する。プラズマアシスト蒸着を行うためのホローカソード型プラズマガン３と、蒸着室１０１と、プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２とを有する。 【選択図】図１"
+        }
+      ],
+      "evidence_report": "し、透明で緻密な酸化物膜等が得られる蒸着装置を提供する。 【解決手段】ホローカソード型プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２を有する。プラズマアシスト蒸着を行うためのホローカソード型プラズマガン３と、蒸着室１０１と、プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２とを有する。 【選択図】図１",
+      "evidence_excerpt_parts": [
+        {
+          "start": 74,
+          "end": 307,
+          "quote": "し、透明で緻密な酸化物膜等が得られる蒸着装置を提供する。 【解決手段】ホローカソード型プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２を有する。プラズマアシスト蒸着を行うためのホローカソード型プラズマガン３と、蒸着室１０１と、プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２とを有する。 【選択図】図１"
+        }
+      ],
+      "evidence_short": "し、透明で緻密な酸化物膜等が得られる蒸着装置を提供する。 【解決手段】ホローカソード型プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２を有する。プラズマアシスト蒸着を行うためのホローカソード型プラズマガン３と、蒸着室１０１と、プラズマガン３のプラズマ放出部１０３と蒸着室１０１との間を圧力的に仕切りかつプラズマが蒸着室１０１へ通過可能な孔２１を有する隔壁２とを有する。 【選択図】図１",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "在中空阴极等离子枪的等离子放出口与蒸镀室之间设置隔壁，隔壁具有可通过等离子的孔，从而在允许等离子通过的同时隔离两侧压力。",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_532d9f97860762f07e1b",
+      "name": "磁控溅射中维持目标表面特定磁场强度的薄膜制备方法",
+      "domain": "薄膜沉积与制备工艺",
+      "family_id": "google:17063741",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "PURPOSE:To reduce the damage given to the surface of a substrate as well as to increase the speed of film formation by a method wherein, when a thin film is going to be formed on the substrate, a sputtering work is performed in such a ",
+          "start": 0,
+          "end": 235
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "back side of the back plate, and a sputtering method is performed using said device while a magnetic field of 500 gauss or above is being formed on the surface of the target when a thin film is formed on the substrate. Consequently, as a ",
+          "start": 949,
+          "end": 1187
+        }
+      ],
+      "evidence_report": "PURPOSE:To reduce the damage given to the surface of a substrate as well as to increase the speed of film formation by a method wherein, when a thin film is going to be formed on the substrate, a sputtering work is performed in such a  … back side of the back plate, and a sputtering method is performed using said device while a magnetic field of 500 gauss or above is being formed on the surface of the target when a thin film is formed on the substrate. Consequently, as a ",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 235,
+          "quote": "PURPOSE:To reduce the damage given to the surface of a substrate as well as to increase the speed of film formation by a method wherein, when a thin film is going to be formed on the substrate, a sputtering work is performed in such a "
+        },
+        {
+          "start": 949,
+          "end": 1187,
+          "quote": "back side of the back plate, and a sputtering method is performed using said device while a magnetic field of 500 gauss or above is being formed on the surface of the target when a thin film is formed on the substrate. Consequently, as a "
+        }
+      ],
+      "evidence_short": "PURPOSE:To reduce the damage given to the surface of a substrate as well as to increase the speed of film formation by a method wherein, when a thin film is going to be formed on the substrate, a sputtering work is performed in su […] rformed using said device while a magnetic field of 500 gauss or above is being formed on the surface of the target when a thin film is formed on the substrate. Consequently, as a ",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "performing sputtering work in such a manner that the magnetic field on the target surface is being maintained at the specific value of 500 gauss or above",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_7ef22a955099d84d048c",
+      "name": "基于机器学习的生物制药保存稳定性评分方法",
+      "domain": "生物医学分析设备",
+      "family_id": "google:88730031",
+      "evidence": [
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "A pharmaceutical assistance device comprising a processor, wherein the processor: acquires protein information that relates to a protein included in a preservation target biopharmaceutical product and that includes site information ",
+          "start": 0,
+          "end": 232
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "relating to multiple sites making up a protein, prescription information relating to a prescription of a candidate preservation solution, which is a candidate for a preservation solution for the preservation target biopharmaceutical ",
+          "start": 232,
+          "end": 465
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "product, and measurement data representing the preservation stability of the candidate preservation solution measured in actual testing; derives a first feature quantity related to the preservation stability of the candidate preservation ",
+          "start": 465,
+          "end": 703
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "solution for the entire protein, and a second feature quantity related to the preservation stability of the candidate preservation solution for each of the multiple sites, on the basis of the protein information and the prescription ",
+          "start": 703,
+          "end": 936
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "quote": "information; inputs the measurement data, the first feature quantity, and the second feature quantity into a machine learning model; and causes a score representing the preservation stability of the candidate preservation solution to be ",
+          "start": 936,
+          "end": 1173
+        },
+        {
+          "id": "E7",
+          "field": "abstract",
+          "quote": "output from the machine learning model.",
+          "start": 1173,
+          "end": 1212
+        }
+      ],
+      "evidence_report": "A pharmaceutical assistance device comprising a processor, wherein the processor: acquires protein information that relates to a protein included in a preservation target biopharmaceutical product and that includes site information relating to multiple sites making up a protein, prescription information relating to a prescription of a candidate preservation solution, which is a candidate for a preservation solution for the preservation target biopharmaceutical product, and measurement data representing the preservation stability of the candidate preservation solution measured in actual testing; derives a first feature quantity related to the preservation stability of the candidate preservation solution for the entire protein, and a second feature quantity related to the preservation stability of the candidate preservation solution for each of the multiple sites, on the basis of the protein information and the prescription information; inputs the measurement data, the first feature quantity, and the second feature quantity into a machine learning model; and causes a score representing the preservation stability of the candidate preservation solution to be output from the machine learning model.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 1212,
+          "quote": "A pharmaceutical assistance device comprising a processor, wherein the processor: acquires protein information that relates to a protein included in a preservation target biopharmaceutical product and that includes site information relating to multiple sites making up a protein, prescription information relating to a prescription of a candidate preservation solution, which is a candidate for a preservation solution for the preservation target biopharmaceutical product, and measurement data representing the preservation stability of the candidate preservation solution measured in actual testing; derives a first feature quantity related to the preservation stability of the candidate preservation solution for the entire protein, and a second feature quantity related to the preservation stability of the candidate preservation solution for each of the multiple sites, on the basis of the protein information and the prescription information; inputs the measurement data, the first feature quantity, and the second feature quantity into a machine learning model; and causes a score representing the preservation stability of the candidate preservation solution to be output from the machine learning model."
+        }
+      ],
+      "evidence_short": "A pharmaceutical assistance device comprising a processor, wherein the processor: acquires protein information that relates to a protein included in a preservation target biopharmaceutical product and that includes site informatio […] ntity into a machine learning model; and causes a score representing the preservation stability of the candidate preservation solution to be output from the machine learning model.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "通过获取目标生物制药产品的蛋白质信息、处方信息和测量数据，基于这些信息推导出与整个蛋白质及各个位点的保存稳定性相关的特征量，并将这些数据输入机器学习模型以输出表示候选保存溶液保存稳定性的评分。",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_42b2cd6de40db04d191c",
+      "name": "干式多层膜pH电极的组合结构与二氧化碳饱和技术",
+      "domain": "传感器与检测系统",
+      "family_id": "google:31934213",
+      "evidence": [
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "manufactured and measure by using a single analytical curve.  &lt;P&gt;SOLUTION: The combined pH electrode has at least two ion selecting electrodes having a pair of electrode layers comprising a nonconductive support, a silver layer and a ",
+          "start": 236,
+          "end": 476
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "silver halide layer and mutually and electrically insulated, an electrolyte layer and an ion selecting film sequentially laminated in order. At least one of two ion selecting electrodes is a hydrogen ion selecting electrode. The combined ",
+          "start": 476,
+          "end": 714
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "pH electrode comprises a nonconductive member having an opening for providing a subject liquid and an opening for providing a reference liquid, a distribution member for supplying the provided subject liquid to one of the ion selecting ",
+          "start": 714,
+          "end": 950
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "electrodes, a distribution member for supplying the provided reference liquid to the other electrode and a bridge member for electrically bringing the subject liquid and the reference liquid into conduction. The hydrogen ion selecting film ",
+          "start": 950,
+          "end": 1190
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "quote": "is saturated by a carbon dioxide gas.  &lt;P&gt;COPYRIGHT: (C)2004,JPO",
+          "start": 1190,
+          "end": 1260
+        }
+      ],
+      "evidence_report": "manufactured and measure by using a single analytical curve.  &lt;P&gt;SOLUTION: The combined pH electrode has at least two ion selecting electrodes having a pair of electrode layers comprising a nonconductive support, a silver layer and a silver halide layer and mutually and electrically insulated, an electrolyte layer and an ion selecting film sequentially laminated in order. At least one of two ion selecting electrodes is a hydrogen ion selecting electrode. The combined pH electrode comprises a nonconductive member having an opening for providing a subject liquid and an opening for providing a reference liquid, a distribution member for supplying the provided subject liquid to one of the ion selecting electrodes, a distribution member for supplying the provided reference liquid to the other electrode and a bridge member for electrically bringing the subject liquid and the reference liquid into conduction. The hydrogen ion selecting film is saturated by a carbon dioxide gas.  &lt;P&gt;COPYRIGHT: (C)2004,JPO",
+      "evidence_excerpt_parts": [
+        {
+          "start": 236,
+          "end": 1260,
+          "quote": "manufactured and measure by using a single analytical curve.  &lt;P&gt;SOLUTION: The combined pH electrode has at least two ion selecting electrodes having a pair of electrode layers comprising a nonconductive support, a silver layer and a silver halide layer and mutually and electrically insulated, an electrolyte layer and an ion selecting film sequentially laminated in order. At least one of two ion selecting electrodes is a hydrogen ion selecting electrode. The combined pH electrode comprises a nonconductive member having an opening for providing a subject liquid and an opening for providing a reference liquid, a distribution member for supplying the provided subject liquid to one of the ion selecting electrodes, a distribution member for supplying the provided reference liquid to the other electrode and a bridge member for electrically bringing the subject liquid and the reference liquid into conduction. The hydrogen ion selecting film is saturated by a carbon dioxide gas.  &lt;P&gt;COPYRIGHT: (C)2004,JPO"
+        }
+      ],
+      "evidence_short": "manufactured and measure by using a single analytical curve.  &lt;P&gt;SOLUTION: The combined pH electrode has at least two ion selecting electrodes having a pair of electrode layers comprising a nonconductive support, a silver la […] rically bringing the subject liquid and the reference liquid into conduction. The hydrogen ion selecting film is saturated by a carbon dioxide gas.  &lt;P&gt;COPYRIGHT: (C)2004,JPO",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "Providing a combined pH electrode with at least two ion selecting electrodes, each having a nonconductive support, a silver layer, a silver halide layer, an electrolyte layer, and an ion selecting film laminated in order, wherein at least one of the electrodes is a hydrogen ion selecting electrode, and using a nonconductive member with openings for subject liquid and reference liquid, distribution members for supplying the liquids to respective electrodes, and a bridge member for electrically connecting the subject and reference liquids; additionally, saturating the hydrogen ion selecting film with carbon dioxide gas.",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_2d23f66631f50d24b240",
+      "name": "中间层厚度控制的多层压电元件结构",
+      "domain": "压电材料与器件制造",
+      "family_id": "google:53004031",
+      "evidence": [
+        {
+          "id": "E1",
+          "field": "abstract",
+          "quote": "The present invention provides a highly stable piezoelectric element operating at high efficiency, and a method for manufacturing such a piezoelectric element. According to one aspect of the present invention, a piezoelectric element (10) ",
+          "start": 0,
+          "end": 239
+        }
+      ],
+      "evidence_report": "The present invention provides a highly stable piezoelectric element operating at high efficiency, and a method for manufacturing such a piezoelectric element. According to one aspect of the present invention, a piezoelectric element (10) ",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 239,
+          "quote": "The present invention provides a highly stable piezoelectric element operating at high efficiency, and a method for manufacturing such a piezoelectric element. According to one aspect of the present invention, a piezoelectric element (10) "
+        }
+      ],
+      "evidence_short": "The present invention provides a highly stable piezoelectric element operating at high efficiency, and a method for manufacturing such a piezoelectric element. According to one aspect of the present invention, a piezoelectric element (10) ",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "laminated structure with specific layer arrangement and intermediate layer thickness, formed by thin-film-forming method such as vapor phase epitaxy",
+      "review": "原始模型抽取；助手按原文修订命名：共同条件应披露实际材料、厚度和基板结构；性能目标不充当必要条件，开放域及对象改用中文。"
+    },
+    {
+      "technology_id": "T_47d8f9936b65cc1144c8",
+      "name": "基于距离比较的近邻列表构建方法",
+      "domain": "数据处理与学习模型优化",
+      "family_id": "google:11818487",
+      "evidence": [
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "PURPOSE:To provide a many-body problem calculating device capable of preparing a near-by list without applying load to a host computer and obtaining a calculation result with high accuracy. CONSTITUTION:The calculating device calculates ",
+          "start": 0,
+          "end": 237
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "force or potential to be applied to a specific particle in a system consisting of plural particles. In the case of calculating Coulomb force, a distance calculating means 3 calculates an inter-particle distance from the coordinates of a ",
+          "start": 237,
+          "end": 474
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "certain particle in the system and that of the specific particle and a comparing means 5 compares the inter- particle distance with a previously determined prescribed distance, and when the inter-particle distance is shorter than the ",
+          "start": 474,
+          "end": 708
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "prescribed distance, unconditionally sets up force or potential to be applied between the particles to zero and stores the particle number of the particle concerned in a particle number storing means 7 to prepare a list. When the ",
+          "start": 708,
+          "end": 938
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "quote": "inter-particle distance is longer than the prescribed distance, force or potential applied between the particles is calculated from the inter-particle distance.",
+          "start": 938,
+          "end": 1098
+        }
+      ],
+      "evidence_report": "PURPOSE:To provide a many-body problem calculating device capable of preparing a near-by list without applying load to a host computer and obtaining a calculation result with high accuracy. CONSTITUTION:The calculating device calculates force or potential to be applied to a specific particle in a system consisting of plural particles. In the case of calculating Coulomb force, a distance calculating means 3 calculates an inter-particle distance from the coordinates of a certain particle in the system and that of the specific particle and a comparing means 5 compares the inter- particle distance with a previously determined prescribed distance, and when the inter-particle distance is shorter than the prescribed distance, unconditionally sets up force or potential to be applied between the particles to zero and stores the particle number of the particle concerned in a particle number storing means 7 to prepare a list. When the inter-particle distance is longer than the prescribed distance, force or potential applied between the particles is calculated from the inter-particle distance.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 1098,
+          "quote": "PURPOSE:To provide a many-body problem calculating device capable of preparing a near-by list without applying load to a host computer and obtaining a calculation result with high accuracy. CONSTITUTION:The calculating device calculates force or potential to be applied to a specific particle in a system consisting of plural particles. In the case of calculating Coulomb force, a distance calculating means 3 calculates an inter-particle distance from the coordinates of a certain particle in the system and that of the specific particle and a comparing means 5 compares the inter- particle distance with a previously determined prescribed distance, and when the inter-particle distance is shorter than the prescribed distance, unconditionally sets up force or potential to be applied between the particles to zero and stores the particle number of the particle concerned in a particle number storing means 7 to prepare a list. When the inter-particle distance is longer than the prescribed distance, force or potential applied between the particles is calculated from the inter-particle distance."
+        }
+      ],
+      "evidence_short": "PURPOSE:To provide a many-body problem calculating device capable of preparing a near-by list without applying load to a host computer and obtaining a calculation result with high accuracy. CONSTITUTION:The calculating device calc […] re a list. When the inter-particle distance is longer than the prescribed distance, force or potential applied between the particles is calculated from the inter-particle distance.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "A distance calculating means calculates an inter-particle distance from the coordinates of a certain particle in the system and that of the specific particle, and a comparing means compares the inter-particle distance with a previously determined prescribed distance, when the inter-particle distance is shorter than the prescribed distance, unconditionally sets up force or potential to be applied between the particles to zero and stores the particle number of the particle concerned in a particle number storing means to prepare a list",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_51fbf6edcdd91fae33c5",
+      "name": "高表面电荷密度与热稳定性弹性模量薄膜材料",
+      "domain": "振动与发电材料器件",
+      "family_id": "google:97217650",
+      "evidence": [
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "stability of charges; an electret material using said film; a vibration-type power generation element; and a film production method. A film according to the present invention has the absolute value of the surface charge density being 0.5 ",
+          "start": 239,
+          "end": 477
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "mC/m 2  or more, and the ratio of the elastic modulus at 150°C to the elastic modulus at 25°C being 0.6 or more.",
+          "start": 477,
+          "end": 589
+        }
+      ],
+      "evidence_report": "stability of charges; an electret material using said film; a vibration-type power generation element; and a film production method. A film according to the present invention has the absolute value of the surface charge density being 0.5 mC/m 2  or more, and the ratio of the elastic modulus at 150°C to the elastic modulus at 25°C being 0.6 or more.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 239,
+          "end": 589,
+          "quote": "stability of charges; an electret material using said film; a vibration-type power generation element; and a film production method. A film according to the present invention has the absolute value of the surface charge density being 0.5 mC/m 2  or more, and the ratio of the elastic modulus at 150°C to the elastic modulus at 25°C being 0.6 or more."
+        }
+      ],
+      "evidence_short": "stability of charges; an electret material using said film; a vibration-type power generation element; and a film production method. A film according to the present invention has the absolute value of the surface charge density being 0.5 mC/m 2  or more, and the ratio of the elastic modulus at 150°C to the elastic modulus at 25°C being 0.6 or more.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "A film having surface charge density of 0.5 mC/m2 or more, and the ratio of elastic modulus at 150°C to elastic modulus at 25°C being 0.6 or more",
+      "review": "原始模型抽取；助手按原文修订命名：驻极体膜的电荷与弹性模量指标不能改称压电膜机理；按原文校正对象/问题域。"
+    },
+    {
+      "technology_id": "T_7cea6cdfaeeb99ec13ee",
+      "name": "基于次级图像周期位移的弱光自动对焦机制",
+      "domain": "自动化控制与驱动机制",
+      "family_id": "google:27456174",
+      "evidence": [
+        {
+          "id": "E2",
+          "field": "abstract",
+          "quote": "An automatic focussing system is for a camera with axial shift of the lens by an electrical drive controlled by a photosensitive device. Between the lens and the photocell an optically refractive element is interposed in an image plane of ",
+          "start": 0,
+          "end": 239
+        },
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "the lens with a focussing lens between this element and the photocell. This focusses further image of the image in the image plane onto the photocell. The refractive element is moved periodically in a plane perpendicular to the optical ",
+          "start": 239,
+          "end": 475
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "axis to generate an alternating component in the output of the photocell which is used to control the movement of the lens for min. alternating component of the output signal. The system is effective in weak light, and is not affected by ",
+          "start": 475,
+          "end": 713
+        }
+      ],
+      "evidence_report": "An automatic focussing system is for a camera with axial shift of the lens by an electrical drive controlled by a photosensitive device. Between the lens and the photocell an optically refractive element is interposed in an image plane of the lens with a focussing lens between this element and the photocell. This focusses further image of the image in the image plane onto the photocell. The refractive element is moved periodically in a plane perpendicular to the optical axis to generate an alternating component in the output of the photocell which is used to control the movement of the lens for min. alternating component of the output signal. The system is effective in weak light, and is not affected by ",
+      "evidence_excerpt_parts": [
+        {
+          "start": 0,
+          "end": 713,
+          "quote": "An automatic focussing system is for a camera with axial shift of the lens by an electrical drive controlled by a photosensitive device. Between the lens and the photocell an optically refractive element is interposed in an image plane of the lens with a focussing lens between this element and the photocell. This focusses further image of the image in the image plane onto the photocell. The refractive element is moved periodically in a plane perpendicular to the optical axis to generate an alternating component in the output of the photocell which is used to control the movement of the lens for min. alternating component of the output signal. The system is effective in weak light, and is not affected by "
+        }
+      ],
+      "evidence_short": "An automatic focussing system is for a camera with axial shift of the lens by an electrical drive controlled by a photosensitive device. Between the lens and the photocell an optically refractive element is interposed in an image  […]  the photocell which is used to control the movement of the lens for min. alternating component of the output signal. The system is effective in weak light, and is not affected by ",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "using secondary image periodically shifted to generate AC detection signal, wherein an optically refractive element is interposed between lens and photocell, and a focussing lens focuses further image of the image in the image plane onto the photocell, and the refractive element is moved periodically in a plane perpendicular to the optical axis to generate an alternating component in the output of the photocell which is used to control the movement of the lens for min. alternating component of the output signal",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_4da76f3026e9cf1460f7",
+      "name": "自动遮蔽识别码的检验 cartridge 结构",
+      "domain": "卡匣与存储装置技术",
+      "family_id": "google:49387621",
+      "evidence": [
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "measuring a coloration state of a test area of the received inspection cartridge 10. The inspection cartridge 10 includes a cover 33 that, before use, is located at a position to expose the identification code 30 and, when the inspection ",
+          "start": 473,
+          "end": 711
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "cartridge 10 is in the cartridge insertion port 3, coacts with means in the specimen inspection device 1 side and moves to a position to cover the identification code 30. The specimen inspection device 1 includes means 34 for moving the ",
+          "start": 711,
+          "end": 948
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "cover 33 to a position to cover the identification code 30.",
+          "start": 948,
+          "end": 1007
+        }
+      ],
+      "evidence_report": "measuring a coloration state of a test area of the received inspection cartridge 10. The inspection cartridge 10 includes a cover 33 that, before use, is located at a position to expose the identification code 30 and, when the inspection cartridge 10 is in the cartridge insertion port 3, coacts with means in the specimen inspection device 1 side and moves to a position to cover the identification code 30. The specimen inspection device 1 includes means 34 for moving the cover 33 to a position to cover the identification code 30.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 473,
+          "end": 1007,
+          "quote": "measuring a coloration state of a test area of the received inspection cartridge 10. The inspection cartridge 10 includes a cover 33 that, before use, is located at a position to expose the identification code 30 and, when the inspection cartridge 10 is in the cartridge insertion port 3, coacts with means in the specimen inspection device 1 side and moves to a position to cover the identification code 30. The specimen inspection device 1 includes means 34 for moving the cover 33 to a position to cover the identification code 30."
+        }
+      ],
+      "evidence_short": "measuring a coloration state of a test area of the received inspection cartridge 10. The inspection cartridge 10 includes a cover 33 that, before use, is located at a position to expose the identification code 30 and, when the ins […] ves to a position to cover the identification code 30. The specimen inspection device 1 includes means 34 for moving the cover 33 to a position to cover the identification code 30.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "The inspection cartridge includes a cover that, before use, is located at a position to expose the identification code and, when the inspection cartridge is in the cartridge insertion port, coacts with means in the specimen inspection device side and moves to a position to cover the identification code; the specimen inspection device includes means for moving the cover to a position to cover the identification code",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_ede1749e952b16b00fb7",
+      "name": "真空蒸镀中基板往复运动与几何比例控制方法",
+      "domain": "真空蒸镀与成膜设备",
+      "family_id": "google:38149581",
+      "evidence": [
+        {
+          "id": "E7",
+          "field": "abstract",
+          "start": 368,
+          "end": 608,
+          "quote": "osited on a surface of a substrate reciprocating straight above the evaporation unit. The vapor deposition of the film deposition material is performed by providing a vapor deposition unit and the return position of the substrate during the"
+        },
+        {
+          "id": "E8",
+          "field": "abstract",
+          "start": 627,
+          "end": 867,
+          "quote": "he position where the inequalities 0&lt;L&lt;SB&gt;1&lt;/SB&gt;/L&lt;SB&gt;2&lt;/SB&gt;&lt;1.25 under the pressure of 0.1-5 Pa, where L&lt;SB&gt;1&lt;/SB&gt;denotes the vertical distance from a horizontal surface with an evaporation port of"
+        },
+        {
+          "id": "E9",
+          "field": "abstract",
+          "start": 929,
+          "end": 1169,
+          "quote": "L&lt;SB&gt;2&lt;/SB&gt;denotes the horizontal distance between an end on the evaporation unit side of the substrate located at the return position and the end on the substrate side of the evaporation port of the evaporation unit.  &lt;P&gt;"
+        }
+      ],
+      "evidence_report": "osited on a surface of a substrate reciprocating straight above the evaporation unit. The vapor deposition of the film deposition material is performed by providing a vapor deposition unit and the return position of the substrate during the … he position where the inequalities 0&lt;L&lt;SB&gt;1&lt;/SB&gt;/L&lt;SB&gt;2&lt;/SB&gt;&lt;1.25 under the pressure of 0.1-5 Pa, where L&lt;SB&gt;1&lt;/SB&gt;denotes the vertical distance from a horizontal surface with an evaporation port of … L&lt;SB&gt;2&lt;/SB&gt;denotes the horizontal distance between an end on the evaporation unit side of the substrate located at the return position and the end on the substrate side of the evaporation port of the evaporation unit.  &lt;P&gt;",
+      "evidence_excerpt_parts": [
+        {
+          "start": 368,
+          "end": 608,
+          "quote": "osited on a surface of a substrate reciprocating straight above the evaporation unit. The vapor deposition of the film deposition material is performed by providing a vapor deposition unit and the return position of the substrate during the"
+        },
+        {
+          "start": 627,
+          "end": 867,
+          "quote": "he position where the inequalities 0&lt;L&lt;SB&gt;1&lt;/SB&gt;/L&lt;SB&gt;2&lt;/SB&gt;&lt;1.25 under the pressure of 0.1-5 Pa, where L&lt;SB&gt;1&lt;/SB&gt;denotes the vertical distance from a horizontal surface with an evaporation port of"
+        },
+        {
+          "start": 929,
+          "end": 1169,
+          "quote": "L&lt;SB&gt;2&lt;/SB&gt;denotes the horizontal distance between an end on the evaporation unit side of the substrate located at the return position and the end on the substrate side of the evaporation port of the evaporation unit.  &lt;P&gt;"
+        }
+      ],
+      "evidence_short": "osited on a surface of a substrate reciprocating straight above the evaporation unit. The vapor deposition of the film deposition material is performed by providing a vapor deposition unit and the return position of the substrate  […] en an end on the evaporation unit side of the substrate located at the return position and the end on the substrate side of the evaporation port of the evaporation unit.  &lt;P&gt;",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "在0.1～5Pa条件下，使基板在蒸发单元上方做直线往复运动；按0<L1/L2<1.25配置蒸发单元及往复返回位置，L1和L2分别是摘要定义的垂直与水平几何距离。",
+      "review": "助手源文修订；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_b27c709edf5d7699f6ab",
+      "name": "含羟基氧化物界面层的压电元件结构",
+      "domain": "电声转换器件结构",
+      "family_id": "google:83456095",
+      "evidence": [
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "conductive layer, has an interface layer containing a constituent element of the oxide conductive layer and an OH group, between the piezoelectric film and the oxide conductive layer of the upper electrode layer, where the interface layer ",
+          "start": 468,
+          "end": 707
+        },
+        {
+          "id": "E5",
+          "field": "abstract",
+          "quote": "has an amorphous structure and has a thickness of 1 nm or more and 5 nm or less, and in an intensity profile of binding energy in the interface layer, which is acquired by an X-ray photoelectron spectroscopy measurement, in a case where a ",
+          "start": 707,
+          "end": 946
+        },
+        {
+          "id": "E6",
+          "field": "abstract",
+          "quote": "peak intensity of binding energy derived from a 1s orbital of oxygen bonded to a metal is denoted as α, and a peak intensity of binding energy derived from a 1s orbital of oxygen constituting the OH group is denoted as γ, a peak intensity ",
+          "start": 946,
+          "end": 1185
+        },
+        {
+          "id": "E7",
+          "field": "abstract",
+          "quote": "ratio γ/α is 0.35 or more.",
+          "start": 1185,
+          "end": 1211
+        }
+      ],
+      "evidence_report": "conductive layer, has an interface layer containing a constituent element of the oxide conductive layer and an OH group, between the piezoelectric film and the oxide conductive layer of the upper electrode layer, where the interface layer has an amorphous structure and has a thickness of 1 nm or more and 5 nm or less, and in an intensity profile of binding energy in the interface layer, which is acquired by an X-ray photoelectron spectroscopy measurement, in a case where a peak intensity of binding energy derived from a 1s orbital of oxygen bonded to a metal is denoted as α, and a peak intensity of binding energy derived from a 1s orbital of oxygen constituting the OH group is denoted as γ, a peak intensity ratio γ/α is 0.35 or more.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 468,
+          "end": 1211,
+          "quote": "conductive layer, has an interface layer containing a constituent element of the oxide conductive layer and an OH group, between the piezoelectric film and the oxide conductive layer of the upper electrode layer, where the interface layer has an amorphous structure and has a thickness of 1 nm or more and 5 nm or less, and in an intensity profile of binding energy in the interface layer, which is acquired by an X-ray photoelectron spectroscopy measurement, in a case where a peak intensity of binding energy derived from a 1s orbital of oxygen bonded to a metal is denoted as α, and a peak intensity of binding energy derived from a 1s orbital of oxygen constituting the OH group is denoted as γ, a peak intensity ratio γ/α is 0.35 or more."
+        }
+      ],
+      "evidence_short": "conductive layer, has an interface layer containing a constituent element of the oxide conductive layer and an OH group, between the piezoelectric film and the oxide conductive layer of the upper electrode layer, where the interfa […] l is denoted as α, and a peak intensity of binding energy derived from a 1s orbital of oxygen constituting the OH group is denoted as γ, a peak intensity ratio γ/α is 0.35 or more.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "a piezoelectric element includes a lower electrode layer, a piezoelectric film containing a perovskite-type oxide as a main component, and an upper electrode layer, where the upper electrode layer includes an oxide conductive layer with an interface layer containing a constituent element of the oxide conductive layer and an OH group between the piezoelectric film and the oxide conductive layer, the interface layer has an amorphous structure and a thickness of 1 nm or more and 5 nm or less, and in an intensity profile of binding energy in the interface layer, the peak intensity ratio γ/α is 0.35 or more",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    },
+    {
+      "technology_id": "T_8c54c90673886e79a342",
+      "name": "耦合销连接式壳体组合结构",
+      "domain": "卡匣与存储装置技术",
+      "family_id": "google:36574358",
+      "evidence": [
+        {
+          "id": "E3",
+          "field": "abstract",
+          "quote": "rotatable manner as coupling pins are inserted into first insertion holes formed in the first casing and a second insertion hole formed in the second casing. An engaging means, by which the coupling pin is press-fit into the first ",
+          "start": 239,
+          "end": 470
+        },
+        {
+          "id": "E4",
+          "field": "abstract",
+          "quote": "insertion hole, and the coupling pin is kept from being press-fit into the first casing and the second casing after being pre-fit, is disposed in at least one of the first casing and the second casing, and the coupling pin.",
+          "start": 470,
+          "end": 693
+        }
+      ],
+      "evidence_report": "rotatable manner as coupling pins are inserted into first insertion holes formed in the first casing and a second insertion hole formed in the second casing. An engaging means, by which the coupling pin is press-fit into the first insertion hole, and the coupling pin is kept from being press-fit into the first casing and the second casing after being pre-fit, is disposed in at least one of the first casing and the second casing, and the coupling pin.",
+      "evidence_excerpt_parts": [
+        {
+          "start": 239,
+          "end": 693,
+          "quote": "rotatable manner as coupling pins are inserted into first insertion holes formed in the first casing and a second insertion hole formed in the second casing. An engaging means, by which the coupling pin is press-fit into the first insertion hole, and the coupling pin is kept from being press-fit into the first casing and the second casing after being pre-fit, is disposed in at least one of the first casing and the second casing, and the coupling pin."
+        }
+      ],
+      "evidence_short": "rotatable manner as coupling pins are inserted into first insertion holes formed in the first casing and a second insertion hole formed in the second casing. An engaging means, by which the coupling pin is press-fit into the first […] t from being press-fit into the first casing and the second casing after being pre-fit, is disposed in at least one of the first casing and the second casing, and the coupling pin.",
+      "source_field": "abstract",
+      "relevance": "Unrelated",
+      "evidence_origin": "PATENT_TEXT",
+      "mechanism": "Coupling pins are inserted into first insertion holes formed in the first casing and a second insertion hole formed in the second casing, and engaging means is disposed in at least one of the first casing and the second casing to press-fit the coupling pin into the first insertion hole and keep it from being press-fit into the first casing and the second casing after pre-fit",
+      "review": "原始模型抽取；摘要范围，未做Claims/Description核验"
+    }
+  ],
+  "source_verbatim_verified": true,
+  "human_gold": false
+}
